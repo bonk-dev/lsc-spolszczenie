@@ -8,6 +8,15 @@ Zbudowane tłumaczenie znajduje się w [Releases]("https://github.com/bonk-dev/l
 - Ten plik jest przeznaczony wyłącznie do użytku edukacyjnego i osobistego.
 - Wszelkie prawa do oryginalnej zawartości aplikacji należą do Siemens AG.
 
+## Instalacja
+
+Pliki należy wypakować do głównego katalogu aplikacji.
+LSC najprawdopodobniej jest zainstalowane w `C:\Program Files\Siemens\LOGOComfort_V8.4`.
+
+W takim wypadku plik `Language_pl_PL.properties` powinien zostać umieszczony w `C:\Program Files\Siemens\LOGOComfort_V8.4\Language_pl_PL.properties`.
+
+Natomiast plik `Help_pl_PL.jar` w `C:\Program Files\Siemens\LOGOComfort_V8.4\Help_pl_PL.jar`.
+
 ## Budowanie
 
 Do zbudowania potrzeba:

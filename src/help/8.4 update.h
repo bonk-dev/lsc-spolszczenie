@@ -1,0 +1,11 @@
+#define dialog___BatchDownloadImport 515
+#define dialog___CloudTransferSetting84 516
+#define dialog___CloudConnectionSettingPa 517
+#define extra___transfer___networkBatchDownload 518
+#define dialog___EmailEventSettingD 519
+#define dialog___EmailSettingD 520
+#define extras___options___security 521
+#define dialog___UploadDatalog84 522
+#define dialog___CertificateSetting84 523
+#define dialog___AccessControlSettings84 524
+#define dialog___AccessControlSettings 525

@@ -1,0 +1,272 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przełącznik oświetlenia klatki schodowej</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przełącznik oświetlenia klatki schodowej<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228598795_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Krawędź impulsu wejściowego uruchamia konfigurowalny czas. Wyjście jest resetowane po upływie tego czasu. Przed upływem tego czasu można wygenerować ostrzeżenie o wyłączeniu.</p>
+<TableTitle />
+<p>
+<table id="c6c3345d-5ad5-4e3c-8ade-8ee362b24030" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Czas (opóźnienie wyłączenia) dla przełącznika schodowego jest uruchamiany sygnałem na wejściu <b>Trg</b> (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T</b> : Wyjście jest resetowane (przejście z 1 na 0) po upływie czasu opóźnienia wyłączenia <b>T</b>.<p>
+<b>T</b>
+<sub>!</sub> : określa czas uruchomienia ostrzeżenia.<br />
+<b>T</b>
+<sub>!L</sub> : określa długość czasu ostrzeżenia.<br />
+<b>Retentywność</b>
+<b> </b>on = stan jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest resetowane po upływie czasu <b>T</b>. Przed upływem tego czasu można wygenerować sygnał ostrzegawczy.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T, T<sub>! </sub>i T<sub>!L</sub>
+</p>
+<p>Czas opóźnienia wyłączenia T, czas ostrzeżenia T<sub>!</sub> i okres ostrzeżenia T<sub>!L</sub> mogą być dostarczone przez wartość rzeczywistą innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć wartości rzeczywistych następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia schodowego: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Maks/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142494475_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:286" alt="" />
+</p>
+<TableTitle />
+<p>
+<table id="c3e7ee17-da2f-4159-ab3d-ffd282d5a26d" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Czas ostrzeżenia jest ustawiony na 15 s. Parametry T<sub>!</sub> i T<sub>!L</sub> stają się więc zbędne.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+ <p class="imagecontainer">
+<img src="../images/12228609803_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:312" alt="" />
+</p>
+
+<p class="blocktitle">Zmiana bazy czasowej</p>
+<p>Można zmienić bazę czasową ostrzeżenia i okres.</p>
+<TableTitle />
+<p>
+<table id="e104d2e6-bd7f-41aa-a7aa-61307cbd1c11" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="33.3%" />
+<col width="33.3%" />
+<col width="33.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Baza czasowa T</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Czas ostrzeżenia</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Okres ostrzeżenia</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Sekundy *</p>
+</td>
+<td>
+<p class="p_table_l">750 ms</p>
+</td>
+<td>
+<p class="p_table_l">50 ms</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Minuty</p>
+</td>
+<td>
+<p class="p_table_l">15 s</p>
+</td>
+<td>
+<p class="p_table_l">1 s</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Godziny</p>
+</td>
+<td>
+<p class="p_table_l">15 min</p>
+</td>
+<td>
+<p class="p_table_l">1 min</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="margin:0pt; border-left-width:0;border-top-width:0; border-right-width:0; border-bottom-width:0; background-color:#FFFFFF;">
+<p class="p_table_footer">* ma sens tylko dla programów z czasem cyklu &lt; 25 ms</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Wyjście Q jest ustawiane na 1 przy przejściu sygnału z 0 na 1 na wejściu Trg. Przejście z 1 na 0 na wejściu Trg uruchamia aktualny czas, a wyjście Q pozostaje ustawione.</p>
+<p>Wyjście Q jest resetowane do 0, gdy Ta osiągnie czas T. Przed upływem czasu opóźnienia wyłączenia (T - T<sub>!</sub>) można wygenerować ostrzeżenie, które resetuje Q na czas trwania ostrzeżenia T<sub>!L</sub>.</p>
+<p>Ta jest ponownie uruchamiany (opcjonalnie) przy następnym przejściu wysokie/niskie na wejściu Trg i jeśli Ta wygasa.</p>
+
+<p class="blocktitle">Czas cyklu skanowania</p>
+<p>Informacje na temat określania czasu cyklu skanowania LOGO! znajdują się w dodatku do <i>Instrukcji obsługi LOGO!</i>.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

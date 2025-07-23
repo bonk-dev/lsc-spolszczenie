@@ -1,0 +1,119 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Stoper (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Stoper (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/137143207051_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:86" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Stoper rejestruje czas, który upłynął od momentu jego włączenia.   </p>
+<TableTitle />
+<p>
+<table id="eebbf78c-2d46-4ebc-972f-f7467568fa41" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="17.4%" />
+<col width="82.5%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">En (Enable) to wejście monitorujące. LOGO! ustawia aktualny upływający czas na 0 i zaczyna odliczać czas, gdy En zmienia się z 0 na 1. Gdy En zmienia się z 1 na 0, upływający czas jest zatrzymywany.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Lap</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zbocze dodatnie (przejście z 0 na 1) na wejściu <b>Lap</b> wstrzymuje stoper i ustawia wyjście na czas okrążenia. Zbocze ujemne (przejście z 1 na 0) na wejściu <b>Lap</b> wznawia stoper i ustawia wyjście na aktualny upływający czas.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Sygnał na wejściu <b>R</b> (Reset) czyści aktualny upływający czas i czas okrążenia. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">Podstawa czasu dla upływającego czasu, którą można ustawić na godziny, minuty, sekundy lub 1/100 sekundy.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b> podaje wartość aktualnego upływającego czasu, gdy na wejściu <b>Lap</b> występuje zbocze ujemne (przejście z 1 na 0), i podaje wartość czasu okrążenia, gdy na wejściu <b>Lap</b> występuje zbocze dodatnie (przejście z 0 na 1).</p>
+<p class="p_table_l">Zbocze dodatnie (przejście z 0 na 1) resetuje wartość na wyjściu AQ do 0. </p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry Podstawa czasu</p>
+<p>Można skonfigurować podstawę czasu dla wyjścia analogowego:</p>
+ <p class="imagecontainer">
+<img src="../images/61863795467_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:272" alt="" />
+</p>
+<p>Podstawa czasu dla upływającego czasu może być w godzinach, minutach, sekundach lub 1/100 sekundy (jednostki 10 milisekund). Najmniejsza podstawa czasu, a więc rozdzielczość, to 10 milisekund, czyli 1/100 sekundy.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/57901824011_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:349" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Gdy En = 1, aktualny czas rośnie.</p>
+<p>Gdy En = 0, odliczanie aktualnego czasu jest wstrzymane.</p>
+<p>Gdy En = 1 i Lap = 0, wyjście AQ podaje wartość aktualnego upływającego czasu.</p>
+<p>Gdy En = 1 i Lap = 1, aktualny czas nadal rośnie, ale wyjście AQ podaje wartość czasu okrążenia.</p>
+<p>Gdy En = 0 i Lap =1, wyjście AQ podaje wartość czasu okrążenia.</p>
+<p>Gdy En = 0 i Lap = 0, wyjście AQ podaje wartość ostatniego aktualnego czasu.</p>
+<p>Gdy R = 1, zarówno aktualny czas, jak i czas okrążenia są resetowane.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

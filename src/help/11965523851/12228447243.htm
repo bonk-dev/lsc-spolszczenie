@@ -1,0 +1,169 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opóźnienie włączenia</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Opóźnienie włączenia<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228432907_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście nie włącza się, dopóki nie upłynie skonfigurowany czas opóźnienia.   </p>
+<TableTitle />
+<p>
+<table id="beec91aa-9fd9-4a61-9f32-ba44c084a358" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Trg</b> wejście</p>
+</td>
+<td>
+<p class="p_table_l">Wejście Trg (Trigger) inicjuje czas opóźnienia włączenia. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T: </b> reprezentuje czas opóźnienia włączenia, po którym wyjście jest włączane (przejście sygnału wyjściowego z 0 na 1).<p>
+<b>Retentywność</b> włączona = status jest retentywny w pamięci. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> włącza się po upływie określonego czasu T, pod warunkiem, że Trg jest nadal ustawione.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr T</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji może dostarczyć czas w parametrze T: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Maks/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wymaganą funkcję można wybrać za pomocą numeru bloku.</p>
+<p>Informacje o ważności i dokładności podstawy czasowej znajdują się w <i>instrukcji obsługi LOGO!</i>.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142015627_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:456" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przejście z 0 na 1 na wejściu Trg inicjuje czas Ta (bieżący czas w LOGO!).</p>
+<p>Jeśli stan na wejściu Trg pozostaje 1 przez co najmniej czas skonfigurowanego czasu T, wyjście jest ustawiane na 1, gdy ten czas upłynie (sygnał włączenia wyjścia następuje z opóźnieniem po sygnale włączenia wejścia).</p>
+<p>Czas jest resetowany, jeśli stan na wejściu Trg zmieni się na 0 przed upływem czasu T.</p>
+<p>Wyjście jest resetowane do 0, gdy wejście Trg ma wartość 0.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

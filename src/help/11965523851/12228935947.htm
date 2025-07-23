@@ -1,0 +1,233 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Modulator szerokości impulsów (PWM)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Modulator szerokości impulsów (PWM)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/66927527691_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:104" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Instrukcja modulacji szerokości impulsów (PWM) przekształca analogową wartość wejściową Ax na pulsujący sygnał wyjściowy cyfrowy. Szerokość impulsu jest proporcjonalna do wartości analogowej Ax.   </p>
+<TableTitle />
+<p>
+<table id="8122886f-1975-4edd-a4cd-77466942640c" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Przejście z 0 na 1 na wejściu En aktywuje blok funkcji PWM.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Sygnał analogowy, który ma być przekształcony na pulsujący sygnał wyjściowy cyfrowy.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p>Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10,000 do 10,000</p>
+<p class="p_table_l">
+<b>PT:</b> Czas okresowy, w którym modulowane jest wyjście cyfrowe</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc po przecinku<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q jest ustawiane lub resetowane w proporcji do każdego okresu czasu zgodnie z proporcją znormalizowanej wartości Ax do zakresu wartości analogowych.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="df05a44e-e5d3-4096-9e1f-01d4f190c45a" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA1- 0BA5:</b>
+</p>
+<p class="p_table_l">Blok funkcji PWM nie istniał przed wersją 0BA6.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr PT</p>
+<p>Czas okresowy PT może być dostarczony przez wartość aktualną innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć wartości aktualnych następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc po przecinku)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości Ax w tekście komunikatu.</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja odczytuje wartość sygnału na wejściu analogowym Ax. </p>
+<p>Ta wartość jest mnożona przez wartość parametru A (wzmocnienie). Do iloczynu dodawany jest parametr B (przesunięcie), jak następuje: </p>
+<p>(Ax * Wzmocnienie) + Przesunięcie = Wartość aktualna Ax</p>
+<p>Blok funkcji oblicza proporcję wartości Ax do zakresu. Blok ustawia wyjście cyfrowe Q na wysokie przez tę samą proporcję parametru PT (czas okresowy) i ustawia Q na niskie przez pozostałą część okresu czasu.</p>
+
+<p class="blocktitle">Przykłady z wykresami czasowymi</p>
+<p>Poniższe przykłady pokazują, jak instrukcja PWM moduluje sygnał wyjściowy cyfrowy z wartości wejściowej analogowej:</p>
+<p>
+<b>Przykład 1</b>
+</p>
+<p>Wartość wejściowa analogowa: 500 (zakres 0 do 1000) <br />Czas okresowy T: 4 sekundy</p>
+<p>Wyjście cyfrowe funkcji PWM jest wysokie przez 2 sekundy, niskie przez 2 sekundy, wysokie przez 2 sekundy, niskie przez 2 sekundy i kontynuuje ten wzór, dopóki parametr "En" = wysoki.</p>
+ <p class="imagecontainer">
+<img src="../images/137150453515_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:481" alt="" />
+</p>
+<p />
+<p>
+<b>Przykład 2</b>
+</p>
+<p>Wartość wejściowa analogowa: 300 (zakres 0 do 1000)<br />Czas okresowy T: 10 sekund</p>
+<p>Wyjście cyfrowe funkcji PWM jest wysokie przez 3 sekundy, niskie przez 7 sekund, wysokie przez 3 sekundy, niskie przez 7 sekund i kontynuuje ten wzór, dopóki parametr "En" = wysoki.</p>
+ <p class="imagecontainer">
+<img src="../images/137151175819_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:481" alt="" />
+</p>
+
+<p class="blocktitle">Zasada obliczeń</p>
+<p>Q = 1, przez (Ax – Min) / (Max – Min) okresu czasu PT<br />Q = 0, przez PT – [(Ax – Min) / (Max – Min)] okresu czasu PT.</p>
+<p>Uwaga: Ax w tym obliczeniu odnosi się do wartości aktualnej Ax obliczonej przy użyciu Wzmocnienia i Przesunięcia. Min i Max odnoszą się do minimalnych i maksymalnych wartości określonych dla zakresu.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Odwołaj się do pomocy dotyczącej parametrów bloków analogowych w sekcji <a href="../11965523851/12228970379.htm">Przetwarzanie wartości analogowych</a>.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

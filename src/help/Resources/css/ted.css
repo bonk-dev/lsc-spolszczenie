@@ -1,0 +1,56 @@
+﻿@media screen, print
+{
+	table.ted_table						{ border-collapse:collapse; border-top: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; }
+	table.ted_table thead				{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table tbody				{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table tr					{ vertical-align:top; }
+	table.ted_table th					{ font-size:9pt; padding: 2px; margin:0px; vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table td					{ font-size:9pt; padding: 2px; margin:0px; vertical-align:top; text-align:left; font-weight:normal; }
+
+	table.ted_table th.Feature			{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table th.Unit				{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table th.Product			{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; background:#CCCCCC; }
+
+	table.ted_table td.Feature			{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table td.Unit				{ vertical-align:top; text-align:left; font-weight:normal; }
+	table.ted_table td.Product			{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.FeatureNumeric	{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.FeatureText		{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.FeatureBool		{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.RDBSeparator		{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.FeatureText		{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.P				{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.W				{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.PG				{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; }
+	table.ted_table td.Mlfb				{ vertical-align:top; text-align:left; font-weight:normal; border-left: 2px solid #FFFFFF; background:#DDDDDD; }
+
+	table.ted_table td a				{ color:#0000FF; text-decoration:none;}
+	table.ted_table td a.visited		{ color:#00FF00; text-decoration:none; }
+
+	table.ted_table ul.custom			{ padding: 0pt; margin:0px; list-style-type:none; list-style-position:outside; }
+	table.ted_table ul.custom li		{ padding: 0pt; margin:0px; margin-left:0mm; }
+	table.ted_table ul.custom li span	{ padding: 0pt; margin:0px; display:inline; margin-left:-15px; }
+	table.ted_table ul.custom li p .cell	{padding: 0pt; margin:0pt;  display:inline; }
+
+	table.ted_table p.cell				{ font-size:9pt; font-weight:normal; vertical-align:top; text-align:left; color:#000000;}
+
+	table.ted_table td.level0			{ padding-left: 2mm; }
+	table.ted_table td.level1			{ padding-left: 2mm; }
+	table.ted_table td.level2			{ padding-left: 2mm; }
+
+	table.ted_table td.level0 ul		{ padding-left: 2mm; }
+	table.ted_table td.level1 ul		{ padding-left: 4mm; }
+	table.ted_table td.level2 ul		{ padding-left: 6mm; }
+
+	.Footnotes							{ margin-top:10px; }
+	.Footnote							{ font-size:8pt; vertical-align:top; text-align:left; color:#000000; }
+	.Footnote a							{ font-size:8pt; vertical-align:top; text-align:left; color:#000000; }
+
+	.all								{ border: 0.5pt solid #000000; }
+	.slimline							{ border-top: 0.5pt solid #000000; }
+	.boldline							{ border-top: 1.5pt solid #000000; }
+
+	.colored							{ background:#CCCCCC; }
+	.oddColored							{ background:#EEEEEE; }
+	.evenColored						{ background:#DDDDDD; }
+}

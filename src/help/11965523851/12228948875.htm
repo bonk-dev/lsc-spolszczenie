@@ -1,0 +1,458 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Instrukcja matematyczna</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Instrukcja matematyczna<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/66927716107_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:96" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Blok instrukcji matematycznej oblicza wartość AQ równania utworzonego z zdefiniowanych przez użytkownika operandów i operatorów.   </p>
+<TableTitle />
+<p>
+<table id="8bf1e45b-8fdf-4340-8b18-90002c83d031" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze na wejściu En aktywuje blok funkcji instrukcji matematycznej</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V1:</b> Wartość 1: Pierwszy operand</p>
+<p class="p_table_l">
+<b>V2:</b> Wartość 2: Drugi operand</p>
+<p class="p_table_l">
+<b>V3:</b> Wartość 3: Trzeci operand</p>
+<p class="p_table_l">
+<b>V4:</b> Wartość 4: Czwarty operand</p>
+<p class="p_table_l">Zakres wartości: -32768 do 32767</p>
+<p class="p_table_l">
+<b>Operator 1: </b> Pierwszy operator</p>
+<p class="p_table_l">
+<b>Operator 2:</b> Drugi operator</p>
+<p class="p_table_l">
+<b>Operator 3:</b> Trzeci operator</p>
+<p class="p_table_l">
+<b>Priorytet 1: </b> Priorytet pierwszej operacji</p>
+<p class="p_table_l">
+<b>Priorytet 2:</b> Priorytet drugiej operacji</p>
+<p class="p_table_l">
+<b>Priorytet 3:</b> Priorytet trzeciej operacji</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc dziesiętnych</p>
+<p class="p_table_l">Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście AQ jest wynikiem równania utworzonego z wartości operandów i operatorów. AQ zostanie ustawione na 32767 w przypadku dzielenia przez 0 lub przepełnienia, oraz na -32768 w przypadku ujemnego przepełnienia (niedomiaru).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="9bc2b7ca-d7b0-49b3-aa65-056b8083f8c9" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA1- 0BA5: </b>
+</p>
+<p class="p_table_l">Blok funkcji instrukcji matematycznej nie istniał przed wersją 0BA6.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry V1, V2, V3 i V4</p>
+<p>Wartości V1, V2, V3 i V4 mogą być dostarczone przez aktualną wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i nowszych można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie załączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie załączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie załączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wymaganą funkcję wybiera się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc dziesiętnych)</p>
+<p>Parametr p dotyczy wyświetlania wartości V1, V2, V3, V4 i AQ w tekście komunikatu.</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja instrukcji matematycznej łączy cztery operandy i trzy operatory w równanie. Operatorem może być dowolny z czterech standardowych operatorów: +, -, *, lub /. Dla każdego operatora należy ustawić unikalny priorytet Wysoki ("H"), Średni ("M") lub Niski ("L"). Operacja o wysokim priorytecie zostanie wykonana jako pierwsza, następnie operacja o średnim priorytecie, a na końcu operacja o niskim priorytecie. Należy mieć dokładnie jedną operację każdego priorytetu. Wartości operandów mogą odnosić się do innej wcześniej zdefiniowanej funkcji, aby dostarczyć wartość. Funkcja instrukcji matematycznej zaokrągla wynik do najbliższej wartości całkowitej.</p>
+<p>Liczba wartości operandów jest stała i wynosi cztery, a liczba operatorów jest stała i wynosi 3. Jeśli trzeba użyć mniejszej liczby operandów, należy użyć konstrukcji takich jak " + 0" lub " * 1", aby wypełnić pozostałe parametry.</p>
+<p>Można również skonfigurować zachowanie funkcji, gdy parametr "En"=0. Blok funkcji może albo zachować swoją ostatnią wartość, albo zostać ustawiony na 0. </p>
+
+<p class="blocktitle">Możliwe błędy: Dzielenie przez zero i przepełnienie</p>
+<p>Jeśli wykonanie bloku funkcji instrukcji matematycznej skutkuje dzieleniem przez zero lub przepełnieniem, ustawiane są wewnętrzne bity wskazujące rodzaj wystąpiłego błędu. W programie obwodu można zaprogramować blok funkcji wykrywania błędów instrukcji matematycznej, aby wykryć te błędy i kontrolować zachowanie programu zgodnie z potrzebami. Programuje się jeden blok<a href="../11965523851/12229271435.htm"> wykrywania błędów</a> instrukcji matematycznej, aby odnosił się do jednego konkretnego bloku instrukcji matematycznej.</p>
+
+<p class="blocktitle">Przykłady</p>
+<p>Poniższe tabele pokazują kilka prostych przykładów parametrów bloku instrukcji matematycznej oraz wynikowe równania i wartości wyjściowe:</p>
+<TableTitle />
+<p>
+<table id="0d99f481-3596-405e-b042-52f428e05873" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>V1</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator1 (Priorytet 1)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V2</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator2 (Priorytet 2)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V3</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator3 (Priorytet 3)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V4</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">12</p>
+</td>
+<td>
+<p class="p_table_l">+ (M)</p>
+</td>
+<td>
+<p class="p_table_l">6</p>
+</td>
+<td>
+<p class="p_table_l">/ (H)</p>
+</td>
+<td>
+<p class="p_table_l">3</p>
+</td>
+<td>
+<p class="p_table_l">- (L)</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+<b>Równanie: </b>(12 + (6 / 3)) - 1<p>
+<b>Wynik: </b>13</p>
+<p />
+<TableTitle />
+<p>
+<table id="b51f2811-4be1-46ec-9369-0118f10950e7" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>V1</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator1 (Priorytet 1)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V2</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator2 (Priorytet 2)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V3</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator3 (Priorytet 3)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V4</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">2</p>
+</td>
+<td>
+<p class="p_table_l">+ (L)</p>
+</td>
+<td>
+<p class="p_table_l">3</p>
+</td>
+<td>
+<p class="p_table_l">* (M)</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">+ (H)</p>
+</td>
+<td>
+<p class="p_table_l">4</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+<b>Równanie: </b>2 + (3 * (1 + 4))<br />
+<b>Wynik: </b>17</p>
+<p />
+<TableTitle />
+<p>
+<table id="d4baa42e-efa4-4e52-b96d-4783385a88c4" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+<col width="14.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>V1</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator1 (Priorytet 1)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V2</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator2 (Priorytet 2)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V3</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Operator3 (Priorytet 3)</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V4</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">100</p>
+</td>
+<td>
+<p class="p_table_l">- (H)</p>
+</td>
+<td>
+<p class="p_table_l">25</p>
+</td>
+<td>
+<p class="p_table_l">/ (L)</p>
+</td>
+<td>
+<p class="p_table_l">2</p>
+</td>
+<td>
+<p class="p_table_l">+ (M)</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+<b>Równanie: </b>(100 – 25) / (2 + 1)<br />
+<b>Wynik: </b>25</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

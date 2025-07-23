@@ -1,0 +1,129 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tygodniowy timer</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Tygodniowy timer<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228646667_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Uwaga</p>
+<p>Twój LOGO! musi być wyposażony w wewnętrzny zegar czasu rzeczywistego, jeśli zamierzasz używać tego SFB.</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest sterowane za pomocą konfigurowalnej daty włączenia/wyłączenia. Funkcja obsługuje dowolną kombinację dni tygodnia.   </p>
+<TableTitle />
+<p>
+<table id="608aec65-2a9a-4fb3-a161-2a3b0f2670ce" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametry <b>No1, No2, No3</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">W parametrach <b>No1, No2, No3</b> (Cam) ustawiasz wyzwalacze czasu włączenia i wyłączenia dla każdej krzywki timera tygodniowego. Dla każdej krzywki określasz dzień tygodnia i porę dnia dla czasów włączenia i wyłączenia.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Par</p>
+</td>
+<td>
+<p class="p_table_l">Określasz, czy timer impulsuje na jeden cykl po aktywacji, a następnie jest resetowany. Parametr impulsu dotyczy wszystkich trzech krzywek.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane, gdy skonfigurowana krzywka jest uruchomiona.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Diagram czasowy (trzy praktyczne przykłady)</p>
+ <p class="imagecontainer">
+<img src="../images/137142662283_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:511" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Każdy timer tygodniowy jest wyposażony w trzy krzywki. Dla każdej pojedynczej krzywki możesz skonfigurować histerezę czasową. Na krzywkach ustawiasz histerezę włączenia i wyłączenia. Timer tygodniowy ustawia wyjście o określonej godzinie, pod warunkiem że nie jest już ustawione. </p>
+<p>Timer tygodniowy resetuje wyjście w czasie wyłączenia, jeśli skonfigurowałeś czas wyłączenia, lub na końcu cyklu, jeśli określiłeś wyjście impulsowe. Konflikt powstaje w timerze tygodniowym, gdy czas włączenia i czas wyłączenia na innej krzywce są identyczne. W tym przypadku krzywka 3 ma pierwszeństwo przed krzywką 2, a krzywka 2 ma pierwszeństwo przed krzywką 1.</p>
+<p>Stan przełączania timera tygodniowego jest określany przez stan na krzywkach No1, No2 i No3.</p>
+
+<p class="blocktitle">Czasy włączenia</p>
+<p>Czas włączenia to dowolny czas między 00:00 a 23:59. Możesz również skonfigurować czas włączenia jako sygnał impulsowy. Blok timera zostanie aktywowany o określonym czasie na jeden cykl, a następnie wyjście zostanie zresetowane. Czas wyłączenia jest w tym przypadku wyłączony, ponieważ nie ma zastosowania.</p>
+
+<p class="blocktitle">Specjalne cechy do uwzględnienia podczas konfiguracji</p>
+<p>Okno właściwości bloku oferuje kartę dla każdej z trzech krzywek. Tutaj możesz ustawić dzień tygodnia dla każdej krzywki. Każda karta oferuje ci dodatkowo możliwość zdefiniowania czasów włączenia i wyłączenia dla każdej krzywki w jednostkach godzin i minut. Najkrótszy cykl przełączania to jedna minuta. Na każdej karcie masz również możliwość określenia wyjścia impulsowego dla krzywki.</p>
+<p>Możesz wyłączyć czasy włączenia i wyłączenia indywidualnie. Możesz osiągnąć cykle przełączania rozciągające się na więcej niż jeden dzień, na przykład ustawiając czas włączenia dla krzywki 1 na poniedziałek 7:00, a czas wyłączenia krzywki 2 na środę 13:07, jednocześnie wyłączając czas włączenia dla krzywki 2.</p>
+ <p class="imagecontainer">
+<img src="../images/58720052875_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:445" alt="" />
+</p>
+<TableTitle />
+<p>
+<table id="8c3d14b3-3f49-4d24-aaa9-9295edd0b5c9" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="89.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Ustawienie <b>Impuls </b>jest dostępne tylko od serii urządzeń 0BA6.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Kopia zapasowa zegara czasu rzeczywistego</p>
+<p>Wewnętrzny zegar czasu rzeczywistego LOGO! jest buforowany na wypadek awarii zasilania. Czas buforowania jest zależny od temperatury otoczenia i wynosi zazwyczaj 20 dni (dla urządzeń LOGO! 0BA7) lub 80 godzin (dla urządzeń LOGO! 0BA6) w temperaturze otoczenia 25 °C.</p>
+<p>Urządzenia LOGO! 0BA6 i wyższe obsługują opcję karty bateryjnej lub kombinowanego modułu programu (pamięci) i karty bateryjnej. Zegar czasu rzeczywistego jest buforowany przez kilka lat w przypadku obu tych kart.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

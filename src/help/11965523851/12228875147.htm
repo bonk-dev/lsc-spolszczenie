@@ -1,0 +1,245 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Analogowy watchdog</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Analogowy watchdog<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228860811_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta specjalna funkcja zapisuje zmienną procesową analogowego wejścia do pamięci i ustawia wyjście, gdy zmienna wyjściowa przekroczy lub spadnie poniżej tej zapisanej wartości plus konfigurowalne przesunięcie.</p>
+<TableTitle />
+<p>
+<table id="99f063c2-ba55-45ae-a95d-9eeec61cbd52" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Połączenie</p>
+</td>
+<td>
+<p class="p_table_l">Opis</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze (przejście z 0 na 1) na wejściu <b>En</b> zapisuje wartość analogową na wejściu <b>Ax</b> ("Aen") do pamięci i rozpoczyna monitorowanie zakresu analogowego Aen +- Delta.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM6 (jeśli 0BA6), AM1 do AM16 (jeśli 0BA7) lub AM1 do AM64 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (jeśli 0BA7) lub AQ1 do AQ8 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p>Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>Próg 1:</b> Wartość różnicy powyżej Aen: próg włączenia/wyłączenia<br />Zakres wartości: 0 do 20000</p>
+<p class="p_table_l">
+<b>Próg 2:</b> Wartość różnicy poniżej Aen: próg włączenia/wyłączenia<br />Zakres wartości: 0 do 20000</p>
+<p class="p_table_l">
+<b>p: </b>Liczba miejsc dziesiętnych<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+<p class="p_table_l">
+<b>Retencyjność</b> on = stan jest retencyjny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane/zerowane w zależności od zapisanej wartości analogowej i przesunięcia.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada wartości 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry Próg 1 i Próg 2</p>
+<p>Dwa parametry progowe Próg 1 i Próg 2 mogą być dostarczane przez aktualną wartość innej już zaprogramowanej funkcji:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retencyjne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchroniczny: Ta</p>
+</li>
+<li>
+<p>Przełącznik światła schodowego: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+<p>Progi są reprezentowane przez symbol &#x394; na module bazowym LOGO! i na poniższym wykresie czasowym.</p>
+<TableTitle />
+<p>
+<table id="e8138a2e-bd9c-43c4-a066-9036cbc0ad22" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA4:</b>
+</p>
+<p class="p_table_l">Wzmocnienie: Zakres wartości: 0.00 do 10.00</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc dziesiętnych)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości Aen, Ax, Próg 1 i Próg 2 w tekście komunikatu.</p>
+
+<p class="blocktitle">Wykres czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144399115_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:396" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przejście z 0 na 1 na wejściu En zapisuje wartość sygnału na analogowym wejściu Ax. Ta zapisana zmienna procesowa jest określana jako "Aen".</p>
+<p>Zarówno aktualne wartości analogowe Ax, jak i Aen są mnożone przez wartość parametru A (wzmocnienie), a następnie do iloczynu dodawany jest parametr B (przesunięcie), jak następuje:</p>
+<p>(Ax * wzmocnienie) + przesunięcie = Aktualna wartość Aen, gdy wejście En zmienia się z 0 na 1, lub</p>
+<p>(Ax * wzmocnienie) + przesunięcie = Aktualna wartość Ax.</p>
+<p>Wyjście Q jest ustawiane, gdy sygnał na wejściu En = 1 i jeśli aktualna wartość na wejściu Ax jest poza zakresem Aen + Próg 1 / Aen - Próg 2.</p>
+<p>Wyjście Q jest zerowane, gdy aktualna wartość na wejściu Ax znajduje się w zakresie Aen + Próg 1 / Aen - Próg 2 lub gdy sygnał na wejściu En zmienia się na niski.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Odwołaj się do pomocy dotyczącej parametrów bloku analogowego w sekcji <a href="../11965523851/12228970379.htm">Przetwarzanie wartości analogowych</a>.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a>
+</p>
+</div>
+  </body>
+</html>

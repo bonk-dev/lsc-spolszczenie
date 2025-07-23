@@ -1,0 +1,186 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sterowanie ogrzewaniem</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowSample">
+        <p class="title">Sterowanie ogrzewaniem<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania dotyczące sterowania ogrzewaniem</p>
+      <p>Ten przykład ilustruje sterowanie ogrzewaniem, w którym temperatura przepływu ogrzewania ma być kontrolowana w odwrotnej proporcji do temperatury zewnętrznej. Oznacza to, że im niższa temperatura zewnętrzna, tym wyższa temperatura przepływu.  </p>
+      <p>Czujniki PT100 mierzą temperaturę zewnętrzną i temperaturę przepływu. </p>
+      <p>Przy temperaturze zewnętrznej 0 °C temperatura przepływu powinna wynosić 50 °C (<b>x</b>).</p>
+      <p>Jeśli temperatura zewnętrzna spadnie o więcej niż 4 °C, ogrzewanie powinno się włączyć.</p>
+      
+      <p class="blocktitle">Rozwiązanie LOGO!Soft Comfort</p>
+       <p class="imagecontainer">
+<img src="../images/64558523403_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:670" alt="" />
+</p>
+<p>
+<table id="01fc816b-ce7a-4e5e-95b2-3837287a09df" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Czujnik PT100 jest podłączony do AI1, który mierzy temperaturę przepływu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Parametry wzmacniacza analogowego są następujące:</p>
+<ul class="table">
+<li>
+<p>Czujnik: PT100</p>
+</li>
+<li>
+<p>Czujniki PT100 określają zakres pomiarowy i parametry.</p>
+</li>
+<li>
+<p>Jednostka: Celsius</p>
+</li>
+<li>
+<p>Rozdzielczość: x 1</p>
+</li>
+</ul>
+<p class="p_table_l">Wzmacniacz powoduje, że rzeczywista temperatura zmierzona przez czujnik jest wydawana jako wyjście.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2462;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Czujnik PT100 jest podłączony do AI2, który mierzy temperaturę zewnętrzną.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2463;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Parametry wzmacniacza analogowego są następujące:</p>
+<ul class="table">
+<li>
+<p>Czujnik: PT100</p>
+</li>
+<li>
+<p>Czujniki PT100 określają zakres pomiarowy i parametry.</p>
+</li>
+<li>
+<p>Jednostka: Celsius</p>
+</li>
+<li>
+<p>Rozdzielczość: x 1</p>
+</li>
+</ul>
+<p class="p_table_l">Wzmacniacz powoduje, że rzeczywista temperatura zmierzona przez czujnik jest wydawana jako wyjście.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2464;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Parametry wzmacniacza analogowego są następujące:</p>
+<ul class="table">
+<li>
+<p>Czujnik: Brak czujnika</p>
+</li>
+<li>
+<p>Wzmocnienie: -1 (zmienia znak wartości wyjścia wzmacniacza analogowego z B001) </p>
+</li>
+<li>
+<p>Przesunięcie: 50 </p>
+</li>
+</ul>
+<p class="p_table_l">Parametry wzmacniacza w B004 powodują, że różnica porównywanych temperatur komparatora w B005 wynosi 0, jeśli suma obu temperatur wynosi 50.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2465;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Parametry komparatora analogowego są następujące:</p>
+<ul class="table">
+<li>
+<p>Czujnik: Brak czujnika</p>
+</li>
+<li>
+<p>Wzmocnienie: 1</p>
+</li>
+<li>
+<p>Przesunięcie: 0</p>
+</li>
+<li>
+<p>Wartość progowa włączenia: 4 </p>
+</li>
+<li>
+<p>Wartość progowa wyłączenia: 0 </p>
+</li>
+</ul>
+<p class="p_table_l">Komparator analogowy włącza wyjście Q2, jeśli różnica między temperaturą przepływu a znormalizowaną temperaturą zewnętrzną przekracza 4 °C.</p>
+<p class="p_table_l">Jeśli różnica spadnie poniżej 0 °C, komparator analogowy ponownie wyłącza wyjście Q2.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2466;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście Q2 włącza i wyłącza ogrzewanie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Sposób działania</p>
+<p>Temperatura zewnętrzna spada, co powoduje, że wartość wydawana do wzmacniacza analogowego w B004 wzrasta w tym samym stopniu. Różnica w komparatorze analogowym między temperaturą przepływu a temperaturą zewnętrzną odpowiednio wzrasta.</p>
+<p>Jeśli różnica przekroczy 4 °C, ogrzewanie włącza się.</p>
+<p>W wyniku włączenia ogrzewania temperatura przepływu wzrasta. Z tego powodu różnica w komparatorze analogowym między temperaturą przepływu a temperaturą zewnętrzną maleje (pod warunkiem, że temperatura zewnętrzna spada wolniej niż rośnie temperatura przepływu).</p>
+<p>Jeśli różnica spadnie poniżej 0 °C, ogrzewanie wyłącza się.</p>
+
+<p class="blocktitle">Zmiana parametrów</p>
+<p>Parametr Przesunięcie we wzmacniaczu analogowym w B004 zależy od pożądanej temperatury przepływu przy temperaturze zewnętrznej 0 °C. Ponadto, próg włączenia i próg wyłączenia ogrzewania można zmienić za pomocą wartości progowych włączenia i wyłączenia komparatora analogowego w B005.</p>
+
+<p class="blocktitle">Wypróbuj!</p>
+<p>Przykład można znaleźć jako program obwodowy na płycie DVD-ROM LOGO!Soft Comfort. Załaduj program obwodowy w LOGO!Soft Comfort i wypróbuj powyższe instrukcje w trybie symulacji.</p>
+</div>
+  </body>
+</html>

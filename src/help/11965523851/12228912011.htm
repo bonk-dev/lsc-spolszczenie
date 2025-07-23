@@ -1,0 +1,188 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Multiplekser analogowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Multiplekser analogowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228897675_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Gdy jest włączony, multiplekser analogowy SFB wyświetla jedną z czterech wstępnie zdefiniowanych wartości analogowych, w zależności od warunków wejściowych.   </p>
+<TableTitle />
+<p>
+<table id="f00fd26d-526a-46a6-910f-6c71e96f7e0c" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">1 na wejściu En (Enable) przełącza, w zależności od S1 i S2, sparametryzowaną wartość analogową na wyjście AQ.</p>
+<p class="p_table_l">0 na wejściu EN przełącza 0 na wyjście AQ.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejścia <b>S1</b>
+</p>
+<p class="p_table_l">i <b>S2</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">S1 i S2 (selektory) do wyboru wartości analogowej do wydania.<p>S1 = 0 i S2 = 0: Wydawana jest wartość V1<br />S1 = 0 i S2 = 1: Wydawana jest wartość V2<br />S1 = 1 i S2 = 0: Wydawana jest wartość V3<br />S1 = 1 i S2 = 1: Wydawana jest wartość V4</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>V1 do V4</b>: Wartości analogowe (Value), które będą wydane.<br />Zakres wartości: -32768 do +32767</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc dziesiętnych<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście analogowe<br />Zakres wartości dla AQ: -32768 do +32767</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry V1 do V4</p>
+<p>Wartości dla V1 do V4 mogą być dostarczone przez wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych, można dodatkowo użyć wartości rzeczywistych następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc dziesiętnych)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości AQ, V1, V2, V3 i V4 w tekście komunikatu.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144476171_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:508" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Jeśli wejście En jest ustawione, funkcja wydaje jedną z czterech możliwych wartości analogowych V1 do V4 na wyjściu AQ, w zależności od wejść S1 i S2.</p>
+<p>Jeśli wejście En nie jest ustawione, funkcja wydaje wartość analogową 0 na wyjściu AQ.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Aby uzyskać pomoc dotyczącą parametrów bloku analogowego, zapoznaj się z sekcją <a href="../11965523851/12228970379.htm">Podstawy</a>.</p>
+
+<p class="blocktitle">Wyjście analogowe</p>
+<p>Jeśli podłączysz tę funkcję specjalną do rzeczywistego wyjścia analogowego, pamiętaj, że wyjście analogowe może przetwarzać tylko wartości od 0 do 1000. W tym celu podłącz dodatkowy wzmacniacz między wyjściem analogowym funkcji specjalnej a rzeczywistym wyjściem analogowym. Za pomocą tego wzmacniacza normalizujesz zakres wyjściowy funkcji specjalnej do zakresu wartości od 0 do 1000.</p>
+<p>Przykład: dodatkowy wzmacniacz za multiplekserem analogowym.</p>
+ <p class="imagecontainer">
+<img src="../images/66676697995_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:168" alt="" />
+</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

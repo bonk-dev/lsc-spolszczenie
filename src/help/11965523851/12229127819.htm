@@ -1,0 +1,192 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przekaźnik bistabilny</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przekaźnik bistabilny<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229113483_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Sygnał na wejściu S ustawia wyjście Q. Sygnał na wejściu R resetuje wyjście Q.   </p>
+<TableTitle />
+<p>
+<table id="be6b8045-2d6d-4618-b345-fe759d38a8e2" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="22%" />
+<col width="77.9%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>S</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Ustaw wyjście Q sygnałem na wejściu S (Set).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zresetuj wyjście Q sygnałem na wejściu R (Reset). Wyjście Q jest resetowane, jeśli zarówno S, jak i R są ustawione (reset ma pierwszeństwo przed ustawieniem).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Retentywność </b>ustawiona (włączona) = status jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q jest ustawiane sygnałem na wejściu S i pozostaje ustawione, aż zostanie zresetowane sygnałem na wejściu R.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/12457151627_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:214" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przekaźnik bistabilny reprezentuje prostą logikę pamięci binarniej. Wartość wyjściowa zależy od stanów wejściowych i poprzedniego statusu na wyjściu.</p>
+<p>Tabela logiczna przekaźnika bistabilnego:</p>
+<TableTitle />
+<p>
+<table id="8dd8d265-48b5-4fab-8256-6599a663df60" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="9%" />
+<col width="9%" />
+<col width="71.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>S</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Uwaga</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">x</p>
+</td>
+<td>
+<p class="p_table_l">Status niezmieniony</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">Reset</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">Ustawienie</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">Reset</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>Gdy retentywność jest włączona, sygnał wyjściowy odpowiada statusowi sygnału przed awarią zasilania.</p>
+<p />
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

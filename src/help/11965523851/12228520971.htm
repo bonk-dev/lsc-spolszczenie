@@ -1,0 +1,165 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przekaźnik wycierający (wyjście impulsowe)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przekaźnik wycierający (wyjście impulsowe)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228506635_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Sygnał wejściowy generuje sygnał wyjściowy o konfigurowalnej długości.   </p>
+
+<p class="blocktitle">Połączenie</p>
+<TableTitle />
+<p>
+<table id="ef19b730-9d0f-4dad-a2e6-923caea97023" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Połączenie</p>
+</td>
+<td>
+<p class="p_table_l">Opis</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyzwalasz czas dla przekaźnika wycierającego sygnałem na wejściu <b>Trg</b> (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T </b>reprezentuje czas, po którym wyjście się resetuje (przejście sygnału wyjściowego z 1 na 0).<p>
+<b>Retentywność</b>
+<b> </b>on = status jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Impuls na <b>Trg</b> ustawia <b>Q</b>. Wyjście pozostaje ustawione, dopóki czas <b>T</b> nie upłynie i jeśli <b>Trg</b> = 1 przez cały ten czas. Przejście z 1 na 0 na <b>Trg</b> przed upływem czasu <b>T</b> również resetuje wyjście do 0.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr T</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji może dostarczyć czas wyłączenia T: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie załączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie załączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie załączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchroniczny: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142321035_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:460" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Sygnał wejściowy Trg = 1 ustawia wyjście Q na 1. Sygnał ten również wyzwala czas Ta, podczas gdy wyjście pozostaje ustawione.</p>
+<p>Gdy Ta osiągnie wartość zdefiniowaną w T (Ta=T), wyjście Q resetuje się do stanu 0 (wyjście impulsowe).</p>
+<p>Jeśli sygnał na wejściu Trg zmieni się z 1 na 0 przed upływem tego czasu, wyjście natychmiast resetuje się z 1 na 0.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

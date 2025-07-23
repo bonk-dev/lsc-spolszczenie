@@ -1,0 +1,131 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rejestr przesuwny (0BA7 do 0BA8)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Rejestr przesuwny (0BA7 do 0BA8)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/86070684683_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Funkcja rejestru przesuwnego odczytuje wartość wejściową i przesuwa bity. Wartość wyjściowa odpowiada skonfigurowanemu bitowi rejestru przesuwnego. Kierunek przesunięcia można zmienić na specjalnym wejściu.</p>
+<p>Dla LOGO! 0BA6 można użyć tylko jednego rejestru przesuwnego w jednym programie obwodu, ale dla urządzeń LOGO! 0BA7 i LOGO! 0BA8 można użyć maksymalnie czterech rejestrów przesuwnych z ośmioma bitami dla każdego rejestru przesuwnego w jednym programie obwodu.</p>
+<TableTitle />
+<p>
+<table id="1e1b7857-4004-4486-aeac-394a1d43753c" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>In</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Funkcja po uruchomieniu odczytuje wartość tego wejścia.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">SFB jest uruchamiany z dodatnim zboczem (przejście z 0 na 1) na wejściu Trg (Trigger). Przejście z 1 na 0 jest nieistotne.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Dir</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Definiujesz kierunek przesunięcia bitów rejestru przesuwnego Sx.1 do Sx.8 na wejściu Dir:<p>Dir = 0: przesunięcie w górę (Sx.1 &gt;&gt; Sx.8)<br />Dir = 1: przesunięcie w dół (Sx.8 &gt;&gt; Sx.1)</p>
+<p class="p_table_l">
+<b>UWAGA:</b>
+</p>
+<p class="p_table_l">"x" odnosi się do indeksu rejestru przesuwnego.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Indeks rejestru przesuwnego: </b>indeks rejestru przesuwnego w programie obwodu.</p>
+<p class="p_table_l">Możliwe ustawienia: 1 do 4</p>
+<p class="p_table_l">
+<b>Bit rejestru przesuwnego </b>określający wartość wyjścia Q.<br />Możliwe ustawienia: 1 do 8</p>
+<p class="p_table_l">
+<b>Retentywność </b>ustawiona (włączona) = stan jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wartość wyjściowa odpowiada skonfigurowanemu bitowi rejestru przesuwnego.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr</p>
+<p>Urządzenia LOGO! 0BA7 lub 0BA8 zapewniają cztery rejestry przesuwne, z ośmioma bitami dla każdego rejestru przesuwnego. Indeks rejestru przesuwnego odpowiada jednemu z czterech rejestrów przesuwnych w programie obwodu. Bity rejestru przesuwnego są numerowane w Sx.y, gdzie x to indeks, a y to numer bitu.</p>
+ <p class="imagecontainer">
+<img src="../images/67082795659_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:450" alt="" />
+</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+<p>Jeśli indeks rejestru przesuwnego wynosi 1, bity rejestru przesuwnego będą od S1.1 do S1.8.</p>
+ <p class="imagecontainer">
+<img src="../images/137146321803_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:524" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja odczytuje wartość wejścia In z dodatnim zboczem (przejście z 0 na 1) na wejściu Trg (Trigger).</p>
+<p>Ta wartość jest zapisywana w <a href="../11965523851/12020415115.htm">bitach rejestru przesuwnego</a> Sx.1 do Sx.8, w zależności od ustawionego kierunku przesunięcia:</p>
+<ul>
+<li>
+<p>Dir = 0 (Przesunięcie w górę): Sx.1 przyjmuje wartość wejścia In, poprzednia wartość Sx.1 jest przesuwana do Sx.2, Sx.2 do Sx.3 ... Sx.7 do Sx.8</p>
+</li>
+<li>
+<p>Dir = 1 (Przesunięcie w dół): Sx.8 przyjmuje wartość wejścia In; poprzednia wartość S1.8 jest przesuwana do Sx.7, Sx.7 do Sx.6 ... Sx.2 do Sx.1.</p>
+</li>
+</ul>
+<p>Q wyprowadza wartość skonfigurowanych bitów rejestru przesuwnego.</p>
+<p>Jeśli retentywność nie jest włączona, funkcja przesunięcia rozpoczyna się ponownie od Sx.1 lub Sx.8 po awarii zasilania.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

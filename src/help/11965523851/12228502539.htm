@@ -1,0 +1,171 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opóźnienie z pamięcią</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Opóźnienie z pamięcią<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228488203_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Pojedyncze impuls na wejściu uruchamia konfigurowalny czas. LOGO! ustawia wyjście po upływie tego czasu.   </p>
+<TableTitle />
+<p>
+<table id="3b9feb3c-541c-4463-b386-8b860d692547" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Połączenie</p>
+</td>
+<td>
+<p class="p_table_l">Opis</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyzwól czas opóźnienia przez wejście <b>Trg</b> (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zresetuj czas opóźnienia i ustaw wyjście na 0 przez wejście <b>R</b> (Reset).<p>Reset ma priorytet nad <b>Trg</b>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T </b>to czas opóźnienia dla wyjścia (przejście sygnału wyjściowego z 0 na 1).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> włącza się po upływie czasu <b>T</b>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr T</p>
+<p>Wartość innej już zaprogramowanej funkcji może dostarczyć czas w parametrze T: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg wyzwalania analogowego: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się przez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142267787_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:550" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przejście sygnału z 0 na 1 na wejściu Trg uruchamia aktualny czas Ta. LOGO! ustawia wyjście Q na 1, gdy Ta osiągnie czas T. Kolejny impuls na wejściu Trg nie wpływa na Ta.</p>
+<p>Wyjście i czas Ta są resetowane do 0 tylko przy sygnale 1 na wejściu R.</p>
+<p>Jeśli nie ustawisz pamięci, wyjście Q i upłynięty czas są resetowane po awarii zasilania.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

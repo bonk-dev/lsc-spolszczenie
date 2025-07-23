@@ -1,0 +1,124 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tekst komunikatu (LOGO! 0BA2 i LOGO! 0BA3)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Tekst komunikatu (LOGO! 0BA2 i LOGO! 0BA3)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229150347_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+<TableTitle />
+<p>
+<table id="7731c4d2-f7fa-7488-c786-7b5f7dfae4b9" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Tekst komunikatu jest dostępny tylko dla urządzeń od serii sprzętowej 0BA2.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyświetlanie skonfigurowanego tekstu komunikatu w trybie RUN.</p>
+<TableTitle />
+<p>
+<table id="5af22840-0b71-4cbc-94dd-ccedcdc483d1" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tekst komunikatu jest wyświetlany przy przejściu z 0 na 1 na wejściu En (Enable).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr <b>P</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">P oznacza priorytet tekstu komunikatu.<p>0 to najniższy, a 9 najwyższy priorytet.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">Par: Parametr lub wartość rzeczywista innej, już zaprogramowanej funkcji<br />(patrz "Wyświetlane parametry lub wartości rzeczywiste")</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q pozostaje ustawione tak długo, jak tekst komunikatu jest w kolejce.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>W trybie RUN, przejście sygnału z 0 na 1 na wejściu En wyzwala wyświetlenie skonfigurowanego tekstu komunikatu na wyświetlaczu. Tekst komunikatu jest zamykany po przejściu z 1 na 0 na wejściu En, jeśli atrybut potwierdzenia nie jest ustawiony. Jeśli atrybut potwierdzenia jest ustawiony, tekst komunikatu nie jest zamykany, dopóki En=0 i komunikat nie zostanie potwierdzony w LOGO! przyciskiem OK. Stan na wyjściu Q pozostaje 1 tak długo, jak tekst komunikatu jest wyświetlany.</p>
+<p>Z kilku funkcji tekstu komunikatu wyzwalanych przez En=1, wyświetlana jest ta o najwyższym priorytecie. Komunikaty o niskim priorytecie można również wyświetlić, naciskając przycisk  <img src="../images/11686692235_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:7" alt="" /> na LOGO!.</p>
+<p>Można przełączać się między standardowym wyświetlaczem a wyświetlaczem tekstu komunikatu za pomocą przycisków LOGO!  <img src="../images/11686675339_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:7" alt="" /> i  <img src="../images/11686692235_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:7" alt="" />.</p>
+
+<p class="blocktitle">Ograniczenia</p>
+<p>Dostępnych jest do pięciu funkcji tekstu komunikatu.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia podczas konfiguracji</p>
+<p>Tekst komunikatu można skonfigurować w oknie dialogowym właściwości bloku. Można wprowadzić do czterech linii dla każdego tekstu komunikatu (wyświetlacz LOGO! ma cztery rzędy) i ustawić priorytet. Można przejść do następnej linii za pomocą klawiszy kursora lub myszy. Naciśnij klawisz [ENTER], aby potwierdzić wszystkie wpisy w oknie dialogowym właściwości bloku i zamknąć okno dialogowe.</p>
+<p>Można również wprowadzić rzeczywiste wartości innych bloków w liniach tekstu. W tym celu wybierz odpowiedni blok z okna dialogowego <b>Blok</b>. Otworzy się okno dialogowe <b>Parametr</b>, wyświetlające listę wszystkich dostępnych parametrów dla wybranego bloku. Parametr bloku wybrany w tym oknie dialogowym jest zapisywany w wybranej linii tekstu. Rzeczywista wartość parametru jest teraz uwzględniana podczas wywoływania tekstu komunikatu.</p>
+<p>Ustaw atrybut "Potwierdź komunikat", aby określić, czy komunikat ma być potwierdzony przed zamknięciem.</p>
+
+<p class="blocktitle">Tryb symulacji</p>
+<p>
+<a href="../11965523851/12126631051.htm">Układ tekstów komunikatów</a> </p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

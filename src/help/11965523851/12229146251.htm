@@ -1,0 +1,169 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przekaźnik impulsowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przekaźnik impulsowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229131915_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest ustawiane i resetowane krótkim impulsem na wejściu.  </p>
+<TableTitle />
+<p>
+<table id="39ea7223-8822-4331-994f-ad0c31e057fd" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Włączasz lub wyłączasz wyjście Q sygnałem na wejściu Trg (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>S</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Impuls na wejściu S (Set) ustawia wyjście na wartość logiczną 1.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Impuls na wejściu R (Reset) resetuje wyjście do wartości logicznej 0.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wybór:</b>
+<p>RS (priorytet wejścia R) lub<br />SR (priorytet wejścia S)</p>
+<p class="p_table_l">
+<b>Retentywność</b> ustawiona (włączona) = stan jest zachowywany w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q jest włączane sygnałem na Trg i resetowane przy następnym impulsie Trg, jeśli zarówno S, jak i R = 0.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="d07ef362-d913-46a0-9848-2be775ec6986" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA0-0BA3:</b>
+<br />Funkcja specjalna nie ma wejścia S i wstępnego wyboru priorytetu.</p>
+<p class="p_table_l">Dla wyjścia Q obowiązuje: <br />Q jest włączane sygnałem na Trg i wyłączane przy następnym sygnale na Trg lub R.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+ <p class="imagecontainer">
+<img src="../images/12229137419_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:214" alt="" />
+</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/12457158795_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:383" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Stan wyjścia Q zmienia się przy każdym przejściu z 0 na 1 na wejściu Trg i jeśli zarówno S, jak i R = 0, czyli wyjście jest włączane lub wyłączane.</p>
+<p>Wejście Trg nie wpływa na SFB, gdy S = 1 lub R = 1.</p>
+<p>Impuls na wejściu S ustawia przekaźnik impulsowy, czyli wyjście jest ustawiane na wartość logiczną 1.</p>
+<p>Impuls na wejściu R resetuje przekaźnik impulsowy do stanu początkowego, czyli wyjście jest ustawiane na wartość logiczną 0.</p>
+<p>Albo wejście R ma priorytet nad wejściem S (sygnał na wejściu S nie ma efektu, dopóki R = 1), albo wejście S ma priorytet nad wejściem R (sygnał na wejściu R nie ma efektu, dopóki S = 1), w zależności od konfiguracji.</p>
+<TableTitle />
+<p>
+<table id="545c01e9-306f-4856-980d-08baa81b1cc3" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA0-0BA3:</b>
+</p>
+<p class="p_table_l">Obowiązująca funkcja to:<br />Stan na wyjściu Q jest przełączany przy każdym przejściu z 0 na 1 na wejściu Trg, czyli wyjście jest włączane lub wyłączane.</p>
+<p class="p_table_l">Resetujesz przekaźnik impulsowy do stanu początkowego impulsem na wejściu, czyli wyjście jest resetowane do 0.</p>
+<p class="p_table_l">Przekaźnik impulsowy jest resetowany, a wyjście Q = 0 po włączeniu zasilania lub przez sygnał resetujący.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Uwaga</p>
+<p>Jeśli Trg = 0 i Par = RS, SFB "Przekaźnik impulsowy" odpowiada funkcji SFB "Przekaźnik zatrzaskowy".</p>
+<p />
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

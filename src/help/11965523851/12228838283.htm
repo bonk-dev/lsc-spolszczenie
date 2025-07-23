@@ -1,0 +1,172 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Analogowy wyzwalacz różnicowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Analogowy wyzwalacz różnicowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228818443_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest ustawiane i resetowane w zależności od konfigurowalnego progu i wartości różnicowej.</p>
+<TableTitle />
+<p>
+<table id="01e2e234-1b8e-4e26-8f7a-2f6eeaa12651" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM6 (jeśli 0BA6), AM1 do AM16 (jeśli 0BA7) lub AM1 do AM64 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (jeśli 0BA7) lub AQ1 do AQ8 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p> Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie </b>
+<br /> Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>Wł.:</b> Próg włączenia/wyłączenia<br /> Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">&#x394;: Wartość różnicowa do obliczenia parametru wyłączenia<br /> Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc dziesiętnych<br /> Zakres wartości: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane lub resetowane w zależności od wartości progu i różnicy.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="8255c0b7-e646-43cb-87b8-b05243676947" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">A: Wzmocnienie</p>
+<p class="p_table_l">Zakres wartości: 0.00 do 10.00</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc dziesiętnych)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości On, Off i Ax w tekście komunikatu.</p>
+<p>Parametr p nie dotyczy porównywania wartości On i Off. (Funkcja porównania ignoruje przecinek dziesiętny.)</p>
+
+<p class="blocktitle">Diagram czasowy A: Funkcja z ujemną różnicą Delta</p>
+ <p class="imagecontainer">
+<img src="../images/137144228491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:383" alt="" />
+</p>
+
+<p class="blocktitle">Diagram czasowy B: Funkcja z dodatnią różnicą Delta</p>
+ <p class="imagecontainer">
+<img src="../images/137144232843_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:383" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja pobiera sygnał analogowy na wejściu Ax.</p>
+<p>Ax jest mnożony przez wartość parametru A (wzmocnienie), a do iloczynu dodawana jest wartość parametru B (przesunięcie), tj.</p>
+<p>(Ax * wzmocnienie) + przesunięcie = rzeczywista wartość Ax.</p>
+<p>Wyjście Q jest ustawiane lub resetowane w zależności od ustawionego progu (On) i wartości różnicowej (Delta). Funkcja automatycznie oblicza parametr Off: Off = On + Delta, przy czym Delta może być dodatnia lub ujemna. Zobacz regułę obliczeniową poniżej.</p>
+
+<p class="blocktitle">Reguła obliczeniowa</p>
+<ul>
+<li>
+<p>Gdy ustawisz ujemną wartość różnicową Delta, próg On ≥ próg Off, i:<br />Q = 1, jeśli rzeczywista wartość Ax > On<br />Q = 0, jeśli rzeczywista wartość Ax ≤ Off.<br />Zobacz diagram czasowy A.</p>
+</li>
+<li>
+<p>Gdy ustawisz dodatnią wartość różnicową Delta, próg On < próg Off, i Q = 1, jeśli:<br />On ≤ rzeczywista wartość Ax < Off.<br />Zobacz diagram czasowy B.</p>
+</li>
+</ul>
+
+<p class="blocktitle">Szczególne cechy, na które należy zwrócić uwagę podczas konfiguracji</p>
+<p>Zapoznaj się z pomocą dotyczącą parametrów bloków analogowych w sekcji Informacje o <a href="../11965523851/12228970379.htm">przetwarzaniu wartości analogowych</a>.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

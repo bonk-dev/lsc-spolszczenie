@@ -1,0 +1,291 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Licznik godzin</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Licznik godzin<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228754571_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Skonfigurowany czas jest wyzwalany sygnałem na wejściu monitorującym. Wyjście jest ustawiane, gdy ten czas upłynie.     </p>
+<TableTitle />
+<p>
+<table id="41b0ebf7-d9ed-4c7a-8a14-17de779db0b9" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze (przejście z 0 na 1) na wejściu <b>R</b> resetuje wyjście <b>Q</b> i ustawia skonfigurowaną wartość MI w liczniku na czas pozostały (MN).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>En</b> jest wejściem monitorującym. LOGO! skanuje czas włączenia tego wejścia.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ral</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze na wejściu Ral (Reset all) resetuje licznik godzin (OT) i wyjście, oraz ustawia wartość czasu pozostałego (MN) na skonfigurowany interwał konserwacyjny (MI):</p>
+<ul class="table">
+<li>
+<p>Wyjście Q = 0</p>
+</li>
+<li>
+<p>Zmierzony czas pracy OT = 0</p>
+</li>
+<li>
+<p>Czas pozostały do interwału konserwacyjnego MN = MI.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>MI</b>: Interwał konserwacyjny do określenia w jednostkach godzin i minut<p>Zakres wartości: 0000 h do 9999 h, 0 m do 59 m</p>
+<p class="p_table_l">
+<b>OT: </b>Skumulowany całkowity czas pracy. Można określić początkowy czas przesunięcia w godzinach i minutach.<br />Zakres wartości: 00000 h do 99999 h, 0 m do 59 m</p>
+<p class="p_table_l">
+<b>Q &#x2192; 0</b>:</p>
+<ul class="table">
+<li>
+<p>
+<b>Gdy wybrano "R":</b>
+<br />Q = 1, jeśli MN = 0;<br />Q = 0, jeśli R = 1 lub Ral = 1</p>
+</li>
+<li>
+<p>
+<b>Gdy wybrano "R+En"</b>:<br />Q = 1, jeśli MN = 0;<br />Q = 0, jeśli R = 1 lub Ral = 1 lub En = 0.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście jest ustawiane, gdy czas pozostały MN = 0. Wyjście jest resetowane:</p>
+<ul class="table">
+<li>
+<p>
+<b>Gdy "Q &#x2192; 0:R+En",</b>
+<br />jeśli R = 1 lub Ral = 1 lub En = 0</p>
+</li>
+<li>
+<p>
+<b>Gdy "Q &#x2192; 0:R</b>", <br />jeśli R = 1 lub Ral = 1.</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr MI</p>
+<p>Interwał konserwacyjny MI może być dostarczony przez aktualną wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych, można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg częstotliwości: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137143793035_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:454" alt="" />
+</p>
+<p>Te wartości są zawsze retencyjne.</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Licznik godzin monitoruje wejście En. Dopóki stan na tym wejściu wynosi 1, LOGO! oblicza upływający czas i czas pozostały MN. LOGO! wyświetla te czasy w trybie konfiguracji. Wyjście jest ustawiane na 1, gdy czas pozostały jest równy zero.</p>
+<p>Resetujesz wyjście Q i licznik czasu pozostałego do określonej wartości MI sygnałem na wejściu R. Licznik godzin pracy OT pozostaje niezmieniony.</p>
+<p>Resetujesz wyjście Q i licznik czasu pozostałego do określonej wartości MI sygnałem na wejściu Ral. Licznik godzin pracy OT jest resetowany do 0.</p>
+<p>W zależności od konfiguracji parametru Q, wyjście jest resetowane sygnałem resetującym na wejściu R lub Ral ("Q <b> &#x2192; </b> R"), lub gdy sygnał resetujący wynosi 1 lub sygnał En wynosi 0 ("Q <b> &#x2192; </b> R+En").</p>
+
+<p class="blocktitle">Podgląd wartości MI, MN i OT</p>
+<p>W LOGO!Soft Comfort można pobrać licznik godzin poprzez polecenie menu <a href="../11965523851/12207925771.htm">Narzędzia -&gt; Transfer -&gt; Licznik godzin</a>.</p>
+
+<p class="blocktitle">Wartość graniczna OT</p>
+<p>Wartość godzin pracy w OT jest zachowywana przy resecie licznika godzin sygnałem na wejściu R. Licznik godzin OT zostanie zresetowany do zera przy przejściu z 0 na 1 na Ral. Licznik godzin OT kontynuuje zliczanie, dopóki En = 1, niezależnie od stanu na wejściu resetującym R. Limit licznika OT wynosi 99999 h. Licznik godzin zatrzymuje się po osiągnięciu tej wartości. </p>
+<p>W trybie programowania można ustawić początkową wartość OT. MN jest obliczany według następującego wzoru, gdy wejście resetujące R nigdy nie jest włączone: MN = MI - (OT % MI). Operator % oznacza resztę z dzielenia całkowitego.</p>
+<p>Przykład:</p>
+<p>MI = 30h, OT = 100h</p>
+<p>MN = 30 - (100 % 30)</p>
+<p>MN = 30 -10</p>
+<p>MN = 20h</p>
+ <p class="imagecontainer">
+<img src="../images/137143888139_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:302" alt="" />
+</p>
+<p>W trybie pracy wartość OT nie może być ustawiona. Jeśli wartość MI zostanie zmieniona, nie będzie obliczeń dla MN. MN przyjmie wartość MI.</p>
+
+<p class="blocktitle">Ustawienie parametrów</p>
+<p>W LOGO!Soft Comfort można zdefiniować MI i początkową wartość OT.</p>
+<p>Można określić, że Q nie zależy od En, zaznaczając odpowiednie pole wyboru.</p>
+
+<p class="blocktitle">Retencyjność w liczniku godzin</p>
+<p>Licznik godzin w LOGO! jest retencyjny.</p>
+<p>Jeśli wartości licznika godzin zostaną utracone po awarii zasilania, należy wybrać odpowiedni blok w programie obwodu. Kliknij prawym przyciskiem myszy licznik godzin i wybierz <b>Właściwości bloku</b>
+<b> &gt; </b>
+<b>Parametr</b>. Opcja <b>Retencyjność </b>musi być aktywowana i niezmienna (wyszarzona).</p>
+<p>Jeśli opcja <b>Retencyjność </b>nie jest dostępna, należy usunąć blok i wstawić nową funkcję specjalną <b>licznik godzin </b>w tym samym miejscu.</p>
+<TableTitle />
+<p>
+<table id="19f2a537-ff4f-49a8-89bd-ba46f2cf14eb" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA0-0BA5:</b>
+</p>
+<p class="p_table_l">Interwał konserwacyjny (MI) i czas początkowy dla czasu pracy (OT) były w jednostkach godzin. </p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Reset wartości</p>
+<p>Jeśli pobierzesz program obwodu zawierający funkcję licznika godzin z LOGO!Soft Comfort do modułu podstawowego LOGO! 0BA7 lub LOGO! 0BA8, LOGO!Soft Comfort zapyta, czy kontynuować. Jeśli kontynuujesz pobieranie, wartość licznika godzin jest resetowana.</p>
+ <p class="imagecontainer">
+<img src="../images/27311652235_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:419" alt="" />
+</p>
+<p />
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Jeśli skopiujesz program obwodu zawierający funkcję licznika godzin z karty SD do modułu podstawowego LOGO!, wartość licznika godzin jest resetowana bez powiadomienia.</p>
+</td>
+</tr>
+</table>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

@@ -1,0 +1,341 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Narzędzia -> Połączenia Ethernet (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Narzędzia -> Połączenia Ethernet (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>Użyj tego polecenia menu, aby skonfigurować połączenia Ethernet dla modułu bazowego LOGO!.</p>
+       <p class="imagecontainer">
+<img src="../images/162543007883_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+<p>
+<table id="fb16cb60-d308-45c8-82ed-34db51bec07d" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj wybierasz metodę połączenia Ethernet.</p>
+<p class="p_table_l">Najpierw należy włączyć dostęp S7 lub Modbus przed konfiguracją połączeń Ethernet. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Ethernet. </p>
+<p class="p_table_l">Aby dodać połączenie klient/serwer, możesz kliknąć prawym przyciskiem myszy na element połączenia, aby aktywować przyciski<b>:</b>
+</p>
+ <p class="imagecontainer">
+<img src="../images/135138340491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:300" alt="" />
+</p>
+<p>Tutaj możesz zdefiniować do ośmiu połączeń sieciowych, które są połączeniami komunikacyjnymi S7/Modbus opartymi na TCP/IP z następującymi urządzeniami:</p>
+<ul class="table">
+<li>
+<p>Dodatkowe urządzenia LOGO!</p>
+</li>
+<li>
+<p>Sterowniki SIMATIC S7 z obsługą Ethernet</p>
+</li>
+<li>
+<p>Urządzenia Modbus z obsługą Ethernet</p>
+</li>
+<li>
+<p>Maksymalnie jeden panel operatorski SIMATIC HMI obsługujący komunikację Ethernet z urządzeniami S7/Modbus w sieci</p>
+</li>
+<li>
+<p>Urządzenia CIM (Communicative Interface Module) z obsługą Ethernet</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Więcej szczegółowych informacji na temat konfiguracji komunikacji S7 między modułem bazowym LOGO!, sterownikami SIMATIC, panelami HMI i urządzeniami CIM można znaleźć w sekcji FAQ w zakładce Wsparcie na <a href="http://www.siemens.com/logo">stronie LOGO!</a>.</p>
+</td>
+</tr>
+</table>
+
+<p class="blocktitle">Konfiguracja połączeń klienta S7</p>
+<p>Każde połączenie S7 można skonfigurować jako klienta lub serwer, w którym odpowiednio konfiguruje się lokalny IP/lokalny TSAP (Transmission Layer Service Access Point) oraz zdalny IP/zdalny TSAP. Serwer jest stroną źródłową danych w komunikacji, wysyła informacje w odpowiedzi na żądania z drugiej strony - klienta.</p>
+<p>Aby skonfigurować połączenia klienta lub serwera dla każdego połączenia LOGO!, kliknij dwukrotnie na połączenie.</p>
+<p>Kliknij prawym przyciskiem myszy na wybrane połączenie i wybierz dodanie połączenia klienta.</p>
+<p>Kliknij dwukrotnie na element połączenia, aby skonfigurować połączenie klienta. </p>
+ <p class="imagecontainer">
+<img src="../images/137239332491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+<p>
+<table id="aa77f25a-2b3c-4fce-8a7d-baf8cf153939" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93.1%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Klienta.</p>
+<p class="p_table_l">TSAP to punkt dostępu do usług warstwy transmisji w komunikacji TCP/IP. </p>
+<p class="p_table_l">Lokalny TSAP Klienta jest automatycznie generowany przez LOGO!Soft Comfort.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Serwera. </p>
+<p class="p_table_l">Zdalny TSAP to TSAP Serwera, z którym chcesz się połączyć.</p>
+<p class="p_table_l">Zdalny adres IP to adres IP Serwera, z którym chcesz się połączyć.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2462;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości połączenia transferu danych. (Odczyt: Klient &lt;- Serwer, Zapis: Klient -> Serwer)</p>
+<p class="p_table_l">Możesz utworzyć maksymalnie 32 transfery danych w połączeniu Klienta. </p>
+<p class="p_table_l">W procesie odczytu lokalny moduł bazowy odczytuje dane ze zdalnego serwera i je przechowuje; w procesie zapisu lokalny moduł bazowy zapisuje dane na zdalnym serwerze. Dane można przechowywać zarówno na lokalnym module bazowym, jak i na zdalnym serwerze, wskazując odpowiednią kolumnę. Maksymalna długość transferowanych danych wynosi 212 bajtów dla każdego transferu danych.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Konfiguracja transferu danych S7</p>
+<p>W tabeli transferu danych podczas konfigurowania połączeń klienta można ustawić następujące wartości:</p>
+<ol>
+<li>
+<p>Kliknij następujące menu rozwijane, aby wybrać wartość danych do transferu. </p>
+ <p class="imagecontainer">
+<img src="../images/58155353611_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:41" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź jeden adres w polu adresu.  </p>
+</li>
+<li>
+<p>Jeśli skonfigurowałeś mapowanie VM, możesz również kliknąć   <img src="../images/58159706507_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:16" alt="" />   aby wyświetlić tabelę mapowania VM jak poniżej: </p>
+ <p class="imagecontainer">
+<img src="../images/67080192011_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:180" alt="" />
+</p>
+<p>W tabeli mapowania VM można wykonać następujące operacje: </p>
+<ul>
+<li>
+<p>Kliknij kolumnę, aby wybrać żądany adres lub kliknij i przeciągnij w dół i w górę, aby wybrać wiele adresów.</p>
+</li>
+<li>
+<p>Kliknij pola mapowania, aby przełączyć się na okno dialogowe mapowania parametrów VM. </p>
+</li>
+<li>
+<p>Kliknij i przeciągnij czarną strzałkę w prawym dolnym rogu, aby rozwinąć lub zmniejszyć tabelę. </p>
+</li>
+</ul>
+<p>Więcej informacji na temat mapowania VM można znaleźć w sekcji <a href="../11965523851/25633464843.htm">Narzędzia -> Mapowanie parametrów VM (tylko wersje 0BA7 i nowsze)</a>. </p>
+</li>
+<li>
+<p>Kliknij puste menu rozwijane, aby wybrać kierunki transferu danych. </p>
+ <p class="imagecontainer">
+<img src="../images/58155362443_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:68" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź drugi adres. </p>
+</li>
+<li>
+<p>Aby dodać lub usunąć wiersze, kliknij prawym przyciskiem myszy na istniejący wiersz, aby aktywować przyciski. </p>
+ <p class="imagecontainer">
+<img src="../images/64228953227_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:92" alt="" />
+</p>
+</li>
+<li>
+<p>Zapisz zmiany.  </p>
+</li>
+</ol>
+
+<p class="blocktitle">Konfiguracja połączeń serwera S7</p>
+<p>Kliknij dwukrotnie na element połączenia, aby skonfigurować połączenie serwera. </p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Jeśli Serwerem w tym połączeniu jest SIMATIC S7, należy skonfigurować połączenie serwera na dodanym urządzeniu.</p>
+</td>
+</tr>
+</table>
+ <p class="imagecontainer">
+<img src="../images/137240699787_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:519" alt="" />
+</p>
+<p>
+<table id="783962c1-f5a9-433f-b07f-87e7053750bc" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93.1%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Serwera. </p>
+<p class="p_table_l">TSAP: Zakres w module bazowym LOGO! wynosi od 20.00 do FF.FF.</p>
+<p class="p_table_l">Lokalny TSAP Serwera jest automatycznie generowany przez LOGO!Soft Comfort. Jeśli panelem operatorskim (SIMATIC HMI) jest Klient w tym połączeniu, zaznacz pole wyboru "Połącz z panelem operatorskim (OP)". LOGO!Soft Comfort automatycznie zmieni wtedy TSAP na 02.00.</p>
+<p class="p_table_l">Jeśli zaznaczysz pole wyboru "Akceptuj wszystkie żądania połączeń", Serwer odpowiada na żądania od wszystkich Klientów w sieci.</p>
+<p class="p_table_l">Serwer może zaakceptować żądanie tylko od jednego adresu IP. Ten adres to adres IP klienta, z którym chcesz się połączyć.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Klienta. </p>
+<p class="p_table_l">Zdalny TSAP to TSAP Klienta, z którym chcesz się połączyć.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Ograniczenia transferu danych</p>
+<p>Poniższa tabela opisuje zakres i ograniczenia lokalnych adresów dla połączeń klienta.</p>
+<p>
+<b>Żądania odczytu</b>:</p>
+<TableTitle />
+<p>
+<table id="b692db53-852d-46d1-b1f4-c1cfe425c330" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="17.4%" />
+<col width="18.1%" />
+<col width="22.6%" />
+<col width="41.7%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">
+<p class="p_table_lb">Adres lokalny (LOGO!)</p>
+</th>
+<th colspan="2">
+<p class="p_table_lb">Adres zdalny (urządzenie zgodne z S7)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">VB</p>
+</td>
+<td>
+<p class="p_table_l">0 do 850</p>
+</td>
+<td>
+<p class="p_table_l">VB</p>
+<p class="p_table_l">DB.DBB</p>
+<p class="p_table_l">MB</p>
+<p class="p_table_l">IB</p>
+<p class="p_table_l">QB</p>
+</td>
+<td>
+<p class="p_table_l">0 do 65535</p>
+<p class="p_table_l">DB[0 do 16000].DBB[0 do 65535]</p>
+<p class="p_table_l">0 do 65535</p>
+<p class="p_table_l">0 do 65535</p>
+<p class="p_table_l">0 do 65535</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Typ adresu:</p>
+<ul class="safety">
+<li class="safety">
+<p>VB: pamięć bajtowa zmiennych</p>
+</li>
+<li class="safety">
+<p>DB.DBB: pamięć bajtowa bloku danych</p>
+</li>
+<li class="safety">
+<p>MB: pamięć bajtowa flag</p>
+</li>
+<li class="safety">
+<p>IB: pamięć bajtowa wejść</p>
+</li>
+<li class="safety">
+<p>QB: pamięć bajtowa wyjść</p>
+</li>
+</ul>
+<p>Adres lokalny + Długość danych - 1 &#x2264; 850</p>
+</td>
+</tr>
+</table>
+<p>Poniższa tabela opisuje zakres i ograniczenia lokalnych adresów połączenia klienta.</p>
+<p>
+<b>Żądania zapisu</b>:</p>
+<TableTitle />
+<p>
+<table id="8aee8246-fa91-47

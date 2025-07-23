@@ -1,0 +1,92 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Używanie UDF w programie obwodowym FBD lub innej UDF</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Używanie UDF w programie obwodowym FBD lub innej UDF<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>Dostępne są dwie metody konfiguracji biblioteki UDF:</p>
+      <ul>
+        <li>
+          <p>Wybierz polecenie menu <a href="../11965523851/25633479435.htm">Narzędzia -&gt; Opcje: UDF</a></p>
+        </li>
+        <li>
+          <p>Kliknij prawym przyciskiem myszy "UDF" w następującym drzewie instrukcji i wybierz "<span class="circlednumber">&#x2460;</span>", aby wywołać okno dialogowe konfiguracji biblioteki UDF</p>
+           <p class="imagecontainer">
+<img src="../images/61906332171_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:278" alt="" />
+</p>
+</li>
+      </ul>
+      <p>Drzewo bloków pokazuje skonfigurowane UDF-y i bibliotekę UDF: </p>
+       <p class="imagecontainer">
+<img src="../images/64824391947_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:288" alt="" />
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>UDF utworzony na module bazowym LOGO! 0BA8 jest nieważny dla modułu bazowego LOGO! 0BA7.  </p>
+</td>
+</tr>
+</table>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Nie wszystkie UDF-y mogą być używane w programie obwodowym. Nieprawidłowe UDF-y pojawiają się w drzewie bloków, ale są wyszarzone. UDF jest nieprawidłowy, jeśli spełnia jeden lub więcej z następujących warunków:</p>
+<ul class="safety">
+<li class="safety">
+<p>UDF nie ma bloków ani złączy</p>
+</li>
+<li class="safety">
+<p>UDF ma złącza wejściowe lub wyjściowe, ale brak połączeń blokowych</p>
+</li>
+<li class="safety">
+<p>UDF zawiera bloki, ale brak złączy wejściowych lub wyjściowych</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<p>Program obwodowy może zawierać maksymalnie 16 różnych UDF-ów i nie więcej niż 64 instancje UDF w sumie.</p>
+<p>W programie obwodowym interakcja z UDF-ami jest spójna z innymi blokami funkcyjnymi. Podwójne kliknięcie, na przykład, wywołuje następujące okno dialogowe. W tym oknie dialogowym można ustawić nazwy użytkownika i komentarze, podobnie jak w innych blokach funkcyjnych.</p>
+ <p class="imagecontainer">
+<img src="../images/66202454027_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:271" alt="" />
+</p>
+<p>Podobnie, inne bloki mogą odwoływać się do parametrów UDF, na przykład można przeciągnąć złącze wejściowe pola parametrów bloku funkcyjnego do złącza wyjściowego pola parametrów bloku UDF:</p>
+ <p class="imagecontainer">
+<img src="../images/59133557515_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:293" alt="" />
+</p>
+<p>Można uwzględnić edytowalne parametry UDF w <a href="../11965523851/58902160395.htm">tekstach wiadomości</a>:</p>
+ <p class="imagecontainer">
+<img src="../images/59049098379_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:500" alt="" />
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Nie można odwrócić złączy wejściowych UDF.</p>
+</td>
+</tr>
+</table>
+<p>Jeśli UDF wewnętrznie odwołuje się do parametru dostarczanego przez inny już zaprogramowany blok funkcyjny, ten parametr pojawia się jako "<b>U*</b>" podczas używania UDF w programie obwodowym, na przykład:</p>
+ <p class="imagecontainer">
+<img src="../images/59049101707_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:92" alt="" />
+</p>
+</div>
+  </body>
+</html>

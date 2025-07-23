@@ -1,0 +1,134 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Filtr analogowy (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Filtr analogowy (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/26469834379_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:96" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Blok funkcjonalny filtra analogowego służy do wygładzania sygnału wejściowego analogowego.</p>
+<TableTitle />
+<p>
+<table id="aaded879-e3d4-466f-ba76-33b39399a928" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM16 (wersja 0BA7) lub AM1 do AM64 (wersja 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (wersja 0BA7) lub AQ1 do AQ8 (wersja 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Sn</b>
+<b> </b>(Liczba próbek): określa, ile wartości analogowych jest próbkowanych w cyklach programu określonych przez ustawioną liczbę próbek. LOGO! próbkuje wartość analogową w każdym cyklu programu. Liczba cykli programu jest równa ustawionej liczbie próbek.</p>
+<p class="p_table_l">Możliwe ustawienia:</p>
+<p class="p_table_l">8, 16, 32, 64, 128, 256</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>AQ</b> wyprowadza średnią wartość wejścia analogowego <b>Ax</b> w bieżącej liczbie próbek i jest ustawiane lub resetowane w zależności od wejścia analogowego i liczby próbek.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada wartościom 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr</p>
+<p>Liczbę próbek można ustawić na następujące wartości:</p>
+ <p class="imagecontainer">
+<img src="../images/60078383499_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:368" alt="" />
+</p>
+<p>Po ustawieniu parametru filtr analogowy oblicza średnią wartość próbek i przypisuje tę wartość do AQ.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144526091_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:510" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja wyprowadza wartość średnią po próbkowaniu sygnału wejściowego analogowego zgodnie z ustawioną liczbą próbek. Ten SFB może zmniejszyć błąd sygnału wejściowego analogowego.</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>W programie obwodowym w LOGO!Soft Comfort V7.0 lub V8.0 dostępnych jest maksymalnie osiem bloków funkcjonalnych filtra analogowego.</p>
+</td>
+</tr>
+</table>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd funkcji specjalnych</a> </p>
+</div>
+  </body>
+</html>

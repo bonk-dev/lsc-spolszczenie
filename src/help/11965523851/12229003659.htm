@@ -1,0 +1,227 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przykład</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przykład<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania wstępne</p>
+      <p>Czujnik: czujnik temperatury, zakres pomiarowy: -50 °C do 100 °C </p>
+      <p>Temperatura do zmierzenia: 25 °C</p>
+      
+      <p class="blocktitle">Kolejność zdarzeń w LOGO!Soft Comfort</p>
+      <ol>
+        <li>
+          <p>Czujnik przetwarza temperaturę z 25 °C na wartość napięcia 5.0 V.</p>
+        </li>
+        <li>
+          <p>LOGO!Soft Comfort przelicza 5.0 V na znormalizowaną wartość 500.</p>
+        </li>
+        <li>
+          <p>Korzystając z danych czujnika i zakresu pomiarowego, LOGO!Soft Comfort oblicza i ustala wartość 0.15 dla wzmocnienia oraz -50 dla przesunięcia.<p>Zgodnie ze wzorem:<br />Wartość analogowa = (wartość znormalizowana × wzmocnienie) + przesunięcie <br />LOGO!Soft Comfort oblicza wartość analogową:<br />Wartość analogowa = (500 × 0.15) - 50 = 25</p>
+        </li>
+      </ol>
+      
+      <p class="blocktitle">Kolejność zdarzeń w LOGO!</p>
+      <ol>
+        <li>
+          <p>Czujnik przetwarza temperaturę z 25 °C na wartość napięcia 5.0 V.</p>
+        </li>
+        <li>
+          <p>LOGO! przelicza 5.0 V na znormalizowaną wartość 500.</p>
+        </li>
+        <li>
+          <p>Na podstawie danych czujnika i zakresu pomiarowego należy ustalić wartości wzmocnienia i przesunięcia.<br />Zgodnie ze wzorami:<br />Wzmocnienie = (max<sub>Czujnik</sub> – min<sub>Czujnik</sub>) / (max<sub>norm</sub> – min<sub>norm</sub>)<br />oraz<br />Przesunięcie = min<sub>Czujnik</sub> – (Wzmocnienie × min<sub>norm</sub>)<br />wynika, że<br />Wzmocnienie = (100 – (-50)) / (1000 – 0) = 0.15<br />Przesunięcie = -50 – (0.15 × 0) = -50</p>
+        </li>
+        <li>
+          <p>Zgodnie ze wzorem<br />Wartość analogowa = (wartość znormalizowana × wzmocnienie) + przesunięcie <br />LOGO! oblicza wartość analogową:<br />Wartość analogowa = (500 × 0.15) - 50 = 25</p>
+        </li>
+      </ol>
+      
+      <p class="blocktitle">Dodatkowe przykłady</p>
+      <TableTitle />
+      <p>
+        <table id="0bf642ba-1465-4f0f-b294-098f23f1affc" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+          <colgroup>
+            <col width="16.6%" />
+            <col width="16.6%" />
+            <col width="16.6%" />
+            <col width="16.6%" />
+            <col width="16.6%" />
+            <col width="16.6%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>
+                <p class="p_table_lb">Wielkość fizyczna</p>
+              </th>
+              <th>
+                <p class="p_table_lb">Wielkość elektryczna czujnika</p>
+              </th>
+              <th>
+                <p class="p_table_lb">Wartość znormalizowana</p>
+              </th>
+              <th>
+                <p class="p_table_lb">Wzmocnienie</p>
+              </th>
+              <th>
+                <p class="p_table_lb">Przesunięcie</p>
+              </th>
+              <th>
+                <p class="p_table_lb">Wartość analogowa</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">0 V</p>
+                <p class="p_table_l">5 V</p>
+                <p class="p_table_l">10 V</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">500</p>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">0.01</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">5</p>
+                <p class="p_table_l">10</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">4 mA</p>
+                <p class="p_table_l">12 mA</p>
+                <p class="p_table_l">20 mA</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">500</p>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">10</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">5000</p>
+                <p class="p_table_l">10000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">0 mA</p>
+                <p class="p_table_l">10 mA</p>
+                <p class="p_table_l">20 mA</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">500</p>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">1</p>
+              </td>
+              <td>
+                <p class="p_table_l">50</p>
+              </td>
+              <td>
+                <p class="p_table_l">50</p>
+                <p class="p_table_l">550</p>
+                <p class="p_table_l">1050</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">1000 mbar</p>
+                <p class="p_table_l">3700 mbar</p>
+                <p class="p_table_l">5000 mbar</p>
+              </td>
+              <td>
+                <p class="p_table_l">O V</p>
+                <p class="p_table_l">6.75 V</p>
+                <p class="p_table_l">10 V</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">675</p>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">4</p>
+              </td>
+              <td>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">1000</p>
+                <p class="p_table_l">3700</p>
+                <p class="p_table_l">5000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">-30 °C</p>
+                <p class="p_table_l">0 °C</p>
+                <p class="p_table_l">70 °C</p>
+              </td>
+              <td>
+                <p class="p_table_l">0 mA</p>
+                <p class="p_table_l">6 mA</p>
+                <p class="p_table_l">20 mA</p>
+              </td>
+              <td>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">300</p>
+                <p class="p_table_l">1000</p>
+              </td>
+              <td>
+                <p class="p_table_l">0.1</p>
+              </td>
+              <td>
+                <p class="p_table_l">-30</p>
+              </td>
+              <td>
+                <p class="p_table_l">-30</p>
+                <p class="p_table_l">0</p>
+                <p class="p_table_l">70</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
+    </div>
+  </body>
+</html>

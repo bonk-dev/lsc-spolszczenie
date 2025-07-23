@@ -1,0 +1,147 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jak połączyć się z Hive MQTT</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Jak połączyć się z Hive MQTT<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania</p>
+      <ul>
+        <li>
+          <p>Dostęp do chmury jest włączony w LOGO!Soft Comfort</p>
+        </li>
+      </ul>
+      
+      <p class="blocktitle">Procedury</p>
+      <p>Wykonaj te kroki, aby skonfigurować połączenie IoT między LOGO! BM a Hive MQTT. </p>
+      <ol>
+        <li>
+          <p>Zarejestruj się w <a href="https://console.hivemq.cloud/?utm_source=hivemq-com&amp;utm_medium=download-page&amp;utm_campaign=cloud">HiveMQ Cloud</a>.</p>
+        </li>
+        <li>
+          <p>Zaloguj się.</p>
+        </li>
+        <li>
+          <p>Kliknij <span class="circlednumber">&#x2462;</span>, aby uzyskać informacje o konfiguracji połączenia z chmurą.</p>
+           <p class="imagecontainer">
+<img src="../images/166199122955_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+<p>Tutaj otrzymasz adres URL klastra i informacje o porcie. Skopiuj i wklej te informacje do pliku tekstowego do późniejszego użycia w konfiguracji połączenia z chmurą w LOGO!Soft Comfort.</p>
+ <p class="imagecontainer">
+<img src="../images/166199485963_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:474" alt="" />
+</p>
+</li>
+        <li>
+          <p>Kliknij <span class="circlednumber">&#x2463;</span>, aby skonfigurować poświadczenia dla Twoich urządzeń IoT. Zapamiętaj ustawione poświadczenia, które zostaną użyte w konfiguracji LOGO!Soft Comfort. </p>
+           <p class="imagecontainer">
+<img src="../images/166199477387_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+</li>
+        <li>
+          <p>Zarejestruj urządzenie IoT Hive MQTT poprzez <a href="../11965523851/134267806731.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą</a> w LOGO!Soft Comfort. Kliknij przycisk Register Thing, aby rozpocząć proces.</p>
+        </li>
+        <li>
+          <p>Wybierz "MQTT" w typie chmury i kliknij przycisk "Dalej".</p>
+           <p class="imagecontainer">
+<img src="../images/164449166731_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź adres URL brokera MQTT i port, które otrzymałeś w kroku 3; wprowadź nazwę użytkownika i hasło, które ustawiłeś w kroku 4; ustaw identyfikator klienta MQTT. Następnie kliknij przycisk "Dalej".</p>
+           <p class="imagecontainer">
+<img src="../images/166246113675_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wybierz "TLS bez uwierzytelniania" jako typ uwierzytelniania. Następnie kliknij przycisk "Dalej".</p>
+           <p class="imagecontainer">
+<img src="../images/166248157707_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź "Temat publikacji" i "Temat subskrypcji". Możesz nazwać je dowolnie. Następnie kliknij przycisk "Dalej". Zapamiętaj te dwie nazwy tematów, które zostaną później użyte do subskrybowania lub publikowania danych w kliencie Hive MQTT.</p>
+           <p class="imagecontainer">
+<img src="../images/166248396683_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Strona statusu rejestracji pokazuje, że rejestracja zakończyła się sukcesem. Kliknij przycisk "Zakończ", aby zamknąć okno dialogowe rejestracji.</p>
+           <p class="imagecontainer">
+<img src="../images/164449981835_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+      </ol>
+      
+      <p class="blocktitle">Subskrybuj dane z LOGO!</p>
+      <p>Aby subskrybować i odczytywać dane z LOGO! BM w kliencie internetowym Hive MQTT, wykonaj następujące kroki:</p>
+      <ol>
+        <li>
+          <p>Otwórz okno ustawień transferu danych w chmurze poprzez <a href="../11965523851/134267632395.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia transferu danych w chmurze</a>.</p>
+        </li>
+        <li>
+          <p>Dodaj element danych. W tym przykładzie używamy "Formatu danych tablicowych". Kliknij "Zapisz do LOGO!", aby zakończyć konfigurację.</p>
+           <p class="imagecontainer">
+<img src="../images/166459123083_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+</li>
+        <li>
+          <p>Kliknij "WEB CLIENT" w Hive MQTT, aby skonfigurować połączenie klienta. </p>
+           <p class="imagecontainer">
+<img src="../images/166459131019_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:649" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź nazwę użytkownika i hasło, a następnie kliknij przycisk "CONNECT CLIENT". Możesz użyć poświadczeń utworzonych w "ACCESS MANAGEMENT". Lub możesz kliknąć przycisk "CONNECT WITH GENERATED CREDENTIALS", aby połączyć klienta.</p>
+          
+          <table class="safety" valign="top" border=0>
+            <tr>
+              <td>
+                <b>Uwaga</b>
+                <p>Poświadczenia do połączenia klienta w Hive MQTT nie powinny być takie same jak poświadczenia używane do konfiguracji połączenia z chmurą w LOGO!Soft Comfort. W przeciwnym razie połączenie z chmurą może zostać przerwane.</p>
+              </td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          <p>Przejdź do sekcji Subskrypcje tematów. Wprowadź temat publikacji skonfigurowany w połączeniu z chmurą w LOGO!Soft Comfort. Następnie kliknij przycisk "SUBSCRIBE", aby subskrybować wiadomości.</p>
+           <p class="imagecontainer">
+<img src="../images/166286241675_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:605" alt="" />
+</p>
+<p> Teraz możesz zobaczyć wiadomości wysyłane przez LOGO! BM do klienta internetowego.</p>
+ <p class="imagecontainer">
+<img src="../images/166460112011_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:599" alt="" />
+</p>
+</li>
+      </ol>
+      
+      <p class="blocktitle">Publikuj dane do LOGO!</p>
+      <p>Aby zapisywać i publikować dane z klienta internetowego Hive MQTT do LOGO! BM, wykonaj następujące kroki:</p>
+      <ol>
+        <li>
+          <p>Przejdź do sekcji Publikuj wiadomość w kliencie internetowym Hive MQTT po zakończeniu połączenia klienta.</p>
+        </li>
+        <li>
+          <p>Wprowadź temat subskrypcji skonfigurowany w połączeniu z chmurą w LOGO!Soft Comfort. </p>
+        </li>
+        <li>
+          <p>Wpisz dane w formacie tablicy liczb całkowitych w polu Wiadomość, a następnie kliknij przycisk "PUBLISH". Później możesz zobaczyć pomyślnie opublikowane wiadomości w kliencie internetowym, a także możesz zobaczyć, że dane zostały pomyślnie zmienione w LOGO! BM.</p>
+           <p class="imagecontainer">
+<img src="../images/166460115979_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+</li>
+      </ol>
+    </div>
+  </body>
+</html>

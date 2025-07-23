@@ -1,0 +1,100 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Narzędzie konwersji</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Narzędzie konwersji<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/57271948299_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:16" alt="" />
+</p>
+<p>Użyj tej funkcji, aby przekonwertować swój program obwodów między LAD i FBD.   </p>
+<p>Podczas konwersji z LAD na FBD obowiązują następujące zasady:</p>
+<ul>
+<li>
+<p>Szeregowe połączenie styków jest konwertowane na blok AND.</p>
+</li>
+<li>
+<p>Równoległe połączenie styków jest konwertowane na blok OR.</p>
+</li>
+<li>
+<p>Komentarze użytkownika nie są uwzględniane, ponieważ ich pozycja w programie obwodów nie może być zdefiniowana na podstawie bloków.</p>
+</li>
+<li>
+<p>Połączenia krzyżowe (gdzie wyjście bloku jest podłączone do wielu wejść bloków i przynajmniej jedno z wejść jest podłączone do wielu wyjść bloków) są konwertowane na blok OR.<p>Wejścia dla bloku OR to wszystkie wyjścia bloków połączenia krzyżowego.<br />Wyjście bloku OR jest podłączone do wszystkich wejść bloków połączenia krzyżowego.</p>
+</li>
+<li>
+<p>Flagi wewnętrzne są rozwiązywane, a aktualne ścieżki są łączone.</p>
+</li>
+</ul>
+<TableTitle />
+<p>
+<table id="9e8836fb-53d3-f975-3da7-3ed6a8e9e72e" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/57473326347_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:38" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Ta funkcja jest nieaktywna w Edytorze UDF.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p />
+<p>Użyj tej funkcji, aby przekonwertować swój program obwodów między FBD i LAD.  </p>
+<ul>
+<li>
+<p>Blok AND jest konwertowany na obwód styków szeregowych</p>
+</li>
+<li>
+<p>Blok OR jest konwertowany na obwód styków równoległych</p>
+</li>
+<li>
+<p>Komentarze dla funkcji podstawowych nie są stosowane w LAD, ponieważ funkcja podstawowa jest konwertowana na wiele styków. Dlatego komentarz nie może być jednoznacznie przypisany.</p>
+</li>
+<li>
+<p>W LAD komentarze wejściowe są przypisywane do wszystkich styków tego wejścia.</p>
+</li>
+<li>
+<p>Komentarze użytkownika nie są uwzględniane, ponieważ ich pozycja w programie obwodów nie może być zdefiniowana na podstawie bloków.</p>
+</li>
+<li>
+<p>Bloki XOR muszą być konwertowane na odpowiednią logikę LAD składającą się ze styków dodatnich i ujemnych.</p>
+</li>
+</ul>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Podczas konwersji między LAD i FBD całkowita liczba bloków w programie obwodów może czasami wzrosnąć. Może to spowodować przekroczenie dozwolonej liczby bloków dla Twojego LOGO!.</p>
+<p>Dlatego nie zawsze można przekonwertować programy FBD na LAD.</p>
+<p>
+<b>Rozwiązanie:</b> W <a href="../11965523851/12207955467.htm">Narzędzia -&gt; Wybierz sprzęt</a>, wybierz serię sprzętu, którego używasz. Rozpocznij konwersję na LAD. Następnie w <a href="../11965523851/12207948043.htm">Narzędzia -&gt; Określ LOGO!</a>, sprawdź, która seria sprzętu jest kompatybilna z programem obwodów.</p>
+<p>Jeśli schemat obwodów zawiera blok UDF, nie można użyć tej funkcji do konwersji z FBD na LAD.</p>
+</td>
+</tr>
+</table>
+</div>
+  </body>
+</html>

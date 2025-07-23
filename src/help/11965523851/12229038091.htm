@@ -1,0 +1,66 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Podstawy sterowania i regulacji</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Podstawy sterowania i regulacji<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>W inżynierii wielkości mogą być zarówno sterowane, jak i regulowane.</p>
+      <p>Sterowanie manipuluje wielkością bez możliwości kompensacji wpływu czynników zewnętrznych. Regulacja utrzymuje wielkość na określonej wartości w celu kompensacji wpływu czynników zewnętrznych.</p>
+      <p>W poniższym przykładzie sterowanie oznacza, że osoba może ustawić moc grzewczą na stałej wartości. Grzejnik nie może skompensować spadku temperatury w pomieszczeniu, gdy okno jest otwarte.</p>
+      <p>W przykładzie poniżej regulacja oznacza, że osoba może zwiększyć moc grzewczą, jeśli temperatura w pomieszczeniu spadnie poniżej 20°C. Jeśli temperatura w pomieszczeniu wzrośnie powyżej 20°C, moc grzewcza jest zmniejszana.</p>
+       <p class="imagecontainer">
+<img src="../images/12229018251_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:417" alt="" />
+</p>
+
+<p class="blocktitle">Podstawowe pojęcia regulacji</p>
+<p>W przykładzie prąd dla ogrzewania elektrycznego jest <b>wielkością sterowaną</b>. Zmienny opór jest <b>elementem wykonawczym</b>. Ręka obsługująca element wykonawczy to <b>sterowanie</b>. Rzeczywista temperatura w pomieszczeniu to wielkość regulowana lub <b>wartość procesowa</b>. Pożądana temperatura w pomieszczeniu to <b>wartość zadana</b> lub wartość nastawcza. Ogrzewanie elektryczne to <b>proces sterowania</b>. Termometr to <b>czujnik</b>. Utrata temperatury z powodu otwarcia okna to <b>zakłócenie</b>.</p>
+<p>Oznacza to, że osoba mierzy wartość procesową (temperaturę w pomieszczeniu) za pomocą czujnika (termometru), porównuje wartość procesową (temperaturę w pomieszczeniu) z wartością zadaną (pożądaną temperaturą w pomieszczeniu) i używa elementu wykonawczego (zmiennego oporu) do ręcznej regulacji wielkości sterowanej (prądu grzewczego), w celu skompensowania zakłócenia (spadku temperatury z powodu otwarcia okna). Osoba jest więc regulatorem.</p>
+ <p class="imagecontainer">
+<img src="../images/66929208459_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:515" alt="" />
+</p>
+<p><b>Urządzenie sterujące</b> składa się z elementu wykonawczego i sterowania.</p>
+<p>Sterowanie i regulator razem tworzą <b>urządzenie regulacyjne</b>.</p>
+<p>Poniższy obraz przedstawia abstrakcyjne przedstawienie opisanego powyżej sytuacji.</p>
+<p>Element porównujący używa czujnika do porównania wartości zadanej z wartością procesową. Jeśli wartości zadane i wartość procesowa odbiegają od siebie, skutkuje to dodatnim lub ujemnym błędem pętli, który z kolei zmienia wartość procesową.</p>
+ <p class="imagecontainer">
+<img src="../images/137148612875_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:690" alt="" />
+</p>
+
+<p class="blocktitle">Pętla sterująca</p>
+<p>Wartość procesowa x wpływa na wielkość sterowaną M za pośrednictwem urządzenia regulacyjnego. Tworzy to zamknięty obwód, znany również jako <b>pętla sterująca</b>.</p>
+<p>Jeśli w powyższym przykładzie okno zostanie otwarte, temperatura w pomieszczeniu spada. Osoba musi zwiększyć moc grzewczą grzejnika. Jeśli moc grzewcza wzrośnie zbyt mocno, robi się za gorąco. Osoba musi wtedy zmniejszyć moc grzewczą.</p>
+<p>Jeśli moc grzewcza zwiększa się lub zmniejsza zbyt szybko, pętla sterująca zaczyna oscylować. Temperatura w pomieszczeniu waha się. Jest albo za gorąco, albo za zimno. Aby temu zapobiec, osoba musi ostrożnie i powoli zmniejszać lub zwiększać moc grzewczą.</p>
+
+<p class="blocktitle">Błąd pętli</p>
+<p>Błąd pętli to różnica między wartością zadaną a wartością procesową. Innymi słowy: odchylenie wartości procesowej od wartości zadanej.</p>
+<p>e = SP – PV</p>
+<p>Błąd pętli e powoduje zmianę wielkości sterowanej M.</p>
+<p>Powyższy przykład dobrze to ilustruje: jeśli przy pożądanej temperaturze 20°C (= wartość zadana w), temperatura w pomieszczeniu wynosi 22°C (= wartość procesowa PV), to powstaje błąd pętli:</p>
+<p>e = SP – PV = 20°C - 22°C = -2°C</p>
+<p>W tym przypadku znak ujemny wskazuje na działanie odwrotne: moc grzewcza zmniejsza się.</p>
+<p>W stanie równowagi pętli sterującej błąd pętli wynosi zero lub jest bardzo mały. Jeśli wartość zadana zmienia się lub występuje zakłócenie, powstaje błąd pętli. Wielkość sterowana M koryguje błąd pętli.</p>
+<p>
+<a href="../11965523851/12229067531.htm">Podstawy regulatora</a> </p>
+<p>
+<a href="../11965523851/12229074955.htm">Opis poszczególnych parametrów</a> </p>
+<p>
+<a href="../11965523851/12229087883.htm">Regulator PI</a> </p>
+<p>
+<a href="../11965523851/11965495819.htm">Sterowanie ogrzewaniem</a> </p>
+<p>
+<a href="../11965523851/12229106315.htm">Rampa analogowa</a> </p>
+</div>
+  </body>
+</html>

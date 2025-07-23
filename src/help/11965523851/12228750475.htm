@@ -1,0 +1,242 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Licznik w górę/w dół</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Licznik w górę/w dół<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228736139_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Impuls wejściowy zwiększa lub zmniejsza wartość wewnętrzną, w zależności od ustawienia parametru. Wyjście jest ustawiane lub resetowane, gdy zostanie osiągnięty skonfigurowany próg. Kierunek liczenia można zmienić sygnałem na wejściu Dir.   </p>
+<TableTitle />
+<p>
+<table id="2ae9eaf8-92e0-451e-b8ec-427c149606b4" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Resetujesz wyjście i wewnętrzną wartość licznika do wartości początkowej (StartVal) sygnałem na wejściu <b>R</b> (Reset)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Cnt</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Ta funkcja zlicza przejścia od 0 do 1 na wejściu <b>Cnt</b>. Nie zlicza przejść od 1 do 0.</p>
+<ul class="table">
+<li>
+<p>Użyj wejść I3, I4, I5 i I6 do zliczania wysokiej częstotliwości (LOGO! 12/24RCE/RCEo, LOGO! 24CE/24CEo): maks. 5 kHz, jeśli szybkie wejście jest bezpośrednio podłączone do bloku funkcji Licznika w górę/w dół</p>
+</li>
+<li>
+<p>Użyj dowolnego innego wejścia lub elementu obwodu do zliczania niskiej częstotliwości (zwykle 4 Hz).</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Dir</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Dir</b> (Kierunek) określa kierunek liczenia:<p>Dir = 0: W górę<br />Dir = 1: W dół</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>On</b>: Próg włączenia / Zakres wartości: 0 do 999999<br />
+<b>Off</b>: Próg wyłączenia / Zakres wartości 0 do 999999<br />
+<b>Start Value</b>: Wartość początkowa, od której rozpoczyna się liczenie w dół lub w górę.<br />
+<b>Retentivity</b> on = stan jest zachowywany w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane i resetowane zgodnie z aktualną wartością na Cnt i ustawionymi progami. </p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry On i Off</p>
+<p>Próg włączenia On i próg wyłączenia Off mogą być dostarczone przez wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych wersji, możesz dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+<p>Informacje o ważności i dokładności bazy czasowej znajdują się w <i>Podręczniku LOGO!</i>.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137143251211_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:465" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja zwiększa (Dir = 0) lub zmniejsza (Dir = 1) wewnętrzny licznik o jeden z każdym dodatnim zboczem na wejściu Cnt.</p>
+<p>Możesz zresetować wewnętrzną wartość licznika do wartości początkowej sygnałem na wejściu resetującym R. Dopóki R=1, wyjście Q wynosi 0, a impulsy na wejściu Cnt nie są zliczane.</p>
+<p>Wyjście Q jest ustawiane i resetowane zgodnie z aktualną wartością na Cnt i ustawionymi progami. Zobacz poniższe zasady obliczeń.</p>
+
+<p class="blocktitle">Zasada obliczeń</p>
+<ul>
+<li>
+<p>Jeśli próg włączenia &#x2265; próg wyłączenia, to:<br />Q = 1, jeśli Cnt &#x2265; On<br />Q = 0, jeśli Cnt &lt; Off.</p>
+</li>
+<li>
+<p>Jeśli próg włączenia &lt; próg wyłączenia, to:<br />Q = 1, jeśli On &#x2264; Cnt &lt; Off.</p>
+</li>
+</ul>
+<TableTitle />
+<p>
+<table id="62107655-5bd6-43c4-9da4-1c2f48235a41" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA0-0BA5:<br />
+</b>Parametr Start Value nie istnieje. Licznik zawsze liczy w górę lub w dół od 0.<br />
+<b>0BA0-0BA3:<br />
+</b>Parametr off nie istnieje. Zasada obliczeń jest więc nieważna.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Uwaga</p>
+<p>Funkcja sprawdza wartość graniczną licznika raz w każdym cyklu.</p>
+<p>Zatem, jeśli impulsy na szybkich wejściach I3, I4, I5 lub I6 są szybsze niż czas skanowania cyklu, SFB może nie przełączyć się, dopóki określony próg nie zostanie przekroczony.</p>
+<p>Przykład: Można zliczyć do 100 impulsów na cykl; do tej pory zliczono 900 impulsów. On = 950; Off = 10000. Wyjście jest ustawiane w następnym cyklu, po osiągnięciu wartości 1000.</p>
+<p>Wyjście nie zostałoby w ogóle ustawione, jeśli wartość Off = 980</p>
+
+<p class="blocktitle">Czas skanowania cyklu</p>
+<p>Informacje o tym, jak określić czas skanowania cyklu LOGO!, znajdują się w dodatku do Podręcznika LOGO!.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a>
+</p>
+</div>
+  </body>
+</html>

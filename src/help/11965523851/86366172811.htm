@@ -1,0 +1,387 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Narzędzia -> Połączenia Ethernet (tylko LOGO! 8.FS4 i nowsze wersje)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Narzędzia -> Połączenia Ethernet (tylko LOGO! 8.FS4 i nowsze wersje)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Konfiguracja połączeń klienta Modbus (tylko LOGO! 8.FS4 i nowsze wersje)</p>
+      
+      <table class="safety" valign="top" border=0>
+        <tr>
+          <td>
+            <b>Uwaga</b>
+            <p>Jeśli możesz podłączyć urządzenie do LOGO! 8.FS4 zarówno za pomocą połączenia S7, jak i Modbus, Siemens zaleca podłączenie urządzenia za pomocą połączenia S7.</p>
+          </td>
+        </tr>
+      </table>
+      <p>Każde połączenie Modbus można skonfigurować jako klienta lub serwer, w którym odpowiednio konfiguruje się lokalny IP i zdalny IP. Serwer jest stroną źródłową danych w komunikacji, wysyła informacje odpowiadające na żądania z drugiej strony - klienta.</p>
+      <p>Aby skonfigurować połączenia klienta lub serwera każdego połączenia LOGO!, kliknij dwukrotnie połączenie.</p>
+      <p>Kliknij prawym przyciskiem myszy żądane połączenie i wybierz dodanie połączenia klienta.</p>
+      <p>Kliknij dwukrotnie element połączenia, aby skonfigurować połączenie klienta. </p>
+       <p class="imagecontainer">
+<img src="../images/137244121739_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:642" alt="" />
+</p>
+<p>
+<table id="ee8942a7-3cdd-41d4-8a77-597ada1c4830" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93.1%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Serwera.</p>
+<p class="p_table_l">Zdalny adres IP to adres IP Serwera lub bramy Serwera, z którym chcesz się połączyć.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości połączenia transferu danych. (Odczyt: Klient &lt;- Serwer, Zapis: Klient -> Serwer)</p>
+<p class="p_table_l">Identyfikator jednostki to adres urządzenia Modbus RTU.</p>
+<p class="p_table_l">Możesz utworzyć maksymalnie 32 transfery danych w połączeniu Klienta. </p>
+<p class="p_table_l">W procesie odczytu lokalny Moduł Bazowy odczytuje dane ze zdalnego serwera i je przechowuje; w procesie zapisu lokalny Moduł Bazowy zapisuje dane na zdalnym serwerze. Możesz przechowywać dane zarówno na lokalnym Module Bazowym, jak i zdalnym Serwerze, określając odpowiednią kolumnę. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2462;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Tutaj definiujesz interwał czasu, w którym LOGO! Moduł Bazowy synchronizuje dane z serwerem.</p>
+<p class="p_table_l">Możesz zaznaczyć pole wyboru i wprowadzić określony interwał czasu.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Konfiguracja transferu danych Modbus</p>
+<p>Możesz ustawić następujące wartości w tabeli transferu danych podczas konfigurowania połączeń klienta:</p>
+<ol>
+<li>
+<p>Kliknij następujące menu rozwijane, aby wybrać wartość danych do transferu. </p>
+ <p class="imagecontainer">
+<img src="../images/86399971339_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź jeden adres w polu adresu.  </p>
+</li>
+<li>
+<p>Jeśli skonfigurowałeś mapowanie VM, możesz również kliknąć   <img src="../images/58159706507_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:16" alt="" />   aby wyświetlić tabelę mapowania VM jak poniżej: </p>
+ <p class="imagecontainer">
+<img src="../images/86405638027_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:185" alt="" />
+</p>
+<p>W tabeli mapowania VM możesz wykonać następujące operacje: </p>
+<ul>
+<li>
+<p>Kliknij kolumnę, aby wybrać żądany adres lub kliknij i przeciągnij w dół i w górę, aby wybrać wiele adresów.</p>
+</li>
+<li>
+<p>Kliknij pola mapowania, aby przełączyć się na okno dialogowe mapowania parametrów VM. </p>
+</li>
+<li>
+<p>Kliknij i przeciągnij czarną strzałkę w prawym dolnym rogu, aby rozwinąć lub zmniejszyć tabelę. </p>
+</li>
+</ul>
+<p>Więcej informacji o mapowaniu VM znajdziesz w <a href="../11965523851/25633464843.htm">Narzędzia -> Mapowanie parametrów VM (tylko wersje 0BA7 i nowsze)</a>. </p>
+</li>
+<li>
+<p>Kliknij puste menu rozwijane, aby wybrać kierunki transferu danych. </p>
+ <p class="imagecontainer">
+<img src="../images/58155362443_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:68" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź inny adres. </p>
+</li>
+<li>
+<p>Aby dodać lub usunąć wiersze, kliknij prawym przyciskiem myszy istniejący wiersz, aby włączyć przyciski. </p>
+ <p class="imagecontainer">
+<img src="../images/64228953227_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:92" alt="" />
+</p>
+</li>
+<li>
+<p>Zapisz zmiany.  </p>
+</li>
+</ol>
+
+<p class="blocktitle">Konfiguracja połączeń serwera Modbus</p>
+<p>Kliknij dwukrotnie element połączenia, aby skonfigurować połączenie serwera. </p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Jeśli Serwer w tym połączeniu to SIMATIC Modbus lub SIMATIC HMI, musisz skonfigurować połączenie serwera na dodanym urządzeniu.</p>
+</td>
+</tr>
+</table>
+ <p class="imagecontainer">
+<img src="../images/86399240587_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:339" alt="" />
+</p>
+<p>
+<table id="79ab4ab5-32c4-43b5-a0eb-8624c36809fb" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="99%" />
+<col width="1%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Tutaj definiujesz właściwości Serwera. </p>
+<ul class="table">
+<li>
+<p>Zakres portów na LOGO! BM wynosi od 502 do 510.</p>
+</li>
+<li>
+<p>Jeśli zaznaczysz pole wyboru "Akceptuj wszystkie żądania połączeń", Serwer odpowiada na żądania wszystkich Klientów w sieci.</p>
+</li>
+<li>
+<p>Serwer może zaakceptować żądanie tylko z jednego adresu IP. Ten adres to adres IP klienta, z którym chcesz się połączyć.</p>
+</li>
+</ul>
+</td>
+<td>
+<p class="p_table_l"> </p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Ograniczenia transferu danych</p>
+<p>Poniższa tabela opisuje zakres i ograniczenia lokalnych adresów dla połączeń klienta.</p>
+<p>
+<b>Żądania odczytu</b>:</p>
+<TableTitle />
+<p>
+<table id="8aee8246-fa91-47a0-93fc-e7526d23a5bc" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="21.9%" />
+<col width="21.8%" />
+<col width="27%" />
+<col width="29.2%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">
+<p class="p_table_lb">Lokalny adres (LOGO!)</p>
+</th>
+<th colspan="2">
+<p class="p_table_lb">Zdalny adres (urządzenie zgodne z Modbus)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I</p>
+<p class="p_table_l">Q</p>
+<p class="p_table_l">M</p>
+<p class="p_table_l">V</p>
+</td>
+<td>
+<p class="p_table_l">1 - 24 bit</p>
+<p class="p_table_l">1 - 20 bit</p>
+<p class="p_table_l">1 - 64 bit</p>
+<p class="p_table_l">0.0 - 850.7 bit</p>
+</td>
+<td>
+<p class="p_table_l">Cewka</p>
+<p class="p_table_l">Dyskretne wejście (DI)</p>
+</td>
+<td>
+<p class="p_table_l">1 do 65535 bit</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">VW</p>
+<p class="p_table_l">AQ</p>
+<p class="p_table_l">AM</p>
+<p class="p_table_l">AI</p>
+</td>
+<td>
+<p class="p_table_l">0 - 850 słowo</p>
+<p class="p_table_l">1 - 8 słowo</p>
+<p class="p_table_l">1 - 64 słowo</p>
+<p class="p_table_l">1 - 8 słowo</p>
+</td>
+<td>
+<p class="p_table_l">Rejestr przechowujący (HR)</p>
+<p class="p_table_l">Rejestr wejściowy (IR)</p>
+</td>
+<td>
+<p class="p_table_l"> </p>
+<p class="p_table_l">1 do 65535 słowo</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Typ adresu:</p>
+<ul class="safety">
+<li class="safety">
+<p>I: wejście</p>
+</li>
+<li class="safety">
+<p>AI: wejście analogowe</p>
+</li>
+<li class="safety">
+<p>Q: wyjście</p>
+</li>
+<li class="safety">
+<p>M: flaga M</p>
+</li>
+<li class="safety">
+<p>V: zmienna pamięć bitowa</p>
+</li>
+<li class="safety">
+<p>VW: zmienna pamięć słowna</p>
+</li>
+<li class="safety">
+<p>AQ: wyjście analogowe</p>
+</li>
+<li class="safety">
+<p>AM: analogowa flaga M</p>
+</li>
+</ul>
+<p>Lokalny adres + Długość danych - 1 &#x2264; 850</p>
+</td>
+</tr>
+</table>
+<p>Poniższa tabela opisuje zakres i ograniczenia lokalnych adresów połączenia klienta.</p>
+<p>
+<b>Żądania zapisu</b>:</p>
+<TableTitle />
+<p>
+<table id="b692db53-852d-46d1-b1f4-c1cfe425c330" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="17.4%" />
+<col width="18.1%" />
+<col width="22.6%" />
+<col width="41.7%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">
+<p class="p_table_lb">Lokalny adres (LOGO!)</p>
+</th>
+<th colspan="2">
+<p class="p_table_lb">Zdalny adres (urządzenie zgodne z Modbus)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+<td>
+<p class="p_table_l">Typ adresu</p>
+</td>
+<td>
+<p class="p_table_l">Zakres</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I</p>
+<p class="p_table_l">Q</p>
+<p class="p_table_l">M</p>
+<p class="p_table_l">V</p>
+</td>
+<td>
+<p class="p_table_l">1 - 24 bit</p>
+<p class="p_table_l">1 - 20 bit</p>
+<p class="p_table_l">1 - 64 bit</p>
+<p class="p_table_l">0.0 - 850.7 bit</p>
+</td>
+<td>
+<p class="p_table_l">Cewka</p>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l">1 do 65535 bit</p>
+<p class="p_table_l"> </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">VW</p>
+<p class="p_table_l">AQ</p>
+<p class="p_table_l">AM</p>
+<p class="p_table_l">AI</p>
+</td>
+<td>
+<p class="p_table_l">0 - 850 słowo</p>
+<p class="p_table_l">1 - 8 słowo</p>
+<p class="p_table_l">1 - 64 słowo</p>
+<p class="p_table_l">1 - 8 słowo</p>
+</td>
+<td>
+<p class="p_table_l">Rejestr przechowujący (HR)</p>
+</td>
+<td>
+<p class="p_table_l">1 do 65535 słowo</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Wartości powinny spełniać zasadę: Lokalny adres + D

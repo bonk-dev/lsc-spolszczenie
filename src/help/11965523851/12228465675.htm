@@ -1,0 +1,178 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opóźnienie wyłączenia</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Opóźnienie wyłączenia<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228451339_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście z opóźnieniem wyłączenia resetuje się po upływie zdefiniowanego czasu.   </p>
+<TableTitle />
+<p>
+<table id="4a530232-1dd2-470b-a7ac-c88261bace79" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Rozpocznij czas opóźnienia wyłączenia z ujemnym zboczem (przejście z 1 na 0) na wejściu <b>Trg</b> (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zresetuj czas opóźnienia wyłączenia i ustaw wyjście na 0 za pomocą wejścia <b>R</b> (Reset).<p>Reset ma priorytet nad <b>Trg</b>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T: </b>Wyjście jest wyłączane po upływie czasu opóźnienia <b>T</b> (przejście sygnału wyjściowego z 1 na 0).<br />
+<b>Retentywność</b> włączona = stan jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> włącza się na czas <b>T</b> po wyzwoleniu na wejściu <b>Trg</b>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr T</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji dostarcza czas ustawiony w parametrze T:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchroniczny: Ta</p>
+</li>
+<li>
+<p>Wyłącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+<p>Informacje dotyczące ważności i dokładności bazy czasowej znajdują się w <i>Podręczniku LOGO!</i>.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142095883_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:473" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przejście z 0 na 1 na wejściu Trg natychmiast ustawia wyjście Q na 1.</p>
+<p>Przy przejściu z 1 na 0 na wejściu Trg, LOGO! ponownie wyzwala aktualny czas T, a wyjście pozostaje ustawione. LOGO! resetuje wyjście Q do 0, gdy T<sub>a</sub> osiągnie wartość określoną w T (T<sub>a</sub>=T) (opóźnienie wyłączenia).</p>
+<p>Impuls na wejściu Trg ponownie wyzwala czas Ta.</p>
+<p>Możesz zresetować czas Ta i wyjście za pomocą wejścia R (Reset) przed upływem czasu Ta.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

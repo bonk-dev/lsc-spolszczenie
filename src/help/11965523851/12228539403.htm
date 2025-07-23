@@ -1,0 +1,208 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przekaźnik wyzwalany zboczem</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przekaźnik wyzwalany zboczem<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228525067_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Impuls wejściowy generuje zadaną liczbę impulsów wyjściowych o zdefiniowanym stosunku impulsu do przerwy (możliwość ponownego wyzwolenia), po upływie skonfigurowanego czasu opóźnienia.</p>
+<TableTitle />
+<p>
+<table id="87d7a493-bc14-44ce-9aca-232660bc215d" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Połączenie</p>
+</td>
+<td>
+<p class="p_table_l">Opis</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Czasy dla przekaźnika wyzwalanego zboczem są wyzwalane sygnałem na wejściu <b>Trg</b> (Trigger).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście i aktualny czas <b>Ta</b> są resetowane do 0 sygnałem na wejściu <b>R</b>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T</b>
+<sub>H</sub>
+<b>, T</b>
+<sub>L</sub>
+<b>:</b> Szerokość impulsu <b>T</b>
+<sub>H</sub> i szerokość przerwy między impulsami <b>T</b>
+<sub>L</sub> są regulowane.<p>
+<b>N </b>określa liczbę cykli impuls/przerwa <b>T</b>
+<sub>L</sub>
+<b>/T</b>
+<sub>H</sub>:<br />Zakres wartości: 1 do 9.<br />
+<b>Retentywność</b>
+<b> </b>on = stan jest retentywny w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście Q ustawia się, gdy czas <b>T</b>
+<sub>L</sub> upłynie, i resetuje, gdy <b>T</b>
+<sub>H</sub> upłynie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="8f651e85-bb7c-432b-a445-7765c88c5d95" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA2, 0BA3:<br />
+</b>Istnieje tylko parametr T<sub>H</sub>. T<sub>H</sub> reprezentuje czas wyłączania dla wyjścia.<br />Wejście R nie jest dostępne.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T<sub>H</sub> i T<sub>L</sub>
+</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji może dostarczyć szerokość impulsu T<sub>H</sub> i szerokość przerwy między impulsami T<sub>L</sub>:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych wersji można dodatkowo użyć rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik czasowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142374539_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:438" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Zmiana na wejściu Trg na 1 wyzwala czas T<sub>L</sub> (czas niski). Po upływie czasu T<sub>L</sub>, LOGO! ustawia wyjście Q na 1 na czas T<sub>H</sub> (czas wysoki).</p>
+<p>Jeśli LOGO! ponownie wyzwoli wejście Trg przed upływem zadanego czasu (T<sub>L</sub> + T<sub>H</sub>), czas Ta jest resetowany, a okres impulsu/przerwy jest restartowany.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

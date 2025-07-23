@@ -1,0 +1,291 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Analogowy próg wyzwalania</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Analogowy próg wyzwalania<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228794507_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest ustawiane lub resetowane w zależności od dwóch konfigurowalnych progów (histereza).   </p>
+<TableTitle />
+<p>
+<table id="fcf6fb28-60be-4b57-b8b3-8d97c2c471a5" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM6 (jeśli 0BA6), AM1 do AM16 (jeśli 0BA7) lub AM1 do AM64 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (jeśli 0BA7) lub AQ1 do AQ8 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p>Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>Włącz:</b> Próg włączenia<br />Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">
+<b>Wyłącz:</b> Próg wyłączenia<br />Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc dziesiętnych<br />Zakres wartości: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane lub resetowane w zależności od ustawionych progów.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada wartości 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry Włącz i Wyłącz</p>
+<p>Parametry Włącz i Wyłącz mogą być dostarczane przez aktualną wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych wersji można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Maks/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+<TableTitle />
+<p>
+<table id="cb0d17e1-f389-4f6c-a023-4d45f3fd9689" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="89.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA4:</b>
+</p>
+<p class="p_table_l">
+<b>A</b>: Wzmocnienie<br />Zakres wartości 0.00 do 10.00</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA2, 0BA3:</b>
+</p>
+<p class="p_table_l">Te parametry mają zastosowanie:<br />G: <b>W</b>zmocnienie w [%]<br />Zakres wartości 0% do 1000%<br />
+<b>O</b>: Przesunięcie<br />Zakres wartości -999 do 999<br />
+<b>Włącz</b>: Próg włączenia<br />Zakres wartości 0 do 9999<br />
+<b>Wyłącz</b>: Próg wyłączenia<br />Zakres wartości 0 do 9999</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc dziesiętnych)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości Włącz, Wyłącz i Ax w tekście komunikatu.</p>
+<p>Parametr p nie dotyczy porównywania wartości Włącz i Wyłącz. (Funkcja porównująca ignoruje przecinek dziesiętny.)</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144145291_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:347" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja odczytuje wartość sygnału na wejściu analogowym Ax. </p>
+<p>Ta wartość jest mnożona przez wartość parametru A (wzmocnienie). Do iloczynu dodawany jest parametr B (przesunięcie), stąd</p>
+<p>(Ax * Wzmocnienie) + Przesunięcie = Aktualna wartość Ax.</p>
+<p>Wyjście Q jest ustawiane lub resetowane w zależności od ustawionych wartości progowych. Patrz poniższa reguła obliczeniowa.</p>
+<TableTitle />
+<p>
+<table id="229d7413-9fc7-4b50-adfb-465f608354f5" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="89.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA2, 0BA3:</b>
+<br />Funkcja jest następująca:<br />Parametr przesunięcia jest dodawany do odczytanej wartości analogowej. Suma jest mnożona przez wartość parametru wzmocnienia.<br />Wartość = (AI+przesunięcie)*wzmocnienie<br />Wyjście Q jest ustawiane na 1, jeśli obliczona wartość przekroczy próg włączenia (TH wysoki).<br />Q jest resetowane do 0, gdy wartość osiągnie lub spadnie poniżej progu wyłączenia (TH niski).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Reguła obliczeniowa</p>
+<ul>
+<li>
+<p>Jeśli próg (Włącz) ≥ próg (Wyłącz), to:<br />Q = 1, jeśli aktualna wartość Ax > Włącz<br />Q = 0, jeśli aktualna wartość Ax ≤ Wyłącz.</p>
+</li>
+<li>
+<p>Jeśli próg (Włącz) < próg (Wyłącz), to Q = 1, jeśli<br />Włącz ≤ aktualna wartość Ax < Wyłącz.</p>
+</li>
+</ul>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Odwołaj się do pomocy dotyczącej parametrów bloków analogowych w sekcji <a href="../11965523851/12228951691.htm">Przetwarzanie wartości analogowych</a>.</p>
+ <p class="imagecontainer">
+<img src="../images/58769658379_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:464" alt="" />
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Ustawienie przecinka dziesiętnego musi być identyczne w zakresie minimalnym i maksymalnym.</p>
+</td>
+</tr>
+</table>
+</div>
+  </body>
+</html>

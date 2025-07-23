@@ -1,0 +1,133 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Podstawy sterowników</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Podstawy sterowników<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>Sterownik można przedstawić w następujący sposób:   </p>
+       <p class="imagecontainer">
+<img src="../images/137148084491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:525" alt="" />
+</p>
+<p>Element porównujący i funkcja sterownika opisują zachowanie sterownika.</p>
+<p>Poniżej opisano najważniejsze typy sterowników. Odpowiedź skokowa sterownika mówi nam wiele o jego zachowaniu. Odpowiedź skokowa opisuje, jak sterownik reaguje na nagłą zmianę wartości procesu.</p>
+<p>Trzy podstawowe typy sterowników są następujące:</p>
+<ul>
+<li>
+<p>Sterownik proporcjonalny (sterownik P)</p>
+</li>
+<li>
+<p>Sterownik całkujący (sterownik I)</p>
+</li>
+<li>
+<p>Sterownik różniczkujący (sterownik D – nie opisany tutaj)</p>
+</li>
+</ul>
+<p>Sterowniki mogą łączyć te trzy typy. Na przykład, sterownik PI to sterownik proporcjonalno-całkujący.</p>
+
+<p class="blocktitle">Sterownik P</p>
+<p>Sterownik proporcjonalny (sterownik P) zmienia wartość sterującą M proporcjonalnie do uchybu pętli. Sterownik P działa natychmiastowo, ale nie może zredukować uchybu pętli do zera.</p>
+<p>M<sub>Pn</sub> = k<sub>P</sub> × e<sub>n</sub>
+</p>
+<p>M<sub>Pn</sub>: Wartość sterująca sterownika P w czasie n</p>
+<p>k<sub>P</sub>: Wzmocnienie sterownika P</p>
+<p>e<sub>n</sub>: Uchyb pętli w czasie n</p>
+<p>Poniższy obraz przedstawia skok wartości procesu i odpowiedź skokową sterownika: </p>
+ <p class="imagecontainer">
+<img src="../images/12229047691_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:512" alt="" />
+</p>
+<p>
+<b>Podsumowanie</b>
+</p>
+<p>Sterownik P ma następujące cechy:</p>
+<ul>
+<li>
+<p>Nie może korygować błędów w procesie sterowania &gt; trwały uchyb pętli.</p>
+</li>
+<li>
+<p>Reaguje natychmiast na zmianę wartości procesu.</p>
+</li>
+<li>
+<p>Jest stabilny.</p>
+</li>
+</ul>
+
+<p class="blocktitle">Sterownik I</p>
+<p>Sterownik całkujący (sterownik I) zmienia wartość sterującą M proporcjonalnie do uchybu pętli i czasu. Sterownik I działa z opóźnieniem. Całkowicie eliminuje uchyb pętli.</p>
+<p>Aby obliczyć wartość sterującą w czasie <b>n</b>, czas do tego momentu należy podzielić na małe odcinki czasowe. Uchyby pętli na końcu każdego odcinka czasowego należy zsumować (scałkować) i następnie uwzględnić w obliczeniach.</p>
+<p>M<sub>In</sub> = k<sub>I</sub> × (T<sub>S</sub> / T<sub>I</sub>) × (e<sub>n</sub> + e<sub>n-1</sub> + e<sub>n-2</sub> + e<sub>n-3</sub> + … + e<sub>0</sub>) = k<sub>I</sub> × (T<sub>S</sub> / T<sub>I</sub>) × e<sub>n</sub> + M<sub>In-1</sub>
+</p>
+<p>M<sub>In</sub>: Wartość sterująca sterownika I w czasie n</p>
+<p>M<sub>In-1</sub>: Wartość sterująca sterownika I w czasie n-1; zwana również sumą całkową</p>
+<p>k<sub>I</sub>: Wzmocnienie sterownika I</p>
+<p>T<sub>S</sub>: Czas próbkowania, długość odcinka czasowego</p>
+<p>T<sub>I</sub>: Czas całkowania: za pomocą tego czasu kontrolowany jest wpływ części całkującej na wartość sterującą, znany również jako czas działania całkującego</p>
+<p>e<sub>n</sub>: Uchyb pętli w czasie n</p>
+<p>e<sub>n-1</sub>: Uchyb pętli w czasie n-1; itd.</p>
+<p>e<sub>0</sub>: Uchyb pętli na początku obliczeń</p>
+<p>Poniższy obraz przedstawia skok wartości procesu i odpowiedź skokową sterownika: </p>
+ <p class="imagecontainer">
+<img src="../images/12229053195_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:512" alt="" />
+</p>
+<p>
+<b>Podsumowanie</b>
+</p>
+<p>Sterownik I ma następujące cechy:</p>
+<ul>
+<li>
+<p>Ustawia wartość procesu dokładnie na wartość zadanej.</p>
+</li>
+<li>
+<p>Przy tym ma tendencję do oscylacji i jest niestabilny.</p>
+</li>
+<li>
+<p>Wymaga więcej czasu na wykonanie działania sterującego niż sterownik P.</p>
+</li>
+</ul>
+
+<p class="blocktitle">Sterownik PI</p>
+<p>Sterownik PI redukuje uchyb pętli natychmiast i ostatecznie eliminuje go do zera.</p>
+<p>M<sub>n</sub> = M<sub>Pn</sub> + M<sub>In</sub> = k<sub>P</sub> × e<sub>n</sub> + k<sub>I</sub> × (T<sub>S</sub> / T<sub>I</sub>) × e<sub>n</sub> + M<sub>In-1</sub>
+</p>
+<p>M<sub>n</sub>: Wartość sterująca w czasie n</p>
+<p>M<sub>Pn</sub>: Część proporcjonalna wartości sterującej</p>
+<p>M<sub>In</sub>: Część całkująca wartości sterującej</p>
+<p>M<sub>In-1</sub>: Wartość sterująca sterownika I w czasie n-1; zwana również sumą całkową</p>
+<p>k<sub>P</sub>: Wzmocnienie sterownika P</p>
+<p>k<sub>I</sub>: Wzmocnienie sterownika I</p>
+<p>T<sub>S</sub>: Czas próbkowania, długość odcinka czasowego</p>
+<p>T<sub>I</sub>: Czas całkowania; za pomocą tego czasu kontrolowany jest wpływ części całkującej na wartość sterującą, znany również jako czas działania całkującego</p>
+<p>e<sub>n</sub>: Uchyb pętli w czasie n</p>
+<p>Poniższy obraz przedstawia skok wartości procesu i odpowiedź skokową sterownika: </p>
+ <p class="imagecontainer">
+<img src="../images/12229058699_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:518" alt="" />
+</p>
+<p>
+<b>Podsumowanie</b>
+</p>
+<p>Sterownik PI ma następujące cechy:</p>
+<ul>
+<li>
+<p>Składnik sterownika P szybko przechwytuje występujący uchyb pętli.</p>
+</li>
+<li>
+<p>Składnik sterownika I może następnie wyeliminować pozostały uchyb pętli.</p>
+</li>
+<li>
+<p>Składniki sterownika uzupełniają się, dzięki czemu sterownik PI działa szybko i precyzyjnie.</p>
+</li>
+</ul>
+</div>
+  </body>
+</html>

@@ -1,0 +1,240 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Maks/Min (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Maks/Min (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/26469842571_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:98" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Blok funkcji Maks/Min rejestruje wartość maksymalną lub minimalną.</p>
+<TableTitle />
+<p>
+<table id="dc064ddb-b1be-4bb9-9c09-bcd887820e04" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Funkcja wejścia En (<b>En</b>able) zależy od ustawień parametru Mode i zaznaczenia pola wyboru "gdy En = 0, zresetuj Maks/Min".</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>S1</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">To wejście jest aktywne, gdy ustawisz <b>Mode</b> <b>=2:</b>
+</p>
+<p class="p_table_l">Przejście dodatnie (0 do 1) na wejściu <b>S1</b> ustawia wyjście <b>AQ</b> na wartość maksymalną.</p>
+<p class="p_table_l">Przejście ujemne (1 do 0) na wejściu <b>S1</b> ustawia wyjście <b>AQ</b> na wartość minimalną.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 (*)</p>
+</li>
+<li>
+<p>AM1 do AM16 (dla 0BA7) lub AM1 do AM64 (dla 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32</p>
+</li>
+<li>
+<p>AQ1 do AQ2 (dla 0BA7) lub AQ1 do AQ8 (dla 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Mode</b>
+</p>
+<p class="p_table_l">Możliwe ustawienia: 0, 1, 2, 3</p>
+<p class="p_table_l">Mode = 0: AQ = Min</p>
+<p class="p_table_l">Mode = 1: AQ = Max</p>
+<p class="p_table_l">Mode = 2 i S1= 0 (niski): AQ = Min</p>
+<p class="p_table_l">Mode = 2 i S1= 1 (wysoki): AQ = Max</p>
+<p class="p_table_l">Mode = 3 lub odniesienie do wartości bloku: AQ = Ax</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>AQ</b> wyprowadza wartość minimalną, maksymalną lub aktualną w zależności od wejść lub jest resetowane do 0, jeśli skonfigurowano tak przy wyłączeniu funkcji</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr Mode</p>
+<p>Możesz ustawić wartości parametru <b>Mode</b> na podstawie rzeczywistych wartości innej już zaprogramowanej funkcji:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+<li>
+<p>Maks/Min: Ax</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy (tylko 0BA7): AQ</p>
+</li>
+<li>
+<p>Wartość średnia (tylko 0BA7): AQ</p>
+</li>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchroniczny: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielu funkcji: Ta</p>
+</li>
+<li>
+<p>Stoper (tylko 0BA7): AQ</p>
+</li>
+</ul>
+<p>Wymaganą funkcję możesz wybrać przez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144600843_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:558" alt="" />
+</p>
+<p>*) Jeśli zaznaczysz pole wyboru "gdy En = 0, zresetuj Maks/Min"</p>
+
+<p class="blocktitle">Opis funkcji</p>
+ <p class="imagecontainer">
+<img src="../images/58778725387_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:416" alt="" />
+</p>
+<p>Jeśli zaznaczysz pole wyboru "gdy Enable = 0, zresetuj Maks/Min":</p>
+<ul>
+<li>
+<p>Enable = 0: Funkcja ustawia wartość AQ na 0.</p>
+</li>
+<li>
+<p>Enable = 1: Funkcja wyprowadza wartość na AQ, w zależności od ustawień Mode i S1.</p>
+</li>
+</ul>
+<p>Jeśli nie zaznaczysz pola wyboru "gdy Enable = 0, zresetuj Maks/Min":</p>
+<ul>
+<li>
+<p>Enable = 0: Funkcja utrzymuje wartość AQ na bieżącej wartości.</p>
+</li>
+<li>
+<p>Enable = 1: Funkcja wyprowadza wartość na AQ, w zależności od ustawień Mode i S1.</p>
+</li>
+</ul>
+<p>Mode = 0: Funkcja ustawia AQ na wartość minimalną</p>
+<p>Mode = 1: Funkcja ustawia AQ na wartość maksymalną</p>
+<p>Mode = 2 i S1 = 0: Funkcja ustawia AQ na wartość minimalną</p>
+<p>Mode = 2 i S1 = 1: Funkcja ustawia AQ na wartość maksymalną</p>
+<p>Mode = 3 lub odniesienie do wartości bloku: Funkcja wyprowadza aktualną wartość wejścia analogowego.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a></p>
+</div>
+  </body>
+</html>

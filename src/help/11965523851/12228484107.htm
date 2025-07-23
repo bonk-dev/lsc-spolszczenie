@@ -1,0 +1,180 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opóźnienie włączenia/wyłączenia</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Opóźnienie włączenia/wyłączenia<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228469771_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Blok funkcji opóźnienia włączenia/wyłączenia może ustawić wyjście po skonfigurowanym czasie opóźnienia włączenia, a następnie zresetować je po upływie drugiego skonfigurowanego czasu.   </p>
+<TableTitle />
+<p>
+<table id="59b65b13-17bc-4f23-bbdd-db17f3a2dba5" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Opóźnienie włączenia jest wyzwalane przez dodatnie zbocze (przejście z 0 na 1) na wejściu <b>Trg</b> (Trigger).<p>Opóźnienie wyłączenia jest wyzwalane przez ujemne zbocze (przejście z 1 na 0).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T</b>
+<sub>H</sub>
+<b> </b>to czas opóźnienia włączenia dla wyjścia (przejście sygnału wyjściowego z 0 na 1).<br />
+<b>T</b>
+<sub>L</sub>
+<b> </b>to czas opóźnienia wyłączenia dla wyjścia (przejście sygnału wyjściowego z 1 na 0).</p>
+<p class="p_table_l">
+<b>Retentywność</b> włączona = stan jest retentywny w pamięci</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> włącza się po upływie skonfigurowanego czasu <b>T</b>
+<sub>H</sub>, jeśli <b>Trg</b> jest nadal ustawione. Wyłącza się ponownie po upływie czasu <b>T</b>
+<sub>L</sub> i jeśli <b>Trg</b> nie zostało ponownie ustawione.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T<sub>H </sub>i T<sub>L</sub>
+</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji może dostarczyć czas opóźnienia włączenia i wyłączenia ustawiony w parametrach T<sub>H </sub>i T<sub>L</sub>: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń wersji <b>0BA7</b> i późniejszych można dodatkowo użyć rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia retentywne: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+<p>Informacje dotyczące ważności i dokładności podstawy czasu można znaleźć w <i>Podręczniku LOGO!</i>.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142213131_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:478" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przejście z 0 na 1 na wejściu Trg wyzwala czas T<sub>H</sub>.</p>
+<p>Jeśli stan na wejściu Trg wynosi 1 przez co najmniej czas skonfigurowanego czasu T<sub>H</sub>, LOGO! ustawia wyjście na logiczne 1 po upływie tego czasu (wyjście jest opóźnione w stosunku do sygnału wejściowego).</p>
+<p>Czas T<sub>H</sub> jest resetowany, jeśli stan na wejściu Trg powróci do 0 przed upływem tego czasu.</p>
+<p>Przejście z 1 na 0 na wyjściu wyzwala czas T<sub>L</sub>.</p>
+<p>Jeśli stan na wejściu Trg pozostaje 0 przez co najmniej czas skonfigurowanego czasu T<sub>L</sub>, wyjście jest resetowane do 0 po upływie tego czasu (wyjście jest opóźnione w stosunku do sygnału wejściowego).</p>
+<p>Czas T<sub>L</sub> jest resetowany, jeśli stan na wejściu Trg powróci do 1 przed upływem tego czasu.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

@@ -1,0 +1,497 @@
+/* sipsplus.css                     */
+
+/* Stylesheet für SIPSplus           */
+
+/*  Grundeinstellungen */
+
+
+body /* This body tag requires the use of one of the sets of banner and/or text div ids */
+	{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #ffffff; 
+	color: #000000;
+	font-family: Arial Unicode MS, Arial, Helvetica, MS Sans Serif, sans-serif, Courier;
+	font-size: 70%;
+	width: 100%;
+	font-size: 16pt;
+	}
+	
+		
+
+/*  Listen */
+
+td ul
+{
+	font-family: Arial Unicode MS,Arial;
+	font-size: 11.0pt;
+	color: #000000;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+	margin-left: 10px;
+}
+
+td ol
+{
+	font-family: Arial Unicode MS,Arial;
+	font-size: 11.0pt;
+	color: #000000;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+	margin-left: 10px;
+}
+
+
+ul
+{
+	font-family: Arial Unicode MS,Arial;
+	font-size: 12.0pt;
+	color: #000000;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+	margin-left: 23px;
+}
+ul.table
+{
+	font-size: 22.0pt;
+	margin-left: 16px;
+}
+ul.table td
+{
+	font-size: 22.0pt;
+}
+
+
+
+ol
+{
+	font-family: Arial Unicode MS,Arial;
+	font-size: 11.0pt;
+	color: #000000;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+	margin-left: 23px;
+}
+
+
+table 
+{
+	margin-bottom :0px; 
+	margin-left : 13pt; 
+	margin-right : 12pt; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}
+
+table.td.ol.action
+{
+	margin-left: 23px;
+	font-family: Arial Unicode MS,Arial;
+	font-size: 12.0pt;
+}
+ol.action p
+{
+	margin-left: 23px;
+	font-family: Arial Unicode MS,Arial;
+	font-size: 12.0pt;
+}
+
+
+
+ol ul
+{
+	list-style-type: circle;
+	font-family: Arial Unicode MS,Arial;
+	font-size: 11.0pt;
+	color: #000000;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+	margin-left: 23px;
+}
+
+
+
+li
+{
+	font-family: Arial Unicode MS,Arial;
+	font-size: 11.0pt;
+	color: #000000;
+	margin-bottom: 0pt;
+	margin-top: 6pt;
+	margin-left: 0px;
+}
+
+
+p.title
+	{
+
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0em; 
+	font-weight: bold;
+	font-size: 18pt;
+	margin-top: 0em;
+	margin-left: 10px;
+	margin-top: 0.5em;
+	padding-bottom: 0em;
+
+	}
+
+p.blocktitlefirst, p.blocktitle
+	{
+
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 6px; 
+	font-weight: bold;
+	font-size: 14pt;
+	margin-top: 0pt;
+	margin-left: 10px;
+	margin-top: 0px;
+	padding-bottom: 0em;
+	padding-top: 0px;
+	}
+	
+p
+	{
+
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0px; 
+	margin-top: 0px;
+	font-size: 12pt;
+	margin-left: 10px;
+	padding-bottom: 0.2em;
+
+	}
+
+p.p_table_l
+	{
+		vertival-align:top;
+	}
+	
+p.p_table_lb
+	{
+	margin-left: 10px;
+	margin-top: 0.5em;
+	}
+
+p table.table_invisible
+	{
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+table.table_invisible td p
+	{
+	font-size: 12pt;	
+	}
+
+
+p.title
+	{
+	margin-bottom: 12px;
+	}
+
+p.tabletitle
+	{
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+p.imageclass
+{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0.4em; 
+	margin-top: 1em;
+	font-size: 12pt;
+	margin-top: 0em;
+	margin-left: 10px;
+	margin-top: 0.5em;
+	padding-bottom: 0.2em;
+}
+		
+p.image
+{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 3px; 
+	margin-top: 6px;
+	font-size: 12pt;
+	margin-left: 10px;
+	padding-bottom: 0.2em;
+}
+p.imagecontainer
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+	
+p.tabletitle
+{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-top: 12px; 
+	margin-bottom: 3px; 
+	font-size: 12pt;
+	font-weight: bold;
+	margin-left: 12px;
+}
+
+	
+td p
+	{
+	
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0.4em; 
+	margin-top: 1em;
+	font-size: 11pt;
+	margin-top: 0em;
+	margin-left: 0px;
+	margin-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0em;
+	}
+
+table.table_reference
+{
+	margin-bottom :0px; 
+	margin-left : 13pt; 
+	margin-right : 12pt; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}
+
+table.table_default 
+{
+	margin-bottom :12px; 
+	margin-left : 13pt; 
+	margin-right : 12pt; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}
+
+table.table_default th, table.table_default td
+{
+	border-width: 1px;
+	border-color:black;	
+	border-collapse : collapse; 
+	border-style:solid;
+	margin-bottom :0px; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}
+
+table.table_default td p
+	{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0.4em; 
+	margin-top: 1em;
+	font-size: 12pt;
+	margin-top: 0em;
+	margin-left: 5px;
+	margin-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0em;
+	}
+table.table_default th p
+	{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	}
+
+table.table_default th p
+	{
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	margin-bottom: 0.4em; 
+	margin-top: 1em;
+	font-size: 11pt;
+	margin-top: 0em;
+	margin-left: 5px;
+	margin-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0em;
+	}
+
+
+
+table.table_legend 
+{
+	margin-top : -0px; 
+	margin-bottom : 6px; 
+	margin-left : 13pt; 
+	margin-right : 12pt; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}
+
+table.safety 
+{
+	margin-top : 3px; 
+	margin-bottom : 6px; 
+	border: 0px;
+	cellspacing: 5;
+	margin-left : 10px; 
+}
+
+table.safety td {
+    background-color: #eeeeee;
+    vertical-align: top;
+}
+
+table.safety td p {
+	margin-bottom : 3px; 
+	font-family: Arial Unicode MS, Arial, Helvetica, MS Sans Serif, sans-serif, Courier;
+	font-size: 12pt;
+}
+
+
+
+
+table.table_invisible 
+{
+	margin-bottom : 0px; 
+	margin-top : 0px; 
+	margin-left : 13pt; 
+	margin-right : 12pt; 
+	padding-bottom : 0px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+	vertical-align: top;
+}
+
+td 
+{
+	text-align: left;
+	border-width: 1px;
+	border-color:gray;	
+	border-collapse : collapse; 
+	border-style:none;
+	padding-bottom : 30.5em; 
+	padding-left : 3pt; 
+	padding-right : 3pt; 
+	padding-top : 0em; 
+	vertical-align: text-top;
+}
+
+
+table.table_invisible td, table.table_legend td 
+{
+	text-align: left;
+	border-width: 0px;
+	border-color:gray;	
+	border-collapse : collapse; 
+	border-style:none;
+	padding-bottom : 0px; 
+	padding-left : 3pt; 
+	padding-right : 3pt; 
+	padding-top : 0em; 
+}
+
+
+table.warning
+{
+    	background-color: #eeeeee;
+    	margin-top : 3px; 
+	margin-bottom : 6px; 
+	margin-left : 10px;
+	border-color: black;
+	border-width: 1px;
+	border-collapse : collapse; 
+	border-style:solid;
+	border-spacing:0px;
+}
+
+td.textheader {
+	text-align: left;
+	margin-top: 3px;
+}
+
+
+td.iconheader {
+	width: 1%;
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+
+
+table.warning td {
+    	vertical-align: top;
+    	margin-top: 3px;
+	cellspacing-left:0;
+	cellpadding-top: 2px;
+	
+}
+
+
+table.warning td p {
+	margin-bottom: 3px; 
+	font-family: Arial Unicode MS, Arial, Helvetica, MS Sans Serif, sans-serif, Courier;
+	font-size: 12pt;
+}
+
+
+
+tr td.warning 
+{
+	border-top-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-bottom-color:black;	
+	border-collapse : collapse; 
+	border-style:solid;
+}
+
+
+
+
+
+
+
+
+
+th 
+{
+	text-align: left;
+	border-width: 1px;
+	border-color:gray;	
+	padding-bottom : 0em; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	padding-top : 0em; 
+}
+
+tr
+{
+	padding-bottom : 100.5em; 
+	padding-left : 10pt; 
+	padding-right : 10pt; 
+	padding-top : 0em; 
+}
+
+img
+{
+	margin-bottom : 0px; 
+	margin-left : 13px; 
+	margin-right : 12pt; 
+	padding-bottom : 20px; 
+	padding-left : 0pt; 
+	padding-right : 0pt; 
+	text-align : left; 
+	text-indent : 0; 
+}

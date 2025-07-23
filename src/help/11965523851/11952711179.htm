@@ -1,0 +1,56 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>System klimatyzacji</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowSample">
+        <p class="title">System klimatyzacji<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania dotyczące systemu klimatyzacji</p>
+      <p>System klimatyzacji dostarcza świeże powietrze do pomieszczenia i usuwa zanieczyszczone powietrze. Przyjrzyjmy się następującemu przykładowemu systemowi:  </p>
+      <ul>
+        <li>
+          <p>Pomieszczenie zawiera wentylator wyciągowy i wentylator nawiewu świeżego powietrza.</p>
+        </li>
+        <li>
+          <p>Każdy wentylator jest monitorowany za pomocą czujnika przepływu.</p>
+        </li>
+        <li>
+          <p>Ciśnienie w pomieszczeniu może wzrosnąć powyżej ciśnienia atmosferycznego.</p>
+        </li>
+        <li>
+          <p>Wentylator nawiewu świeżego powietrza może zostać włączony tylko wtedy, gdy czujnik przepływu sygnalizuje bezpieczny stan pracy wentylatora wyciągowego.</p>
+        </li>
+        <li>
+          <p>Lampa ostrzegawcza wskazuje awarię jednego z wentylatorów.</p>
+        </li>
+      </ul>
+      
+      <p class="blocktitle">Standardowe rozwiązanie</p>
+      <p>Wentylatory są monitorowane za pomocą czujników przepływu. Jeśli czujniki nie zarejestrują przepływu powietrza po upływie krótkiego czasu opóźnienia, system jest wyłączany i generowany jest komunikat o błędzie, który można potwierdzić poprzez naciśnięcie przycisku wyłączania.</p>
+      <p>Monitorowanie wentylatorów wymaga obwodu analizatora z kilkoma urządzeniami przełączającymi, oprócz czujników przepływu. Pojedyncze urządzenie LOGO! może zastąpić ten obwód analizatora.</p>
+      
+      <p class="blocktitle">Rozwiązanie LOGO!Soft Comfort</p>
+      <p>Użycie LOGO! zmniejsza ilość aparatury łączeniowej. Dzięki temu oszczędzasz czas instalacji i miejsce w szafie sterowniczej. Możesz nawet użyć mniejszej szafy sterowniczej.</p>
+      <p>Dzięki LOGO! możesz również wyłączać wentylatory sekwencyjnie po wyłączeniu systemu.</p>
+      
+      <p class="blocktitle">Obwód w LOGO!Soft Comfort</p>
+      <p>System jest włączany i wyłączany na wejściach I1 i I2. Wentylatory są podłączone do wyjść Q1 i Q2, czujniki przepływu są podłączone do wejść I3 i I4. Bloki B007 i B008 służą do ustawiania czasów watchdog, po których czujniki przepływu powinny wysłać sygnał do wyjścia awaryjnego Q3.</p>
+       <p class="imagecontainer">
+<img src="../images/64558434827_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:670" alt="" />
+</p>
+<p>Możesz odwrócić wyjście Q3, aby używać komunikatów wyjściowych na Q4. Przekaźnik Q4 wyłącza się tylko w przypadku utraty zasilania głównego lub awarii w systemie. Wyjście może być następnie wykorzystane do zdalnego komunikatu.</p>
+</div>
+  </body>
+</html>

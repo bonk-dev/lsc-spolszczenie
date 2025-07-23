@@ -1,0 +1,176 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Generator losowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Generator losowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228580363_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście generatora losowego jest przełączane w konfigurowalnym czasie.</p>
+<TableTitle />
+<p>
+<table id="5bc76ed7-1e10-4b83-a440-6ec4428488a0" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze (przejście z 0 na 1) na wejściu włączającym <b>En</b> (Enable) uruchamia opóźnienie włączenia dla generatora losowego.<p>Ujemne zbocze (przejście z 1 na 0) uruchamia opóźnienie wyłączenia dla generatora losowego.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T</b>
+<sub>H</sub>
+<b>:</b> Opóźnienie włączenia jest losowo określane i mieści się w przedziale od 0 s do <b>T</b>
+<sub>H</sub>.<br />
+<b>T</b>
+<sub>L</sub>
+<b>:</b> Opóźnienie wyłączenia jest losowo określane i mieści się w przedziale od 0 s do <b>T</b>
+<sub>L</sub>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane po upływie opóźnienia włączenia, jeśli En jest nadal ustawione. Jest resetowane, gdy czas opóźnienia wyłączenia upłynie i jeśli En nie zostało ponownie ustawione.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T<sub>H</sub> i T<sub>L</sub>
+</p>
+<p>Czas opóźnienia włączenia T<sub>H</sub> i czas opóźnienia wyłączenia T<sub>L</sub> mogą być dostarczone przez aktualną wartość innej już zaprogramowanej funkcji:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy sterowany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142439819_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:319" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przy przejściu z 0 na 1 na wejściu En, ustawiany i uruchamiany jest losowy czas (czas opóźnienia włączenia) między 0 s a T<sub>H</sub>. Jeśli stan na wejściu En wynosi 1 przez co najmniej czas opóźnienia włączenia, wyjście jest ustawiane na 1 po upływie tego czasu.</p>
+<p>Czas jest resetowany, jeśli stan na wejściu En zostanie zresetowany do 0 przed upływem czasu opóźnienia włączenia.</p>
+<p>Gdy wejście En zostanie zresetowane do 0, ustawiany i uruchamiany jest losowy czas (czas opóźnienia wyłączenia) między 0 s a T<sub>L</sub>.</p>
+<p>Jeśli stan na wejściu En wynosi 0 przez co najmniej czas opóźnienia wyłączenia, wyjście Q jest resetowane do 0 po upływie tego czasu.</p>
+<p>Czas jest resetowany, jeśli stan na wejściu En powróci do 1 przed upływem czasu opóźnienia włączenia.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

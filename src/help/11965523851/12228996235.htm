@@ -1,0 +1,41 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Możliwe ustawienia z LOGO!</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Możliwe ustawienia z LOGO!<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>Jeśli programujesz swój obwód bezpośrednio na LOGO!, możesz wprowadzić tylko parametry wzmocnienia i przesunięcia. Wzmocnienie i przesunięcie możesz obliczyć w następujący sposób: </p>
+      <p>
+        <b>Zakres wartości zewnętrznych </b>min<sub>Czujnik</sub> - max<sub>Czujnik</sub>:</p>
+      <p>Zakres wielkości fizycznej, którą może zmierzyć czujnik.</p>
+      <p>
+        <b>Znormalizowany zakres wartości </b>min<sub>norm</sub> - max<sub>norm</sub>:</p>
+      <p>Zakres wartości znormalizowanych. </p>
+      <p>Dla czujników dostarczających 0 do 10 V lub 0 do 20 mA, znormalizowany zakres wartości wynosi 0 – 1000.</p>
+      <p>Dla czujników dostarczających 4 do 20 mA, znormalizowany zakres wynosi 200 – 1000.</p>
+      <p>Dla wzmocnienia i przesunięcia wynika z tego:</p>
+      <p>
+        <b>Wzmocnienie</b> = (max<sub>Czujnik</sub> - min<sub>Czujnik</sub>) / (max<sub>norm</sub> – min<sub>norm</sub>)</p>
+      <p>
+        <b>Przesunięcie</b> = [(min<sub>Czujnik</sub> x max<sub>norm</sub>) – (max<sub>Czujnik</sub> x min<sub>norm</sub>)] / (max<sub>norm</sub> – min<sub>norm</sub>)</p>
+      <p>Jeśli obliczyłeś wzmocnienie lub przesunięcie zgodnie z powyższymi wzorami, możesz następnie obliczyć odpowiednią drugą wartość zgodnie z następującym wzorem:</p>
+      <p>
+        <b>Wzmocnienie</b> = (min<sub>Czujnik</sub> - Przesunięcie) / min<sub>norm</sub>
+</p>
+      <p>
+        <b>Przesunięcie</b> = (min<sub>Czujnik</sub> – (Wzmocnienie x min<sub>norm</sub>)</p>
+    </div>
+  </body>
+</html>

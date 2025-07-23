@@ -1,0 +1,308 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>LOGO!Soft Comfort wymaga potwierdzenia interfejsu połączenia dla każdej próby komunikacji. Zobacz "<a href="../11965523851/12207870219.htm">Narzędzia -&gt; Transfer</a>" aby uzyskać pełne informacje.</p>
+      <p>Za pomocą tego polecenia menu można skonfigurować połączenie z chmurą dla LOGO! BM. </p>
+      
+      <table class="safety" valign="top" border=0>
+        <tr>
+          <td>
+            <b>Uwaga</b>
+            <p class="BlocklabelWarnings">Czas LOGO! BM</p>
+            <p>Przed skonfigurowaniem połączenia z chmurą upewnij się, że data i czas LOGO! BM są poprawne. W przeciwnym razie połączenie z chmurą nie powiedzie się.</p>
+          </td>
+        </tr>
+      </table>
+       <p class="imagecontainer">
+<img src="../images/164446859659_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:651" alt="" />
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>LOGO! 8.4 (i nowsze wersje) Base Module obsługuje połączenie z chmurą AWS, Azure, Alibaba lub ogólnym brokerem MQTT.</p>
+<p>LOGO! 8.3 Base Module obsługuje tylko połączenie z chmurą AWS.</p>
+</td>
+</tr>
+</table>
+
+<p class="blocktitle">Włącz dostęp do chmury</p>
+<p>Dostęp do chmury można włączyć w następujący sposób:</p>
+<ol>
+<li>
+<p>Zaznacz pole wyboru "Włącz dostęp do chmury".</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<ul class="safety">
+<li class="safety">
+<p>Dla LOGO! 8.3 Base Module nie można jednocześnie włączyć dostępu do serwera WWW i dostępu do chmury.</p>
+</li>
+<li class="safety">
+<p>Dla LOGO! 8.4 Base Module można jednocześnie włączyć dostęp do serwera WWW i dostęp do chmury.</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</li>
+<li>
+<p>Kliknij przycisk "Zastosuj".</p>
+</li>
+</ol>
+
+<p class="blocktitle">Zarejestruj LOGO! BM w AWS IoT</p>
+<p class="RedBlocklabel">Wymagania</p>
+<p>Przed zarejestrowaniem LOGO! BM w AWS IoT upewnij się, że spełnione są następujące warunki:</p>
+<ul>
+<li>
+<p>Dostęp do chmury musi być włączony.</p>
+</li>
+<li>
+<p>Konto AWS zostało utworzone.</p>
+</li>
+<li>
+<p>Zastosowano klucz dostępu.</p>
+</li>
+</ul>
+<p class="RedBlocklabel">Procedura</p>
+<p>Wykonaj następujące kroki, aby zarejestrować LOGO! BM w AWS IoT:</p>
+<ol>
+<li>
+<p>Przejdź do zakładki "Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą" i kliknij przycisk "Zarejestruj urządzenie". Następnie wyświetli się okno dialogowe "Rejestracja".</p>
+<p>Wybierz typ chmury "AWS" i kliknij przycisk "Dalej". </p>
+ <p class="imagecontainer">
+<img src="../images/164448115467_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wybierz region IoT, wprowadź "ID klucza dostępu" i "Sekretny klucz dostępu". Jeśli używasz konta AWS z tymczasowymi poświadczeniami (TVM) do rejestracji, musisz również wprowadzić "Token sesji". Następnie kliknij przycisk "Dalej".</p>
+ <p class="imagecontainer">
+<img src="../images/164448155019_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Zaznacz pole wyboru "Utwórz nowe urządzenie" lub "Użyj istniejącego urządzenia". Następnie kliknij przycisk "Dalej".</p>
+<p>Jeśli wybierzesz "Utwórz nowe urządzenie", przejdź do kroku 4. Jeśli wybierzesz "Użyj istniejącego urządzenia", przejdź do kroku 5.</p>
+ <p class="imagecontainer">
+<img src="../images/164448178699_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź nazwę. Następnie kliknij przycisk "Dalej".</p>
+<p>Zasady nazewnictwa:</p>
+<ul>
+<li>
+<p>Długość nazwy nie może przekraczać 128 znaków.</p>
+</li>
+<li>
+<p>Nazwa może składać się z dowolnych liter, myślnika "-" i podkreślnika "_".</p>
+</li>
+</ul>
+<p>Więcej informacji można znaleźć w zasadach nazewnictwa urządzeń AWS IoT.</p>
+<p>Po utworzeniu grupy rozliczeniowej i przypisaniu do niej tagów na stronie AWS, można przypisać skonfigurowaną grupę rozliczeniową do urządzenia IoT, aby kategoryzować i śledzić koszty związane z usługą IoT. </p>
+ <p class="imagecontainer">
+<img src="../images/164448192651_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wybierz typ tematu dla rejestracji. Następnie kliknij przycisk "Dalej".</p>
+<p>Jeśli zarejestrowane urządzenie IoT będzie używane w projekcie LWE, który zostanie wdrożony w AWS jako aplikacja internetowa, należy wybrać temat Shadow i skonfigurować dane chmury jako "Format danych serwera WWW LOGO!" w <a href="../11965523851/134267632395.htm">Ustawieniach transferu danych chmury</a>. </p>
+ <p class="imagecontainer">
+<img src="../images/164448247563_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Dla LOGO! 8.3 Base Module nie trzeba wybierać typu tematu, ale można przejść bezpośrednio do kroku 6.</p>
+</td>
+</tr>
+</table>
+</li>
+<li>
+<p>Utwórz certyfikat, wprowadzając następujące informacje:</p>
+<p>
+<table id="1d6c4c98-057c-aba2-e243-6659f3d3d300" class="table_default_list" width="91%" cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="17.8%" />
+<col width="82.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Element</p>
+</th>
+<th>
+<p class="p_table_lb">Zasada</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Kraj/Region</p>
+</td>
+<td>
+<p class="p_table_l">Wybierz z listy rozwijanej.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Województwo</p>
+</td>
+<td rowspan="2">
+<p class="p_table_l">Zasady nazewnictwa:</p>
+<ul class="table">
+<li>
+<p>Długość nazwy województwa lub organizacji nie może przekraczać 16 znaków.</p>
+</li>
+<li>
+<p>Nazwa województwa lub organizacji może składać się z dowolnych znaków alfanumerycznych, spacji, myślnika "-", podkreślnika "_" i dwukropka ":".</p>
+</li>
+</ul>
+<p class="p_table_l">Wiêcej informacji można znaleźć w zasadach dotyczących usługi AWS IoT.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Organizacja </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Nazwa jednostki</p>
+</td>
+<td>
+<p class="p_table_l">Zasady nazewnictwa:</p>
+<ul class="table">
+<li>
+<p>Długość nazwy jednostki nie może przekraczać 16 znaków.</p>
+</li>
+<li>
+<p>Nazwa jednostki może składać się z dowolnych znaków alfanumerycznych.</p>
+</li>
+</ul>
+<p class="p_table_l">Wiêcej informacji można znaleźć w zasadach dotyczących usługi AWS IoT.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+ <p class="imagecontainer">
+<img src="../images/164448206603_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Kliknij przycisk "Dalej", a następnie na stronie "Status rejestracji" zostanie wyświetlony komunikat o pomyślnej rejestracji. Kliknij przycisk "Zakończ", aby zamknąć okno dialogowe rejestracji.</p>
+ <p class="imagecontainer">
+<img src="../images/164448233355_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+</ol>
+
+<p class="blocktitle">Zarejestruj LOGO! BM w Azure IoT</p>
+<p class="RedBlocklabel">Wymagania</p>
+<p>Przed zarejestrowaniem LOGO! BM w Azure IoT upewnij się, że spełnione są następujące warunki:</p>
+<ul>
+<li>
+<p>Dostęp do chmury musi być włączony.</p>
+</li>
+<li>
+<p>Konto Azure zostało utworzone.</p>
+</li>
+<li>
+<p>Zastosowano podstawowy ciąg połączenia IoT Hub. </p>
+</li>
+</ul>
+<p class="RedBlocklabel">Procedura</p>
+<p>Wykonaj następujące kroki, aby zarejestrować LOGO! BM w Azure IoT:</p>
+<ol>
+<li>
+<p>Przejdź do zakładki "Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą" i kliknij przycisk "Zarejestruj urządzenie". Następnie wyświetli się okno dialogowe "Rejestracja".</p>
+<p>Wybierz typ chmury "Azure" i kliknij przycisk "Dalej". </p>
+ <p class="imagecontainer">
+<img src="../images/164448257419_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź "Podstawowy ciąg połączenia IoT Hub". Następnie kliknij przycisk "Dalej".</p>
+ <p class="imagecontainer">
+<img src="../images/164448777995_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wybierz "Utwórz nowe urządzenie" lub "Użyj istniejącego urządzenia". Następnie kliknij przycisk "Dalej".</p>
+<p>Jeśli wybierzesz "Utwórz nowe urządzenie", przejdź do kroku 4; jeśli wybierzesz "Użyj istniejącego urządzenia", przejdź do kroku 5.</p>
+ <p class="imagecontainer">
+<img src="../images/164448786571_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Wprowadź identyfikator urządzenia. Następnie kliknij przycisk "Dalej".</p>
+<p>Zasady nazewnictwa:</p>
+<ul>
+<li>
+<p>Długość identyfikatora urządzenia nie może przekraczać 128 znaków.</p>
+</li>
+<li>
+<p>Identyfikator urządzenia może składać się z dowolnych liter, cyfr i niektórych znaków specjalnych - . _ * ! ( ) , : = @ $ '.</p>
+</li>
+</ul>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Jeśli utworzysz identyfikator urządzenia na platformie Azure z innymi znakami specjalnymi niż wymienione powyżej, nie będzie on wyświetlany na liście istniejących urządzeń w kroku 3.</p>
+</td>
+</tr>
+</table>
+ <p class="imagecontainer">
+<img src="../images/164448807947_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+<li>
+<p>Na stronie "Status rejestracji" zostanie wyświetlony komunikat o pomyślnej rejestracji. Kliknij przycisk "Zakończ", aby zamknąć okno dialogowe rejestracji.</p>
+ <p class="imagecontainer">
+<img src="../images/164448816523_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+</ol>
+
+<p class="blocktitle">Zarejestruj LOGO! BM w Alibaba IoT</p>
+<p class="RedBlocklabel">Wymagania</p>
+<p>Przed zarejestrowaniem LOGO! BM w Alibaba IoT upewnij się, że spełnione są następujące warunki:</p>
+<ul>
+<li>
+<p>Dostęp do chmury musi być włączony.</p>
+</li>
+<li>
+<p>Konto Alibaba zostało utworzone.</p>
+</li>
+</ul>
+<p class="RedBlocklabel">Procedura</p>
+<p>Wykonaj następujące kroki, aby zarejestrować LOGO! BM w Alibaba IoT:</p>
+<ol>
+<li>
+<p>Przejdź do zakładki "Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą" i kliknij przycisk "Zarejestruj urządzenie". Następnie wyświetli się okno dialogowe "Rejestracja".</p>
+<p>Wybierz typ chmury "Alibaba" i klik

@@ -1,0 +1,499 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Narzędzia -> Mapowanie parametrów VM (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Narzędzia -> Mapowanie parametrów VM (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Przegląd VM</p>
+      <p>Moduł bazowy LOGO! wykorzystuje VM (Variable Memory) jako lokalny interfejs komunikacji danych do wymiany danych za pomocą konfiguracji połączeń/przesyłania danych.</p>
+      <p>Możesz użyć LOGO!Soft Comfort z poleceniem menu Połączenia Ethernet, postępując zgodnie z instrukcjami w sekcji <a href="../11965523851/25633462283.htm">Narzędzia -> Połączenia Ethernet (tylko wersje 0BA7 i nowsze)</a>, aby zbudować topologię sieci.</p>
+      <p>LOGO!Soft Comfort wykonuje proces wymiany danych w następujący sposób:</p>
+      <ul>
+        <li>
+          <p>Serwer przechowuje wymagane dane w obszarze VM określonym przez połączenie danych i transfer danych. Jest to zdefiniowane jako akcja "udostępniania" w następującej sekcji.</p>
+        </li>
+        <li>
+          <p>Jednostka kliencka odczytuje obszar VM serwera, a następnie aktualizuje odpowiadający jej lokalny obszar VM w swoim kroku procesu sieciowego.</p>
+        </li>
+        <li>
+          <p>Po lokalnej aktualizacji program obwodowy w kliencie może wykorzystać informacje z lokalnego VM pochodzące z serwera.</p>
+        </li>
+      </ul>
+      
+      <table class="safety" valign="top" border=0>
+        <tr>
+          <td>
+            <b>Uwaga</b>
+            <p>LOGO! 8.FS4 obsługuje dwa typy połączeń, S7 i Modbus. LOGO! 0BA7 i LOGO! 0BA8 obsługują tylko połączenie S7.</p>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <b>Typ danych i adres VM</b>
+      </p>
+      <p>Poniżej przedstawiono adresowanie VM i użycie typu danych:</p>
+       <p class="imagecontainer">
+<img src="../images/166832320907_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:511" alt="" />
+</p>
+
+<p class="blocktitle">Tworzenie mapowania parametrów VM</p>
+<p>Gdy zmienisz wartość parametru w lokalnym VM, wartość w LOGO!Soft Comfort zmienia się odpowiednio. W ten sposób LOGO!Soft Comfort synchronizuje informacje z lokalnym VM w czasie rzeczywistym.</p>
+<p>LOGO!Soft Comfort synchronizuje wartości parametrów bloku z określonym VM w każdym cyklu LOGO!. Po synchronizacji moduł bazowy LOGO! może używać VM do komunikacji z innymi urządzeniami SIMATIC. Możesz zmapować do 64 parametrów w VM dla każdego modułu bazowego LOGO! w oknie dialogowym Konfiguracja pamięci zmiennych. Dla modułu bazowego LOGO! 8.4 i nowszych wersji, 2048 bajtów obszaru VX jest rozszerzonych dla mapowania parametrów VM.</p>
+<p>Poniższy ekran jest przykładem okna dialogowego konfiguracji mapowania parametrów VM:</p>
+ <p class="imagecontainer">
+<img src="../images/66291171211_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:450" alt="" />
+</p>
+<p>Kolumna Blok zawiera listę parametrów dla SFB w bieżącym programie. Kolumna Parametr zapewnia listę wyboru parametrów odpowiadającego bloku. Kolumna Typ wyświetla typ danych wybranego parametru. Kolumna Adres jest również konfigurowalna. Możesz jej użyć do identyfikacji adresu VM używanego do zapisywania wartości parametru.</p>
+<p>Ikona obok nazwy parametru wskazuje właściwość tego parametru:</p>
+<TableTitle />
+<p>
+<table id="244b0174-391e-47bb-8122-e49d9734ca27" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="89.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+ <img src="../images/29146800267_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:20" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Wartość parametru jest wartością ustawienia i jest zapisywalna.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+ <img src="../images/29146385931_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:18" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Wartość parametru jest wartością rzeczywistą i jest tylko do odczytu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+ <img src="../images/29146361355_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Chociaż wartość parametru jest wartością rzeczywistą, nadal możesz zmienić wartość.</p>
+<p class="p_table_l">UWAGA:</p>
+<p class="p_table_l">Tylko parametr <b>Licznik</b> licznika w górę/w dół ma taką flagę.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+ <img src="../images/29146377739_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:17" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Wartość parametru jest odwołaniem do wartości rzeczywistej innego już zaprogramowanego bloku funkcyjnego.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">Należy pamiętać, że jeśli nie pojawi się żadna flaga, wartość parametru jest wartością systemową i pozostaje tylko do odczytu.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>W oknie mapowania parametrów VM możesz wykonać następujące zadania:</p>
+<ul>
+<li>
+<p>Wybierz wiele linii rekordów, naciskając klawisz <b>Ctrl</b> lub <b>Shift</b> i klikając ID żądanej linii.</p>
+</li>
+<li>
+<p>Wstaw linię w dół, naciskając klawisz <b>Enter</b> w ostatniej komórce żądanej linii.</p>
+</li>
+<li>
+<p>Wstaw linię w górę, klikając ID żądanej linii i naciskając klawisz <b>Insert</b> lub klikając prawym przyciskiem myszy żądaną linię, aby dodać nowy wiersz.</p>
+</li>
+<li>
+<p>Usuń linię, klikając ID żądanej linii i naciskając klawisz <b>Delete</b> lub klikając prawym przyciskiem myszy żądaną linię, aby usunąć istniejący wiersz.</p>
+</li>
+</ul>
+<p>Nie można zmienić typu parametru i należy skonfigurować unikalny adres dla każdego parametru. Zakres dla adresu parametru wynosi od 0 do 850. Jeśli wprowadzona wartość przekroczy ten zakres, wejścia i wyjścia zostaną automatycznie zmodyfikowane do określonych adresów VM.</p>
+<p>Poniższa tabela przedstawia mapowania między wejściami/wyjściami a adresami VM dla LOGO! 0BA8:</p>
+<TableTitle />
+<p>
+<table id="4d85fb30-1ee6-4e6c-843e-6a493a2c87a7" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.2%" />
+<col width="30.3%" />
+<col width="26.9%" />
+<col width="23.4%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_l">Typ bloku</p>
+</th>
+<th>
+<p class="p_table_l">Adres VM (Od)</p>
+</th>
+<th>
+<p class="p_table_l">Adres VM (Do)</p>
+</th>
+<th>
+<p class="p_table_l">Zakres</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">I</p>
+</td>
+<td>
+<p class="p_table_l">1024</p>
+</td>
+<td>
+<p class="p_table_l">1031</p>
+</td>
+<td>
+<p class="p_table_l">8 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">AI</p>
+</td>
+<td>
+<p>1032</p>
+</td>
+<td>
+<p>1063</p>
+</td>
+<td>
+<p>32 bajty</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Q</p>
+</td>
+<td>
+<p>1064</p>
+</td>
+<td>
+<p>1071</p>
+</td>
+<td>
+<p>8 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>AQ</p>
+</td>
+<td>
+<p>1072</p>
+</td>
+<td>
+<p>1103</p>
+</td>
+<td>
+<p>32 bajty</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>M</p>
+</td>
+<td>
+<p>1104</p>
+</td>
+<td>
+<p>1117</p>
+</td>
+<td>
+<p>14 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>AM</p>
+</td>
+<td>
+<p>1118</p>
+</td>
+<td>
+<p>1245</p>
+</td>
+<td>
+<p>128 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>NI</p>
+</td>
+<td>
+<p>1246</p>
+</td>
+<td>
+<p>1261</p>
+</td>
+<td>
+<p>16 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>NAI</p>
+</td>
+<td>
+<p>1262</p>
+</td>
+<td>
+<p>1389</p>
+</td>
+<td>
+<p>128 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>NQ</p>
+</td>
+<td>
+<p>1390</p>
+</td>
+<td>
+<p>1405</p>
+</td>
+<td>
+<p>16 bajtów</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>NAQ</p>
+</td>
+<td>
+<p>1406</p>
+</td>
+<td>
+<p>1469</p>
+</td>
+<td>
+<p>64 bajty</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>Poniższa tabela przedstawia mapowania między wejściami/wyjściami a adresami VM dla LOGO! 0BA7:</p>
+<TableTitle />
+<p>
+<table id="58150945-8278-ae1d-ea8f-a0326ee43561" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.2%" />
+<col width="30.7%" />
+<col width="19.2%" />
+<col width="30.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>DI</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Adres VM</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>DQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Adres VM</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I1</p>
+</td>
+<td>
+<p class="p_table_l">V923.0</p>
+</td>
+<td>
+<p class="p_table_l">Q1</p>
+</td>
+<td>
+<p class="p_table_l">V942.0</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I2</p>
+</td>
+<td>
+<p class="p_table_l">V923.1</p>
+</td>
+<td>
+<p class="p_table_l">Q2</p>
+</td>
+<td>
+<p class="p_table_l">V942.1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I3</p>
+</td>
+<td>
+<p class="p_table_l">V923.2</p>
+</td>
+<td>
+<p class="p_table_l">Q3</p>
+</td>
+<td>
+<p class="p_table_l">V942.2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I4</p>
+</td>
+<td>
+<p class="p_table_l">V923.3</p>
+</td>
+<td>
+<p class="p_table_l">Q4</p>
+</td>
+<td>
+<p class="p_table_l">V942.3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I5</p>
+</td>
+<td>
+<p class="p_table_l">V923.4</p>
+</td>
+<td>
+<p class="p_table_l">Q5</p>
+</td>
+<td>
+<p class="p_table_l">V942.4</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I6</p>
+</td>
+<td>
+<p class="p_table_l">V923.5</p>
+</td>
+<td>
+<p class="p_table_l">Q6</p>
+</td>
+<td>
+<p class="p_table_l">V942.5</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I7</p>
+</td>
+<td>
+<p class="p_table_l">V923.6</p>
+</td>
+<td>
+<p class="p_table_l">Q7</p>
+</td>
+<td>
+<p class="p_table_l">V942.6</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I8</p>
+</td>
+<td>
+<p class="p_table_l">V923.7</p>
+</td>
+<td>
+<p class="p_table_l">Q8</p>
+</td>
+<td>
+<p class="p_table_l">V942.7</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l"> </p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I9</p>
+</td>
+<td>
+<p class="p_table_l">V924.0</p>
+</td>
+<td>
+<p class="p_table_l">Q9</p>
+</td>
+<td>
+<p class="p_table_l">V943.0</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I10</p>
+</td>
+<td>
+<p class="p_table_l">V924.1</p>
+</td>
+<td>
+<p class="p_table_l">Q10</p>
+</td>
+<td>
+<p class="p_table_l">V943.1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">I11</p>
+</td>
+<td>
+<p class="p_table_l">V

@@ -1,0 +1,81 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Stacja napełniania</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowSample">
+        <p class="title">Stacja napełniania<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania dotyczące stacji napełniania</p>
+      <p>Pudełko ma być wypełnione dwoma różnymi przedmiotami, do określonej liczby dla każdego przedmiotu. Gdy wszystkie przedmioty znajdą się w pudełku, zostanie ono przetransportowane do stacji pakowania. Taśmociąg transportuje przedmioty obu typów do pudełka. (Ten przykład nie pokazuje taśmociągu napełniającego.) Program obwodu w tym przykładzie wykorzystuje dwa liczniki w górę/w dół do zliczania przedmiotów każdego typu, instrukcję matematyczną do zsumowania całkowitej liczby przedmiotów oraz teksty komunikatów wyświetlane na wyświetlaczu LOGO! onboard i LOGO! TD (Wyświetlacz Tekstowy), które pokazują liczbę przedmiotów każdego typu i całkowitą liczbę zliczoną do tej pory.</p>
+      <p>Proces ten opisano poniżej:</p>
+      <ul>
+        <li>
+          <p>Aby napełnić pudełko, każdy przedmiot jest transportowany taśmociągiem do pudełka (nie jest to część tego przykładu).</p>
+        </li>
+        <li>
+          <p>Kolejność, w jakiej przedmioty wpadają do pudełka, jest losowa.</p>
+        </li>
+        <li>
+          <p>Każdy przedmiot, który wpadnie do pudełka, jest zliczany przez czujnik.</p>
+        </li>
+        <li>
+          <p>Podłączony LOGO! TD oraz wyświetlacz LOGO! onboard muszą wyświetlać, ile przedmiotów każdego rodzaju zostało zliczonych oraz ile łącznie przedmiotów znajduje się w pudełku.</p>
+        </li>
+      </ul>
+      
+      <p class="blocktitle">Program obwodu w LOGO!Soft Comfort</p>
+      <p>Bariery świetlne są podłączone do dwóch cyfrowych wejść I1 i I2 czujników, które wykrywają, gdy przedmiot wpada do pudełka. Dwa liczniki (B001 i B002) zliczają każdy przedmiot dla dwóch określonych typów przedmiotów, gdy wpadają do pudełka. Próg włączenia każdego licznika określa maksymalną możliwą liczbę dla każdego typu przedmiotu. Gdy pudełko jest pełne, taśmociąg aktywuje się na dziesięć sekund, aby przetransportować napełnione pudełko do stacji pakowania i przetransportować puste pudełko do stacji napełniania.</p>
+      <p>Program obwodu wykorzystuje <a href="../11965523851/12229208715.htm">blok funkcji tekstu komunikatu</a> do wyświetlenia na LOGO! TD i wyświetlaczu LOGO! onboard, ile łącznie przedmiotów i ile każdego typu zostało zliczonych. Tekst komunikatu wykorzystuje funkcję "tykania", aby na przemian wyświetlać wykresy słupkowe zliczonych przedmiotów i tekstowe podsumowanie zliczeń.</p>
+       <p class="imagecontainer">
+<img src="../images/64558552843_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:670" alt="" />
+</p>
+
+<p class="blocktitle">Parametry bloków funkcji</p>
+<p>Należy zwrócić uwagę na następujące użycie parametrów:</p>
+<ul>
+<li>
+<p>Progi włączenia liczników B001 i B002 definiują maksymalną liczbę przedmiotów każdego typu, które mają być umieszczone w pudełku.</p>
+</li>
+<li>
+<p>Szerokość impulsu (TH) przekaźnika wyzwalanego zboczem definiuje czas trwania ruchu taśmociągu.</p>
+</li>
+<li>
+<p>Blok funkcji instrukcji matematycznej B007, który oblicza sumę, jest zaprogramowany w następujący sposób:</p>
+<ul>
+<li>
+<p>Wartość 1 to parametr odniesienia do bieżącej wartości licznika B001.</p>
+</li>
+<li>
+<p>Wartość 2 to parametr odniesienia do bieżącej wartości licznika B002.</p>
+</li>
+<li>
+<p>Operator 1 to "+" do sumowania dwóch liczników.</p>
+</li>
+<li>
+<p>Priorytet 1 jest wysoki. (Jest to jedyna operacja w bloku funkcji, więc priorytet w tym przypadku jest nieistotny).</p>
+</li>
+<li>
+<p>Pozostałe operandy i operatory są ustawione na "+ 0" i nie wpływają na wynik równania.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p class="blocktitle">Teksty komunikatów</p>
+<p>Blok tekstu komunikatu B010 wyświetla tekst komunikatu, którego cztery linie "tykają linia po linii", tak że dwie formy ekranu wyświetlają się na przemian. Pierwsza pokazuje reprezentacje wykresów słupkowych zliczonych przedmiotów (bieżące wartości B001 i B002) i wykres słupkowy dla zsumowanej całkowitej liczby przedmiotów obliczonej przez B007. Druga forma ekranu pokazuje te same wartości liczbowo i z opisami tekstowymi.</p>
+<p>Blok funkcji tekstu komunikatu jest skonfigurowany z dwoma włączonymi zestawami znaków. Tekst komunikatu dla zestawu znaków 1 jest skonfigurowany z tekstem angielskim, a tekst komunikatu dla zestawu znaków 2 jest skonfigurowany z tekstem niemieckim. Użyj <a href="../11965523851/12207389195.htm">Plik &#x2192; Ustawienia Tekstu Komunikatu</a>, aby wybrać dwa zestawy znaków. W tym przypadku należy wybrać ten sam zestaw znaków dla znaków angielskich i niemieckich. Gdy LOGO! jest w trybie pracy, aktualny wybór zestawu znaków dla tekstów komunikatów określa, który komunikat będzie wyświetlany.</p>
+</div>
+  </body>
+</html>

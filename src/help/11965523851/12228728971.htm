@@ -1,0 +1,170 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tygodniowy timer</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Tygodniowy timer<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228670603_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest sterowane za pomocą konfigurowalnej daty włączenia/wyłączenia. Możesz skonfigurować timer do aktywacji w trybie rocznym, miesięcznym lub zdefiniowanym przez użytkownika. W każdym trybie możesz również skonfigurować timer do pulsowania wyjścia w zdefiniowanym okresie czasu. Okres czasu można skonfigurować w zakresie dat od 1 stycznia 2000 roku do 31 grudnia 2099 roku.</p>
+
+<table class="safety" valign="top" border=0>
+<tr>
+<td>
+<b>Uwaga</b>
+<p>Aby użyć tego bloku funkcyjnego, musisz użyć LOGO! z wewnętrznym zegarem czasu rzeczywistego.</p>
+</td>
+</tr>
+</table>
+<TableTitle />
+<p>
+<table id="6e2abe10-026a-4979-8037-a5a6090dcc77" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">W parametrze <b>No</b> (krzywka) konfigurujesz tryb timera, czasy włączenia/wyłączenia timera oraz czy wyjście jest wyjściem pulsującym.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q jest włączane, gdy skonfigurowana krzywka jest włączona.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Diagramy czasowe</p>
+<p>
+<b>Przykład 1: Wybrano roczny</b>, Czas włączenia = 2000.06.01, Czas wyłączenia = 2099.08.31, Każdego roku 1 czerwca wyjście timera włącza się i pozostaje włączone do 31 sierpnia.</p>
+ <p class="imagecontainer">
+<img src="../images/137142721547_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 2: Wybrano roczny</b>, <b>Wybrano wyjście pulsujące</b>, Czas włączenia = 2000.03.15, Czas wyłączenia = 2099.**.**. Każdego roku 15 marca timer włącza się na jeden cykl.</p>
+ <p class="imagecontainer">
+<img src="../images/137142739851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 3: Wybrano roczny</b>, Czas włączenia = 2008.06.01, Czas wyłączenia = 2010.08.31. 1 czerwca 2008, 2009 i 2010 roku wyjście timera włącza się i pozostaje włączone do 31 sierpnia.</p>
+ <p class="imagecontainer">
+<img src="../images/137142758155_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 4: Wybrano roczny</b>, <b>Wybrano wyjście pulsujące</b>, Czas włączenia = 2008.03.15, Czas wyłączenia = 2010.**.**. 15 marca 2008, 2009 i 2010 roku wyjście timera włącza się na jeden cykl.</p>
+ <p class="imagecontainer">
+<img src="../images/137142917259_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 5: Miesięczny</b> nie wybrany, <b>Roczny</b> nie wybrany, Czas włączenia = 2008.06.01, Czas wyłączenia = 2010.08.31. 1 czerwca 2008 roku wyjście timera włącza się i pozostaje włączone do 31 sierpnia 2010 roku.</p>
+ <p class="imagecontainer">
+<img src="../images/137142961163_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 6: Miesięczny</b> nie wybrany, <b>Roczny</b> nie wybrany, <b>Wyjście pulsujące</b> wybrane, Czas włączenia = 2008.03.15, Czas wyłączenia = ****.**.**. 15 marca 2008 roku timer włącza się na jeden cykl. Ponieważ timer nie ma akcji miesięcznej ani rocznej, wyjście timera pulsuje tylko raz w określonym czasie włączenia.</p>
+ <p class="imagecontainer">
+<img src="../images/137142979467_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 7: Wybrano roczny</b>, Czas włączenia = 2008.12.15, Czas wyłączenia =2010. 01.07. 15 grudnia 2008 i 2009 roku wyjście timera włącza się i pozostaje włączone do 7 stycznia następnego roku. Gdy wyjście timera wyłącza się 7 stycznia 2010 roku, NIE włącza się ponownie następnego 15 grudnia.</p>
+ <p class="imagecontainer">
+<img src="../images/137142997771_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:547" alt="" />
+</p>
+<p>
+<b>Przykład 8: Wybrano miesięczny</b>, Czas włączenia = 2008.**.01, Czas wyłączenia = 2010.**.05. Począwszy od 2008 roku, pierwszego dnia każdego miesiąca wyjście timera włącza się i wyłącza piątego dnia miesiąca. Timer kontynuuje ten wzór do ostatniego miesiąca 2010 roku.</p>
+ <p class="imagecontainer">
+<img src="../images/137143016075_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:463" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Timer roczny włącza i wyłącza wyjście w określonych datach włączenia i wyłączenia. Włączenia i wyłączenia są wykonywane o 00:00. Jeśli twoja aplikacja wymaga innego czasu, użyj timera tygodniowego razem z timerem rocznym w programie obwodu.</p>
+<p>Czas włączenia określa miesiąc i dzień, w którym timer jest włączany. Czas wyłączenia identyfikuje miesiąc i dzień, w którym wyjście jest ponownie wyłączane. Dla czasów włączenia i wyłączenia zwróć uwagę na kolejność pól: Pierwsze pole definiuje rok, drugie miesiąc, a trzecie dzień.</p>
+<p>Gdy zaznaczysz pole wyboru <b>Miesięczny</b>, wyjście timera włącza się każdego miesiąca w określonym dniu czasu rozpoczęcia i pozostaje włączone do określonego dnia czasu wyłączenia. Rok włączenia określa początkowy rok, w którym timer jest aktywowany. Rok wyłączenia definiuje ostatni rok, w którym timer się wyłącza. Maksymalny rok to 2099.</p>
+<p>Jeśli zaznaczysz pole wyboru <b>Roczny</b>, wyjście timera włącza się każdego roku w określonym miesiącu i dniu czasu rozpoczęcia i pozostaje włączone do określonego miesiąca i dnia czasu wyłączenia. Rok włączenia określa początkowy rok, w którym timer jest aktywowany. Rok wyłączenia definiuje ostatni rok, w którym timer się wyłącza. Maksymalny rok to 2099.</p>
+<p>Jeśli zaznaczysz pole wyboru <b>Wyjście pulsujące</b>, wyjście timera włącza się w określonym czasie włączenia na jeden cykl, a następnie wyjście timera jest resetowane. Możesz wybrać pulsowanie timera w trybie miesięcznym, rocznym lub tylko raz.</p>
+<p>Jeśli nie zaznaczysz żadnego z pól wyboru Miesięczny, Roczny lub Pulsujące, możesz zdefiniować określony okres czasu z czasem włączenia i wyłączenia. Może obejmować dowolny wybrany okres czasu.</p>
+<p>Dla akcji procesowej, która ma być włączana i wyłączana wielokrotnie, ale nieregularnie w ciągu roku, możesz zdefiniować wiele timerów rocznych z wyjściami połączonymi przez blok funkcyjny <b>OR</b>.</p>
+<TableTitle />
+<p>
+<table id="6eabcb2a-5603-4235-9ce3-e5232b3ffb11" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">Ustawienia <b>Roczny</b> i <b>Wyjście pulsujące</b> są dostępne tylko od serii urządzeń 0BA6<p>Ustawienie <b>Miesięczny</b> jest dostępne tylko od serii urządzeń 0BA4.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Kopia zapasowa zegara czasu rzeczywistego</p>
+<p>Wewnętrzny zegar czasu rzeczywistego LOGO! jest buforowany przed awarią zasilania. Czas buforowania jest wpływany przez temperaturę otoczenia i wynosi zazwyczaj 20 dni (dla urządzeń LOGO! 0BA7 i nowszych) lub 80 godzin (dla urządzeń LOGO! 0BA6) w temperaturze otoczenia 25°C. Jeśli używasz opcjonalnej karty baterii LOGO! lub połączonej karty pamięci/baterii LOGO!, LOGO! może zachować czas zegara do dwóch lat.</p>
+
+<p class="blocktitle">Specjalne cechy do uwzględnienia przy konfiguracji</p>
+<p>Możesz numerycznie wprowadzać wartości dla pól miesiąca i dnia. Wprowadzaj wartości w logicznym zakresie wartości miesięcy i dni; w przeciwnym razie LOGO!Soft Comfort wyświetli komunikat o błędzie.</p>
+<p>Ikona <b>kalendarza</b> oferuje łatwy sposób ustawienia daty. Otwiera okno, w którym możesz ustawić dni i miesiące, klikając odpowiednie przyciski na stronie kalendarza.</p>
+
+<p class="blocktitle">Przykładowa konfiguracja</p>
+<p>Wyjście LOGO! ma być włączane corocznie, od 1 marca do 4 kwietnia i od 7 lipca do 19 listopada. Wymaga to dwóch bloków do konfiguracji określonych czasów włączenia. Wyjścia są następnie łączone za pomocą bloku OR.</p>
+ <p class="imagecontainer">
+<img src="../images/137143085579_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:362" alt="" />
+</p>
+<p>Umieść dwa bloki timera rocznego SFB na interfejsie programowania. Skonfiguruj czas włączenia dla pierwszego timera rocznego na 03.01 i czas wyłączenia na 04.04. Skonfiguruj czas włączenia dla drugiego timera rocznego na 07.07 i czas wyłączenia na 11.19.</p>
+<p>Utwórz logiczne połączenie bloków ze standardowym blokiem OR. Wyjście OR wynosi 1, jeśli przynajmniej jeden z przełączników timera rocznego jest ustawiony.</p>
+ <p class="imagecontainer">
+<img src="../images/58720468491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:267" alt="" />
+</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

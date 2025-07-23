@@ -1,0 +1,255 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tekst wiadomości (LOGO! 0BA4 i LOGO! 0BA5)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Tekst wiadomości (LOGO! 0BA4 i LOGO! 0BA5)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229150347_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta funkcja wyświetla teksty wiadomości i parametry innych bloków na wyświetlaczu LOGO! gdy LOGO! jest w trybie <b>RUN</b>.         </p>
+<TableTitle />
+<p>
+<table id="5f71aac7-874a-4980-8778-f487e46626aa" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Przejście z 0 na 1 na wejściu En (Enable) wyzwala wyjście tekstu wiadomości.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>P</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">P to priorytet tekstu wiadomości.<p>0 to najniższy, 30 to najwyższy priorytet<br />Ack: Potwierdzenie tekstu wiadomości</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Tekst:</b> Wprowadzenie tekstu wiadomości<br />
+<b>Par:</b> Parametr lub aktualna wartość innej, już skonfigurowanej funkcji (patrz "Widoczne parametry lub aktualne wartości")<br />
+<b>Time:</b> Wyświetla ciągle aktualizowany czas<br />
+<b>Date:</b> Wyświetla ciągle aktualizowaną datę<br />
+<b>EnTime:</b> Wyświetla czas przejścia z 0 na 1<br />
+<b>EnDate:</b> Wyświetla datę przejścia z 0 na 1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q pozostaje ustawione tak długo, jak tekst wiadomości jest w kolejce.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Przy przejściu sygnału z 0 na 1 na wejściu En, wyświetlacz pokazuje skonfigurowany tekst wiadomości (aktualna wartość, tekst, czas, data) w trybie RUN.</p>
+<p>Potwierdzenie wyłączone (Ack = Off):</p>
+<p>Tekst wiadomości jest ukrywany przy przejściu sygnału z 0 na 1 na wejściu En.</p>
+<p>Potwierdzenie włączone (Ack = On):</p>
+<p>Po zresetowaniu wejścia En do 0, tekst wiadomości jest wyświetlany do momentu potwierdzenia przez naciśnięcie przycisku OK. Tekst wiadomości nie może być potwierdzony, dopóki wejście En jest wysokie.</p>
+<p>Jeśli kilka funkcji tekstu wiadomości zostało wyzwolonych z En=1, wyświetlana jest wiadomość o najwyższym priorytecie (0 = najniższy, 30 = najwyższy). Oznacza to również, że nowy tekst wiadomości jest wyświetlany tylko wtedy, gdy jego priorytet jest wyższy niż wcześniej włączonych tekstów wiadomości.</p>
+<p>Po wyłączeniu lub potwierdzeniu tekstu wiadomości, funkcja automatycznie pokazuje wcześniej aktywny tekst wiadomości o najwyższym priorytecie.</p>
+<p>Możesz przełączać się między wyświetlaniem w trybie RUN a tekstami wiadomości za pomocą przycisków  <img src="../images/11686675339_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:7" alt="" /> i  <img src="../images/11686692235_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:7" alt="" />. </p>
+
+<p class="blocktitle">Ograniczenia</p>
+<p>Dostępnych jest do dziesięciu funkcji tekstu wiadomości.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+ <p class="imagecontainer">
+<img src="../images/63716291211_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:685" alt="" />
+</p>
+<p>
+<table id="e0b1008f-243b-46ea-abed-31f8f78ea6da" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p>
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p>
+<b>Obszar nazwy bloku</b>
+</p>
+<p>Tutaj możesz nadać nazwę blokowi.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Obszar ustawień</b>
+</p>
+<p class="p_table_l">Tutaj znajdziesz następujące ustawienia:</p>
+<ul class="table">
+<li>
+<p>Priorytet tekstu wiadomości</p>
+</li>
+<li>
+<p>Pole wyboru dla potwierdzenia tekstu wiadomości</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2462;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Obszar bloku</b>
+</p>
+<p>Tutaj wybierasz bloki ze wszystkich bloków w programie obwodu. Następnie możesz wybrać parametry z tych bloków do wyświetlenia w tekście wiadomości.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<span class="circlednumber">&#x2463;</span>
+</p>
+</td>
+<td>
+<p>
+<b>Przycisk Usuń</b>
+</p>
+<p>Przycisk do usuwania wpisów z <b>obszaru wiadomości</b>
+</p>
+<p>
+<b>Przycisk znaków specjalnych</b>
+</p>
+<p>Przycisk do wstawiania znaków specjalnych w <b>obszarze wiadomości</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<span class="circlednumber">&#x2464;</span>
+</p>
+</td>
+<td>
+<p>
+<b>Obszar wiadomości</b>
+</p>
+<p>W tym obszarze układasz tekst wiadomości. Informacje wprowadzone w tym obszarze odpowiadają tym na wyświetlaczu LOGO!.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<span class="circlednumber">&#x2465;</span>
+</p>
+</td>
+<td>
+<p>
+<b>Przycisk Wstaw</b>
+</p>
+<p>Przycisk do wstawiania wybranego parametru bloku do tekstu wiadomości.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2466;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Obszar parametrów bloku</b>
+</p>
+<p class="p_table_l">Pokazuje parametry bloku wybranego z <b>obszaru bloku</b>, które możesz wyświetlić w tekście wiadomości.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<span class="circlednumber">&#x2467;</span>
+</p>
+</td>
+<td>
+<p>
+<b>Obszar parametrów ogólnych</b>
+</p>
+<p>Pokazuje ogólne parametry, takie jak aktualna data.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Aby ułożyć tekst wiadomości</p>
+<ol>
+<li>
+<p>Z obszaru <b>"Blok"</b> wybierz blok, którego parametry chcesz wyświetlić.</p>
+</li>
+<li>
+<p>Przeciągnij i upuść wymagane parametry z <b>parametrów bloku</b> do <b>obszaru wiadomości</b>. Możesz również użyć przycisku <b>"Wstaw"</b>.</p>
+</li>
+<li>
+<p>W <b>obszarze wiadomości</b> możesz dodać dane parametrów według potrzeb.</p>
+</li>
+</ol>
+
+<p class="blocktitle">Tryb symulacji</p>
+<p>
+<a href="../11965523851/12126631051.htm">Układ tekstów wiadomości</a> </p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

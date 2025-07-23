@@ -1,0 +1,225 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przełącznik wielofunkcyjny</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przełącznik wielofunkcyjny<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228622731_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Przełącznik z dwiema różnymi funkcjami:   </p>
+<ul>
+<li>
+<p>Przełącznik impulsowy z opóźnieniem wyłączenia</p>
+</li>
+<li>
+<p>Przełącznik (światło ciągłe)</p>
+</li>
+</ul>
+<TableTitle />
+<p>
+<table id="5f1eca9a-6360-48a9-88d6-57dbcceb6679" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="18.2%" />
+<col width="81.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Trg</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Sygnał na wejściu <b>Trg</b> (Trigger) ustawia wyjście<b> Q</b> (światło stałe) lub resetuje <b>Q</b> z opóźnieniem wyłączenia. Gdy aktywne, wyjście <b>Q</b> może być zresetowane sygnałem na wejściu <b>Trg</b>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Sygnał na wejściu <b>R</b> resetuje aktualny czas<b> Ta</b> i resetuje wyjście.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T :</b> określa czas opóźnienia wyłączenia. Wyjście jest resetowane (przejście z 1 na 0) po upływie czasu <b>T</b>.<p>
+<b>T</b>
+<sub>L</sub>
+<b> :</b> określa okres, w którym wejście musi być ustawione, aby włączyć funkcję światła stałego.<br />
+<b>T</b>
+<sub>!</sub> <b>:</b> określa opóźnienie włączenia dla czasu ostrzeżenia.<br />
+<b>T</b>
+<sub>!L</sub> <b>:</b> określa długość okresu czasu ostrzeżenia.<br />
+<b>Retencyjność</b> włączona = stan jest zachowywany w pamięci.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b> jest ustawiane sygnałem na wejściu <b>Trg</b> i resetowane po upływie skonfigurowanego czasu, w zależności od szerokości impulsu na wejściu <b>Trg</b>, lub resetowane kolejnym sygnałem na wejściu <b>Trg</b>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T, T<sub>L, </sub>T<sub>! </sub>i T<sub>!L</sub>
+</p>
+<p>Czas opóźnienia wyłączenia T, czas światła stałego T<sub>L</sub>, czas ostrzeżenia T<sub>!</sub> oraz okres czasu ostrzeżenia T<sub>!L</sub> mogą być dostarczone przez wartość aktualną innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i późniejszych można dodatkowo użyć wartości aktualnych następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z retencyjnością: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wymaganą funkcję wybiera się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137142548619_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:391" alt="" />
+</p>
+<TableTitle />
+<p>
+<table id="fb9ae2d0-d347-49e0-b8d7-2fe53ff1687d" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA2, 0BA3:<br />
+</b>Istnieją tylko parametry T<sub>L</sub> i T.<br />Wyjście jest resetowane po upływie czasu T.<br />T<sub>L</sub> określa okres, w którym wejście musi być ustawione, aby włączyć funkcję światła stałego.<br />Wejście R nie jest dostępne dla użytkownika.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p />
+ <p class="imagecontainer">
+<img src="../images/12228633739_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:361" alt="" />
+</p>
+<p />
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Wyjście Q jest ustawiane na 1 przy przejściu sygnału z 0 na 1 na wejściu Trg.</p>
+<p>Jeśli wyjście Q = 0, a wejście Trg jest ustawione na wysoki poziom przez co najmniej czas T<sub>L</sub>, funkcja światła stałego jest włączana, a wyjście Q jest odpowiednio ustawiane.</p>
+<p>Czas opóźnienia wyłączenia T jest wyzwalany, gdy stan na wejściu Trg zmieni się na 0 przed upływem czasu T<sub>L</sub>.</p>
+<p>Wyjście Q jest resetowane, gdy Ta = T. </p>
+<p>Można wygenerować sygnał ostrzegawczy przed upływem czasu opóźnienia wyłączenia (T - T<sub>!</sub>), który resetuje Q na czas ostrzeżenia T<sub>!L</sub>. Kolejny sygnał na wejściu Trg zawsze resetuje T i wyjście Q.</p>
+
+<p class="blocktitle">Uwaga</p>
+<p>Podstawa czasu dla T, T<sub>!</sub> i T<sub>!L</sub> musi być identyczna.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

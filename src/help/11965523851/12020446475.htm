@@ -1,0 +1,125 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Flagi</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Flagi<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/58902683019_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:88" alt="" />
+</p>
+ <p class="imagecontainer">
+<img src="../images/58902686987_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:82" alt="" />
+</p>
+<p>Bloki flag przekazują swój sygnał wejściowy. LOGO! 0BA7 zapewnia 27 flag cyfrowych M1 do M27 i 16 flag analogowych AM1 do AM16. LOGO! 0BA8 zapewnia 64 flagi cyfrowe M1 do M64 i 64 flagi analogowe AM1 do AM64.</p>
+<TableTitle />
+<p>
+<table id="71c0735b-09c5-425c-ba0c-b7b1ee7b4ca6" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="14%" />
+<col width="85.9%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA6: </b>27 flag cyfrowych M1 do M27; sześć flag analogowych AM1 do AM6.</p>
+<p class="p_table_l">
+<b>0BA4, 0BA5: </b>24 flagi cyfrowe M1 do M24; sześć flag analogowych AM1 do AM6<p>
+<b>0BA3, 0BA2: </b>osiem flag cyfrowych M1 do M8<br />
+<b>0BA1: </b>cztery flagi cyfrowe M1 do M4<br />
+<b>0BA0: </b>flaga zerowa</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>W konfiguracji bloku można przypisać nowy numer flagi, pod warunkiem że ten numer flagi nie istnieje już w programie obwodu.</p>
+<p>Wyjście zawsze przenosi sygnał z poprzedniego cyklu programu. Ta wartość nie zmienia się w ramach bieżącego cyklu programu.</p>
+<p>Następujące specjalne flagi mają różne kolory tła:</p>
+<ul>
+<li>
+<p>M8 = Flaga inicjalizacji (wyświetla się na niebiesko w LOGO!Soft Comfort)</p>
+</li>
+<li>
+<p>M25 = LOGO! wyświetla białe podświetlenie</p>
+</li>
+<li>
+<p>M26 = LOGO! TD białe podświetlenie</p>
+</li>
+<li>
+<p>M27 = Flaga zestawu znaków wiadomości (wyświetla się na zielono w LOGO!Soft Comfort)</p>
+</li>
+<li>
+<p>M28 = LOGO! wyświetla bursztynowe podświetlenie</p>
+</li>
+<li>
+<p>M29 = LOGO! wyświetla czerwone podświetlenie</p>
+</li>
+<li>
+<p>M30 = LOGO! TD bursztynowe podświetlenie</p>
+</li>
+<li>
+<p>M31 = LOGO! TD czerwone podświetlenie</p>
+</li>
+</ul>
+<p>Ponadto, bloki flag skonfigurowane jako <a href="../11965523851/162325412747.htm">zdarzenie wyzwalające wysyłanie e-maila</a> wyświetlają zielone tło.</p>
+
+<p class="blocktitle">Flaga startowa: M8</p>
+<p>Flaga M8 jest ustawiana w pierwszym cyklu programu użytkownika i może być używana w programie obwodu jako flaga startowa. Jest resetowana po pierwszym cyklu wykonania programu.</p>
+<p>W kolejnych cyklach flaga M8 reaguje w taki sam sposób jak flagi M1 do M64.</p>
+
+<p class="blocktitle">Flagi podświetlenia</p>
+<p>Flag M25, M28 i M29 sterują podświetleniem wyświetlacza LOGO!. Flag M26, M30 i M31 sterują podświetleniem LOGO! TDE.</p>
+<p>Można użyć wyjść timerów, tekstów wiadomości lub innych bloków funkcyjnych do aktywacji flag podświetlenia. Aby umożliwić sterowanie podświetleniem urządzeń przez wiele warunków, można użyć wielu bloków funkcyjnych równolegle lub szeregowo.</p>
+
+<p class="blocktitle">Flaga zestawu znaków wiadomości: M27</p>
+<p>Flaga M27, jeśli jest używana, określa, czy będą wyświetlane teksty wiadomości z podstawowego zestawu znaków czy z dodatkowego zestawu znaków. Wybiera się dwa zestawy znaków w LOGO! lub za pomocą polecenia menu <a href="../11965523851/12207389195.htm">Plik &#x2192; Ustawienia tekstów wiadomości</a> w LOGO!Soft Comfort. Następnie podczas konfiguracji <a href="../11965523851/12229208715.htm">tekstów wiadomości</a> wybiera się, czy dany tekst wiadomości składa się ze znaków z podstawowego zestawu znaków (Zestaw znaków 1) czy z dodatkowego zestawu znaków (Zestaw znaków 2).</p>
+<p>W programie obwodu można użyć M27, aby włączyć teksty wiadomości z podstawowego lub dodatkowego zestawu znaków i wyłączyć teksty wiadomości z drugiego zestawu. Gdy M27=0 (niski), LOGO! wyświetla tylko teksty wiadomości z podstawowego zestawu znaków; gdy M27=1 (wysoki), LOGO! wyświetla tylko teksty wiadomości z dodatkowego zestawu znaków.</p>
+
+<p class="blocktitle">Flagi analogowe: AM1 do AM64</p>
+<p>Flagi analogowe mogą być używane jako znaczniki dla wejść analogowych lub bloków instrukcji analogowych. Flaga analogowa jedynie akceptuje wartość analogową jako wejście i przekazuje tę wartość na wyjście.</p>
+<p>
+<a href="../11965523851/12019634699.htm">Przegląd</a> </p>
+<TableTitle />
+<p>
+<table id="6d67231a-a808-49b5-8935-b023e1b54e29" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="10.6%" />
+<col width="89.3%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/57473326347_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:38" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">M8, M25, M26, M27, M28, M29, M30 i M31 nie są dostępne w Edytorze UDF.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</div>
+  </body>
+</html>

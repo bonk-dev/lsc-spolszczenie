@@ -1,0 +1,265 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Wykrywanie błędów w instrukcji matematycznej</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Wykrywanie błędów w instrukcji matematycznej<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/66929929227_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:70" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Blok wykrywania błędów w instrukcji matematycznej ustawia wyjście, jeśli w przywołanej funkcji bloku instrukcji matematycznej wystąpił błąd.</p>
+<TableTitle />
+<p>
+<table id="4005ee51-b857-4c20-a759-1ca4c338dbd3" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Włącz blok funkcji wykrywania błędów w instrukcji matematycznej.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zresetuj wyjście.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Przywołany FB: </b>numer bloku instrukcji matematycznej<p>
+<b>Błąd do wykrycia:</b> Dzielenie przez zero, Przepełnienie lub Dzielenie przez zero LUB Przepełnienie.<br />
+<b>Automatyczne resetowanie: </b>Zresetuj wyjście, gdy warunek błędu zostanie wyczyszczony.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Q jest ustawione na wysoki poziom, jeśli wykryty błąd wystąpił podczas ostatniego wykonania przywołanej funkcji bloku instrukcji matematycznej.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="572bae34-563c-46df-9efa-386283eddb24" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA1- 0BA5:<br />
+</b>Blok funkcji wykrywania błędów w instrukcji matematycznej nie istniał przed wersją 0BA6.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr Przywołany FB</p>
+<p>Wartość parametru Przywołany FB odnosi się do numeru bloku już zaprogramowanej funkcji bloku instrukcji matematycznej.</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Blok wykrywania błędów w instrukcji matematycznej ustawia wyjście, gdy w przywołanym bloku funkcji instrukcji matematycznej wystąpi błąd. Możesz zaprogramować funkcję, aby ustawiała wyjście w przypadku błędu dzielenia przez zero, błędu przepełnienia lub gdy wystąpi którykolwiek z tych błędów.</p>
+<p>Jeśli zaznaczysz pole wyboru "Automatyczne resetowanie", wyjście jest resetowane przed następnym wykonaniem bloku funkcji. Jeśli nie, wyjście zachowuje swój stan, aż blok wykrywania błędów w instrukcji matematycznej zostanie zresetowany za pomocą parametru R.</p>
+<p>W każdym cyklu skanowania, jeśli przywołany blok funkcji instrukcji matematycznej wykonuje się przed blokiem wykrywania błędów w instrukcji matematycznej, błąd jest wykrywany w tym samym cyklu skanowania. Jeśli przywołany blok funkcji instrukcji matematycznej wykonuje się po bloku wykrywania błędów w instrukcji matematycznej, błąd jest wykrywany w następnym cyklu skanowania.</p>
+
+<p class="blocktitle">Tabela logiki wykrywania błędów w instrukcji matematycznej</p>
+<p>W poniższej tabeli Błąd do wykrycia reprezentuje parametr instrukcji wykrywania błędów w instrukcji matematycznej, który wybiera typ błędu do wykrycia. Zero reprezentuje bit dzielenia przez zero ustawiany przez instrukcję matematyczną na końcu jej wykonania: 1, jeśli błąd wystąpił, 0, jeśli nie. OF reprezentuje bit przepełnienia ustawiany przez instrukcję matematyczną: 1, jeśli błąd wystąpił, 0, jeśli nie. Dzielenie przez zero LUB Przepełnienie reprezentuje logiczną sumę bitu dzielenia przez zero i bitu przepełnienia przywołanej instrukcji matematycznej. Wyjście (Q) reprezentuje wyjście bloku funkcji wykrywania błędów w instrukcji matematycznej. "x" oznacza, że bit może być 0 lub 1 bez wpływu na wyjście.</p>
+<TableTitle />
+<p>
+<table id="63afafc4-935e-4b7b-bad7-17554cac2443" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="25%" />
+<col width="24.9%" />
+<col width="24.9%" />
+<col width="24.9%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Błąd do wykrycia</p>
+</th>
+<th>
+<p class="p_table_lb">Zero </p>
+</th>
+<th>
+<p class="p_table_lb">OF</p>
+</th>
+<th>
+<p class="p_table_lb">Wyjście (Q)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">x</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">x</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">x</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">x</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero<br />LUB Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero<br />LUB Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero<br />LUB Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+<td>
+<p class="p_table_l">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Dzielenie przez zero<br />LUB Przepełnienie</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+<td>
+<p class="p_table_l">0</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>Jeśli przywołany blok funkcji instrukcji matematycznej jest pusty, wyjście zawsze wynosi 0.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

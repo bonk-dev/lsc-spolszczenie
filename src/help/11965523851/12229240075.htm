@@ -1,0 +1,108 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Przycisk programowalny</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Przycisk programowalny<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229225739_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:79" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta funkcja SFB symuluje działanie mechanicznego przycisku lub przełącznika.  </p>
+<TableTitle />
+<p>
+<table id="5462ae54-86dc-4d38-a731-c8db7b32b558" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście Q jest ustawiane przy przejściu sygnału z 0 na 1 na wejściu En (Enable) oraz gdy w trybie konfiguracji potwierdzono 'Status=Włączony'.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Przełącznik: </b>Ustawia albo chwilowe działanie przycisku na jeden cykl (Włączony) albo działanie przełączające funkcji (Wyłączony).</p>
+<p class="p_table_l">
+<b>Status</b>: Stan Włączony lub Wyłączony, który jest stosowany w początkowym cyklu po uruchomieniu programu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście Q pozostaje ustawione na 1, dopóki En=1 oraz status parametru Typ = Przełącznik i Status = Włączony.</p>
+<p class="p_table_l">Wyjście Q jest ustawiane na czas jednego cyklu, jeśli EN=1. Przełącznik = Włączony (chwilowy przycisk) i Status = Włączony.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Stan fabryczny</p>
+<p>Domyślną wartością parametru Przełącznik jest działanie przełączające.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137145710475_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:358" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Wyjście jest ustawiane, gdy wejście En jest aktywne, a parametr 'Status' jest ustawiony na 'Włączony' i potwierdzony przyciskiem OK. To działanie jest wykonywane niezależnie od skonfigurowanej funkcji przełącznika lub przycisku.</p>
+<p>Wyjście jest resetowane do '0' w następujących trzech przypadkach:</p>
+<ul>
+<li>
+<p>Przy przejściu sygnału z 1 na 0 na wejściu En</p>
+</li>
+<li>
+<p>Gdy skonfigurowano funkcję przycisku i minął jeden cykl po jego aktywacji</p>
+</li>
+<li>
+<p>Gdy parametr 'Status' ustawia stan 'Wyłączony' w trybie konfiguracji, a to zostało potwierdzone przyciskiem OK</p>
+</li>
+</ul>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Przycisk programowalny może być używany zarówno z chwilowym działaniem przycisku, jak i działaniem przełączającym. W parametrze status można zdefiniować stan włączony (aktywowany) lub wyłączony dla przełącznika/przycisku.</p>
+<p>Jeśli przycisk programowalny ma przypisaną akcję przycisku, wyjście jest zawsze ustawiane na czas jednego cyklu przy przejściu z 0 na 1 na wejściu En, gdy przycisk jest w stanie włączonym, lub gdy stan przycisku zmienia się z Wyłączony na Włączony przy En=1.</p>
+<p />
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

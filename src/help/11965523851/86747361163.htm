@@ -1,0 +1,277 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Konwerter Integer/Float (tylko dla LOGO! 8.FS4 i nowszych wersji)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Konwerter Integer/Float (tylko dla LOGO! 8.FS4 i nowszych wersji)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/87320243083_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:96" alt="" />
+</p>
+<p />
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta funkcja konwertuje liczby całkowite na zmiennoprzecinkowe i zapisuje je w pamięci VM.</p>
+<p>LOGO! obsługuje tylko liczby całkowite. Jeśli przesyłasz liczby zmiennoprzecinkowe z zewnętrznego systemu przez sieć za pomocą protokołu S7/Modbus, LOGO! nie może ich bezpośrednio przetworzyć. Dzięki temu SFB, LOGO! może wyprowadzać liczby zmiennoprzecinkowe. Ten SFB konwertuje liczby całkowite na zmiennoprzecinkowe poprzez pomnożenie przez rozdzielczość. Należy ustawić odpowiednią rozdzielczość dla wejściowych liczb całkowitych w zakładce parametrów.</p>
+<TableTitle />
+<p>
+<table id="a9b36160-c573-2797-afeb-7f9ea635b39b" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.3%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście analogowe <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście Ax to jeden z następujących sygnałów analogowych:  </p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 (*)  </p>
+</li>
+<li>
+<p>AM1 do AM16 (dla 0BA7) lub AM1 do AM64 (dla 0BA8) </p>
+</li>
+<li>
+<p>NAI1 do NAI32 </p>
+</li>
+<li>
+<p>AQ1 do AQ2 (dla 0BA7) lub AQ1 do AQ8 (dla 0BA8)  </p>
+</li>
+<li>
+<p>NAQ1 do NAQ16  </p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Rozszerzone wejście analogowe <b>eAx</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Jeśli wejście analogowe (Ax) nie jest dostępne, możesz przypisać wartość do rozszerzonego wejścia analogowego (eAQ), wprowadzając wartość w polu eAx lub odwołując się do parametru innego FB. </p>
+<p class="p_table_l">Zakres wartości: -999,999,999 do 999,999,999</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr <b>Par</b>
+</p>
+</td>
+<td>
+<ul class="table">
+<li>
+<p>Typ: Określa typ danych wyjściowych.</p>
+<ul>
+<li>
+<p>Float: 32-bitowa liczba zmiennoprzecinkowa pojedynczej precyzji;</p>
+</li>
+<li>
+<p>Double: 64-bitowa liczba zmiennoprzecinkowa podwójnej precyzji.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>VM: Adres pamięci zmiennych, początkowy adres zapisu liczby float lub double w VM:</p>
+<ul>
+<li>
+<p>Dla Float:  0-847</p>
+</li>
+<li>
+<p>Dla Double: 0-843</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Rozdzielczość: mnożnik dla danych wejściowych.<p>Zakres wartości: 0.001 do 1000</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">AQ to wartość wyjścia analogowego. Ma następujące cechy.</p>
+<ul class="table">
+<li>
+<p>Używane jako wartość wejściowa innego bloku funkcyjnego. </p>
+</li>
+<li>
+<p>16-bitowa wartość ze znakiem. </p>
+</li>
+<li>
+<p>Zakres wartości: -32768 do 32767.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Rozszerzone wyjście analogowe</p>
+<p class="p_table_l">
+<b>eAQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Rozszerzone wyjście analogowe do programowania przez referencję parametrów.</p>
+<ul class="table">
+<li>
+<p> Używane jako parametr referencyjny innego bloku funkcyjnego.</p>
+</li>
+<li>
+<p> 32-bitowa wartość ze znakiem.</p>
+</li>
+<li>
+<p>Zakres wartości: -999,999,999 do 999,999,999.</p>
+</li>
+</ul>
+<p class="p_table_l"> </p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada wartościom 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry</p>
+<p>Oprócz wejść bloku funkcyjnego, następujące ustawienia zapewniają dodatkową kontrolę nad konwerterem integer/float:</p>
+ <p class="imagecontainer">
+<img src="../images/87326217995_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:424" alt="" />
+</p>
+<p>
+<b>Dane wyjściowe</b>: Wyjście Integer/Float jest zapisywane w pamięci VM. Możesz wybrać typ wyjścia jako float lub double oraz początkowy adres VM, gdzie zapisywana jest skonwertowana liczba.</p>
+<ul>
+<li>
+<p>Typ: Możesz wybrać dane wyjściowe jako <b>Float</b> lub <b>Double</b>. </p>
+</li>
+<li>
+<p>Adres VM: Możesz określić początkowy adres VM, gdzie zapisywana jest wyjściowa liczba.</p>
+<ul>
+<li>
+<p>Rozmiar: Liczba float zajmuje 4 bajty, a double 8 bajtów.</p>
+</li>
+<li>
+<p>Zakres: Float (0-847), Double (0-843).</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>
+<b>Rozdzielczość</b>: Możesz ustawić dzielnik dla wejściowej liczby całkowitej.</p>
+<ul>
+<li>
+<p>Zakres: 0.001-1000</p>
+</li>
+<li>
+<p>Precyzja: 1/1000</p>
+</li>
+</ul>
+<p>
+<b>Rozszerzone wejście analogowe</b>: Możesz również ustawić wartość wejściową tutaj. Jeśli nie podłączysz pinu wejściowego <b>In</b>, SFB używa wartości ustawionej tutaj jako swojego wejścia. Może być również używane jako referencja dla innych wartości parametrów, takich jak wartość licznika.</p>
+<ul>
+<li>
+<p>Zakres: -999,999,999 ~ 999,999,999</p>
+</li>
+</ul>
+
+<p class="blocktitle">Opis funkcji </p>
+<p>Zazwyczaj potrzebujesz obu bloków konwertera Float/Integer i Integer/Float, aby wykonać zadanie. Typowy sposób użycia tych bloków funkcyjnych to:</p>
+<ol>
+<li>
+<p>Przesyłanie liczb zmiennoprzecinkowych z zewnętrznego systemu przez sieć (z protokołem S7/Modbus) i zapisywanie ich w pamięci VM.</p>
+</li>
+<li>
+<p>Konwersja liczb zmiennoprzecinkowych zapisanych w VM na liczby całkowite za pomocą konwertera Float/Integer.</p>
+</li>
+<li>
+<p>Przetwarzanie liczb całkowitych za pomocą LOGO! BM.</p>
+</li>
+<li>
+<p>Konwersja wyniku na liczby zmiennoprzecinkowe za pomocą Integer/Float i zapisanie ich w pamięci VM.</p>
+</li>
+<li>
+<p>Przesyłanie liczb zmiennoprzecinkowych do zewnętrznego systemu (z protokołem S7/Modbus).</p>
+</li>
+</ol>
+
+<p class="blocktitle">Zasady obliczeń </p>
+<p class="RedBlocklabel">Wartość Float w adresie VM </p>
+<p>Wartość Float w adresie VM = Wejście analogowe x Rozdzielczość</p>
+<p class="RedBlocklabel">Wyjście analogowe (AQ)</p>
+<ul>
+<li>
+<p>Złącze wejścia analogowego jest podłączone: Wyjście analogowe = Wejście analogowe</p>
+</li>
+<li>
+<p>Złącze wejścia analogowego nie jest podłączone:</p>
+<ul>
+<li>
+<p>jeśli  -32768 &#x2264; Rozszerzone wejście analogowe &#x2264; 32767, to Wyjście analogowe = Rozszerzone wejście analogowe.</p>
+</li>
+<li>
+<p>jeśli Wejście analogowe &#x2265; 32767, to Wyjście analogowe = 32767.</p>
+</li>
+<li>
+<p>jeśli Wejście analogowe &#x2264; -32768, to Wyjście analogowe = -32768.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="RedBlocklabel">Rozszerzone wyjście analogowe (eAQ): </p>
+<ul>
+<li>
+<p>Jeśli złącze wejścia analogowego jest podłączone:  Rozszerzone wejście analogowe = wejście analogowe.</p>
+</li>
+<li>
+<p>Złącze rozszerzonego wejścia analogowego nie jest podłączone: </p>
+<ul>
+<li>
+<p>jeśli  -999,999,999 &#x2264; Rozszerzone wejście analogowe &#x2264; 999,999,999, to Rozszerzone wyjście analogowe = Rozszerzone wejście analogowe.</p>
+</li>
+<li>
+<p>jeśli Rozszerzone wejście analogowe &#x2265; 999,999,999, to Rozszerzone wyjście analogowe = 999,999,999.</p>
+</li>
+<li>
+<p>jeśli Rozszerzone wejście analogowe &#x2264; -999,999,999, to Rozszerzone wyjście analogowe = -999,999,999.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+  </body>
+</html>

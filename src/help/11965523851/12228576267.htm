@@ -1,0 +1,178 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Asynchroniczny generator impulsów</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Asynchroniczny generator impulsów<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228561931_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Kształt impulsu na wyjściu można modyfikować za pomocą konfigurowalnego stosunku impulsu/przerwy.   </p>
+<TableTitle />
+<p>
+<table id="fd27a0d1-747a-472c-97a3-d7192cb4d21b" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Połączenie</p>
+</td>
+<td>
+<p class="p_table_l">Opis</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Włączasz/wyłączasz asynchroniczny generator impulsów za pomocą sygnału na wejściu <b>En</b>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Inv</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście Inv może być używane do inwersji sygnału wyjściowego aktywnego asynchronicznego generatora impulsów.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>T</b>
+<sub>H</sub>, <b>T</b>
+<sub>L</sub>
+<b>:</b> Możesz dostosować szerokość impulsu (<b>T</b>
+<sub>H</sub>) i szerokość przerwy między impulsami (<b>T</b>
+<sub>L</sub>).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest przełączane cyklicznie włączane i wyłączane z czasami impulsu/przerwy<b> T</b>
+<sub>H</sub> i <b>T</b>
+<sub>L</sub>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry T<sub>H</sub> i T<sub>L</sub>
+</p>
+<p>Szerokość impulsu T<sub>H</sub> i szerokość przerwy między impulsami T<sub>L</sub> mogą być dostarczone przez aktualną wartość innej już zaprogramowanej funkcji:</p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych wersji, można dodatkowo używać aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Asynchroniczny generator impulsów: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/12446722315_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:334" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Możesz ustawić stosunek impulsu/przerwy w parametrach TH (Time High) i TL (Time Low).</p>
+<p>Wejście INV może być używane do inwersji sygnału wyjściowego. Blok wejściowy INV tylko inwertuje sygnał wyjściowy, jeśli blok jest włączony za pomocą EN.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

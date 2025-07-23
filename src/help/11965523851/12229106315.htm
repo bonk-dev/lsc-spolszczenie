@@ -1,0 +1,207 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rampa analogowa</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Rampa analogowa<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12229091979_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Instrukcja Rampa Analogowa pozwala na zmianę wyjścia z obecnego poziomu na wybrany poziom z określoną prędkością.   </p>
+<TableTitle />
+<p>
+<table id="d157fda2-0628-4821-a242-5871d63ec95b" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zmiana stanu z 0 na 1 na wejściu En (<b>En</b>able) aplikuje poziom start/stop (Offset "B" + <b>StSp</b>) na wyjście przez 100 ms i rozpoczyna operację rampy do wybranego poziomu.</p>
+<p class="p_table_l">Zmiana stanu z 1 na 0 natychmiast ustawia obecny poziom na Offset "B", co powoduje, że wyjście AQ jest równe 0.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Sel</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">SeI = 0: Wybrany jest krok 1 (poziom 1).<p>SeI = 1: Wybrany jest krok 2 (poziom 2).</p>
+<p class="p_table_l">Zmiana stanu Sel powoduje, że obecny poziom zaczyna zmieniać się do wybranego poziomu z określoną prędkością.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>St</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zmiana stanu z 0 na 1 na wejściu <b>St</b> (Decelerated Stop) powoduje, że obecny poziom zmniejsza się ze stałą prędkością aż do osiągnięcia poziomu start/stop (Offset "B" + StSp). Poziom start/stop jest utrzymywany przez 100 ms, a następnie obecny poziom jest ustawiany na Offset "B", co powoduje, że wyjście AQ jest równe 0.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>L1 i L2:</b> Poziomy do osiągnięcia; zakres wartości dla każdego poziomu: -10000 do 20000</p>
+<p class="p_table_l">
+<b>MaxL:</b> Maksymalna wartość, której nie należy przekraczać.<br />Zakres wartości: -10000 do 20000</p>
+<p class="p_table_l">
+<b>StSp:</b> Offset start/stop: wartość dodawana do Offsatu "B" aby utworzyć poziom start/stop. Jeśli offset start/stop wynosi 0, to poziom start/stop jest równy Offsetowi "B").<br />Zakres wartości: 0 do 20000</p>
+<p class="p_table_l">
+<b>Rate:</b> Prędkość z jaką osiągany jest poziom 1, poziom 2 lub offset. Wartość podawana w krokach/sekundę.<br />Zakres wartości: 1 do 10000</p>
+<p class="p_table_l">
+<b>Gain</b>
+<br />Zakres wartości: 0 do 10.00</p>
+<p class="p_table_l">
+<b>Offset</b>
+<br />Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc po przecinku<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b> jest skalowane według wzoru:<br />(Obecny poziom - Offset "B") / Gain "A"</p>
+<p class="p_table_l">Uwaga: gdy AQ jest wyświetlane w trybie parametrów lub wiadomości, jest wyświetlane jako wartość nieskalowana (jednostki inżynierskie: obecny poziom).</p>
+<p class="p_table_l">Zakres wartości dla AQ: 0 do 32767</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry Poziom1 i Poziom2 </p>
+<p>Parametry poziomów Poziom 1 i Poziom 2 mogą być dostarczone przez aktualną wartość innej już zaprogramowanej funkcji: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Próg analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń wersji <b>0BA7</b> i późniejszych można dodatkowo używać aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Próg wyzwalania: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc po przecinku)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości AQ, poziomu 1, poziomu 2, MaxL, StSp i Rate w tekście wiadomości.</p>
+
+<p class="blocktitle">Diagram czasowy dla AQ</p>
+ <p class="imagecontainer">
+<img src="../images/137145514123_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:566" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Jeśli wejście En jest ustawione, funkcja ustawia wartość StSp + Offset "B" na 100 ms.</p>
+<p>Następnie, w zależności od połączenia Sel, funkcja przechodzi z poziomu StSp + Offset "B" do poziomu 1 lub poziomu 2 z przyspieszeniem ustawionym w Rate.</p>
+<p>Jeśli wejście St jest ustawione, funkcja przechodzi do poziomu StSp + B z przyspieszeniem ustawionym w Rate. Następnie funkcja utrzymuje poziom na StSp + Offset "B" przez 100 ms. Po 100 ms poziom jest ustawiany na Offset "B". Wyjście AQ. Wartość skalowana (wyjście AQ) wynosi 0.</p>
+<p>Jeśli wejście St jest ustawione, funkcja może zostać ponownie uruchomiona dopiero po zresetowaniu wejść St i En.</p>
+<p>Jeśli wejście Sel zostało zmienione, w zależności od połączenia Sel, funkcja przechodzi z obecnego poziomu docelowego do nowego poziomu docelowego z określoną prędkością.</p>
+<p>Jeśli wejście En jest zresetowane, funkcja natychmiast ustawia obecny poziom na Offset "B".</p>
+<p>Obecny poziom jest aktualizowany co 100 ms. Zwróć uwagę na związek między wyjściem AQ a obecnym poziomem:</p>
+<p>Wyjście AQ = (obecny poziom – Offset "B" ) / Gain "A"</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia podczas konfiguracji</p>
+<p>Aby uzyskać pomoc dotyczącą parametrów bloku analogowego, zapoznaj się z sekcją <a href="../11965523851/12228970379.htm">Przetwarzanie wartości analogowych</a>.</p>
+<p />
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Wzmacniacz analogowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Wzmacniacz analogowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228879243_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:94" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta funkcja specjalna wzmacnia wartość wejścia analogowego i zwraca ją na wyjściu analogowym.       </p>
+<TableTitle />
+<p>
+<table id="255e2865-c3a2-4635-8bdb-848166ac2924" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenia</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście Ax to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM6 (jeśli 0BA6), AM1 do AM16 (jeśli 0BA7) lub AM1 do AM64 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (jeśli 0BA7) lub AQ1 do AQ8 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p>Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc po przecinku<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zakres wartości dla AQ: -32768 do +32767</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="b76e853e-d01b-4cea-ac34-80ef86e59d22" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA4:</b>
+</p>
+<p class="p_table_l">A: Wzmocnienie<br />Zakres wartości: 0.00 do 10.00</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc po przecinku)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości Ax i Ay w tekście komunikatu.</p>
+<p>Parametr p nie dotyczy porównywania wartości Wł. i Wył. (Funkcja porównująca ignoruje przecinek dziesiętny.)</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja odczytuje wartość sygnału analogowego na wejściu analogowym Ax. </p>
+<p>Ta wartość jest mnożona przez parametr wzmocnienia A. Do iloczynu dodawany jest parametr B (przesunięcie), jak poniżej:</p>
+<p>(Ax * wzmocnienie) + przesunięcie = Wartość rzeczywista Ax.</p>
+<p>Wartość rzeczywista Ax jest wyprowadzana na AQ.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia przy konfiguracji</p>
+<p>Aby uzyskać pomoc dotyczącą parametrów bloku analogowego, zapoznaj się z sekcją <a href="../11965523851/12228970379.htm">Przetwarzanie wartości analogowych</a>.</p>
+
+<p class="blocktitle">Wyjście analogowe</p>
+<p>Jeśli podłączysz tę funkcję specjalną do rzeczywistego wyjścia analogowego, pamiętaj, że wyjście analogowe może przetwarzać tylko wartości od 0 do 1000. W tym celu podłącz dodatkowy wzmacniacz między wyjściem analogowym funkcji specjalnej a rzeczywistym wyjściem analogowym. Za pomocą tego wzmacniacza normalizujesz zakres wyjściowy funkcji specjalnej do zakresu wartości od 0 do 1000.</p>
+<p>Przykład: dodatkowy wzmacniacz za multiplekserem analogowym.</p>
+ <p class="imagecontainer">
+<img src="../images/66676697995_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:168" alt="" />
+</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

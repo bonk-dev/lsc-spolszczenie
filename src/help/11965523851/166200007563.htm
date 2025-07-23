@@ -1,0 +1,145 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jak połączyć się z Mosquitto MQTT</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Jak połączyć się z Mosquitto MQTT<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Wymagania</p>
+      <ul>
+        <li>
+          <p>Dostęp do chmury jest włączony w LOGO!Soft Comfort</p>
+        </li>
+      </ul>
+      
+      <p class="blocktitle">Procedury</p>
+      <p>Wykonaj następujące kroki, aby skonfigurować połączenie IoT między LOGO! BM a Mosquitto MQTT. </p>
+      <ol>
+        <li>
+          <p>Pobierz aplikację Mosquitto MQTT na <a href="https://mosquitto.org/download/">stronie Mosquitto</a>.</p>
+        </li>
+        <li>
+          <p>Kliknij plik .exe, aby zainstalować aplikację na swoim komputerze.</p>
+        </li>
+        <li>
+          <p>Otwórz plik <i>mosquitto.conf</i> w głównym folderze zainstalowanej aplikacji. Skonfiguruj adres IP i port komputera hosta w pliku <i>mosquitto.conf</i>.</p>
+           <p class="imagecontainer">
+<img src="../images/166290954507_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:559" alt="" />
+</p>
+</li>
+        <li>
+          <p>Zmień konfigurację "allow anonyous false" na "allow anonymous true" w pliku <i>mosquitto conf</i>. </p>
+           <p class="imagecontainer">
+<img src="../images/166293190283_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:549" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wyłącz zaporę sieciową na swoim komputerze, aby zapewnić stabilne połączenie między LOGO! BM a Mosquitto MQTT.</p>
+        </li>
+        <li>
+          <p>Otwórz okno cmd w głównym folderze zainstalowanej aplikacji Mosquitto. Wprowadź polecenie <code>mosquitto -c mosquitto.conf -v</code>, aby uruchomić aplikację Mosquitto.</p>
+          
+          <table class="safety" valign="top" border=0>
+            <tr>
+              <td>
+                <b>Uwaga</b>
+                <p>Pozostaw okno cmd otwarte przez cały proces połączenia. W przeciwnym razie połączenie IoT zostanie przerwane.</p>
+              </td>
+            </tr>
+          </table>
+           <p class="imagecontainer">
+<img src="../images/166290945931_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+</li>
+        <li>
+          <p>Zarejestruj urządzenie IoT Mosquitto MQTT poprzez <a href="../11965523851/134267806731.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą</a> w LOGO!Soft Comfort. Kliknij przycisk Zarejestruj urządzenie, aby rozpocząć proces.</p>
+        </li>
+        <li>
+          <p>Wybierz "MQTT" w typie chmury i kliknij przycisk "Dalej".</p>
+           <p class="imagecontainer">
+<img src="../images/164449166731_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź URL brokera MQTT i port, które skonfigurowałeś w kroku 3; ustaw identyfikator klienta MQTT. Następnie kliknij przycisk "Dalej".</p>
+           <p class="imagecontainer">
+<img src="../images/166302432267_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wybierz "TCP" jako typ uwierzytelniania. Następnie kliknij przycisk "Dalej". Aby dowiedzieć się, jak skonfigurować Mosquitto przy wyborze innych typów uwierzytelniania, zapoznaj się z <a href="https://mosquitto.org/man/mosquitto-conf-5.html">stroną Mosquitto</a>.</p>
+           <p class="imagecontainer">
+<img src="../images/166302953099_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź "Temat publikacji" i "Temat subskrypcji". Możesz je nazwać dowolnie. Następnie kliknij przycisk "Dalej". Zapamiętaj te dwie nazwy tematów, które zostaną później użyte do subskrybowania lub publikowania danych w kliencie Mosquitto MQTT.</p>
+           <p class="imagecontainer">
+<img src="../images/166248396683_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+        <li>
+          <p>Strona statusu rejestracji pokazuje, że rejestracja zakończyła się sukcesem. Kliknij przycisk "Zakończ", aby zamknąć okno rejestracji.</p>
+           <p class="imagecontainer">
+<img src="../images/164449981835_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:540" alt="" />
+</p>
+</li>
+      </ol>
+      
+      <p class="blocktitle">Subskrybuj dane z LOGO!</p>
+      <ol>
+        <li>
+          <p>Otwórz okno ustawień transferu danych chmury poprzez <a href="../11965523851/134267806731.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą</a>.</p>
+        </li>
+        <li>
+          <p>Dodaj element danych. W tym przykładzie używamy "Format danych tablicowych". Kliknij "Zapisz do LOGO!", aby zakończyć konfigurację.</p>
+           <p class="imagecontainer">
+<img src="../images/166459123083_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:650" alt="" />
+</p>
+</li>
+        <li>
+          <p>Wprowadź polecenie w oknie cmd: <code>mosquitto_sub -h 192.168.0.66 -p 1883 -t "Topic 1"</code>. Zobaczysz wiadomości w oknie cmd wysłane z LOGO! BM.</p>
+           <p class="imagecontainer">
+<img src="../images/166461573131_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:651" alt="" />
+</p>
+</li>
+      </ol>
+      
+      <p class="blocktitle">Publikuj dane do LOGO!</p>
+      <ol>
+        <li>
+          <p>Otwórz kolejne okno cmd w głównym folderze zainstalowanej aplikacji Mosquitto.</p>
+        </li>
+        <li>
+          <p>Wprowadź następujące polecenia w nowym oknie cmd, aby opublikować dane do LOGO! BM: </p>
+          <ul>
+            <li>
+              <p> <code>mosquitto_pub.exe -h 192.168.0.66 -p 1883 -t "Topic 2" -m "{\"state\":{\"var1\":{\"value\":[0,0]},\"var2\":{\"value\":[0]}}}</code>
+</p>
+            </li>
+            <li>
+              <p> <code>mosquitto_pub.exe -h 192.168.0.66 -p 1883 -t "Topic 2" -m "{\"state\":{\"var1\":{\"value\":[50,100]},\"var2\":{\"value\":[1]}}}</code>
+</p>
+            </li>
+          </ul>
+          <p>W oknie cmd subskrypcji zobaczysz pomyślnie opublikowane wiadomości, a także zobaczysz, że dane zostały pomyślnie zmienione w LOGO! BM.</p>
+           <p class="imagecontainer">
+<img src="../images/166462221067_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:649" alt="" />
+</p>
+</li>
+      </ol>
+    </div>
+  </body>
+</html>

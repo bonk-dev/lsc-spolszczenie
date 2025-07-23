@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE helpset PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp HelpSet Version 1.0//EN" "http://java.sun.com/products/javahelp/helpset_1_0.dtd">
+<toc version="1.0">
+<tocitem text="Pomoc online LOGO!Soft Comfort" target="11965523851" />
+<tocitem text="LOGO!Soft Comfort V8.4" target="12109772683">
+<tocitem text="Informacje o bezpieczeństwie" target="115239771915">
+<tocitem text="Informacje o bezpieczeństwie" target="118270987275" />
+</tocitem>
+<tocitem text="Ochrona danych" target="153564199819" />
+<tocitem text="Uwaga dotycząca bezpieczeństwa" target="security.note" />
+<tocitem text="Witamy w LOGO!Soft Comfort V8.4!" target="Start_Screen" />
+<tocitem text="Zawartość DVD" target="CD_Content" />
+<tocitem text="Co nowego w LOGO!Soft Comfort?" target="25609171723">
+<tocitem text="Co nowego w LOGO!Soft Comfort V8.4?" target="161886522891" />
+<tocitem text="Co nowego w LOGO!Soft Comfort V8.3?" target="134013754251" />
+<tocitem text="Co nowego w LOGO!Soft Comfort V8.2?" target="103892283915" />
+<tocitem text="Co nowego w LOGO!Soft Comfort V8.1?" target="86268125067" />
+<tocitem text="Co było nowego w LOGO!Soft Comfort V8.0?" target="whats.new.v8" />
+<tocitem text="Co było nowego w LOGO!Soft Comfort V7.0?" target="whats.new.v7" />
+<tocitem text="Co było nowego w LOGO!Soft Comfort V6.1 w porównaniu z V5.x?" target="whats_new" />
+</tocitem>
+<tocitem text="Schemat drabinkowy (LAD), schemat blokowy funkcji (FBD) i funkcje użytkownika (UDF)" target="LAD_FBD" />
+<tocitem text="LOGO! i LOGO!Soft Comfort w Internecie" target="internet" />
+<tocitem text="Zgodność" target="compatibility" />
+<tocitem text="LOGO! z AS-Interface (0BA0-0BA2)" target="12109820171">
+<tocitem text="AS-Interface" target="convert_programs" />
+<tocitem text="Wejścia AS-Interface" target="block.AsiInput" />
+<tocitem text="Wyjścia AS-Interface" target="block.AsiOutput" />
+</tocitem>
+</tocitem>
+<tocitem text="Interfejs użytkownika" target="11967285131">
+<tocitem text="Interfejs użytkownika - przegląd" target="Description_of_surface" />
+<tocitem text="Opis okna informacyjnego" target="info.copy" />
+<tocitem text="Opis paska stanu" target="statusline" />
+<tocitem text="Klawisze funkcyjne i skróty" target="FunctionKeys" />
+<tocitem text="Tryb diagramu" target="57358420107">
+<tocitem text="Przegląd" target="diagram.overview" />
+<tocitem text="Drzewo diagramu" target="diagram.mode.tree" />
+<tocitem text="Drzewo instrukcji" target="toolbar.catalogue" />
+<tocitem text="Edytor diagramu" target="editor.name.fupEditor" />
+</tocitem>
+<tocitem text="Projekt sieciowy" target="57527964299">
+<tocitem text="Przegląd projektu sieciowego" target="project.overview" />
+<tocitem text="Drzewo projektu sieciowego" target="network.project.tree" />
+<tocitem text="Widok sieci" target="editor.name.projectEditor" />
+</tocitem>
+<tocitem text="Paski narzędzi" target="12287058571">
+<tocitem text="Przegląd standardowego paska narzędzi" target="toolbar.default.Fup" />
+<tocitem text="Pasek narzędzi symulacji i okno stanu" target="dialog.DateInput" />
+<tocitem text="Pasek narzędzi programowania" target="12206664331">
+<tocitem text="Przegląd" target="toolbar.blocks" />
+<tocitem text="Narzędzie wyboru" target="pdraw.app.createTools.selection" />
+<tocitem text="Narzędzie łączenia" target="pdraw.app.createTools.blockConnec" />
+<tocitem text="Cięcie/Łączenie" target="tool.scissors" />
+<tocitem text="Narzędzie tekstowe" target="pdraw.app.createTools.connectTT" />
+<tocitem text="Układ strony" target="action.drawingDimension" />
+<tocitem text="Narzędzie konwersji" target="file.convertToKop" />
+<tocitem text="Test online" target="pdraw.app.createTools.onlineTest" />
+<tocitem text="Pokazywanie/ukrywanie linii referencyjnej (tylko wersje 0BA8 i nowsze)" target="parameterBox.hiddenParameterLine" />
+<tocitem text="Rozwijanie wszystkich pól parametrów (tylko wersje 0BA8 i nowsze)" target="parameterBox.expandParameterBox" />
+<tocitem text="Zwijanie wszystkich pól parametrów (tylko wersje 0BA8 i nowsze)" target="parameterBox.collapseParameterBox" />
+</tocitem>
+<tocitem text="Pasek narzędzi sieciowych (tylko wersje 0BA8 i nowsze)" target="57571609099">
+<tocitem text="Przegląd paska narzędzi sieciowych" target="toolbar.networkdrawing" />
+<tocitem text="Przejście do trybu online (tylko wersje 0BA8 i nowsze)" target="window.go.online" />
+<tocitem text="Przejście do trybu offline (tylko wersje 0BA8 i nowsze)" target="window.go.offline" />
+<tocitem text="Pokaż/Ukryj linię urządzenia" target="window.go.hideConnection" />
+</tocitem>
+</tocitem>
+<tocitem text="Pasek menu" target="12287062411">
+<tocitem text="Przegląd" target="menue_bar.introduction" />
+<tocitem text="Menu Plik" target="12207212939">
+<tocitem text="Przegląd" target="file.base" />
+<tocitem text="Plik -&gt; Nowy" target="file.new" />
+<tocitem text="Plik -&gt; Otwórz" target="file.open" />
+<tocitem text="Plik -&gt; Zamknij" target="file.close" />
+<tocitem text="Plik -&gt; Zamknij wszystko" target="file.CloseAll" />
+<tocitem text="Plik -&gt; Zapisz" target="dialog.SelectDocumentsToSave" />
+<tocitem text="Plik -&gt; Zapisz jako" target="dialog.GetFileName" />
+<tocitem text="Plik -&gt; Ustawienia strony" target="file.pageformat" />
+<tocitem text="Plik -&gt; Podgląd wydruku" target="file.PrintPreview" />
+<tocitem text="Plik -&gt; Drukuj" target="file.print" />
+<tocitem text="Plik -&gt; Ustawienia tekstu wiadomości" target="dialog.MessageGlobalSetting" />
+<tocitem text="Plik -&gt; Właściwości" target="dialog.EditProjectProperties" />
+<tocitem text="Plik -&gt; Właściwości - Ogólne" target="dialog.LogoOfflineGeneral" />
+<tocitem text="Plik -&gt; Właściwości - Typ sprzętu" target="dialog.HardwareSetting" />
+<tocitem text="Plik -&gt; Właściwości - Ustawienia wejść/wyjść" target="dialog.IOSettings" />
+<tocitem text="Plik -&gt; Właściwości - Hasło programu" target="dialog.Protection" />
+<tocitem text="Plik -&gt; Właściwości - Zasilanie" target="dialog.StartScreen" />
+<tocitem text="Plik -&gt; Właściwości - Dodatkowe informacje" target="dialog.AdditionalInfo" />
+<tocitem text="Plik -&gt; Właściwości - Statystyki" target="dialog.PropertyStatistic" />
+<tocitem text="Plik -&gt; Właściwości - komentarz" target="dialog.LogoComments" />
+<tocitem text="Plik -&gt; Właściwości - Przestrzeń adresowa Modbus" target="dialog.LogoModbusConfiguration" />
+<tocitem text="Plik -&gt; Właściwości - Ustawienia zdarzeń e-mail" target="dialog.EmailEventSettingD" />
+<tocitem text="Plik -&gt; Ostatnie pliki" target="164283237515" />
+<tocitem text="Plik -&gt; Wyjście" target="file.exit" />
+</tocitem>
+<tocitem text="Menu Edycja" target="12207448331">
+<tocitem text="Przegląd" target="edit.base" />
+<tocitem text="Edycja -&gt; Cofnij" target="edit.undo" />
+<tocitem text="Edycja -&gt; Ponów" target="edit.redo" />
+<tocitem text="Edycja -&gt; Usuń" target="edit.delete" />
+<tocitem text="Edycja -&gt; Wytnij" target="edit.cut" />
+<tocitem text="Edycja -&gt; Kopiuj" target="edit.copy" />
+<tocitem text="Edycja -&gt; Wklej" target="edit.paste" />
+<tocitem text="Edycja -&gt; Wyrównaj" target="format.align" />
+<tocitem text="Edycja -&gt; Wyrównaj -&gt; Wyrównaj pionowo" target="format.align.vertical" />
+<tocitem text="Edycja -&gt; Wyrównaj -&gt; Wyrównaj poziomo" target="format.align.horizontal" />
+<tocitem text="Edycja -&gt; Wyrównaj -&gt; Rozłóż równomiernie w poziomie" target="format.align.horizontalspace" />
+<tocitem text="Edycja -&gt; Wyrównaj -&gt; Rozłóż równomiernie w pionie" target="format.align.spacedown" />
+<tocitem text="Edycja -&gt; Wyrównaj -&gt; Wyrównaj automatycznie" target="format.align.automatically" />
+<tocitem text="Edycja -&gt; Zaznacz wszystko" target="edit.MarkAll" />
+<tocitem text="Edycja -&gt; Przejdź do bloku" target="dialog.BlockSelection" />
+<tocitem text="Edycja -&gt; Na wierzch" target="edit.MarkedToForeground" />
+<tocitem text="Edycja -&gt; Na spód" target="edit.MarkedToBackground" />
+<tocitem text="Edycja -&gt; Nazwy wejść/wyjść" target="dialog.InputNames" />
+<tocitem text="Edycja -&gt; Właściwości bloku" target="edit.BlockProperties" />
+<tocitem text="Edycja -&gt; Właściwości bloku (wszystkie bloki)" target="dialog.ParameteringAllBlocks" />
+<tocitem text="Edycja -&gt; Edytuj właściwości UDF" target="edit.EditUDFProperties" />
+</tocitem>
+<tocitem text="Menu Format" target="12207628171">
+<tocitem text="Przegląd" target="format.base" />
+<tocitem text="Format -&gt; Czcionka" target="dialog.FontAttributes" />
+<tocitem text="Format -&gt; Zawijanie tekstu" target="format.WrapText" />
+<tocitem text="Format -&gt; Formatuj siatkę" target="dialog.Grid" />
+<tocitem text="Format -&gt; Przyciągnij do siatki" target="format.AlignToGrid" />
+</tocitem>
+<tocitem text="Menu Widok" target="12207741067">
+<tocitem text="Przegląd" target="view.base" />
+<tocitem text="Widok -&gt; Tryb diagramu" target="view.diagram.mode" />
+<tocitem text="Widok -&gt; Projekt sieciowy" target="view.network.project" />
+<tocitem text="Widok -&gt; Pasek narzędzi" target="view.toolbar" />
+<tocitem text="Widok -&gt; Drzewo" target="66423473419" />
+<tocitem text="Widok -&gt; Wybierz linie" target="view.marker" />
+<tocitem text="Widok -&gt; Okno informacyjne" target="view.MessageWindow" />
+<tocitem text="Widok -&gt; Pasek stanu" target="view.Statusbar" />
+<tocitem text="Widok -&gt; Podpowiedzi" target="view.tooltipps" />
+<tocitem text="Widok -&gt; Powiększenie" target="dialog.Zoom" />
+<tocitem text="Widok -&gt; Powiększ" target="view.blowup" />
+<tocitem text="Widok -&gt; Pomniejsz" target="view.reduce" />
+</tocitem>
+<tocitem text="Menu Narzędzia" target="12207855115">
+<tocitem text="Przegląd" target="extra.base" />
+<tocitem text="Narzędzia -&gt; Transfer" target="dialog.ConnectionTransfer" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; PC -&gt; LOGO!" target="dialog.CommunicationSetting" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; LOGO! -&gt; PC" target="extra.transfer.toPC" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Uruchom LOGO!" target="extra.transfer.startDeviceState" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Zatrzymaj LOGO!" target="extra.transfer.stopDeviceState" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Przywróć ustawienia fabryczne LOGO! (tylko LOGO! 8.FS4 i nowsze wersje)" target="86268118411" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Synchronizuj zegar z EM" target="dialog.ClockSyncEM" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Pokaż wersję FW" target="dialog.LogoOnlineGeneral" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Wyczyść program użytkownika i hasło" target="dialog.ClearProgPwd" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Prześlij dziennik danych (tylko wersje 0BA7 i nowsze)" target="dialog.UploadDatalog" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Konfiguruj adres sieciowy (tylko wersje 0BA7 i nowsze)" target="dialog.IPConfigure" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Konfiguruj tryb Master/Slave (tylko wersje 0BA7 i nowsze)" target="dialog.SlaveModeConfigure" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustaw zegar" target="dialog.SetClock" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Czas letni/zimowy" target="dialog.SummerWinter" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustawienia NTP (tylko LOGO! 8.FS4 i nowsze wersje)" target="dialog.NtpTimeConfigure" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustaw ekran startowy LOGO! TD" target="dialog.SetPowerOnScreen" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Kontrola dostępu" target="dialog.AccessControlSettings" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustawienia transferu danych do chmury" target="dialog.CloudTransferSetting" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustawienia połączenia z chmurą" target="dialog.CloudConnectionSetting" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustawienia certyfikatów" target="dialog.CertificateSetting84" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Ustawienia e-mail" target="dialog.EmailSettingD" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Licznik godzin" target="dialog.HardwareHoursCounter" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Status wejść/wyjść (tylko wersje 0BA7 i nowsze)" target="dialog.IOStatus" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Diagnostyka (tylko wersje 0BA7 i nowsze)" target="dialog.Diagnostic" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Dynamiczny filtr IP serwera (tylko wersje 0BA8 i nowsze)" target="dialog.DynSrvIpFilterConfig" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Konfiguruj urządzenie TDE (tylko LOGO! TDE 6ED1055-4MH08-0BA0)" target="103939173259" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Zbiorcze pobieranie diagramu" target="dialog.BatchDownloadImport" />
+<tocitem text="Narzędzia -&gt; Transfer -&gt; Zbiorcze pobieranie sieci" target="extra.transfer.networkBatchDownload" />
+<tocitem text="Narzędzia -&gt; Wykryj LOGO!" target="extras.DetermineLOGO" />
+<tocitem text="Narzędzia -&gt; Wybierz sprzęt" target="dialog.Hardware" />
+<tocitem text="Narzędzia -&gt; Porównaj" target="file.compare" />
+<tocitem text="Narzędzia -&gt; Symulacja" target="Start_simulation" />
+<tocitem text="Narzędzia -&gt; Parametry symulacji" target="dialog.AnalogInputSimulation" />
+<tocitem text="Narzędzia -&gt; Połącz modem" target="extras.modemInfo" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Wybierz modem" target="extras.selectConfigModem" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Wybierz konfigurację zdalną" target="extras.selectRemoteConfiguration" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Konfiguruj polecenie modemu zdalnego" target="extras.setRemoteModemCommand" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Konfiguruj modem zdalny" target="extras.configRemoteModem" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Wybierz konfigurację lokalną" target="extras.selectLocalConfiguration" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Konfiguruj polecenie modemu lokalnego" target="extras.setLocalModemCommand" />
+<tocitem text="Narzędzia -&gt; Połącz modem - Konfiguruj numer telefonu" target="extras.configTelNumber" />
+<tocitem text="Narzędzia -&gt; Rozłącz modem" target="extras.disconnectmodem" />
+<tocitem text="Narzędzia -&gt; Połączenia Ethernet (tylko wersje 0BA7 i nowsze)" target="dialog.connectionConfigure.ClientConnection" />
+<tocitem text="Narzędzia -&gt; Połączenia Ethernet (tylko LOGO! 8.FS4 i nowsze wersje)" target="dialog.modbusConnectionConfigure.ModbusClientConnection" />
+<tocitem text="Narzędzia -&gt; Mapowanie parametrów VM (tylko wersje 0BA7 i nowsze)" target="dialog.VMConfigure" />
+<tocitem text="Narzędzia -&gt; Opcje" target="dialog.GeneralOptions" />
+<tocitem text="Narzędzia -&gt; Opcje: Ogólne" target="dialog.SelectDefaultEditor" />
+<tocitem text="Narzędzia -&gt; Opcje: Preferencje" target="dialog.DisplayOptions" />
+<tocitem text="Narzędzia -&gt; Opcje: Drukowanie" target="dialog.PrintOptions" />
+<tocitem text="Narzędzia -&gt; Opcje: Cięcie połączeń" target="dialog.AutoCutLines" />
+<tocitem text="Narzędzia -&gt; Opcje: Symulacja" target="extras.options.simulation" />
+<tocitem text="Narzędzia -&gt; Opcje: Kolory" target="dialog.ColorOptions" />
+<tocitem text="Narzędzia -&gt; Opcje: UDF (tylko wersje 0BA7 i nowsze)" target="dialog.UDFOption" />
+<tocitem text="Narzędzia -&gt; Opcje: Separator CSV" target="dialog.ListSeparatorOption" />
+<tocitem text="Narzędzia -&gt; Opcje: Certyfikat" target="extras.options.security" />
+</tocitem>
+<tocitem text="Menu Okno" target="12208244875">
+<tocitem text="Przegląd" target="window.base" />
+<tocitem text="Okno -&gt; Cofnij podział" target="window.unsplit" />
+<tocitem text="Okno -&gt; Podziel na dwa okna" target="window.splitHorizontal" />
+<tocitem text="Okno -&gt; Podziel na trzy okna" target="window.splitVertical" />
+<tocitem text="Okno -&gt; Lista wyboru" target="Fenster_Auswahlliste" />
+</tocitem>
+<tocitem text="Menu Pomoc" target="12208327051">
+<tocitem text="Przegląd" target="help.base" />
+<tocitem text="Pomoc -&gt; Spis treści" target="help.content" />
+<tocitem text="Pomoc -&gt; Pomoc kontekstowa" target="help.ContextSensitive" />
+<tocitem text="Pomoc -&gt; Centrum aktualizacji" target="help.update" />
+<tocitem text="Pomoc -&gt; Aktualizuj chmurę" target="163634972555" />
+<tocitem text="Pomoc -&gt; O programie" target="help.abaout" />
+</tocitem>
+</tocitem>
+</tocitem>
+<tocitem text="Samouczek" target="12126248459">
+<tocitem text="Wymagania wstępne do pracy z samouczkiem" target="Prerequisites_for_working_with_the_tutorial" />
+<tocitem text="Wprowadzenie do tworzenia programu" target="12126258955">
+<tocitem text="Wprowadzenie do tworzenia programów obwodów" target="Introducing_the_creation_of_circuit_programs" />
+<tocitem text="Tworzenie programu obwodowego" target="12126269451">
+<tocitem text="Tworzenie programu obwodowego" target="Programming" />
+<tocitem text="Tworzenie nowego programu obwodowego" target="program.new" />
+<tocitem text="Wybieranie bloków" target="block.select" />
+<tocitem text="Umieszczanie bloków" target="place_blocks" />
+<tocitem text="Edytowanie bloków" target="BlockMenuInfo" />
+<tocitem text="Łączenie bloków" target="connecting_blocks" />
+<tocitem text="Dostępność bloków" target="availability_of_blocks" />
+<tocitem text="Przegląd pola parametrów" target="parameter.box.overview" />
+<tocitem text="Edytowanie pola parametrów" target="parameter.box.edit" />
+</tocitem>
+<tocitem text="Edytowanie układu" target="12126363019">
+<tocitem text="Edytowanie i optymalizacja układu" target="Edit_program" />
+<tocitem text="Wybieranie obiektów" target="mark_objects" />
+<tocitem text="Edytowanie wybranych obiektów" target="edit_marked_objects" />
+<tocitem text="Zastępowanie bloków" target="replace_blocks" />
+<tocitem text="Cięcie połączeń" target="cut_connections" />
+</tocitem>
+<tocitem text="Dokumentacja i zapisywanie" target="12126463755">
+<tocitem text="Dokumentacja programu obwodowego" target="block.Comment" />
+<tocitem text="Otwieranie i zapisywanie programu obwodowego" target="Save_Program" />
+</tocitem>
+</tocitem>
+<tocitem text="Symulacja programu obwodowego" target="12126509195">
+<tocitem text="Uruchamianie symulacji" target="example.start_simulation" />
+<tocitem text="Układ wejść" target="simulated_inputs" />
+<tocitem text="Układ wyjść" target="simulation_of_outputs" />
+<tocitem text="Ustaw wyjście" target="force.binaryOutput" />
+<tocitem text="Zanik zasilania" target="power_off" />
+<tocitem text="Układ tekstów wiadomości" target="simalation_and_messages" />
+<tocitem text="Przypisanie parametrów w trybie symulacji" target="param_during_simulation" />
+<tocitem text="Alternatywna praca" target="alternative_operation" />
+<tocitem text="Sterowanie czasem symulacji" target="Controlling_the_simulation_time" />
+<tocitem text="Symulacja komunikacji sieciowej (tylko wersje 0BA7 i nowsze)" target="simulating_networkcommunication.0BA7" />
+<tocitem text="Tabela danych (tylko wersje 0BA7 i nowsze)" target="data.table.0BA7" />
+</tocitem>
+<tocitem text="Wprowadzenie do tworzenia projektu" target="56730293643">
+<tocitem text="Wprowadzenie do tworzenia programów obwodowych" target="introducing.creation.project" />
+<tocitem text="Tworzenie projektu sieciowego" target="59097973643">
+<tocitem text="Tworzenie nowego projektu obwodowego" target="create.new.project" />
+<tocitem text="Tworzenie projektu obwodowego" target="create.a.project" />
+<tocitem text="Dodawanie nowego urządzenia" target="add.a.device" />
+<tocitem text="Urządzenia" target="devices" />
+<tocitem text="Otwieranie i zapisywanie projektu obwodowego" target="open.save.project" />
+<tocitem text="Programowanie dwustronne" target="two.side.programming" />
+</tocitem>
+<tocitem text="Konfiguracja ustawień urządzenia" target="57415836299">
+<tocitem text="Konfigurowanie ustawień PC" target="config.pc" />
+<tocitem text="Konfigurowanie ustawień LOGO! offline" target="config.logo.offline" />
+<tocitem text="Konfigurowanie ustawień LOGO! online" target="config.logo.online" />
+<tocitem text="Konfigurowanie ustawień LOGO! TDE offline" target="DE.siemens.ad.logo.dialog.TDEOfflineSetting" />
+<tocitem text="Konfigurowanie ustawień LOGO! TDE online" target="DE.siemens.ad.logo.dialog.TDEOnlineSetting" />
+<tocitem text="Konfigurowanie ustawień innych standardowych urządzeń" target="config.other" />
+<tocitem text="Wykrywanie statusu online urządzenia" target="detect.online.status" />
+<tocitem text="Konfigurowanie ustawień nieznanych urządzeń" target="config.unknown.devices" />
+</tocitem>
+<tocitem text="Utwórz połączenie Ethernet" target="dialog.connectionConfigure.logo2nonlogo">
+<tocitem text="Połączenia Ethernet LOGO!" target="87239361163" />
+<tocitem text="Utwórz połączenie Ethernet metodą przeciągnij i upuść" target="87319313931">
+<tocitem text="Utwórz połączenie Ethernet metodą przeciągnij i upuść" target="87239363723" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do LOGO!" target="dialog.connectionConfigure.logo2logo" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do urządzeń S7" target="Ethernet.logo.S7" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do urządzeń zgodnych z Modbus (tylko LOGO! 8.FS4 i nowsze wersje)" target="86273689611" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do urządzeń HMI" target="Ethernet.logo.HMI" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do urządzeń CIM" target="163746675467" />
+</tocitem>
+<tocitem text="Utwórz połączenie Ethernet za pomocą bloku sieciowego" target="87319497483">
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do urządzeń zdalnych" target="Ethernet.logo.remote" />
+<tocitem text="Konfigurowanie połączenia Ethernet, LOGO! do LOGO! slave" target="Ethernet.logo.logoslave" />
+</tocitem>
+<tocitem text="Utwórz połączenie Ethernet poprzez programowanie dwustronne (tylko urządzenia w wersji 0BA8 i nowsze)" target="87239366283" />
+<tocitem text="Utwórz połączenie Ethernet, LOGO! do urządzeń spoza projektu" target="dialog.connectionConfigure.logo2nonlogo" />
+</tocitem>
+<tocitem text="Importuj lub eksportuj urządzenie" target="87157411723">
+<tocitem text="Eksportuj urządzenie" target="87164051083" />
+<tocitem text="Importuj urządzenie" target="87018178699" />
+</tocitem>
+</tocitem>
+<tocitem text="Przykład praktyczny" target="12126672651">
+<tocitem text="Przykład praktyczny: Wprowadzenie" target="example.introduction" />
+<tocitem text="Zadanie" target="example.task" />
+<tocitem text="Układ rozwiązania" target="example.oldfashioned_solution" />
+<tocitem text="Rozwiązanie z LOGO!" target="example.new_with_logo" />
+<tocitem text="Wprowadzanie danych projektu" target="example.projektdata" />
+<tocitem text="Umieszczanie bloków" target="place_blocks" />
+<tocitem text="Łączenie bloków" target="Connecting_blocks" />
+<tocitem text="Porządkowanie interfejsu programowania" target="example.tidy_up" />
+<tocitem text="Optymalizacja widoku" target="example.optimize_view" />
+<tocitem text="Testowanie programu obwodowego" target="example.programmtest" />
+<tocitem text="Dokumentacja programu obwodowego" target="example.documentation" />
+<tocitem text="Transfer programu obwodowego" target="example.download" />
+<tocitem text="Przeprowadzenie testu online programu obwodowego" target="Performing_an_online_test_of_the_circuit_progam" />
+</tocitem>
+<tocitem text="Łączenie z chmurą AWS" target="133895057675">
+<tocitem text="Łączenie z chmurą AWS" target="134481071115" />
+</tocitem>
+</tocitem>
+<tocitem text="Przykładowe aplikacje" target="11967263115">
+<tocitem text="Przegląd" target="examples" />
+<tocitem text="System klimatyzacji" target="example.aircondition" />
+<tocitem text="Drzwi fabryczne" target="example.factorydoor" />
+<tocitem text="Sterowanie ogrzewaniem" target="example.pt100" />
+<tocitem text="Stacja napełniania" target="example.fillstation" />
+</tocitem>
+<tocitem text="Materiały referencyjne" target="11967289739">
+<tocitem text="Stałe i złącza" target="12019504139">
+<tocitem text="Przegląd" target="block.Constant" />
+<tocitem text="FBD i UDF" target="12020331787">
+<tocitem text="Wejścia" target="block.Input" />
+<tocitem text="Klawisze kursora" target="block.KeyInput" />
+<tocitem text="Klawisze funkcyjne LOGO! TD/LOGO! TDE" target="block.TDFunctionKeyInput" />
+<tocitem text="Wyjścia" target="block.Output" />
+<tocitem text="Stałe poziomy logiczne" target="block.Fixed" />
+<tocitem text="Bity rejestru przesuwnego" target="block.ShiftRegisterInput" />
+<tocitem text="Otwarte złącza" target="block.VirtualOutput" />
+<tocitem text="Flagi" target="block.AnalogMarker" />
+<tocitem text="Wejścia analogowe" target="block.AnalogInput" />
+<tocitem text="Wyjścia analogowe" target="block.AnalogOutput" />
+<tocitem text="Wejścia sieciowe (tylko wersje 0BA7 i nowsze)" target="block.NetworkNode" />
+<tocitem text="Wejścia analogowe sieciowe (tylko wersje 0BA7 i nowsze)" target="block.AnalogNetworkNode" />
+<tocitem text="Wyjścia sieciowe (tylko wersje 0BA7 i nowsze)" target="block.SOutput" />
+<tocitem text="Wyjścia analogowe sieciowe (tylko wersje 0BA7 i nowsze)" target="block.SAnalogOutput" />
+</tocitem>
+<tocitem text="LAD"target="12034730891">
+<tocitem text="Styk normalnie otwarty" target="block.Contact" />
+<tocitem text="Styk normalnie zamknięty" target="block.NegativContact" />
+<tocitem text="Styk analogowy" target="block.AnalogContact" />
+<tocitem text="Cewka przekaźnika" target="block.Coil" />
+<tocitem text="Wyjście zanegowane" target="block.NegativCoil" />
+<tocitem text="Wyjście analogowe" target="block.AnalogCoil" />
+<tocitem text="Wejścia sieciowe (tylko wersje 0BA7 i nowsze)" target="block.LADnetworknodes.0BA7" />
+<tocitem text="Wejścia analogowe sieciowe (tylko wersje 0BA7 i nowsze)" target="block.LADanalognetworknodes.0BA7" />
+<tocitem text="Wyjścia sieciowe (tylko wersje 0BA7 i nowsze)" target="block.LADslaveoutputs" />
+<tocitem text="Wyjścia analogowe sieciowe (tylko wersje 0BA7 i nowsze)" target="block.LADanalogslaveoutputs.0BA7" />
+</tocitem>
+</tocitem>
+<tocitem text="Funkcje podstawowe (edytory FBD i UDF)"target="12018693387">
+<tocitem text="Przegląd" target="block.Base" />
+<tocitem text="AND" target="block.And" />
+<tocitem text="AND z oceną zbocza" target="block.PecAnd" />
+<tocitem text="NAND" target="block.Nand" />
+<tocitem text="NAND z oceną zbocza" target="block.PecNand" />
+<tocitem text="OR" target="block.Or" />
+<tocitem text="NOR" target="block.Nor" />
+<tocitem text="XOR" target="block.Xor" />
+<tocitem text="NOT" target="block.Not" />
+</tocitem>
+<tocitem text="Funkcje specjalne"target="12228241931">
+<tocitem text="Przegląd" target="block.Special" />
+<tocitem text="Czasowe"target="12228428555">
+<tocitem text="Opóźnienie załączenia" target="block.OnDelay" />
+<tocitem text="Opóźnienie wyłączenia" target="block.OffDelay" />
+<tocitem text="Opóźnienie załączenia/wyłączenia" target="block.OnOffDelay" />
+<tocitem text="Opóźnienie załączenia z pamięcią" target="block.RetentiveOnDelay" />
+<tocitem text="Przekaźnik impulsowy (wyjście impulsowe)" target="block.WipingRelay" />
+<tocitem text="Przekaźnik impulsowy wyzwalany zboczem" target="block.WipingRelayPEC" />
+<tocitem text="Generator impulsów symetrycznych" target="block.SymPulseGenerator" />
+<tocitem text="Generator impulsów asynchronicznych" target="block.AsymPulseGenerator" />
+<tocitem text="Generator losowy" target="block.Random" />
+<tocitem text="Przełącznik oświetlenia klatki schodowej" target="block.StairsSwitch" />
+<tocitem text="Przełącznik wielofunkcyjny" target="block.ComfortSwitch" />
+<tocitem text="Timer tygodniowy" target="block.Clock" />
+<tocitem text="Timer roczny" target="block.YearClock" />
+<tocitem text="Zegar astronomiczny (tylko wersje 0BA7 i nowsze)" target="block.AstronomicalClock" />
+<tocitem text="Stoper (tylko wersje 0BA7 i nowsze)" target="block.StopWatch" />
+</tocitem>
+<tocitem text="Liczniki"target="12228731787">
+<tocitem text="Licznik w górę/w dół" target="block.Counter" />
+<tocitem text="Licznik godzin" target="block.HoursCounter" />
+<tocitem text="Wyzwalacz progowy" target="block.Trigger" />
+</tocitem>
+<tocitem text="Analogowe"target="12228790155">
+<tocitem text="Wyzwalacz progowy analogowy" target="block.AnalogTrigger" />
+<tocitem text="Wyzwalacz różnicowy analogowy" target="block.AnalogDeltaTrigger" />
+<tocitem text="Komparator analogowy" target="block.AnalogComparator" />
+<tocitem text="Watchdog analogowy" target="block.AnalogWatchdog" />
+<tocitem text="Wzmacniacz analogowy" target="block.Amplifier" />
+<tocitem text="Multiplekser analogowy" target="block.AnalogMux" />
+<tocitem text="Modulator szerokości impulsów (PWM)" target="block.PWM" />
+<tocitem text="Instrukcja matematyczna" target="block.AnalogMaths" />
+<tocitem text="Filtr analogowy (tylko wersje 0BA7 i nowsze)" target="block.AnalogFilter" />
+<tocitem text="Maks/Min (tylko wersje 0BA7 i nowsze)" target="block.MaxMin" />
+<tocitem text="Wartość średnia (tylko wersje 0BA7 i nowsze)" target="block.AverageValue" />
+</tocitem>
+<tocitem text="Przetwarzanie wartości analogowych"target="12228951691">
+<tocitem text="Podstawy" target="working_with_Analogvalues" />
+<tocitem text="Możliwe ustawienia w LOGO!Soft Comfort" target="working_with_Analogvalues2" />
+<tocitem text="Możliwe ustawienia w LOGO!" target="working_with_Analogvalues3" />
+<tocitem text="Przykład" target="working_with_Analogvalues4" />
+<tocitem text="0BA0 do 0BA4" target="working_with_Analogvalues5" />
+</tocitem>
+<tocitem text="Sterowanie i regulacja"target="12229013899">
+<tocitem text="Podstawy sterowania i regulacji" target="controller.basics" />
+<tocitem text="Podstawy regulatora" target="controller.basics.1" />
+<tocitem text="Opis poszczególnych parametrów" target="Description_of_the_individual_parameters" />
+<tocitem text="Regulator PI" target="block.PID" />
+<tocitem text="Rampa analogowa" target="block.RampControl" />
+</tocitem>
+<tocitem text="Różne"target="12229109131">
+<tocitem text="Przekaźnik bistabilny" target="block.LatchingRelay" />
+<tocitem text="Przekaźnik impulsowy" target="block.PulseRelay" />
+<tocitem text="Tekst komunikatu (LOGO! 0BA8 i nowsze wersje)" target="block.Message" />
+<tocitem text="Tekst komunikatu (LOGO! 0BA6 i LOGO! 0BA7)" target="message.text.0BA6" />
+<tocitem text="Tekst komunikatu (LOGO! 0BA4 i LOGO! 0BA5)" target="message.text.0BA4" />
+<tocitem text="Tekst komunikatu (LOGO! 0BA2 i LOGO! 0BA3)" target="message.text.0BA2" />
+<tocitem text="Przycisk funkcyjny" target="block.Softkey" />
+<tocitem text="Rejestr przesuwny (tylko wersje LOGO! 8.FS4 i nowsze)" target="block.ShiftRegister.0BA7" />
+<tocitem text="Rejestr przesuwny (0BA7 do 0BA8)"target="26658869643" />
+<tocitem text="Rejestr przesuwny (0BA4 do 0BA6)" target="block.ShiftRegister" />
+<tocitem text="Wykrywanie błędów instrukcji matematycznej" target="block.MathDetection" />
+<tocitem text="Konwerter Float/Integer (tylko wersje LOGO! 8.FS4 i nowsze)" target="block.Float2Integer" />
+<tocitem text="Konwerter Integer/Float (tylko wersje LOGO! 8.FS4 i nowsze)" target="block.Integer2Float" />
+<tocitem text="Dodatkowe funkcje edytora LAD" target="Additional_functions_of_the_LAD_Editor" />
+</tocitem>
+</tocitem>
+<tocitem text="Profil dziennika danych (tylko wersje 0BA7 i nowsze)" target="block.DataLogProfile">
+<tocitem text="Co to jest dziennik danych?" target="block.DataLog" />
+<tocitem text="Konfiguracja dziennika danych" target="block.DataLog.Configuring" />
+<tocitem text="Transfer dziennika danych" target="block.DataLog.Transfering" />
+<tocitem text="Otwieranie przesłanego dziennika danych" target="block.DataLog.Opening" />
+</tocitem>
+<tocitem text="UDF (tylko wersje 0BA7 i nowsze)"target="25633927307">
+<tocitem text="Co to jest UDF?" target="block.UDF" />
+<tocitem text="Tworzenie UDF" target="block.UDF.creating" />
+<tocitem text="Edycja UDF" target="dialog.editUDFParameter.Description" />
+<tocitem text="Zapisywanie UDF" target="block.UDF.Saving" />
+<tocitem text="Używanie UDF w programie obwodów FBD lub innym UDF" target="block.UDF.Using" />
+<tocitem text="Synchronizacja wersji UDF" target="block.UDF.Synchronizing" />
+</tocitem>
+<tocitem text="Programy obwodów"target="12229281675">
+<tocitem text="Przegląd" target="intro.programming" />
+<tocitem text="Sprzęt LOGO!" target="LOGO.Hardware" />
+<tocitem text="Pamięć"target="12229299595">
+<tocitem text="Wymagania pamięci" target="MemoryUsage" />
+<tocitem text="Przestrzeń pamięci" target="LOGO.Memory" />
+</tocitem>
+<tocitem text="Bloki i numery bloków"target="12229317515">
+<tocitem text="Bloki" target="Blocks" />
+<tocitem text="Numery bloków" target="blocknumbers" />
+</tocitem>
+</tocitem>
+<tocitem text="Projekty sieciowe"target="59385726091">
+<tocitem text="Przegląd"target="58946332811" />
+</tocitem>
+</tocitem>
+<tocitem text="Wskazówki i porady"target="12019165963">
+<tocitem text="Wskazówki i porady" target="help.tipps.tricks" />
+<tocitem text="Jak zachować przegląd podczas symulacji" target="How_to_maintain_an_overview_during_simulation" />
+<tocitem text="Szybki i łatwy sposób wybierania bloków i umieszczania ich w programie obwodów" target="A_quick_and_easy_way_of_selecting_blocks_and_placing_these_into_your_circuit_program" />
+<tocitem text="Szybki i łatwy sposób łączenia bloków w dużych programach obwodów" target="A_quick_and_easy_way_of_connecting_blocks_in_large_circuit_programs" />
+<tocitem text="Jak wyświetlić odpowiednią podpowiedź dla klawisza funkcyjnego" target="How_to_display_a_corresponding_tooltip_for_a_function_key" />
+<tocitem text="Jak zidentyfikować wersję programu obwodów" target="How_to_identify_your_circuit_program_version" />
+<tocitem text="Jak uzyskać dostęp do funkcji poprzez menu skrótów" target="How_to_access_functions_via_the_shortcut_menu" />
+<tocitem text="Szybki i łatwy sposób powiększania okna programu obwodów" target="A_quick_and_easy_way_of_zooming_your_circuit_program_window" />
+<tocitem text="Szybki sposób zmiany parametrów bloku" target="A_quick_way_of_changing_block_parameters" />
+<tocitem text="Szybki sposób zamykania schematów obwodów bez zapisywania danych" target="A_quick_way_of_closing_LOGOSoft_Comfort_without_saving_the_data" />
+<tocitem text="Jak ustalić czas cyklu" target="How_to_establish_the_cycle_time" />
+</tocitem>
+<tocitem text="Rozwiązywanie problemów"target="164355064587">
+<tocitem text="Rozwiązywanie problemów"target="164360233995" />
+</tocitem>
+<tocitem text="Przykład użytkownika"target="166199090827">
+<tocitem text="Jak połączyć się z Hive MQTT"target="166199116939" />
+<tocitem text="Jak połączyć się z Mosquitto MQTT"target="166200007563" />
+</tocitem>
+</toc>

@@ -1,0 +1,396 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Regulator PI</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Regulator PI<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/58901849355_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:85" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Regulator PI to regulator o działaniu proporcjonalnym i całkującym. Możesz używać zarówno działania proporcjonalnego, jak i całkującego osobno lub łącznie.     </p>
+<TableTitle />
+<p>
+<table id="290fc241-ecee-4d7d-9696-8c093c4beab7" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>A/M</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Ustaw tryb regulatora:<p>1: tryb automatyczny<br />0: tryb ręczny</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Użyj wejścia R do zresetowania wyjścia AQ. Dopóki to wejście jest ustawione, wejście A/M jest wyłączone. Wyjście AQ jest ustawione na 0.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>PV</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wartość analogowa: wartość procesowa, wpływa na wyjście</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">Czujnik: Typ używany czujnika</p>
+<p class="p_table_l">
+<b>Min.:</b> Minimalna wartość dla PV <br />Zakres wartości: -10,000 do +20,000</p>
+<p class="p_table_l">
+<b>Maks.:</b> Maksymalna wartość dla PV <br />Zakres wartości: -10,000 do +20,000</p>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<br />Zakres wartości: -10.00 do +10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10,000 do +10,000</p>
+<p class="p_table_l">
+<b>SP:</b> Przypisanie wartości zadanej<br />Zakres wartości: -10,000 do +20,000</p>
+<p class="p_table_l">
+<b>Mq:</b> Wartość z AQ w trybie ręcznym.<br />Zakres wartości: 0 do 1,000</p>
+<p class="p_table_l">
+<b>Zestawy parametrów:</b> wstępnie ustawione wartości związane z aplikacją dla KC, TI i Dir (patrz poniżej)</p>
+<p class="p_table_l">
+<b>KC:</b> Wzmocnienie<br />Zakres wartości: 00.00 do 99.99</p>
+<p class="p_table_l">
+<b>TI:</b> Czas całkowania<br />Zakres wartości 00:01 min do 99:59 min</p>
+<p class="p_table_l">
+<b>Dir:</b> Kierunek działania regulatora<br />Możliwe ustawienia: + lub -</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc po przecinku<br />Możliwe ustawienia: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wyjście analogowe (wielkość sterująca)<br />Zakres wartości dla AQ: 0 do 1,000</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry SP i Mq</p>
+<p>Rzeczywista wartość innej już zaprogramowanej funkcji może dostarczyć wartość zadaną SP i wartość dla Mq: </p>
+<ul>
+<li>
+<p>Komparator analogowy: Ax - Ay</p>
+</li>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń w wersji <b>0BA7</b> i nowszych można dodatkowo używać rzeczywistych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik impulsowy wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik schodowy: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Maks./Min.: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr P (liczba miejsc po przecinku)</p>
+<p>Parametr p dotyczy tylko wyświetlania wartości z PV, SP, Min. i Maks. w tekście komunikatu.</p>
+
+<p class="blocktitle">Wykres czasowy</p>
+<p>Charakter, sposób i szybkość, z jaką zmienia się AQ, zależą od parametrów KC i TI. Dlatego przebieg AQ na wykresie jest jedynie przykładem. Działanie sterujące jest ciągłe; dlatego wykres przedstawia tylko fragment.</p>
+ <p class="imagecontainer">
+<img src="../images/137145377163_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:530" alt="" />
+</p>
+<p>
+<table id="292f8a4b-3e6e-486d-8c2d-c74646d12d75" class="table_legend"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="6.9%" />
+<col width="93%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2460;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zakłócenie powoduje spadek PV, ponieważ Dir jest ustawiony w górę, AQ zwiększa się, aż PV ponownie odpowiada SP.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2461;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Zakłócenie powoduje spadek PV, ponieważ Dir jest ustawiony w dół, AQ zmniejsza się, aż PV ponownie odpowiada SP. </p>
+<p class="p_table_l">Dir jest skoordynowany z podstawowym zachowaniem pętli sterującej. Kierunku (dir) nie można zmieniać w trakcie działania funkcji. Zmiana Dir jest tu pokazana w celach wyjaśniających.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">
+<span class="circlednumber">&#x2462;</span>
+</p>
+</td>
+<td>
+<p class="p_table_l">Gdy wejście R ustawia AQ na 0, PV się zmienia. Jest to spowodowane faktem, że PV rośnie, co z powodu Dir = w górę powoduje spadek AQ.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Widok trendu regulatora PI w symulacji lub teście online</p>
+<p>Gdy przeglądasz program obwodu w <a href="../11965523851/58280789387.htm">Teście online</a> lub w <a href="../11965523851/12206661515.htm">symulacji</a>, LOGO!Soft Comfort wyświetla widok trendu regulatora PI pokazujący wejście PV, wyjście AQ i parametr SP. Widok trendu pokazuje zmianę AQ i PV w czasie, w odniesieniu do SP. Okres próbkowania czasu jest konfigurowalny, co pozwala zobaczyć częste próbki w krótkim czasie lub rzadsze próbki w dłuższym okresie.</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Jeśli wejście A/M wynosi 0, funkcja specjalna generuje wyjście AQ z wartością ustawioną parametrem Mq.</p>
+<p>Jeśli wejście A/M wynosi 1, rozpoczyna się tryb automatyczny. Ponieważ przyjęta wartość Mq jest sumą całkową, funkcja regulatora rozpoczyna obliczenia zgodnie ze wzorami podanymi w <a href="../11965523851/12229038091.htm">Podstawach sterowania i regulacji</a>. Użyj zaktualizowanej wartości PV we wzorach:</p>
+<p>Zaktualizowana wartość PV = (PV * wzmocnienie) + przesunięcie</p>
+<p>Jeśli zaktualizowana wartość PV = SP, funkcja specjalna nie zmienia wartości AQ.</p>
+<p>Dir = w górę/+ (numery wykresu czasowego 1 i 3)</p>
+<ul>
+<li>
+<p>Jeśli zaktualizowana wartość PV &gt; SP, funkcja specjalna zmniejsza wartość AQ.</p>
+</li>
+<li>
+<p>Jeśli zaktualizowana wartość PV &lt; SP, funkcja specjalna zwiększa wartość AQ.</p>
+</li>
+</ul>
+<p>Dir = w dół/- (numer wykresu czasowego 2)</p>
+<ul>
+<li>
+<p>Jeśli zaktualizowana wartość PV &gt; SP, funkcja specjalna zwiększa wartość AQ.</p>
+</li>
+<li>
+<p>Jeśli zaktualizowana wartość PV &lt; SP, funkcja specjalna zmniejsza wartość AQ.</p>
+</li>
+</ul>
+<p>Przy zakłóceniu AQ zwiększa się lub zmniejsza, aż zaktualizowana wartość PV ponownie odpowiada SP. Szybkość, z jaką zmienia się AQ, zależy od parametrów KC i TI.</p>
+<p>Jeśli wejście PV przekracza parametr Maks., zaktualizowana wartość PV jest ustawiana na wartość Maks. Jeśli PV jest mniejsza niż parametr Min., zaktualizowana wartość PV jest ustawiana na wartość Min.</p>
+<p>Jeśli wejście R wynosi 1, wyjście AQ jest resetowane. Dopóki R jest ustawione, wejście A/M jest wyłączone.</p>
+
+<p class="blocktitle">Czas próbkowania</p>
+<p>Czas próbkowania jest stały i wynosi 500 ms.</p>
+
+<p class="blocktitle">Zestawy parametrów</p>
+<p>Aby uprościć użycie regulatora PI, parametry dla KC, TI i Dir są już podane jako zestawy dla następujących aplikacji:</p>
+<TableTitle />
+<p>
+<table id="2c218e19-5253-4614-af21-4d1fda24096e" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="17.4%" />
+<col width="40.8%" />
+<col width="13.6%" />
+<col width="13.6%" />
+<col width="14.4%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_cb">Zestaw parametrów</p>
+</th>
+<th>
+<p class="p_table_cb">Przykład zastosowania</p>
+</th>
+<th>
+<p class="p_table_cb">Parametr KC</p>
+</th>
+<th>
+<p class="p_table_cb">Parametr TI (s)</p>
+</th>
+<th>
+<p class="p_table_cb">Parametr Dir</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Temperatura szybka</p>
+</td>
+<td>
+<p class="p_table_l">Temperatura, sterowanie chłodzeniem małych pomieszczeń; małe objętości</p>
+</td>
+<td>
+<p class="p_table_l">0.5</p>
+</td>
+<td>
+<p class="p_table_l">30</p>
+</td>
+<td>
+<p class="p_table_l">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Temperatura wolna</p>
+</td>
+<td>
+<p class="p_table_l">Ogrzewanie, wentylacja, temperatura, sterowanie chłodzeniem dużych pomieszczeń; duże objętości</p>
+</td>
+<td>
+<p class="p_table_l">1.0</p>
+</td>
+<td>
+<p class="p_table_l">120</p>
+</td>
+<td>
+<p class="p_table_l">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Ciśnienie 1</p>
+</td>
+<td>
+<p class="p_table_l">Szybka zmiana ciśnienia, sterowanie kompresorem</p>
+</td>
+<td>
+<p class="p_table_l">3.0</p>
+</td>
+<td>
+<p class="p_table_l">5</p>
+</td>
+<td>
+<p class="p_table_l">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Ciśnienie 2</p>
+</td>
+<td>
+<p class="p_table_l">Wolna zmiana ciśnienia, sterowanie różnicą ciśnień (regulator przepływu)</p>
+</td>
+<td>
+<p class="p_table_l">1.2</p>
+</td>
+<td>
+<p class="p_table_l">12</p>
+</td>
+<td>
+<p class="p_table_l">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Poziom pełny 1</p>
+</td>
+<td>
+<p class="p_table_l">Napełnianie zbiornika i/lub rezerwuaru bez odpływu</p>
+</td>
+<td>
+<p class="p_table_l">1.0</p>
+</td>
+<td>
+<p class="p_table_l">99:59</p>
+</td>
+<td>
+<p class="p_table_l">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Poziom pełny 2</p>
+</td>
+<td>
+<p class="p_table_l">Napełnianie zbiornika i/lub rezerwuaru z odpływem</p>
+</td>
+<td>
+<p class="p_table_l">0

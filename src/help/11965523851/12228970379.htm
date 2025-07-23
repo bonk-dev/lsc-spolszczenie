@@ -1,0 +1,100 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Podstawy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Podstawy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      
+      <p class="blocktitlefirst">Analogowe i cyfrowe</p>
+      <p>Sygnał analogowy to wielkość fizyczna, która w danym zakresie może przyjmować dowolną wartość - dowolną ciągłą wartość pośrednią. Przeciwieństwem analogowego jest <i>cyfrowy.</i> Sygnał cyfrowy zna tylko dwa stany: 0 i 1 lub "wyłączony" i "włączony".                   </p>
+      
+      <p class="blocktitle">Od sygnału elektrycznego do wartości analogowej</p>
+      <p>
+        <b>Podstawowy porządek zdarzeń</b>
+      </p>
+      <p>Do przetwarzania wielkości fizycznych przez LOGO! wymaganych jest kilka kroków:</p>
+      <ol>
+        <li>
+          <p>LOGO! może odczytywać napięcia elektryczne od 0 V do 10 V lub prądy elektryczne od 0 mA do 20 mA na jednym wejściu analogowym.<p>Wielkości fizyczne (na przykład temperatura, ciśnienie, prędkość itp.) muszą więc zostać przekształcone w jedną wielkość elektryczną. Tę konwersję wykonuje zewnętrzny czujnik.</p>
+        </li>
+        <li>
+          <p>LOGO! odczytuje wielkość elektryczną i poprzez dalsze przetwarzanie przekształca ją w znormalizowaną wartość w zakresie od 0 do 1000. Ta wartość jest następnie używana w programie obwodu jako wejście specjalnej funkcji analogowej.</p>
+        </li>
+        <li>
+          <p>Aby dostosować znormalizowaną wartość do aplikacji, LOGO! wykorzystuje specjalną funkcję analogową, uwzględniając wzmocnienie i przesunięcie, aby obliczyć wartość analogową. Wartość analogowa jest następnie oceniana przez funkcję specjalną (na przykład wzmacniacz analogowy). Jeśli specjalna funkcja analogowa ma wyjście analogowe, to wartość analogowa jest używana jako wyjście funkcji specjalnej.</p>
+        </li>
+        <li>
+          <p>Za pomocą LOGO! można również przekształcić wartości analogowe z powrotem w napięcie elektryczne. W tym przypadku napięcie może przyjmować wartości między 0 V a 10 V.</p>
+        </li>
+        <li>
+          <p>Wykorzystując to napięcie, LOGO! może sterować zewnętrznym siłownikiem, który przekształca napięcie, a także wartość analogową z powrotem w wielkość fizyczną.</p>
+        </li>
+      </ol>
+      <p>Poniższy diagram ilustruje ten porządek zdarzeń.</p>
+       <p class="imagecontainer">
+<img src="../images/137144941067_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:435" alt="" />
+</p>
+
+<p class="blocktitle">Wzmocnienie</p>
+<p>Znormalizowana wartość jest mnożona przez parametr. Za pomocą tego parametru można wzmocnić wielkość elektryczną; dlatego ten parametr nazywa się "wzmocnieniem".</p>
+
+<p class="blocktitle">Przesunięcie punktu zerowego</p>
+<p>Można dodać lub odjąć parametr od wzmocnionej znormalizowanej wartości.</p>
+<p>Za pomocą tego parametru można przesunąć punkt zerowy wielkości elektrycznej; dlatego ten parametr nazywa się "przesunięciem punktu zerowego".</p>
+
+<p class="blocktitle">Wzmocnienie i przesunięcie</p>
+<p>Wartość analogowa jest więc obliczana w następujący sposób:</p>
+<p>
+<b>Wartość analogowa</b> = (wartość znormalizowana x wzmocnienie) + przesunięcie</p>
+<p>Poniższy diagram ilustruje to wzór oraz znaczenie wzmocnienia i przesunięcia:</p>
+ <p class="imagecontainer">
+<img src="../images/137145023627_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:472" alt="" />
+</p>
+<p>Linia prosta na grafice opisuje, która znormalizowana wartość jest przekształcana w którą wartość analogową. Wzmocnienie odpowiada nachyleniu linii prostej, a przesunięcie odpowiada przesunięciu punktu zerowego linii prostej na osi y.</p>
+
+<p class="blocktitle">Wyjście analogowe</p>
+<p>Jeśli podłączysz funkcję specjalną (która ma wyjście analogowe) do <b>rzeczywistego</b> wyjścia analogowego, pamiętaj, że wyjście analogowe może przetwarzać tylko wartości od 0 do 1000.</p>
+<p>
+<a href="../11965523851/12228988811.htm">Możliwe ustawienia w LOGO!Soft Comfort</a> </p>
+<p>
+<a href="../11965523851/12228996235.htm">Możliwe ustawienia w LOGO!</a> </p>
+<p>
+<a href="../11965523851/12229003659.htm">Przykład: Sterowanie ogrzewaniem</a> </p>
+<TableTitle />
+<p>
+<table id="bcba9695-d9ae-4777-b8e1-fd85265718c2" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<a href="../11965523851/12229011083.htm">0BA0 do 0BA4</a> </p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</div>
+  </body>
+</html>

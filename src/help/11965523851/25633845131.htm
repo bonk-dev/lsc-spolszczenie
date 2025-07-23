@@ -1,0 +1,152 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Wartość średnia (tylko wersje 0BA7 i nowsze)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Wartość średnia (tylko wersje 0BA7 i nowsze)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/26469850763_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:96" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Funkcja wartości średniej pobiera próbki sygnału wejściowego analogowego w skonfigurowanym okresie czasu i wyprowadza wartość średnią na <b>AQ</b>.   </p>
+<TableTitle />
+<p>
+<table id="32ffabda-47b6-43a0-9fbc-b279e49387a7" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>En</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze (przejście z 0 na 1) na wejściu En (<b>En</b>able) ustawia wyjście <b>AQ</b> na wartość średnią wejścia Ax po upływie skonfigurowanego czasu. Ujemne zbocze (przejście z 1 na 0) utrzymuje wyjście na ostatnio obliczonej wartości.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>R</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Dodatnie zbocze (przejście z 0 na 1) na wejściu R (<b>R</b>eset) resetuje wyjście AQ do 0.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejście <b>Ax</b> to jeden z następujących sygnałów analogowych:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM16 (dla 0BA7) lub AM1 do AM64 (dla 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (dla 0BA7) lub AQ1 do AQ8 (dla 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>St</b>
+<b> </b>(Czas próbkowania): Można ustawić w Sekundach, Dniach, Godzinach lub Minutach.</p>
+<p class="p_table_l">Zakres wartości:</p>
+<p class="p_table_l">Jeśli St = Sekundy: 1 do 59</p>
+<p class="p_table_l">Jeśli St = Dni: 1 do 365</p>
+<p class="p_table_l">Jeśli St = Godziny: 1 do 23</p>
+<p class="p_table_l">Jeśli St = Minuty: 1 do 59</p>
+<p class="p_table_l">
+<b>Sn</b>
+<b> </b>(Liczba próbek):</p>
+<p class="p_table_l">Zakres wartości:</p>
+<p class="p_table_l">Jeśli St = Sekundy: 1 do St*100</p>
+<p class="p_table_l">Jeśli St = Dni: 1 do 32767</p>
+<p class="p_table_l">Jeśli St = Godziny: 1 do 32767</p>
+<p class="p_table_l">Jeśli St = Minuty i St &#x2264; 5 minut: 1 do St*6000</p>
+<p class="p_table_l">Jeśli St = Minuty i St &#x2265; 6 minut: 1 do 32767</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>AQ</b> wyprowadza wartość średnią w określonym czasie próbkowania.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry St i Sn</p>
+<p>Parametr <b>St</b> reprezentuje czas próbkowania, a parametr <b>Sn</b> reprezentuje liczbę próbek.</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144852491_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:517" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Gdy <b>En</b> = 1, funkcja wartości średniej oblicza wartość średnią próbek w skonfigurowanym przedziale czasu. Na końcu czasu próbkowania funkcja ustawia wyjście <b>AQ</b> na tę obliczoną wartość średnią.</p>
+<p>Gdy <b>En</b> = 0, obliczenia są zatrzymywane, a <b>AQ</b> zachowuje ostatnią obliczoną wartość. Gdy <b>R</b> = 0, <b>AQ</b> jest resetowane do 0.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

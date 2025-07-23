@@ -1,0 +1,412 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rozwiązywanie problemów</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Rozwiązywanie problemów<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <p>Ten rozdział zawiera wskazówki, jak zlokalizować i rozwiązywać problemy.</p>
+      
+      <p class="blocktitle">Wysyłanie e-maili</p>
+      <p>Informacje diagnostyczne są wyświetlane na module bazowym LOGO! poprzez menu: Diagnostyka &#x2192; E-mail &#x2192; Dzienniki poczty. Możesz odnieść się do poniższej tabeli, aby zdiagnozować przyczynę błędu i naprawić go za pomocą odpowiedniego rozwiązania.</p>
+      <TableTitle />
+      <p>
+        <table id="f20a301a-6b30-e50c-bd74-4ac30283b895" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+          <colgroup>
+            <col width="20%" />
+            <col width="34.9%" />
+            <col width="45.1%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>
+                <p class="p_table_cb">Diagnostyka</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Możliwa przyczyna</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Możliwe rozwiązanie</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p class="p_table_l">Poczta zajęta</p>
+              </td>
+              <td>
+                <p class="p_table_l">E-maile są wysyłane zbyt często. Gdy serwer wysyła e-mail, inny e-mail jest wyzwalany do wysłania.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Ponieważ nie można zmienić częstotliwości wysyłania e-maili, zmodyfikuj zdarzenie wyzwalające wysyłanie e-maili.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Przekroczenie czasu</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Połączenie sieciowe jest niestabilne.</p>
+                  </li>
+                  <li>
+                    <p>Odpowiedź serwera SMTP przekroczyła czas.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź, czy połączenie sieciowe nie zostało przerwane.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy komunikacja z serwerem SMTP przebiega normalnie.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nie udało się przetworzyć DNS</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Połączenie sieciowe z serwerem DNS zostało przerwane.</p>
+                  </li>
+                  <li>
+                    <p>Wystąpił błąd w nazwie domeny SMTP.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź, czy połączenie z serwerem DNS działa normalnie.</p>
+                  </li>
+                  <li>
+                    <p>Zmień serwer DNS.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy nazwa domeny serwera SMTP jest poprawna.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieudane logowanie</p>
+              </td>
+              <td>
+                <p class="p_table_l">Konto logowania lub hasło logowania jest nieprawidłowe w ustawieniach SMTP.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sprawdź konto logowania lub hasło w ustawieniach SMTP. Dodatkowy kod aplikacji może być wymagany do logowania na niektórych serwerach SMTP. Więcej informacji znajdziesz w instrukcji obsługi danego serwera e-mail.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Błąd odbiorcy</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Odbiorca e-maila nie jest skonfigurowany.</p>
+                  </li>
+                  <li>
+                    <p>Wystąpił błąd w skonfigurowanym odbiorcy e-maila.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź, czy grupa odbiorców e-mail jest skonfigurowana z odbiorcami e-mail. Aby skonfigurować odbiorcę e-mail, zobacz <a href="../11965523851/162316795275.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia e-mail</a>
+</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy adres e-mail odbiorcy jest poprawny.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy adres e-mail odbiorcy znajduje się w zakresie odbioru serwera SMTP.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Błąd sieci</p>
+              </td>
+              <td>
+                <p class="p_table_l">Połączenie sieciowe zostało przerwane podczas wysyłania e-maila przez serwer.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sprawdź swoje połączenie sieciowe.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Brak konfiguracji</p>
+              </td>
+              <td>
+                <p class="p_table_l">Serwer SMTP nie jest skonfigurowany w LSC.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Skonfiguruj SMTP w LSC. Zobacz <a href="../11965523851/162316795275.htm">Narzędzia -&gt; Transfer -&gt; Ustawienia e-mail</a>.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Błąd serwera</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Serwer SMTP odrzuca żądanie wysłania e-maila.</p>
+                  </li>
+                  <li>
+                    <p>Odpowiedź serwera SMTP nie jest zgodna ze specyfikacjami SMTP.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <p>Sprawdź, czy wystąpił błąd na serwerze SMTP lub na koncie e-mail używanym do logowania na serwerze SMTP.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieudana weryfikacja certyfikatu</p>
+              </td>
+              <td>
+                <p class="p_table_l">Certyfikat serwera SMTP jest nieprawidłowy.</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Prześlij prawidłowy certyfikat w konfiguracji SMTP.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy czas BM jest poprawny. Nieprawidłowy czas BM powoduje niepowodzenie weryfikacji certyfikatu.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
+      
+      <p class="blocktitle">Połączenie z chmurą</p>
+      <p>Informacje diagnostyczne są wyświetlane na module bazowym LOGO! poprzez menu: Diagnostyka &#x2192; Chmura &#x2192; Status połączenia. Możesz odnieść się do poniższej tabeli, aby zdiagnozować przyczynę błędu i możliwe rozwiązanie.</p>
+      <TableTitle />
+      <p>
+        <table id="6dcf499b-3e68-1853-f645-7943a1f874e7" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+          <colgroup>
+            <col width="20.4%" />
+            <col width="34.7%" />
+            <col width="44.9%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>
+                <p class="p_table_cb">Diagnostyka</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Możliwa przyczyna</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Możliwe rozwiązanie</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieudane przetworzenie DNS</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Serwer DNS jest niedostępny.</p>
+                  </li>
+                  <li>
+                    <p>Wystąpił błąd podczas przetwarzania adresu IP z serwera DNS.</p>
+                  </li>
+                </ul>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź swoje połączenie sieciowe.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy konfiguracja bramy jest poprawna.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy adres URL brokera jest poprawny.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Przekroczenie czasu połączenia z serwerem</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Brak odpowiedzi z serwera podczas nawiązywania połączenia TCP/TLS przez LOGO!.</p>
+                  </li>
+                  <li>
+                    <p>Serwer jest niedostępny.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź swoje połączenie sieciowe.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź, czy adres URL brokera jest poprawny.</p>
+                  </li>
+                  <li>
+                    <p>Skontaktuj się z pomocą techniczną serwera.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Błąd połączenia z serwerem</p>
+              </td>
+              <td>
+                <p class="p_table_l">Wystąpił błąd podczas nawiązywania połączenia TCP/TLS przez LOGO! z serwerem.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sprawdź parametry połączenia, np. port, tryb uwierzytelniania, klucz, certyfikat.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Brak odpowiedzi od brokera MQTT</p>
+              </td>
+              <td>
+                <p class="p_table_l">Usługa MQTT serwera jest niedostępna.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Skontaktuj się z pomocą techniczną serwera.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieudane wysłanie danych do brokera MQTT</p>
+              </td>
+              <td>
+                <p class="p_table_l">Połączenie z chmurą z brokerem MQTT zostało przerwane podczas wysyłania danych przez LOGO!.</p>
+              </td>
+              <td>
+                <p>Sprawdź swoje połączenie sieciowe.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieudane odebranie danych od brokera MQTT</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Połączenie z chmurą z brokerem MQTT zostało przerwane podczas odbierania danych przez LOGO!.</p>
+                  </li>
+                  <li>
+                    <p>Odebrane dane są nieprawidłowe, np. błąd formatu pakietu, nierozpoznawalny typ pakietu.</p>
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź swoje połączenie sieciowe.</p>
+                  </li>
+                  <li>
+                    <p>Sprawdź konfigurację serwera.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieakceptowana wersja protokołu</p>
+              </td>
+              <td>
+                <p class="p_table_l">Serwer nie obsługuje poziomu protokołu MQTT żądanego przez klienta.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sprawdź, czy serwer obsługuje protokół MQTT 3.1/3.1.1.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Identyfikator odrzucony</p>
+              </td>
+              <td>
+                <p class="p_table_l">Identyfikator klienta jest w formacie UTF-8, który nie jest obsługiwany przez serwer.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Skontaktuj się z pomocą techniczną serwera.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Serwer niedostępny</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sieć jest połączona, ale usługa MQTT jest niedostępna.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Skontaktuj się z pomocą techniczną serwera.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Nieprawidłowa nazwa użytkownika lub hasło</p>
+              </td>
+              <td>
+                <p class="p_table_l">Dane w nazwie użytkownika lub haśle są nieprawidłowo sformatowane.</p>
+              </td>
+              <td>
+                <ul class="table">
+                  <li>
+                    <p>Sprawdź, czy nazwa użytkownika i hasło są poprawne.</p>
+                  </li>
+                  <li>
+                    <p>Skontaktuj się z pomocą techniczną serwera.</p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">Brak autoryzacji</p>
+              </td>
+              <td>
+                <p class="p_table_l">Klient nie ma uprawnień do połączenia.</p>
+              </td>
+              <td>
+                <p class="p_table_l">Sprawdź, czy podano nazwę użytkownika i hasło.</p>
+              </td>
+            </tr>
+            <tr

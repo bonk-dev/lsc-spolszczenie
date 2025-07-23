@@ -1,0 +1,178 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opis poszczególnych parametrów</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Opis poszczególnych parametrów<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+      <TableTitle />
+      <p>
+        <table id="87ccc250-bed8-479b-9e64-9a4b9a153817" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+          <colgroup>
+            <col width="22%" />
+            <col width="58.9%" />
+            <col width="19%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>
+                <p class="p_table_cb">Parametry kontrolera</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Przedstawione w LOGO!</p>
+              </th>
+              <th>
+                <p class="p_table_cb">Możliwy zakres wartości w LOGO!</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p class="p_table_l">Mn<p>Wartość sterująca w czasie n</p>
+              </td>
+              <td>
+                <p class="p_table_l">Wyjście bloku regulatora PI</p>
+              </td>
+              <td>
+                <p class="p_table_l">0 do 1000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">kP<br />Wzmocnienie części P</p>
+                <p class="p_table_l">kI<br />Wzmocnienie części I</p>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">W LOGO! parametr KC stosuje się jako wzmocnienie zarówno dla części I, jak i P regulatora</p>
+                <p class="p_table_l">Jeśli wprowadzisz KC=0, część P regulatora wyłącza się. W tym szczególnym przypadku k jest automatycznie ustawiane na 1 dla części I.</p>
+                <p class="p_table_l">Jeśli KC = 0: kP = 0 i kI = 1<br />Jeśli KC &#x2260; 0: kP = kI = KC</p>
+              </td>
+              <td>
+                <p class="p_table_l">0.00 do 99.99</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">T<sub>S</sub>
+<br />Czas próbkowania, długość wycinka czasu</p>
+              </td>
+              <td>
+                <p class="p_table_l">Stały</p>
+              </td>
+              <td>
+                <p class="p_table_l">500 ms</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">T<sub>I</sub> <br />Czas całkowania</p>
+              </td>
+              <td>
+                <p class="p_table_l">Parametr T<sub>I:</sub> jeśli ustawisz ten parametr na 99.59 min, wyłączysz część I regulatora.</p>
+              </td>
+              <td>
+                <p class="p_table_l">00:01 min do 99.59 min</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">e<sub>n</sub>
+<br />Błąd pętli w czasie n; ogólnie obowiązuje:<br />E = SP - PV</p>
+              </td>
+              <td>
+                <p class="p_table_l">Patrz SP i PV</p>
+              </td>
+              <td>
+                <p class="p_table_l">"</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">SP</p>
+              </td>
+              <td>
+                <p class="p_table_l">Parametr SP to zadana wartość w. Dla tego parametru możesz użyć analogowego wyjścia innej funkcji specjalnej.</p>
+              </td>
+              <td>
+                <p class="p_table_l">-10000 do +20000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l">PV</p>
+              </td>
+              <td>
+                <p class="p_table_l">PV to wartość procesowa x i jest obliczana następująco: <br />PV = wartość analogowa na wejściu * wzmocnienie) + przesunięcie.<br />Wejście możesz podłączyć np. za pomocą wejścia analogowego z czujnikiem PT100.</p>
+              </td>
+              <td>
+                <p class="p_table_l">"</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">Parametr wzmocnienia ma wpływ na PV</p>
+              </td>
+              <td>
+                <p class="p_table_l">0.0 do 10.0</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">Parametr przesunięcia ma wpływ na PV</p>
+              </td>
+              <td>
+                <p class="p_table_l">-10000 do +20000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">PV jest ograniczony przez parametry Min. i Max.</p>
+              </td>
+              <td>
+                <p class="p_table_l">W każdym przypadku: 10000 do +20000</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="p_table_l"> </p>
+              </td>
+              <td>
+                <p class="p_table_l">Parametr Dir określa kierunek działania regulatora.</p>
+                <p class="p_table_l">Dodatni oznacza: Jeśli wartość zadana &gt; wartość procesowa, to wartość procesowa jest zwiększana; jeśli wartość zadana &lt; wartość procesowa, to wartość procesowa jest zmniejszana.</p>
+                <p class="p_table_l">Ujemny oznacza: Jeśli wartość zadana &gt; wartość procesowa, to wartość procesowa jest zmniejszana; jeśli wartość zadana &lt; wartość procesowa, to wartość procesowa jest zwiększana.</p>
+                <p class="p_table_l">Przykład, regulacja ogrzewania: jeśli wartość zadana jest większa niż wartość procesowa (pokój jest za zimny), wartość sterująca zwiększa wartość procesową.</p>
+              </td>
+              <td>
+                <p class="p_table_l">- lub +</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
+      <p />
+      <p>Więcej szczegółów znajdziesz w opisie funkcji specjalnej regulatorów PI (np. przełączanie z trybu ręcznego na automatyczny, zestawy parametrów itp.).   </p>
+    </div>
+  </body>
+</html>

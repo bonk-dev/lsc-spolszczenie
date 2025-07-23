@@ -1,0 +1,209 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Konwerter Float/Integer (tylko LOGO! 8.FS4 i nowsze wersje)</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Konwerter Float/Integer (tylko LOGO! 8.FS4 i nowsze wersje)<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/86833021195_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:87" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Ta funkcja konwertuje liczbę zmiennoprzecinkową przechowywaną w pamięci VM na liczbę całkowitą i wyprowadza wynik poprzez parametr (eAQ) lub AQ.</p>
+<p>LOGO! obsługuje tylko liczby całkowite. Jeśli przesyłasz liczby zmiennoprzecinkowe z zewnętrznego systemu przez sieć za pomocą protokołu S7/Modbus, LOGO! nie może ich bezpośrednio przetworzyć. Dzięki konwerterowi float na integer możesz przekonwertować liczby zmiennoprzecinkowe przechowywane w pamięci VM na liczby całkowite. Ten SFB wykonuje konwersję poprzez podzielenie liczby zmiennoprzecinkowej przez rozdzielczość. Musisz ustawić odpowiednią rozdzielczość dla wejściowej liczby zmiennoprzecinkowej w zakładce parametrów.</p>
+<TableTitle />
+<p>
+<table id="a9b36160-c573-2797-afeb-7f9ea635b39b" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.3%" />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p class="p_table_lb">Połączenie</p>
+</th>
+<th>
+<p class="p_table_lb">Opis</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">Wyjście analogowe <b>AQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">AQ to wartość wyjścia analogowego. Ma następujące cechy.</p>
+<ul class="table">
+<li>
+<p>Używane jako wartość wejściowa innego bloku funkcyjnego. </p>
+</li>
+<li>
+<p>Wartość 16-bitowa ze znakiem. </p>
+</li>
+<li>
+<p>Zakres wartości: -32768 do 32767.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Rozszerzone wyjście analogowe <b>eAQ</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Rozszerzone wyjście analogowe do programowania poprzez referencję parametrów.</p>
+<ul class="table">
+<li>
+<p> Używane jako parametr referencyjny innego bloku funkcyjnego.</p>
+</li>
+<li>
+<p> Wartość 32-bitowa ze znakiem.</p>
+</li>
+<li>
+<p>Zakres wartości: -999,999,999 do 999,999,999.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr <b>Par</b>
+</p>
+</td>
+<td>
+<ul class="table">
+<li>
+<p>Typ: Określa typ danych wejściowych. </p>
+<ul>
+<li>
+<p> Float: to 32-bitowa liczba zmiennoprzecinkowa pojedynczej precyzji; </p>
+</li>
+<li>
+<p>Double: to 64-bitowa liczba zmiennoprzecinkowa podwójnej precyzji. </p>
+</li>
+</ul>
+</li>
+<li>
+<p>VM: Adres pamięci zmiennych, adres początkowy liczby zmiennoprzecinkowej lub podwójnej precyzji przechowywanej w pamięci VM.</p>
+<p>Zakres wartości:</p>
+<ul>
+<li>
+<p>Dla Float: 0-847</p>
+</li>
+<li>
+<p> Dla Double: 0-843 </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Rozdzielczość: to dzielnik dla danych wejściowych.</p>
+</li>
+<li>
+<p>Zakres wartości: 0.001 do 1000</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametr</p>
+<p>Możesz użyć następujących parametrów do sterowania konwerterem float na integer:</p>
+ <p class="imagecontainer">
+<img src="../images/87326226827_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:423" alt="" />
+</p>
+<p>
+<b>Dane wejściowe</b>: Wejście dla tego SFB pochodzi z pamięci VM.</p>
+<ul>
+<li>
+<p>Typ: Możesz wybrać dane wejściowe jako <b>Float</b> lub <b>Double</b>. </p>
+</li>
+<li>
+<p>Adres VM: Możesz określić początkowy adres VM, gdzie przechowywana jest liczba zmiennoprzecinkowa.</p>
+<ul>
+<li>
+<p>Rozmiar: Liczba zmiennoprzecinkowa zajmuje 4 bajty, a podwójna precyzja 8 bajtów.</p>
+</li>
+<li>
+<p>Zakres: Float (0-847), Double (0-843).</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>
+<b>Rozdzielczość</b>: Możesz ustawić mnożnik dla liczby zmiennoprzecinkowej wejściowej.</p>
+<ul>
+<li>
+<p>Zakres: 0.001-1000</p>
+</li>
+<li>
+<p>Precyzja: 1/1000</p>
+</li>
+</ul>
+
+<p class="blocktitle">Opis funkcji </p>
+<p>Zazwyczaj potrzebujesz zarówno bloków Konwerter Float/Integer, jak i Konwerter Integer/Float, aby wykonać zadanie. Typowy sposób użycia tych bloków funkcyjnych to:</p>
+<ol>
+<li>
+<p>Przesyłanie liczb zmiennoprzecinkowych z zewnętrznego systemu przez sieć (za pomocą protokołu S7/Modbus) i przechowywanie ich w pamięci VM.</p>
+</li>
+<li>
+<p>Konwersja liczb zmiennoprzecinkowych przechowywanych w pamięci VM na liczby całkowite za pomocą konwertera Float/Integer.</p>
+</li>
+<li>
+<p>Przetwarzanie liczb całkowitych za pomocą LOGO! BM.</p>
+</li>
+<li>
+<p>Konwersja wyniku na liczby zmiennoprzecinkowe za pomocą konwertera Integer/Float i przechowywanie ich w pamięci VM.</p>
+</li>
+<li>
+<p>Przesyłanie liczb zmiennoprzecinkowych do zewnętrznego systemu (za pomocą protokołu S7/Modbus).</p>
+</li>
+</ol>
+
+<p class="blocktitle">Zasada obliczeń </p>
+<p>Zdefiniuj Q = Dane wejściowe / Rozdzielczość</p>
+<p class="RedBlocklabel">Wyjście analogowe (AQ)</p>
+<ul>
+<li>
+<p>jeśli  -32768 &#x2264; Q &#x2264; 32767, to Wyjście analogowe = Q.</p>
+</li>
+<li>
+<p>jeśli Q &#x2265; 32767, to Wyjście analogowe = 32767.</p>
+</li>
+<li>
+<p>jeśli Q &#x2264; -32768, to Wyjście analogowe = -32768.</p>
+</li>
+</ul>
+<p class="RedBlocklabel">Rozszerzone wyjście analogowe (eAq)</p>
+<ul>
+<li>
+<p>jeśli  -999,999,999 &#x2264; Q &#x2264; 999,999,999, to Rozszerzone wyjście analogowe = Q.</p>
+</li>
+<li>
+<p>jeśli Q &#x2265; 999,999,999, to Rozszerzone wyjście analogowe = 999,999,999.</p>
+</li>
+<li>
+<p>jeśli Q &#x2264; -999,999,999, to Rozszerzone wyjście analogowe = -999,999,999.</p>
+</li>
+</ul>
+</div>
+  </body>
+</html>

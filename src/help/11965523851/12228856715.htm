@@ -1,0 +1,290 @@
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Komparator analogowy</title>
+    <link rel="stylesheet" type="text/css" href="../Resources/css/sipsplus.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/css/ted.css" />
+    
+  </head>
+  <body id="bodyID" bgcolor="#ffffff" class="applanguage-en-us">
+    <div id="nsbanner">
+<div id="TitleRowDefault">
+        <p class="title">Komparator analogowy<span class="displayId">
+</span>
+</p>
+      </div>
+    </div>
+    <div id="nstext" style="valign:bottom">
+       <p class="imagecontainer">
+<img src="../images/12228842379_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:89" alt="" />
+</p>
+
+<p class="blocktitle">Krótki opis</p>
+<p>Wyjście jest ustawiane i resetowane w zależności od różnicy Ax – Ay oraz dwóch konfigurowalnych progów.</p>
+<TableTitle />
+<p>
+<table id="7dcd6165-9b2f-4632-8582-154828fdc3e5" class="table_default"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+<p class="p_table_l">
+<b>Połączenie</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Opis</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wejścia <b>Ax</b>, <b>Ay</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">Wejścia <b>Ax</b>, <b>Ay</b> to dwa sygnały analogowe z następujących:</p>
+<ul class="table">
+<li>
+<p>AI1 do AI8 <sup>(</sup>*<sup>)</sup>
+</p>
+</li>
+<li>
+<p>AM1 do AM6 (jeśli 0BA6), AM1 do AM16 (jeśli 0BA7) lub AM1 do AM64 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAI1 do NAI32 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>AQ1 i AQ2 (jeśli 0BA7) lub AQ1 do AQ8 (jeśli 0BA8)</p>
+</li>
+<li>
+<p>NAQ1 do NAQ16 (jeśli 0BA7 lub 0BA8)</p>
+</li>
+<li>
+<p>Numer bloku funkcji z wyjściem analogowym</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Parametr</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Wzmocnienie</b>
+<p>Zakres wartości: -10.00 do 10.00</p>
+<p class="p_table_l">
+<b>Przesunięcie</b>
+<br />Zakres wartości: -10000 do 10000</p>
+<p class="p_table_l">
+<b>Włącz:</b> Próg włączenia<br />Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">
+<b>Wyłącz:</b> Próg wyłączenia<br />Zakres wartości: -20000 do 20000</p>
+<p class="p_table_l">
+<b>p:</b> Liczba miejsc po przecinku<br />Zakres wartości: 0, 1, 2, 3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l">Wyjście <b>Q</b>
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>Q</b> jest ustawiane lub resetowane w zależności od ustawionych progów.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="p_table_l">* AI1 do AI8: 0 do 10 V odpowiada wartości 0 do 1000 (wartość wewnętrzna).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<TableTitle />
+<p>
+<table id="435d166d-a261-486c-a6f2-bbe2d195f6ce" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="19.7%" />
+<col width="80.2%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA4:</b>
+</p>
+<p class="p_table_l">A: Wzmocnienie</p>
+<p class="p_table_l">Zakres wartości: 0.00 do 10.00</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="p_table_l"> </p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA0-0BA3:</b>
+<br />Obowiązują następujące parametry:</p>
+<p class="p_table_l">G : Wzmocnienie w [%]<br />Zakres wartości: 0% do 1000%</p>
+<p class="p_table_l">O : Przesunięcie<br />Zakres wartości: -999 do 999</p>
+<p class="p_table_l">delta : Próg</p>
+<p class="p_table_l">Q jest ustawiane na 1, gdy różnica Ax-Ay przekroczy próg.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Parametry Włącz i Wyłącz</p>
+<p>Próg włączenia On i próg wyłączenia Off mogą być dostarczone przez aktualną wartość innej już zaprogramowanej funkcji:</p>
+<ul>
+<li>
+<p>Wyzwalacz progowy analogowy: Ax</p>
+</li>
+<li>
+<p>Wzmacniacz analogowy: Ax</p>
+</li>
+<li>
+<p>Multiplekser analogowy: AQ</p>
+</li>
+<li>
+<p>Rampa analogowa: AQ</p>
+</li>
+<li>
+<p>Instrukcja matematyczna: AQ</p>
+</li>
+<li>
+<p>Regulator PI: AQ</p>
+</li>
+<li>
+<p>Licznik w górę/w dół: Cnt</p>
+</li>
+</ul>
+<p>Dla urządzeń <b>0BA7</b> i nowszych wersji można dodatkowo użyć aktualnych wartości następujących już zaprogramowanych funkcji:</p>
+<ul>
+<li>
+<p>Opóźnienie włączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia/wyłączenia: Ta</p>
+</li>
+<li>
+<p>Opóźnienie włączenia z pamięcią: Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający (wyjście impulsowe): Ta</p>
+</li>
+<li>
+<p>Przekaźnik wycierający wyzwalany zboczem: Ta</p>
+</li>
+<li>
+<p>Generator impulsów asynchronicznych: Ta</p>
+</li>
+<li>
+<p>Przełącznik oświetlenia klatki schodowej: Ta</p>
+</li>
+<li>
+<p>Przełącznik wielofunkcyjny: Ta</p>
+</li>
+<li>
+<p>Stoper: AQ</p>
+</li>
+<li>
+<p>Filtr analogowy: AQ</p>
+</li>
+<li>
+<p>Wartość średnia: AQ</p>
+</li>
+<li>
+<p>Max/Min: AQ</p>
+</li>
+<li>
+<p>Wyzwalacz progowy: Fre</p>
+</li>
+</ul>
+<p>Wybór wymaganej funkcji odbywa się poprzez numer bloku.</p>
+
+<p class="blocktitle">Parametr p (liczba miejsc po przecinku)</p>
+<p>Parametr p dotyczy tylko wartości Ax, Ay, Delta, On i Off wyświetlanych w tekście komunikatu.</p>
+<p>Parametr p nie dotyczy porównania wartości włączenia i wyłączenia. (Funkcja porównania ignoruje przecinek dziesiętny.)</p>
+
+<p class="blocktitle">Diagram czasowy</p>
+ <p class="imagecontainer">
+<img src="../images/137144293771_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:399" alt="" />
+</p>
+
+<p class="blocktitle">Opis funkcji</p>
+<p>Funkcja odczytuje wartość sygnału na wejściu analogowym Ax.</p>
+<p>Ta wartość jest mnożona przez wartość parametru A (wzmocnienie). Do iloczynu dodawany jest parametr B (przesunięcie), stąd</p>
+<p>(Ax * wzmocnienie) + przesunięcie = Wartość aktualna Ax.</p>
+<p>(Ay * wzmocnienie) + przesunięcie = Wartość aktualna Ay.</p>
+<p>Wyjście Q jest ustawiane lub resetowane w zależności od różnicy wartości aktualnych Ax – Ay i ustawionych progów. Zobacz poniższą regułę obliczeniową.</p>
+
+<p class="blocktitle">Reguła obliczeniowa</p>
+<ul>
+<li>
+<p>Jeśli próg On ≥ próg Off, to:<br />Q = 1, jeśli (wartość aktualna Ax - wartość aktualna Ay) > On<br />Q = 0, jeśli (wartość aktualna Ax - wartość aktualna Ay) ≤ Off.</p>
+</li>
+<li>
+<p>Jeśli próg On < próg Off, to Q = 1, to:<br />On ≤ (wartość aktualna Ax - wartość aktualna Ay) < Off.</p>
+</li>
+</ul>
+<TableTitle />
+<p>
+<table id="0d8dd35a-8353-41fe-8740-aad2683e086c" class="table_invisible"  cellspacing="0" cellpadding="3" valign=top>
+<colgroup>
+<col width="15.2%" />
+<col width="84.7%" />
+</colgroup>
+<thead />
+<tbody>
+<tr>
+<td>
+ <p class="imagecontainer">
+<img src="../images/87370851851_DV_resource.Stream@PNG-en-US.png" style="border-style:none; margin:0px 0px 0px 0px; width:39" alt="" />
+</p>
+</td>
+<td>
+<p class="p_table_l">
+<b>0BA2, 0BA3:</b>
+</p>
+<p class="p_table_l">Obowiązują następujące <b>funkcje/reguły obliczeniowe</b>:</p>
+<p class="p_table_l">Funkcja dodaje odpowiednie określone przesunięcie do wartości analogowych Ax i Ay. Suma jest mnożona przez wartość parametru wzmocnienia. Różnica jest tworzona z obu obliczonych wartości.</p>
+<p class="p_table_l">Wyjście Q jest ustawiane, jeśli ta różnica między tymi wartościami przekroczy próg skonfigurowany pod delta.</p>
+<p class="p_table_l">Reguła obliczeniowa:<br />Q = 1, jeśli:<br />((Ax + przesunięcie) * wzmocnienie) - ((Ay + przesunięcie)*wzmocnienie) > próg delta<br />Q jest resetowane do 0, gdy próg osiągnie lub spadnie poniżej delta.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p class="blocktitle">Zmniejszenie czułości wejścia komparatora analogowego</p>
+<p>Możesz opóźnić wyjście komparatora analogowego selektywnie za pomocą SFB "opóźnienie włączenia" i "opóźnienie wyłączenia". W ten sposób określasz, że wyjście Q jest ustawiane tylko wtedy, gdy długość wyzwalacza wejściowego Trg (= wyjście komparatora analogowego) przekroczy zdefiniowany czas opóźnienia włączenia.</p>
+<p>W ten sposób możesz ustawić wirtualną histerezę, która sprawia, że wejście jest mniej wrażliwe na krótkie zmiany.</p>
+
+<p class="blocktitle">Szczególne cechy do uwzględnienia podczas konfiguracji</p>
+<p>Aby uzyskać pomoc dotyczącą parametrów bloku analogowego, zapoznaj się z sekcją <a href="../11965523851/12228970379.htm">Przetwarzanie wartości analogowych</a>.</p>
+<p>
+<a href="../11965523851/12228425739.htm">Przegląd</a> </p>
+</div>
+  </body>
+</html>

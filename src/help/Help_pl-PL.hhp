@@ -1,0 +1,2037 @@
+
+[OPTIONS]
+Auto Index=No
+Binary TOC=No
+Binary Index=Yes
+Compiled File=Help_pl-PL.chm
+Contents File=Help_pl-PL.hhc
+Index File=Help_pl-PL.hhk
+Default Window=$global_default
+Default Topic=11965523851/11965523851.htm
+Display compile notes=Yes
+Display compile progress=No
+Full-text search=Yes
+Language=0x409
+Title=LOGO!Soft Comfort Pomoc online
+Create CHI file=No
+Compatibility=1.1 or later
+Error log file=Help_pl-PL.log
+Flat=No
+
+[WINDOWS]
+$global_default="LOGO!Soft Comfort Online Help","Help_pl-PL.chm::/Help_pl-PL.hhc","Help_pl-PL.hhk","11965523851\11965523851.htm","Help_pl-PL.chm::\11965523851\11965523851.htm","","","","",0x60520,,8270,[5,5,1130,738],,,,,,,0
+
+[FILES]
+11965523851/11965523851.htm
+11965523851/12109772683.htm
+11965523851/115239771915.htm
+11965523851/118270987275.htm
+11965523851/153564199819.htm
+11965523851/67017382283.htm
+11965523851/12109780235.htm
+11965523851/12109787659.htm
+11965523851/25609171723.htm
+11965523851/161886522891.htm
+11965523851/134013754251.htm
+11965523851/103892283915.htm
+11965523851/86268125067.htm
+11965523851/57473380875.htm
+11965523851/25609661323.htm
+11965523851/12109795083.htm
+11965523851/12109802507.htm
+11965523851/12109809931.htm
+11965523851/12109817355.htm
+11965523851/12109820171.htm
+11965523851/12109827851.htm
+11965523851/12109835275.htm
+11965523851/12109842699.htm
+11965523851/11967285131.htm
+11965523851/12206406283.htm
+11965523851/12206449931.htm
+11965523851/12206471819.htm
+11965523851/12206488203.htm
+11965523851/57358420107.htm
+11965523851/57527925131.htm
+11965523851/57527940491.htm
+11965523851/12206728971.htm
+11965523851/57527943051.htm
+11965523851/57527964299.htm
+11965523851/58280778891.htm
+11965523851/58280781451.htm
+11965523851/58280784011.htm
+11965523851/12287058571.htm
+11965523851/12206593547.htm
+11965523851/12206661515.htm
+11965523851/12206664331.htm
+11965523851/12206721547.htm
+11965523851/12206736395.htm
+11965523851/12206758667.htm
+11965523851/12206751243.htm
+11965523851/12206743819.htm
+11965523851/61929679883.htm
+11965523851/58280786571.htm
+11965523851/58280789387.htm
+11965523851/58280971403.htm
+11965523851/58280974219.htm
+11965523851/58280977035.htm
+11965523851/57571609099.htm
+11965523851/58280979851.htm
+11965523851/58280982411.htm
+11965523851/58281074571.htm
+11965523851/87017823883.htm
+11965523851/12287062411.htm
+11965523851/12207200267.htm
+11965523851/12207212939.htm
+11965523851/12207220619.htm
+11965523851/12207228043.htm
+11965523851/12207235467.htm
+11965523851/12207242891.htm
+11965523851/12207255819.htm
+11965523851/12207263243.htm
+11965523851/12207270667.htm
+11965523851/12207278091.htm
+11965523851/12207285515.htm
+11965523851/12207303947.htm
+11965523851/12207389195.htm
+11965523851/12207311371.htm
+11965523851/12207318795.htm
+11965523851/61074538123.htm
+11965523851/61074540683.htm
+11965523851/61074548363.htm
+11965523851/61074545803.htm
+11965523851/61074602123.htm
+11965523851/12207333643.htm
+11965523851/66414950795.htm
+11965523851/86271353227.htm
+11965523851/162325412747.htm
+11965523851/164283237515.htm
+11965523851/12207396619.htm
+11965523851/12207448331.htm
+11965523851/12207468811.htm
+11965523851/12207481739.htm
+11965523851/12207494667.htm
+11965523851/12207502091.htm
+11965523851/12207509515.htm
+11965523851/12207516939.htm
+11965523851/12207524363.htm
+11965523851/58281474699.htm
+11965523851/58281478667.htm
+11965523851/58281482379.htm
+11965523851/58282740491.htm
+11965523851/58282743691.htm
+11965523851/58282746891.htm
+11965523851/12207531787.htm
+11965523851/12207539211.htm
+11965523851/12207546635.htm
+11965523851/12207554059.htm
+11965523851/12207561483.htm
+11965523851/12207568907.htm
+11965523851/12207576331.htm
+11965523851/58996590987.htm
+11965523851/12207628171.htm
+11965523851/25827418123.htm
+11965523851/12207643275.htm
+11965523851/25614737931.htm
+11965523851/58283710091.htm
+11965523851/58283713803.htm
+11965523851/12207741067.htm
+11965523851/12207748747.htm
+11965523851/57111596043.htm
+11965523851/57111598603.htm
+11965523851/57111601163.htm
+11965523851/66423473419.htm
+11965523851/12207796875.htm
+11965523851/12207804299.htm
+11965523851/12207811723.htm
+11965523851/12207824651.htm
+11965523851/12207756171.htm
+11965523851/12207769099.htm
+11965523851/12207782027.htm
+11965523851/12207855115.htm
+11965523851/12207862795.htm
+11965523851/12207870219.htm
+11965523851/12207883147.htm
+11965523851/12207896075.htm
+11965523851/57146843659.htm
+11965523851/57147614219.htm
+11965523851/86268118411.htm
+11965523851/57858957963.htm
+11965523851/25615554699.htm
+11965523851/12207933195.htm
+11965523851/25615867019.htm
+11965523851/25615351819.htm
+11965523851/25615455371.htm
+11965523851/12207910923.htm
+11965523851/12207918347.htm
+11965523851/86268120971.htm
+11965523851/12207940619.htm
+11965523851/57158074123.htm
+11965523851/134267632395.htm
+11965523851/134267806731.htm
+11965523851/135103078923.htm
+11965523851/162316795275.htm
+11965523851/12207925771.htm
+11965523851/25615864459.htm
+11965523851/25869570699.htm
+11965523851/57527922315.htm
+11965523851/103939173259.htm
+11965523851/162324323083.htm
+11965523851/162324325131.htm
+11965523851/12207948043.htm
+11965523851/12207955467.htm
+11965523851/57527946635.htm
+11965523851/12207962891.htm
+11965523851/12207975819.htm
+11965523851/12208018187.htm
+11965523851/12208025611.htm
+11965523851/12208033035.htm
+11965523851/12208040459.htm
+11965523851/12208047883.htm
+11965523851/12208055307.htm
+11965523851/12208062731.htm
+11965523851/12208070155.htm
+11965523851/12208077579.htm
+11965523851/25633462283.htm
+11965523851/86366172811.htm
+11965523851/25633464843.htm
+11965523851/12208085003.htm
+11965523851/12208092427.htm
+11965523851/12208120203.htm
+11965523851/12208127627.htm
+11965523851/57606471307.htm
+11965523851/12208149899.htm
+11965523851/12208157323.htm
+11965523851/25633479435.htm
+11965523851/57272689419.htm
+11965523851/165605972107.htm
+11965523851/12208244875.htm
+11965523851/12208252555.htm
+11965523851/12208297099.htm
+11965523851/57277264651.htm
+11965523851/57273278347.htm
+11965523851/12208304523.htm
+11965523851/12208327051.htm
+11965523851/12208334731.htm
+11965523851/12208347659.htm
+11965523851/12208360587.htm
+11965523851/12208368011.htm
+11965523851/163634972555.htm
+11965523851/12208375435.htm
+11965523851/12126248459.htm
+11965523851/12126256139.htm
+11965523851/12126258955.htm
+11965523851/12126266635.htm
+11965523851/12126269451.htm
+11965523851/12126277131.htm
+11965523851/12126284555.htm
+11965523851/12126297483.htm
+11965523851/12126304907.htm
+11965523851/12126317835.htm
+11965523851/12126347275.htm
+11965523851/12126360203.htm
+11965523851/58283718027.htm
+11965523851/58283720587.htm
+11965523851/12126363019.htm
+11965523851/12126370699.htm
+11965523851/12126389131.htm
+11965523851/12126418571.htm
+11965523851/12126431499.htm
+11965523851/12126460939.htm
+11965523851/12126463755.htm
+11965523851/12126487947.htm
+11965523851/12126506379.htm
+11965523851/12126509195.htm
+11965523851/12126522379.htm
+11965523851/12126568331.htm
+11965523851/12126586763.htm
+11965523851/12126594187.htm
+11965523851/12126612619.htm
+11965523851/12126631051.htm
+11965523851/12126643979.htm
+11965523851/12126662411.htm
+11965523851/12126669835.htm
+11965523851/25633577099.htm
+11965523851/25633589003.htm
+11965523851/56730293643.htm
+11965523851/58392522507.htm
+11965523851/59097973643.htm
+11965523851/58396738827.htm
+11965523851/58396736267.htm
+11965523851/58396741387.htm
+11965523851/59098377099.htm
+11965523851/58396743947.htm
+11965523851/59439291787.htm
+11965523851/57415836299.htm
+11965523851/57671545227.htm
+11965523851/57671547787.htm
+11965523851/57671550347.htm
+11965523851/103935120267.htm
+11965523851/103935142539.htm
+11965523851/57802346891.htm
+11965523851/57853310091.htm
+11965523851/58004407691.htm
+11965523851/87239358347.htm
+11965523851/87239361163.htm
+11965523851/87319313931.htm
+11965523851/87239363723.htm
+11965523851/57853297291.htm
+11965523851/57853302411.htm
+11965523851/86273689611.htm
+11965523851/57853304971.htm
+11965523851/163746675467.htm
+11965523851/87319497483.htm
+11965523851/58389907083.htm
+11965523851/57853299851.htm
+11965523851/87239366283.htm
+11965523851/58391428235.htm
+11965523851/87157411723.htm
+11965523851/87164051083.htm
+11965523851/87018178699.htm
+11965523851/12126672651.htm
+11965523851/12126680331.htm
+11965523851/12126687755.htm
+11965523851/12126695179.htm
+11965523851/12126702603.htm
+11965523851/12126710027.htm
+11965523851/12126728459.htm
+11965523851/12126746891.htm
+11965523851/12126765323.htm
+11965523851/12126783755.htm
+11965523851/12126796683.htm
+11965523851/12126809611.htm
+11965523851/12126817035.htm
+11965523851/12126829963.htm
+11965523851/133895057675.htm
+11965523851/134481071115.htm
+11965523851/11967263115.htm
+11965523851/11952691467.htm
+11965523851/11952711179.htm
+11965523851/11962367115.htm
+11965523851/11965495819.htm
+11965523851/11962453003.htm
+11965523851/11967289739.htm
+11965523851/12019504139.htm
+11965523851/12019634699.htm
+11965523851/12020331787.htm
+11965523851/12020344971.htm
+11965523851/12020357899.htm
+11965523851/12020564491.htm
+11965523851/12020383755.htm
+11965523851/12020402187.htm
+11965523851/12020415115.htm
+11965523851/12020428043.htm
+11965523851/12020446475.htm
+11965523851/12020459403.htm
+11965523851/12020472331.htm
+11965523851/25633669259.htm
+11965523851/25633670027.htm
+11965523851/25633670795.htm
+11965523851/25633671563.htm
+11965523851/12034730891.htm
+11965523851/12034645515.htm
+11965523851/12034632587.htm
+11965523851/12034658443.htm
+11965523851/12034671371.htm
+11965523851/12034684299.htm
+11965523851/12034697227.htm
+11965523851/25633703051.htm
+11965523851/25633711755.htm
+11965523851/25633712523.htm
+11965523851/25633713291.htm
+11965523851/12018693387.htm
+11965523851/12018756107.htm
+11965523851/12019148555.htm
+11965523851/12019346955.htm
+11965523851/12019389707.htm
+11965523851/12019402635.htm
+11965523851/12019415563.htm
+11965523851/12019428491.htm
+11965523851/12019441419.htm
+11965523851/12019454347.htm
+11965523851/12228241931.htm
+11965523851/12228425739.htm
+11965523851/12228428555.htm
+11965523851/12228447243.htm
+11965523851/12228465675.htm
+11965523851/12228484107.htm
+11965523851/12228502539.htm
+11965523851/12228520971.htm
+11965523851/12228539403.htm
+11965523851/12228557835.htm
+11965523851/12228576267.htm
+11965523851/12228594699.htm
+11965523851/12228618635.htm
+11965523851/12228642571.htm
+11965523851/12228666507.htm
+11965523851/12228728971.htm
+11965523851/25633774731.htm
+11965523851/25633787403.htm
+11965523851/12228731787.htm
+11965523851/12228750475.htm
+11965523851/12228768907.htm
+11965523851/12228787339.htm
+11965523851/12228790155.htm
+11965523851/18405506059.htm
+11965523851/12228838283.htm
+11965523851/12228856715.htm
+11965523851/12228875147.htm
+11965523851/12228893579.htm
+11965523851/12228912011.htm
+11965523851/12228935947.htm
+11965523851/12228948875.htm
+11965523851/25633843595.htm
+11965523851/25633844363.htm
+11965523851/25633845131.htm
+11965523851/12228951691.htm
+11965523851/12228970379.htm
+11965523851/12228988811.htm
+11965523851/12228996235.htm
+11965523851/12229003659.htm
+11965523851/12229011083.htm
+11965523851/12229013899.htm
+11965523851/12229038091.htm
+11965523851/12229067531.htm
+11965523851/12229074955.htm
+11965523851/12229087883.htm
+11965523851/12229106315.htm
+11965523851/12229109131.htm
+11965523851/12229127819.htm
+11965523851/12229146251.htm
+11965523851/58902160395.htm
+11965523851/12229208715.htm
+11965523851/12229221643.htm
+11965523851/63666622603.htm
+11965523851/12229240075.htm
+11965523851/86070681867.htm
+11965523851/26658869643.htm
+11965523851/12229258507.htm
+11965523851/12229271435.htm
+11965523851/86747363723.htm
+11965523851/86747361163.htm
+11965523851/12229278859.htm
+11965523851/25633924491.htm
+11965523851/27496586379.htm
+11965523851/25633964683.htm
+11965523851/27507055371.htm
+11965523851/27503812363.htm
+11965523851/25633927307.htm
+11965523851/27493783947.htm
+11965523851/25634013323.htm
+11965523851/25634014091.htm
+11965523851/25634014859.htm
+11965523851/25634015627.htm
+11965523851/25634016395.htm
+11965523851/12229281675.htm
+11965523851/12229289355.htm
+11965523851/12229296779.htm
+11965523851/12229299595.htm
+11965523851/12334731147.htm
+11965523851/12229314699.htm
+11965523851/12229317515.htm
+11965523851/12229325195.htm
+11965523851/12229332619.htm
+11965523851/59385726091.htm
+11965523851/58946332811.htm
+11965523851/12019165963.htm
+11965523851/12019173643.htm
+11965523851/12019181067.htm
+11965523851/12019188491.htm
+11965523851/12019195915.htm
+11965523851/12019218187.htm
+11965523851/12019225611.htm
+11965523851/12019233035.htm
+11965523851/12019240459.htm
+11965523851/12019247883.htm
+11965523851/12019255307.htm
+11965523851/12019262731.htm
+11965523851/164355064587.htm
+11965523851/164360233995.htm
+11965523851/166199090827.htm
+11965523851/166199116939.htm
+11965523851/166200007563.htm
+images/127373392907_DV_resource.Stream@PNG-en-US.png
+images/128555565323_DV_resource.Stream@PNG-en-US.png
+images/16062879499_DV_resource.Stream@PNG-en-US.png
+images/128549618187_DV_resource.Stream@PNG-en-US.png
+images/16064152715_DV_resource.Stream@PNG-en-US.png
+images/16062960651_DV_resource.Stream@PNG-en-US.png
+images/57473326347_DV_resource.Stream@PNG-en-US.png
+images/87370851851_DV_resource.Stream@PNG-en-US.png
+images/12102389899_DV_resource.Stream@PNG-en-US.png
+images/29754391435_DV_resource.Stream@PNG-en-US.png
+images/12102408331_DV_resource.Stream@PNG-en-US.png
+images/137240216075_DV_resource.Stream@PNG-en-US.png
+images/137240418059_DV_resource.Stream@PNG-en-US.png
+images/57149680011_DV_resource.Stream@PNG-en-US.png
+images/88742493067_DV_resource.Stream@PNG-en-US.png
+images/64448588683_DV_resource.Stream@PNG-en-US.png
+images/66141463435_DV_resource.Stream@PNG-en-US.png
+images/12130186507_DV_resource.Stream@PNG-en-US.png
+images/57473535371_DV_resource.Stream@PNG-en-US.png
+images/57474286603_DV_resource.Stream@PNG-en-US.png
+images/57229700363_DV_resource.Stream@PNG-en-US.png
+images/57229708299_DV_resource.Stream@PNG-en-US.png
+images/57232327435_DV_resource.Stream@PNG-en-US.png
+images/57232527371_DV_resource.Stream@PNG-en-US.png
+images/57233224715_DV_resource.Stream@PNG-en-US.png
+images/57233598987_DV_resource.Stream@PNG-en-US.png
+images/57232535307_DV_resource.Stream@PNG-en-US.png
+images/57233591051_DV_resource.Stream@PNG-en-US.png
+images/57232876043_DV_resource.Stream@PNG-en-US.png
+images/57232883979_DV_resource.Stream@PNG-en-US.png
+images/57233875979_DV_resource.Stream@PNG-en-US.png
+images/59993438859_DV_resource.Stream@PNG-en-US.png
+images/59993460491_DV_resource.Stream@PNG-en-US.png
+images/57234565387_DV_resource.Stream@PNG-en-US.png
+images/57233883915_DV_resource.Stream@PNG-en-US.png
+images/57234301451_DV_resource.Stream@PNG-en-US.png
+images/57270090507_DV_resource.Stream@PNG-en-US.png
+images/57269672843_DV_resource.Stream@PNG-en-US.png
+images/57269681291_DV_resource.Stream@PNG-en-US.png
+images/57269746187_DV_resource.Stream@PNG-en-US.png
+images/57270097803_DV_resource.Stream@PNG-en-US.png
+images/57270116875_DV_resource.Stream@PNG-en-US.png
+images/57270065547_DV_resource.Stream@PNG-en-US.png
+images/12206636171_DV_resource.Stream@PNG-en-US.png
+images/12206641675_DV_resource.Stream@PNG-en-US.png
+images/12206647179_DV_resource.Stream@PNG-en-US.png
+images/57270105099_DV_resource.Stream@PNG-en-US.png
+images/61204215691_DV_resource.Stream@PNG-en-US.png
+images/57270129675_DV_resource.Stream@PNG-en-US.png
+images/66503705227_DV_resource.Stream@PNG-en-US.png
+images/25752412043_DV_resource.Stream@PNG-en-US.png
+images/25778312075_DV_resource.Stream@PNG-en-US.png
+images/57271035659_DV_resource.Stream@PNG-en-US.png
+images/57271145355_DV_resource.Stream@PNG-en-US.png
+images/57271152651_DV_resource.Stream@PNG-en-US.png
+images/57271186443_DV_resource.Stream@PNG-en-US.png
+images/57271195275_DV_resource.Stream@PNG-en-US.png
+images/57271204107_DV_resource.Stream@PNG-en-US.png
+images/57271212939_DV_resource.Stream@PNG-en-US.png
+images/59944594059_DV_resource.Stream@PNG-en-US.png
+images/59945076491_DV_resource.Stream@PNG-en-US.png
+images/25778320267_DV_resource.Stream@PNG-en-US.png
+images/25778366859_DV_resource.Stream@PNG-en-US.png
+images/25778413451_DV_resource.Stream@PNG-en-US.png
+images/64557545867_DV_resource.Stream@PNG-en-US.png
+images/57271247371_DV_resource.Stream@PNG-en-US.png
+images/57271256203_DV_resource.Stream@PNG-en-US.png
+images/57271316235_DV_resource.Stream@PNG-en-US.png
+images/57271363211_DV_resource.Stream@PNG-en-US.png
+images/57271371147_DV_resource.Stream@PNG-en-US.png
+images/57271379083_DV_resource.Stream@PNG-en-US.png
+images/57271387019_DV_resource.Stream@PNG-en-US.png
+images/57271948299_DV_resource.Stream@PNG-en-US.png
+images/57271940747_DV_resource.Stream@PNG-en-US.png
+images/57271433355_DV_resource.Stream@PNG-en-US.png
+images/57271824907_DV_resource.Stream@PNG-en-US.png
+images/57271893771_DV_resource.Stream@PNG-en-US.png
+images/57271833739_DV_resource.Stream@PNG-en-US.png
+images/61497792139_DV_resource.Stream@PNG-en-US.png
+images/61500309771_DV_resource.Stream@PNG-en-US.png
+images/66029953803_DV_resource.Stream@PNG-en-US.png
+images/66029957515_DV_resource.Stream@PNG-en-US.png
+images/62843533067_DV_resource.Stream@PNG-en-US.png
+images/62848956299_DV_resource.Stream@PNG-en-US.png
+images/57564409995_DV_resource.Stream@PNG-en-US.png
+images/57564500107_DV_resource.Stream@PNG-en-US.png
+images/57564509195_DV_resource.Stream@PNG-en-US.png
+images/87017980811_DV_resource.Stream@PNG-en-US.png
+images/57564574859_DV_resource.Stream@PNG-en-US.png
+images/104043643403_DV_resource.Stream@PNG-en-US.png
+images/57564583691_DV_resource.Stream@PNG-en-US.png
+images/104043634571_DV_resource.Stream@PNG-en-US.png
+images/57569354123_DV_resource.Stream@PNG-en-US.png
+images/104035779339_DV_resource.Stream@PNG-en-US.png
+images/87017990155_DV_resource.Stream@PNG-en-US.png
+images/87018075787_DV_resource.Stream@PNG-en-US.png
+images/66410723339_DV_resource.Stream@PNG-en-US.png
+images/29875955339_DV_resource.Stream@PNG-en-US.png
+images/162500167307_DV_resource.Stream@PNG-en-US.png
+images/162325417099_DV_resource.Stream@PNG-en-US.png
+images/29844423691_DV_resource.Stream@PNG-en-US.png
+images/27352850571_DV_resource.Stream@PNG-en-US.png
+images/66871537547_DV_resource.Stream@PNG-en-US.png
+images/66410846987_DV_resource.Stream@PNG-en-US.png
+images/66410872843_DV_resource.Stream@PNG-en-US.png
+images/26220965515_DV_resource.Stream@PNG-en-US.png
+images/26220854923_DV_resource.Stream@PNG-en-US.png
+images/66355880587_DV_resource.Stream@PNG-en-US.png
+images/66288204683_DV_resource.Stream@PNG-en-US.png
+images/66288197771_DV_resource.Stream@PNG-en-US.png
+images/66288201099_DV_resource.Stream@PNG-en-US.png
+images/66288212363_DV_resource.Stream@PNG-en-US.png
+images/66095699851_DV_resource.Stream@PNG-en-US.png
+images/66288208395_DV_resource.Stream@PNG-en-US.png
+images/57280906635_DV_resource.Stream@PNG-en-US.png
+images/57282156171_DV_resource.Stream@PNG-en-US.png
+images/57146480651_DV_resource.Stream@PNG-en-US.png
+images/57146835083_DV_resource.Stream@PNG-en-US.png
+images/162501611275_DV_resource.Stream@PNG-en-US.png
+images/166890506379_DV_resource.Stream@PNG-en-US.png
+images/162502346763_DV_resource.Stream@PNG-en-US.png
+images/162502826763_DV_resource.Stream@PNG-en-US.png
+images/162503113355_DV_resource.Stream@PNG-en-US.png
+images/162503268619_DV_resource.Stream@PNG-en-US.png
+images/135054667403_DV_resource.Stream@PNG-en-US.png
+images/135058516491_DV_resource.Stream@PNG-en-US.png
+images/165605015691_DV_resource.Stream@PNG-en-US.png
+images/166833239307_DV_resource.Stream@PNG-en-US.png
+images/166697876235_DV_resource.Stream@PNG-en-US.png
+images/164446859659_DV_resource.Stream@PNG-en-US.png
+images/164448115467_DV_resource.Stream@PNG-en-US.png
+images/164448155019_DV_resource.Stream@PNG-en-US.png
+images/164448178699_DV_resource.Stream@PNG-en-US.png
+images/164448192651_DV_resource.Stream@PNG-en-US.png
+images/164448247563_DV_resource.Stream@PNG-en-US.png
+images/164448206603_DV_resource.Stream@PNG-en-US.png
+images/164448233355_DV_resource.Stream@PNG-en-US.png
+images/164448257419_DV_resource.Stream@PNG-en-US.png
+images/164448777995_DV_resource.Stream@PNG-en-US.png
+images/164448786571_DV_resource.Stream@PNG-en-US.png
+images/164448807947_DV_resource.Stream@PNG-en-US.png
+images/164448816523_DV_resource.Stream@PNG-en-US.png
+images/164448825099_DV_resource.Stream@PNG-en-US.png
+images/164449051275_DV_resource.Stream@PNG-en-US.png
+images/164449072651_DV_resource.Stream@PNG-en-US.png
+images/164449081227_DV_resource.Stream@PNG-en-US.png
+images/164508193547_DV_resource.Stream@PNG-en-US.png
+images/164449102603_DV_resource.Stream@PNG-en-US.png
+images/164449149579_DV_resource.Stream@PNG-en-US.png
+images/164449158155_DV_resource.Stream@PNG-en-US.png
+images/164449166731_DV_resource.Stream@PNG-en-US.png
+images/164449904907_DV_resource.Stream@PNG-en-US.png
+images/164449913483_DV_resource.Stream@PNG-en-US.png
+images/164449947659_DV_resource.Stream@PNG-en-US.png
+images/164449981835_DV_resource.Stream@PNG-en-US.png
+images/166913579787_DV_resource.Stream@PNG-en-US.png
+images/164510143883_DV_resource.Stream@PNG-en-US.png
+images/137198445579_DV_resource.Stream@PNG-en-US.png
+images/162542305675_DV_resource.Stream@PNG-en-US.png
+images/162542576907_DV_resource.Stream@PNG-en-US.png
+images/162542581387_DV_resource.Stream@PNG-en-US.png
+images/104966590859_DV_resource.Stream@PNG-en-US.png
+images/104966920971_DV_resource.Stream@PNG-en-US.png
+images/104966924683_DV_resource.Stream@PNG-en-US.png
+images/104966928395_DV_resource.Stream@PNG-en-US.png
+images/137466832523_DV_resource.Stream@PNG-en-US.png
+images/164544962059_DV_resource.Stream@PNG-en-US.png
+images/164545546635_DV_resource.Stream@PNG-en-US.png
+images/164545555211_DV_resource.Stream@PNG-en-US.png
+images/164546075787_DV_resource.Stream@PNG-en-US.png
+images/66089518347_DV_resource.Stream@PNG-en-US.png
+images/66305215243_DV_resource.Stream@PNG-en-US.png
+images/66305211915_DV_resource.Stream@PNG-en-US.png
+images/66303445003_DV_resource.Stream@PNG-en-US.png
+images/66303451659_DV_resource.Stream@PNG-en-US.png
+images/66303448331_DV_resource.Stream@PNG-en-US.png
+images/66303454987_DV_resource.Stream@PNG-en-US.png
+images/57213897611_DV_resource.Stream@PNG-en-US.png
+images/57272106507_DV_resource.Stream@PNG-en-US.png
+images/66290756747_DV_resource.Stream@PNG-en-US.png
+images/57214003083_DV_resource.Stream@PNG-en-US.png
+images/162543007883_DV_resource.Stream@PNG-en-US.png
+images/135138340491_DV_resource.Stream@PNG-en-US.png
+images/137239332491_DV_resource.Stream@PNG-en-US.png
+images/58155353611_DV_resource.Stream@PNG-en-US.png
+images/58159706507_DV_resource.Stream@PNG-en-US.png
+images/67080192011_DV_resource.Stream@PNG-en-US.png
+images/58155362443_DV_resource.Stream@PNG-en-US.png
+images/64228953227_DV_resource.Stream@PNG-en-US.png
+images/137240699787_DV_resource.Stream@PNG-en-US.png
+images/137244121739_DV_resource.Stream@PNG-en-US.png
+images/86399971339_DV_resource.Stream@PNG-en-US.png
+images/86405638027_DV_resource.Stream@PNG-en-US.png
+images/86399240587_DV_resource.Stream@PNG-en-US.png
+images/166832320907_DV_resource.Stream@PNG-en-US.png
+images/66291171211_DV_resource.Stream@PNG-en-US.png
+images/29146800267_DV_resource.Stream@PNG-en-US.png
+images/29146385931_DV_resource.Stream@PNG-en-US.png
+images/29146361355_DV_resource.Stream@PNG-en-US.png
+images/29146377739_DV_resource.Stream@PNG-en-US.png
+images/12208111371_DV_resource.Stream@PNG-en-US.png
+images/57271847435_DV_resource.Stream@PNG-en-US.png
+images/57275693451_DV_resource.Stream@PNG-en-US.png
+images/64824374027_DV_resource.Stream@PNG-en-US.png
+images/12130181003_DV_resource.Stream@PNG-en-US.png
+images/64824381963_DV_resource.Stream@PNG-en-US.png
+images/26048098955_DV_resource.Stream@PNG-en-US.png
+images/26048108043_DV_resource.Stream@PNG-en-US.png
+images/57956768139_DV_resource.Stream@PNG-en-US.png
+images/12126327435_DV_resource.Stream@PNG-en-US.png
+images/12129868427_DV_resource.Stream@PNG-en-US.png
+images/12126332939_DV_resource.Stream@PNG-en-US.png
+images/12126338443_DV_resource.Stream@PNG-en-US.png
+images/12126321931_DV_resource.Stream@PNG-en-US.png
+images/58068774795_DV_resource.Stream@PNG-en-US.png
+images/137380614923_DV_resource.Stream@PNG-en-US.png
+images/58004337547_DV_resource.Stream@PNG-en-US.png
+images/58004346379_DV_resource.Stream@PNG-en-US.png
+images/58004368011_DV_resource.Stream@PNG-en-US.png
+images/58066076811_DV_resource.Stream@PNG-en-US.png
+images/58067101579_DV_resource.Stream@PNG-en-US.png
+images/12126374795_DV_resource.Stream@PNG-en-US.png
+images/12126393227_DV_resource.Stream@PNG-en-US.png
+images/12126422667_DV_resource.Stream@PNG-en-US.png
+images/12126435595_DV_resource.Stream@PNG-en-US.png
+images/12126441099_DV_resource.Stream@PNG-en-US.png
+images/12126446603_DV_resource.Stream@PNG-en-US.png
+images/57956496907_DV_resource.Stream@PNG-en-US.png
+images/12126468107_DV_resource.Stream@PNG-en-US.png
+images/29807556107_DV_resource.Stream@PNG-en-US.png
+images/12126479115_DV_resource.Stream@PNG-en-US.png
+images/26083133067_DV_resource.Stream@PNG-en-US.png
+images/26082922507_DV_resource.Stream@PNG-en-US.png
+images/59132360587_DV_resource.Stream@PNG-en-US.png
+images/59132428811_DV_resource.Stream@PNG-en-US.png
+images/59132437259_DV_resource.Stream@PNG-en-US.png
+images/59132483595_DV_resource.Stream@PNG-en-US.png
+images/26083227787_DV_resource.Stream@PNG-en-US.png
+images/12126526475_DV_resource.Stream@PNG-en-US.png
+images/26083237643_DV_resource.Stream@PNG-en-US.png
+images/26083245835_DV_resource.Stream@PNG-en-US.png
+images/59133320331_DV_resource.Stream@PNG-en-US.png
+images/59133337099_DV_resource.Stream@PNG-en-US.png
+images/12126598283_DV_resource.Stream@PNG-en-US.png
+images/12126603787_DV_resource.Stream@PNG-en-US.png
+images/66412282379_DV_resource.Stream@PNG-en-US.png
+images/66505482379_DV_resource.Stream@PNG-en-US.png
+images/66507467915_DV_resource.Stream@PNG-en-US.png
+images/66412594955_DV_resource.Stream@PNG-en-US.png
+images/59133349003_DV_resource.Stream@PNG-en-US.png
+images/58277066507_DV_resource.Stream@PNG-en-US.png
+images/58277676939_DV_resource.Stream@PNG-en-US.png
+images/63716598667_DV_resource.Stream@PNG-en-US.png
+images/67131013899_DV_resource.Stream@PNG-en-US.png
+images/61497684747_DV_resource.Stream@PNG-en-US.png
+images/135048620043_DV_resource.Stream@PNG-en-US.png
+images/85354313483_DV_resource.Stream@PNG-en-US.png
+images/63594432523_DV_resource.Stream@PNG-en-US.png
+images/85352345739_DV_resource.Stream@PNG-en-US.png
+images/63594889355_DV_resource.Stream@PNG-en-US.png
+images/66560941835_DV_resource.Stream@PNG-en-US.png
+images/164259794315_DV_resource.Stream@PNG-en-US.png
+images/59386779275_DV_resource.Stream@PNG-en-US.png
+images/59388618507_DV_resource.Stream@PNG-en-US.png
+images/59388627339_DV_resource.Stream@PNG-en-US.png
+images/59428296843_DV_resource.Stream@PNG-en-US.png
+images/57747191691_DV_resource.Stream@PNG-en-US.png
+images/135313753227_DV_resource.Stream@PNG-en-US.png
+images/65728819979_DV_resource.Stream@PNG-en-US.png
+images/89769955595_DV_resource.Stream@PNG-en-US.png
+images/137272736779_DV_resource.Stream@PNG-en-US.png
+images/137369583627_DV_resource.Stream@PNG-en-US.png
+images/137371151755_DV_resource.Stream@PNG-en-US.png
+images/137322381451_DV_resource.Stream@PNG-en-US.png
+images/164261256843_DV_resource.Stream@PNG-en-US.png
+images/135308741387_DV_resource.Stream@PNG-en-US.png
+images/88864536075_DV_resource.Stream@PNG-en-US.png
+images/135434900875_DV_resource.Stream@PNG-en-US.png
+images/66355908875_DV_resource.Stream@PNG-en-US.png
+images/137466846987_DV_resource.Stream@PNG-en-US.png
+images/137375579659_DV_resource.Stream@PNG-en-US.png
+images/58391773195_DV_resource.Stream@PNG-en-US.png
+images/137376206347_DV_resource.Stream@PNG-en-US.png
+images/137377611787_DV_resource.Stream@PNG-en-US.png
+images/88682453387_DV_resource.Stream@PNG-en-US.png
+images/87162855051_DV_resource.Stream@PNG-en-US.png
+images/66923580427_DV_resource.Stream@PNG-en-US.png
+images/65359054987_DV_resource.Stream@PNG-en-US.png
+images/65681831435_DV_resource.Stream@PNG-en-US.png
+images/65681827211_DV_resource.Stream@PNG-en-US.png
+images/63659528715_DV_resource.Stream@PNG-en-US.png
+images/63659524747_DV_resource.Stream@PNG-en-US.png
+images/63659532043_DV_resource.Stream@PNG-en-US.png
+images/63659718539_DV_resource.Stream@PNG-en-US.png
+images/63659535371_DV_resource.Stream@PNG-en-US.png
+images/63659721867_DV_resource.Stream@PNG-en-US.png
+images/63659820299_DV_resource.Stream@PNG-en-US.png
+images/63659726731_DV_resource.Stream@PNG-en-US.png
+images/63659823627_DV_resource.Stream@PNG-en-US.png
+images/63716053899_DV_resource.Stream@PNG-en-US.png
+images/63716049931_DV_resource.Stream@PNG-en-US.png
+images/63716057227_DV_resource.Stream@PNG-en-US.png
+images/64448473355_DV_resource.Stream@PNG-en-US.png
+images/29415892491_DV_resource.Stream@PNG-en-US.png
+images/64448480907_DV_resource.Stream@PNG-en-US.png
+images/64448484235_DV_resource.Stream@PNG-en-US.png
+images/64448487563_DV_resource.Stream@PNG-en-US.png
+images/64558434827_DV_resource.Stream@PNG-en-US.png
+images/64558479115_DV_resource.Stream@PNG-en-US.png
+images/64558523403_DV_resource.Stream@PNG-en-US.png
+images/64558552843_DV_resource.Stream@PNG-en-US.png
+images/12019532299_DV_resource.Stream@PNG-en-US.png
+images/12019598347_DV_resource.Stream@PNG-en-US.png
+images/12019554315_DV_resource.Stream@PNG-en-US.png
+images/12019559819_DV_resource.Stream@PNG-en-US.png
+images/12019537803_DV_resource.Stream@PNG-en-US.png
+images/12019609355_DV_resource.Stream@PNG-en-US.png
+images/12019570827_DV_resource.Stream@PNG-en-US.png
+images/15475335947_DV_resource.Stream@PNG-en-US.png
+images/58769928587_DV_resource.Stream@PNG-en-US.png
+images/12019576331_DV_resource.Stream@PNG-en-US.png
+images/12019548811_DV_resource.Stream@PNG-en-US.png
+images/12019614859_DV_resource.Stream@PNG-en-US.png
+images/12019592843_DV_resource.Stream@PNG-en-US.png
+images/12019625867_DV_resource.Stream@PNG-en-US.png
+images/12019565323_DV_resource.Stream@PNG-en-US.png
+images/58769936523_DV_resource.Stream@PNG-en-US.png
+images/30172833419_DV_resource.Stream@PNG-en-US.png
+images/30174283147_DV_resource.Stream@PNG-en-US.png
+images/12019581835_DV_resource.Stream@PNG-en-US.png
+images/30174286475_DV_resource.Stream@PNG-en-US.png
+images/12019587339_DV_resource.Stream@PNG-en-US.png
+images/30174289803_DV_resource.Stream@PNG-en-US.png
+images/58901551243_DV_resource.Stream@PNG-en-US.png
+images/58901748875_DV_resource.Stream@PNG-en-US.png
+images/58901809547_DV_resource.Stream@PNG-en-US.png
+images/58901890187_DV_resource.Stream@PNG-en-US.png
+images/58901983371_DV_resource.Stream@PNG-en-US.png
+images/58902000139_DV_resource.Stream@PNG-en-US.png
+images/58902577547_DV_resource.Stream@PNG-en-US.png
+images/58902585483_DV_resource.Stream@PNG-en-US.png
+images/58902683019_DV_resource.Stream@PNG-en-US.png
+images/58902686987_DV_resource.Stream@PNG-en-US.png
+images/58902698891_DV_resource.Stream@PNG-en-US.png
+images/58902706827_DV_resource.Stream@PNG-en-US.png
+images/58902741387_DV_resource.Stream@PNG-en-US.png
+images/166308170251_DV_resource.Stream@PNG-en-US.png
+images/66197941899_DV_resource.Stream@PNG-en-US.png
+images/66198524939_DV_resource.Stream@PNG-en-US.png
+images/58904136587_DV_resource.Stream@PNG-en-US.png
+images/166310122763_DV_resource.Stream@PNG-en-US.png
+images/58904410123_DV_resource.Stream@PNG-en-US.png
+images/166310539275_DV_resource.Stream@PNG-en-US.png
+images/58904459403_DV_resource.Stream@PNG-en-US.png
+images/166310955787_DV_resource.Stream@PNG-en-US.png
+images/12034636683_DV_resource.Stream@PNG-en-US.png
+images/12034623755_DV_resource.Stream@PNG-en-US.png
+images/66674079371_DV_resource.Stream@PNG-en-US.png
+images/12034662539_DV_resource.Stream@PNG-en-US.png
+images/12034675467_DV_resource.Stream@PNG-en-US.png
+images/12018708747_DV_resource.Stream@PNG-en-US.png
+images/12018714251_DV_resource.Stream@PNG-en-US.png
+images/12018719755_DV_resource.Stream@PNG-en-US.png
+images/12018725259_DV_resource.Stream@PNG-en-US.png
+images/12018730763_DV_resource.Stream@PNG-en-US.png
+images/12018736267_DV_resource.Stream@PNG-en-US.png
+images/12018741771_DV_resource.Stream@PNG-en-US.png
+images/12018747275_DV_resource.Stream@PNG-en-US.png
+images/58909104523_DV_resource.Stream@PNG-en-US.png
+images/58910151691_DV_resource.Stream@PNG-en-US.png
+images/58909112459_DV_resource.Stream@PNG-en-US.png
+images/58910127883_DV_resource.Stream@PNG-en-US.png
+images/58910131851_DV_resource.Stream@PNG-en-US.png
+images/58910245259_DV_resource.Stream@PNG-en-US.png
+images/58910135819_DV_resource.Stream@PNG-en-US.png
+images/58910139787_DV_resource.Stream@PNG-en-US.png
+images/58910143755_DV_resource.Stream@PNG-en-US.png
+images/58910147723_DV_resource.Stream@PNG-en-US.png
+images/12228246283_DV_resource.Stream@PNG-en-US.png
+images/12228317835_DV_resource.Stream@PNG-en-US.png
+images/12228251787_DV_resource.Stream@PNG-en-US.png
+images/12228323339_DV_resource.Stream@PNG-en-US.png
+images/12228257291_DV_resource.Stream@PNG-en-US.png
+images/12228328843_DV_resource.Stream@PNG-en-US.png
+images/12228262795_DV_resource.Stream@PNG-en-US.png
+images/12228334347_DV_resource.Stream@PNG-en-US.png
+images/12228268299_DV_resource.Stream@PNG-en-US.png
+images/12228339851_DV_resource.Stream@PNG-en-US.png
+images/12228273803_DV_resource.Stream@PNG-en-US.png
+images/12228345355_DV_resource.Stream@PNG-en-US.png
+images/12228279307_DV_resource.Stream@PNG-en-US.png
+images/12228350859_DV_resource.Stream@PNG-en-US.png
+images/12228284811_DV_resource.Stream@PNG-en-US.png
+images/12228356363_DV_resource.Stream@PNG-en-US.png
+images/12228290315_DV_resource.Stream@PNG-en-US.png
+images/59047682443_DV_resource.Stream@PNG-en-US.png
+images/12228295819_DV_resource.Stream@PNG-en-US.png
+images/12228367371_DV_resource.Stream@PNG-en-US.png
+images/12228301323_DV_resource.Stream@PNG-en-US.png
+images/26336640011_DV_resource.Stream@PNG-en-US.png
+images/12228306827_DV_resource.Stream@PNG-en-US.png
+images/26377323659_DV_resource.Stream@PNG-en-US.png
+images/12228312331_DV_resource.Stream@PNG-en-US.png
+images/26377315467_DV_resource.Stream@PNG-en-US.png
+images/27079512203_DV_resource.Stream@PNG-en-US.png
+images/26377345547_DV_resource.Stream@PNG-en-US.png
+images/12228389387_DV_resource.Stream@PNG-en-US.png
+images/12228394891_DV_resource.Stream@PNG-en-US.png
+images/12228372875_DV_resource.Stream@PNG-en-US.png
+images/12228400395_DV_resource.Stream@PNG-en-US.png
+images/64920744971_DV_resource.Stream@PNG-en-US.png
+images/12228405899_DV_resource.Stream@PNG-en-US.png
+images/12228383883_DV_resource.Stream@PNG-en-US.png
+images/12228411403_DV_resource.Stream@PNG-en-US.png
+images/12228416907_DV_resource.Stream@PNG-en-US.png
+images/87708961035_DV_resource.Stream@PNG-en-US.png
+images/87711645067_DV_resource.Stream@PNG-en-US.png
+images/137202888331_DV_resource.Stream@PNG-en-US.png
+images/63342466955_DV_resource.Stream@PNG-en-US.png
+images/12228432907_DV_resource.Stream@PNG-en-US.png
+images/137142015627_DV_resource.Stream@PNG-en-US.png
+images/12228451339_DV_resource.Stream@PNG-en-US.png
+images/137142095883_DV_resource.Stream@PNG-en-US.png
+images/12228469771_DV_resource.Stream@PNG-en-US.png
+images/137142213131_DV_resource.Stream@PNG-en-US.png
+images/12228488203_DV_resource.Stream@PNG-en-US.png
+images/137142267787_DV_resource.Stream@PNG-en-US.png
+images/12228506635_DV_resource.Stream@PNG-en-US.png
+images/137142321035_DV_resource.Stream@PNG-en-US.png
+images/12228525067_DV_resource.Stream@PNG-en-US.png
+images/137142374539_DV_resource.Stream@PNG-en-US.png
+images/12228543499_DV_resource.Stream@PNG-en-US.png
+images/12228549003_DV_resource.Stream@PNG-en-US.png
+images/12228561931_DV_resource.Stream@PNG-en-US.png
+images/12446722315_DV_resource.Stream@PNG-en-US.png
+images/12228580363_DV_resource.Stream@PNG-en-US.png
+images/137142439819_DV_resource.Stream@PNG-en-US.png
+images/12228598795_DV_resource.Stream@PNG-en-US.png
+images/137142494475_DV_resource.Stream@PNG-en-US.png
+images/12228609803_DV_resource.Stream@PNG-en-US.png
+images/12228622731_DV_resource.Stream@PNG-en-US.png
+images/137142548619_DV_resource.Stream@PNG-en-US.png
+images/12228633739_DV_resource.Stream@PNG-en-US.png
+images/12228646667_DV_resource.Stream@PNG-en-US.png
+images/137142662283_DV_resource.Stream@PNG-en-US.png
+images/58720052875_DV_resource.Stream@PNG-en-US.png
+images/12228670603_DV_resource.Stream@PNG-en-US.png
+images/137142721547_DV_resource.Stream@PNG-en-US.png
+images/137142739851_DV_resource.Stream@PNG-en-US.png
+images/137142758155_DV_resource.Stream@PNG-en-US.png
+images/137142917259_DV_resource.Stream@PNG-en-US.png
+images/137142961163_DV_resource.Stream@PNG-en-US.png
+images/137142979467_DV_resource.Stream@PNG-en-US.png
+images/137142997771_DV_resource.Stream@PNG-en-US.png
+images/137143016075_DV_resource.Stream@PNG-en-US.png
+images/137143085579_DV_resource.Stream@PNG-en-US.png
+images/58720468491_DV_resource.Stream@PNG-en-US.png
+images/65467526667_DV_resource.Stream@PNG-en-US.png
+images/66413808779_DV_resource.Stream@PNG-en-US.png
+images/137143133707_DV_resource.Stream@PNG-en-US.png
+images/137143207051_DV_resource.Stream@PNG-en-US.png
+images/61863795467_DV_resource.Stream@PNG-en-US.png
+images/57901824011_DV_resource.Stream@PNG-en-US.png
+images/12228736139_DV_resource.Stream@PNG-en-US.png
+images/137143251211_DV_resource.Stream@PNG-en-US.png
+images/12228754571_DV_resource.Stream@PNG-en-US.png
+images/137143793035_DV_resource.Stream@PNG-en-US.png
+images/137143888139_DV_resource.Stream@PNG-en-US.png
+images/27311652235_DV_resource.Stream@PNG-en-US.png
+images/12228773003_DV_resource.Stream@PNG-en-US.png
+images/137144046475_DV_resource.Stream@PNG-en-US.png
+images/12228794507_DV_resource.Stream@PNG-en-US.png
+images/137144145291_DV_resource.Stream@PNG-en-US.png
+images/58769658379_DV_resource.Stream@PNG-en-US.png
+images/12228818443_DV_resource.Stream@PNG-en-US.png
+images/137144228491_DV_resource.Stream@PNG-en-US.png
+images/137144232843_DV_resource.Stream@PNG-en-US.png
+images/12228842379_DV_resource.Stream@PNG-en-US.png
+images/137144293771_DV_resource.Stream@PNG-en-US.png
+images/12228860811_DV_resource.Stream@PNG-en-US.png
+images/137144399115_DV_resource.Stream@PNG-en-US.png
+images/12228879243_DV_resource.Stream@PNG-en-US.png
+images/66676697995_DV_resource.Stream@PNG-en-US.png
+images/12228897675_DV_resource.Stream@PNG-en-US.png
+images/137144476171_DV_resource.Stream@PNG-en-US.png
+images/66927527691_DV_resource.Stream@PNG-en-US.png
+images/137150453515_DV_resource.Stream@PNG-en-US.png
+images/137151175819_DV_resource.Stream@PNG-en-US.png
+images/66927716107_DV_resource.Stream@PNG-en-US.png
+images/26469834379_DV_resource.Stream@PNG-en-US.png
+images/60078383499_DV_resource.Stream@PNG-en-US.png
+images/137144526091_DV_resource.Stream@PNG-en-US.png
+images/26469842571_DV_resource.Stream@PNG-en-US.png
+images/137144600843_DV_resource.Stream@PNG-en-US.png
+images/58778725387_DV_resource.Stream@PNG-en-US.png
+images/26469850763_DV_resource.Stream@PNG-en-US.png
+images/137144852491_DV_resource.Stream@PNG-en-US.png
+images/137144941067_DV_resource.Stream@PNG-en-US.png
+images/137145023627_DV_resource.Stream@PNG-en-US.png
+images/61867432971_DV_resource.Stream@PNG-en-US.png
+images/137145266571_DV_resource.Stream@PNG-en-US.png
+images/12229018251_DV_resource.Stream@PNG-en-US.png
+images/66929208459_DV_resource.Stream@PNG-en-US.png
+images/137148612875_DV_resource.Stream@PNG-en-US.png
+images/137148084491_DV_resource.Stream@PNG-en-US.png
+images/12229047691_DV_resource.Stream@PNG-en-US.png
+images/12229053195_DV_resource.Stream@PNG-en-US.png
+images/12229058699_DV_resource.Stream@PNG-en-US.png
+images/58901849355_DV_resource.Stream@PNG-en-US.png
+images/137145377163_DV_resource.Stream@PNG-en-US.png
+images/12229091979_DV_resource.Stream@PNG-en-US.png
+images/137145514123_DV_resource.Stream@PNG-en-US.png
+images/12229113483_DV_resource.Stream@PNG-en-US.png
+images/12457151627_DV_resource.Stream@PNG-en-US.png
+images/12229131915_DV_resource.Stream@PNG-en-US.png
+images/12229137419_DV_resource.Stream@PNG-en-US.png
+images/12457158795_DV_resource.Stream@PNG-en-US.png
+images/26560918283_DV_resource.Stream@PNG-en-US.png
+images/138007509387_DV_resource.Stream@PNG-en-US.png
+images/12229188875_DV_resource.Stream@PNG-en-US.png
+images/12229194379_DV_resource.Stream@PNG-en-US.png
+images/12229199883_DV_resource.Stream@PNG-en-US.png
+images/27509133323_DV_resource.Stream@PNG-en-US.png
+images/27509149707_DV_resource.Stream@PNG-en-US.png
+images/27509056395_DV_resource.Stream@PNG-en-US.png
+images/26560928907_DV_resource.Stream@PNG-en-US.png
+images/27509141515_DV_resource.Stream@PNG-en-US.png
+images/58991240843_DV_resource.Stream@PNG-en-US.png
+images/58991249675_DV_resource.Stream@PNG-en-US.png
+images/58991296907_DV_resource.Stream@PNG-en-US.png
+images/58991331339_DV_resource.Stream@PNG-en-US.png
+images/58991340171_DV_resource.Stream@PNG-en-US.png
+images/58992014603_DV_resource.Stream@PNG-en-US.png
+images/59047243275_DV_resource.Stream@PNG-en-US.png
+images/66674281611_DV_resource.Stream@PNG-en-US.png
+images/11686675339_DV_resource.Stream@PNG-en-US.png
+images/11686692235_DV_resource.Stream@PNG-en-US.png
+images/58904537099_DV_resource.Stream@PNG-en-US.png
+images/12308822539_DV_resource.Stream@PNG-en-US.png
+images/12308837131_DV_resource.Stream@PNG-en-US.png
+images/12308867211_DV_resource.Stream@PNG-en-US.png
+images/15477283979_DV_resource.Stream@PNG-en-US.png
+images/12308871691_DV_resource.Stream@PNG-en-US.png
+images/26602826635_DV_resource.Stream@PNG-en-US.png
+images/29877045899_DV_resource.Stream@PNG-en-US.png
+images/66670235531_DV_resource.Stream@PNG-en-US.png
+images/12229150347_DV_resource.Stream@PNG-en-US.png
+images/63716291211_DV_resource.Stream@PNG-en-US.png
+images/12229225739_DV_resource.Stream@PNG-en-US.png
+images/137145710475_DV_resource.Stream@PNG-en-US.png
+images/86071850891_DV_resource.Stream@PNG-en-US.png
+images/67082795659_DV_resource.Stream@PNG-en-US.png
+images/137145787019_DV_resource.Stream@PNG-en-US.png
+images/86070684683_DV_resource.Stream@PNG-en-US.png
+images/137146321803_DV_resource.Stream@PNG-en-US.png
+images/137146878731_DV_resource.Stream@PNG-en-US.png
+images/66929929227_DV_resource.Stream@PNG-en-US.png
+images/86833021195_DV_resource.Stream@PNG-en-US.png
+images/87326226827_DV_resource.Stream@PNG-en-US.png
+images/87320243083_DV_resource.Stream@PNG-en-US.png
+images/87326217995_DV_resource.Stream@PNG-en-US.png
+images/58913373195_DV_resource.Stream@PNG-en-US.png
+images/58912876171_DV_resource.Stream@PNG-en-US.png
+images/58913369355_DV_resource.Stream@PNG-en-US.png
+images/88865561995_DV_resource.Stream@PNG-en-US.png
+images/58949891339_DV_resource.Stream@PNG-en-US.png
+images/58947432587_DV_resource.Stream@PNG-en-US.png
+images/58949884683_DV_resource.Stream@PNG-en-US.png
+images/58949888011_DV_resource.Stream@PNG-en-US.png
+images/58956746251_DV_resource.Stream@PNG-en-US.png
+images/59133184907_DV_resource.Stream@PNG-en-US.png
+images/58956453131_DV_resource.Stream@PNG-en-US.png
+images/59133227787_DV_resource.Stream@PNG-en-US.png
+images/66089220875_DV_resource.Stream@PNG-en-US.png
+images/65085815563_DV_resource.Stream@PNG-en-US.png
+images/66200428683_DV_resource.Stream@PNG-en-US.png
+images/59133262347_DV_resource.Stream@PNG-en-US.png
+images/58956459787_DV_resource.Stream@PNG-en-US.png
+images/58956742923_DV_resource.Stream@PNG-en-US.png
+images/58956719627_DV_resource.Stream@PNG-en-US.png
+images/58956722955_DV_resource.Stream@PNG-en-US.png
+images/66200435979_DV_resource.Stream@PNG-en-US.png
+images/64873603339_DV_resource.Stream@PNG-en-US.png
+images/61812678667_DV_resource.Stream@PNG-en-US.png
+images/66201403403_DV_resource.Stream@PNG-en-US.png
+images/61906332171_DV_resource.Stream@PNG-en-US.png
+images/64824391947_DV_resource.Stream@PNG-en-US.png
+images/66202454027_DV_resource.Stream@PNG-en-US.png
+images/59133557515_DV_resource.Stream@PNG-en-US.png
+images/59049098379_DV_resource.Stream@PNG-en-US.png
+images/59049101707_DV_resource.Stream@PNG-en-US.png
+images/59049108363_DV_resource.Stream@PNG-en-US.png
+images/59058876683_DV_resource.Stream@PNG-en-US.png
+images/66076079371_DV_resource.Stream@PNG-en-US.png
+images/59133704587_DV_resource.Stream@PNG-en-US.png
+images/166199122955_DV_resource.Stream@PNG-en-US.png
+images/166199485963_DV_resource.Stream@PNG-en-US.png
+images/166199477387_DV_resource.Stream@PNG-en-US.png
+images/166246113675_DV_resource.Stream@PNG-en-US.png
+images/166248157707_DV_resource.Stream@PNG-en-US.png
+images/166248396683_DV_resource.Stream@PNG-en-US.png
+images/166459123083_DV_resource.Stream@PNG-en-US.png
+images/166459131019_DV_resource.Stream@PNG-en-US.png
+images/166286241675_DV_resource.Stream@PNG-en-US.png
+images/166460112011_DV_resource.Stream@PNG-en-US.png
+images/166460115979_DV_resource.Stream@PNG-en-US.png
+images/166290954507_DV_resource.Stream@PNG-en-US.png
+images/166293190283_DV_resource.Stream@PNG-en-US.png
+images/166290945931_DV_resource.Stream@PNG-en-US.png
+images/166302432267_DV_resource.Stream@PNG-en-US.png
+images/166302953099_DV_resource.Stream@PNG-en-US.png
+images/166461573131_DV_resource.Stream@PNG-en-US.png
+images/166462221067_DV_resource.Stream@PNG-en-US.png
+toc_siemens.bmp
+Resources/images/iconCopy.gif
+Resources/images/iconClosed.gif
+Resources/images/iconDialog.gif
+Resources/images/iconDocumentVariant.gif
+Resources/images/iconHideFlash.gif
+Resources/images/iconOpen.gif
+Resources/images/iconRarr.gif
+Resources/images/iconSeeAlso.gif
+Resources/images/iconShowFlash.gif
+Resources/images/section_Chapter.png
+Resources/images/topicClass_Action.png
+Resources/images/topicClass_Facts.png
+Resources/images/topicClass_Info.png
+Resources/images/topicClass_Reference.png
+Resources/images/topicClass_Sample.png
+Resources/images/tooltip_Action.png
+Resources/images/tooltip_Facts.png
+Resources/images/tooltip_Reference.png
+Resources/images/tooltip_Sample.png
+Resources/images/warningSymbol_info.png
+Resources/images/warningSymbol_tipp.png
+Resources/images/warningSymbol_tipp_small.png
+Resources/images/buttonClose.gif
+images/missing_image_150x150.png
+images/missing_image_50x50.png
+Resources/images/warningSymbol.1.ANSI.PNG
+Resources/images/warningSymbol.2.ANSI.PNG
+Resources/images/warningSymbol.3.ANSI.PNG
+Resources/images/warningSymbol.4.ANSI.PNG
+Resources/images/warningSymbol.5.ANSI.PNG
+Resources/images/warningSymbol.6.ANSI.PNG
+Resources/images/warningSymbol.7.ANSI.PNG
+Resources/images/warningSymbol.8.ANSI.PNG
+Resources/images/warningSymbol.9.ANSI.PNG
+Resources/images/warningSymbol.ANSI.black.png
+Resources/images/warningSymbol.ANSI.white.png
+
+[ALIAS]
+security___note=11965523851/67017382283.htm
+Start_Screen=11965523851/12109780235.htm
+CD_Content=11965523851/12109787659.htm
+whats___new___v8=11965523851/57473380875.htm
+whats___new___v7=11965523851/25609661323.htm
+whats_new=11965523851/12109795083.htm
+LAD_FBD=11965523851/12109802507.htm
+internet=11965523851/12109809931.htm
+compatibility=11965523851/12109817355.htm
+convert_programs=11965523851/12109827851.htm
+block___AsiInput=11965523851/12109835275.htm
+block___Input___ASi=11965523851/12109835275.htm
+block___AsiOutput=11965523851/12109842699.htm
+block___Output___ASi=11965523851/12109842699.htm
+Description_of_surface=11965523851/12206406283.htm
+DrawingViewMenuInfo=11965523851/12206406283.htm
+window___DrawingView=11965523851/12206406283.htm
+info___copy=11965523851/12206449931.htm
+info___delete=11965523851/12206449931.htm
+Info_window=11965523851/12206449931.htm
+window___Message=11965523851/12206449931.htm
+statusline=11965523851/12206471819.htm
+FunctionKeys=11965523851/12206488203.htm
+diagram___overview=11965523851/57527925131.htm
+diagram___mode___tree=11965523851/57527940491.htm
+toolbar___catalogue=11965523851/12206728971.htm
+editor___name___fupEditor=11965523851/57527943051.htm
+project___overview=11965523851/58280778891.htm
+network___project___tree=11965523851/58280781451.htm
+editor___name___projectEditor=11965523851/58280784011.htm
+toolbar___default___Fup=11965523851/12206593547.htm
+toolbar___Fup=11965523851/12206593547.htm
+toolbar___Kop=11965523851/12206593547.htm
+dialog___DateInput=11965523851/12206661515.htm
+dialog___DateInputPanel=11965523851/12206661515.htm
+extra___simulation=11965523851/12206661515.htm
+pdraw___app___createTools___simulation=11965523851/12206661515.htm
+simulation___status=11965523851/12206661515.htm
+simulationControl___setClock=11965523851/12206661515.htm
+simulationControl___startSimulation=11965523851/12206661515.htm
+simulationControl___stepSimulation=11965523851/12206661515.htm
+simulationControl___stopSimulation=11965523851/12206661515.htm
+simulationControl___suspendResumeSimulation=11965523851/12206661515.htm
+toolbar___simulation=11965523851/12206661515.htm
+toolbar___blocks=11965523851/12206721547.htm
+toolbar___drawing=11965523851/12206721547.htm
+pdraw___app___createTools___selection=11965523851/12206736395.htm
+tool___selection=11965523851/12206736395.htm
+pdraw___app___createTools___blockConnec=11965523851/12206758667.htm
+tool___connector=11965523851/12206758667.htm
+tool___scissors=11965523851/12206751243.htm
+pdraw___app___createTools___connectTT=11965523851/12206743819.htm
+tool___text=11965523851/12206743819.htm
+action___drawingDimension=11965523851/61929679883.htm
+dialog___PageFormat=11965523851/61929679883.htm
+file___convertToKop=11965523851/58280786571.htm
+pdraw___app___createTools___onlineTest=11965523851/58280789387.htm
+parameterBox___hiddenParameterLine=11965523851/58280971403.htm
+parameterBox___expandParameterBox=11965523851/58280974219.htm
+parameterBox___collapseParameterBox=11965523851/58280977035.htm
+toolbar___networkdrawing=11965523851/58280979851.htm
+window___go___online=11965523851/58280982411.htm
+window___go___offline=11965523851/58281074571.htm
+window___go___hideConnection=11965523851/87017823883.htm
+menue_bar___introduction=11965523851/12207200267.htm
+file___base=11965523851/12207220619.htm
+file___new=11965523851/12207228043.htm
+file___open=11965523851/12207235467.htm
+file___close=11965523851/12207242891.htm
+file___CloseAll=11965523851/12207255819.htm
+dialog___SelectDocumentsToSave=11965523851/12207263243.htm
+file___save=11965523851/12207263243.htm
+dialog___GetFileName=11965523851/12207270667.htm
+file___SaveAs=11965523851/12207270667.htm
+file___pageformat=11965523851/12207278091.htm
+file___PrintPreview=11965523851/12207285515.htm
+file___print=11965523851/12207303947.htm
+dialog___MessageGlobalSetting=11965523851/12207389195.htm
+file___messagetextsettings=11965523851/12207389195.htm
+dialog___EditProjectProperties=11965523851/12207311371.htm
+file___properties=11965523851/12207311371.htm
+dialog___LogoOfflineGeneral=11965523851/12207318795.htm
+dialog___PropertyGeneral=11965523851/12207318795.htm
+file_properties_common=11965523851/12207318795.htm
+dialog___HardwareSetting=11965523851/61074538123.htm
+dialog___IOSettings=11965523851/61074540683.htm
+dialog___Protection=11965523851/61074548363.htm
+dialog___StartScreen=11965523851/61074545803.htm
+dialog___AdditionalInfo=11965523851/61074602123.htm
+dialog___PropertyStatistic=11965523851/12207333643.htm
+dialog___Statistic=11965523851/12207333643.htm
+file_properties_statistics=11965523851/12207333643.htm
+dialog___LogoComments=11965523851/66414950795.htm
+dialog___LogoModbusConfiguration=11965523851/86271353227.htm
+dialog___ModbusConfiguration=11965523851/86271353227.htm
+dialog___EmailEventSettingD=11965523851/162325412747.htm
+file___exit=11965523851/12207396619.htm
+edit___base=11965523851/12207468811.htm
+edit___undo=11965523851/12207481739.htm
+edit___redo=11965523851/12207494667.htm
+edit___delete=11965523851/12207502091.htm
+edit___cut=11965523851/12207509515.htm
+edit___copy=11965523851/12207516939.htm
+edit___paste=11965523851/12207524363.htm
+format___align=11965523851/58281474699.htm
+format___align___vertical=11965523851/58281478667.htm
+format___align___horizontal=11965523851/58281482379.htm
+format___align___horizontalspace=11965523851/58282740491.htm
+format___align___spaceacross=11965523851/58282740491.htm
+format___align___spacedown=11965523851/58282743691.htm
+format___align___verticalspace=11965523851/58282743691.htm
+format___align___automatically=11965523851/58282746891.htm
+edit___MarkAll=11965523851/12207531787.htm
+dialog___BlockSelection=11965523851/12207539211.htm
+edit___GotoBlock=11965523851/12207539211.htm
+edit___MarkedToForeground=11965523851/12207546635.htm
+edit___marktofront=11965523851/12207546635.htm
+edit___MarkedToBackground=11965523851/12207554059.htm
+edit___marktoback=11965523851/12207554059.htm
+dialog___InputNames=11965523851/12207561483.htm
+edit___ConnectorNames=11965523851/12207561483.htm
+edit___BlockProperties=11965523851/12207568907.htm
+dialog___ParameteringAllBlocks=11965523851/12207576331.htm
+edit___BlockPropertiesAll=11965523851/12207576331.htm
+edit___EditUDFProperties=11965523851/58996590987.htm
+format___base=11965523851/25827418123.htm
+format___FormatMenu___overview=11965523851/25827418123.htm
+dialog___FontAttributes=11965523851/12207643275.htm
+format___font=11965523851/12207643275.htm
+format___WrapText=11965523851/25614737931.htm
+dialog___Grid=11965523851/58283710091.htm
+format___grid=11965523851/58283710091.htm
+format___AlignToGrid=11965523851/58283713803.htm
+view___base=11965523851/12207748747.htm
+view___diagram___mode=11965523851/57111596043.htm
+view___network___project=11965523851/57111598603.htm
+view___toolbar=11965523851/57111601163.htm
+view___marker=11965523851/12207796875.htm
+view___MessageWindow=11965523851/12207804299.htm
+view___Statusbar=11965523851/12207811723.htm
+view___tooltipps=11965523851/12207824651.htm
+dialog___Zoom=11965523851/12207756171.htm
+view___zoom=11965523851/12207756171.htm
+view___blowup=11965523851/12207769099.htm
+view___reduce=11965523851/12207782027.htm
+extra___base=11965523851/12207862795.htm
+dialog___ConnectionTransfer=11965523851/12207870219.htm
+dialog___error___TransmissionError=11965523851/12207870219.htm
+dialog___IndependentInterface=11965523851/12207870219.htm
+dialog___LogoSettingInterface=11965523851/12207870219.htm
+extras___transfer=11965523851/12207870219.htm
+dialog___CommunicationSetting=11965523851/12207883147.htm
+extra___transfer___toLogo=11965523851/12207883147.htm
+extra___transfer___toPC=11965523851/12207896075.htm
+extra___transfer___startDeviceState=11965523851/57146843659.htm
+extra___transfer___stopDeviceState=11965523851/57147614219.htm
+dialog___ClockSyncEM=11965523851/57858957963.htm
+dialog___LogoOnlineGeneral=11965523851/25615554699.htm
+tool___transfer___ShowFWversion=11965523851/25615554699.htm
+dialog___ClearProgPwd=11965523851/12207933195.htm
+extra___clearProg=11965523851/12207933195.htm
+dialog___UploadDatalog=11965523851/25615867019.htm
+dialog___UploadDatalog84=11965523851/25615867019.htm
+dialog___IPConfigure=11965523851/25615351819.htm
+dialog___SlaveModeConfigure=11965523851/25615455371.htm
+dialog___SetClock=11965523851/12207910923.htm
+extras___transfer___clock=11965523851/12207910923.htm
+dialog___SummerWinter=11965523851/12207918347.htm
+extras___transfer___SummerWintertime=11965523851/12207918347.htm
+dialog___NtpTimeConfigure=11965523851/86268120971.htm
+dialog___SetPowerOnScreen=11965523851/12207940619.htm
+dialog___AccessControlSettings=11965523851/57158074123.htm
+dialog___AccessControlSettings84=11965523851/57158074123.htm
+dialog___CloudTransferSetting=11965523851/134267632395.htm
+dialog___CloudTransferSetting84=11965523851/134267632395.htm
+dialog___CloudConnectionSetting=11965523851/134267806731.htm
+dialog___CloudConnectionSettingPa=11965523851/134267806731.htm
+dialog___CertificateSetting84=11965523851/135103078923.htm
+dialog___CertificateSettingD=11965523851/135103078923.htm
+dialog___EmailSettingD=11965523851/162316795275.htm
+dialog___HardwareHoursCounter=11965523851/12207925771.htm
+extras___transfer___HoursClock=11965523851/12207925771.htm
+dialog___IOStatus=11965523851/25615864459.htm
+dialog___Diagnostic=11965523851/25869570699.htm
+dialog___DynSrvIpFilterConfig=11965523851/57527922315.htm
+dialog___BatchDownloadImport=11965523851/162324323083.htm
+extra___transfer___networkBatchDownload=11965523851/162324325131.htm
+extras___DetermineLOGO=11965523851/12207948043.htm
+dialog___Hardware=11965523851/12207955467.htm
+extras___Hardware=11965523851/12207955467.htm
+file___compare=11965523851/57527946635.htm
+Start_simulation=11965523851/12207962891.htm
+dialog___AnalogInputSimulation=11965523851/12207975819.htm
+dialog___InputSimulation=11965523851/12207975819.htm
+dialog___SimulationParameter=11965523851/12207975819.htm
+dialog___SwitchMode=11965523851/12207975819.htm
+kind_of_input=11965523851/12207975819.htm
+SimulationMenuInfo=11965523851/12207975819.htm
+extras___modemInfo=11965523851/12208018187.htm
+extras___selectConfigModem=11965523851/12208025611.htm
+extras___selectRemoteConfiguration=11965523851/12208033035.htm
+extras___setRemoteModemCommand=11965523851/12208040459.htm
+extras___configRemoteModem=11965523851/12208047883.htm
+extras___selectLocalConfiguration=11965523851/12208055307.htm
+extras___setLocalModemCommand=11965523851/12208062731.htm
+extras___configTelNumber=11965523851/12208070155.htm
+extras___disconnectmodem=11965523851/12208077579.htm
+dialog___connectionConfigure___ClientConnection=11965523851/25633462283.htm
+dialog___connectionConfigure___ServerConnection=11965523851/25633462283.htm
+dialog___EthernetConfigure=11965523851/25633462283.htm
+dialog___modbusConnectionConfigure___ModbusClientConnection=11965523851/86366172811.htm
+dialog___modbusConnectionConfigure___ModbusServerConnection=11965523851/86366172811.htm
+dialog___VMConfigure=11965523851/25633464843.htm
+dialog___GeneralOptions=11965523851/12208085003.htm
+extras___options=11965523851/12208085003.htm
+dialog___SelectDefaultEditor=11965523851/12208092427.htm
+extras___options___editor=11965523851/12208092427.htm
+extras___options___language=11965523851/12208092427.htm
+dialog___DisplayOptions=11965523851/12208120203.htm
+extras___options___screen=11965523851/12208120203.htm
+dialog___PrintOptions=11965523851/12208127627.htm
+extras___options___print=11965523851/12208127627.htm
+dialog___AutoCutLines=11965523851/57606471307.htm
+pdraw___app___createTools___cutConnect=11965523851/57606471307.htm
+extras___options___simulation=11965523851/12208149899.htm
+dialog___ColorOptions=11965523851/12208157323.htm
+dialog___LogoColorChooser=11965523851/12208157323.htm
+extras___options___colors=11965523851/12208157323.htm
+dialog___UDFOption=11965523851/25633479435.htm
+dialog___ListSeparatorOption=11965523851/57272689419.htm
+extras___options___security=11965523851/165605972107.htm
+window___base=11965523851/12208252555.htm
+window___unsplit=11965523851/12208297099.htm
+window___splitHorizontal=11965523851/57277264651.htm
+window___SplitHorizontal=11965523851/57277264651.htm
+window___splitVertical=11965523851/57273278347.htm
+Fenster_Auswahlliste=11965523851/12208304523.htm
+help___base=11965523851/12208334731.htm
+help___content=11965523851/12208347659.htm
+help___ContextSensitive=11965523851/12208360587.htm
+help___tracking=11965523851/12208360587.htm
+help___update=11965523851/12208368011.htm
+help___abaout=11965523851/12208375435.htm
+Prerequisites_for_working_with_the_tutorial=11965523851/12126256139.htm
+Introducing_the_creation_of_circuit_programs=11965523851/12126266635.htm
+Programming=11965523851/12126277131.htm
+program___new=11965523851/12126284555.htm
+block___select=11965523851/12126297483.htm
+place_blocks=11965523851/12126304907.htm
+BlockMenuInfo=11965523851/12126317835.htm
+contextsensitive_menu=11965523851/12126317835.htm
+connecting_blocks=11965523851/12126347275.htm
+ConnectionMenuInfo=11965523851/12126347275.htm
+InputIfcFigureMenuInfo=11965523851/12126347275.htm
+OutputIfcFigureMenuInfo=11965523851/12126347275.htm
+availability_of_blocks=11965523851/12126360203.htm
+parameter___box___overview=11965523851/58283718027.htm
+parameter___box___edit=11965523851/58283720587.htm
+Edit_program=11965523851/12126370699.htm
+mark_objects=11965523851/12126389131.htm
+MultiSelectionMenuInfo=11965523851/12126389131.htm
+edit_marked_objects=11965523851/12126418571.htm
+replace_blocks=11965523851/12126431499.htm
+cut_connections=11965523851/12126460939.htm
+CutConnectFigureMenuInfo=11965523851/12126460939.htm
+CuttedConnectionMenuInfo=11965523851/12126460939.htm
+block___Comment=11965523851/12126487947.htm
+CommentMenuInfo=11965523851/12126487947.htm
+Program_documentation=11965523851/12126487947.htm
+Save_Program=11965523851/12126506379.htm
+example___start_simulation=11965523851/12126522379.htm
+simulated_inputs=11965523851/12126568331.htm
+toolbar___simulation___analogButton=11965523851/12126568331.htm
+toolbar___simulation___inputButton=11965523851/12126568331.htm
+simulation_of_outputs=11965523851/12126586763.htm
+toolbar___simulation___output=11965523851/12126586763.htm
+force___binaryOutput=11965523851/12126594187.htm
+power_off=11965523851/12126612619.htm
+toolbar___simulation___netButton=11965523851/12126612619.htm
+simalation_and_messages=11965523851/12126631051.htm
+param_during_simulation=11965523851/12126643979.htm
+alternative_operation=11965523851/12126662411.htm
+Controlling_the_simulation_time=11965523851/12126669835.htm
+simulating_networkcommunication___0BA7=11965523851/25633577099.htm
+data___table___0BA7=11965523851/25633589003.htm
+introducing___creation___project=11965523851/58392522507.htm
+create___new___project=11965523851/58396738827.htm
+create___a___project=11965523851/58396736267.htm
+add___a___device=11965523851/58396741387.htm
+networkProject___tree___node___newDevice=11965523851/58396741387.htm
+palette___project___root___add=11965523851/58396741387.htm
+devices=11965523851/59098377099.htm
+dialog___device___properties___Logo7SlaveDevice=11965523851/59098377099.htm
+dialog___device___properties___Logo8SlaveDevice=11965523851/59098377099.htm
+dialog___device___properties___Logo8Update1SlaveDevice=11965523851/59098377099.htm
+dialog___device___properties___LogoTDEDevice=11965523851/59098377099.htm
+dialog___device___properties___ModbusDevice=11965523851/59098377099.htm
+dialog___device___properties___S7Device=11965523851/59098377099.htm
+dialog___device___properties___SimaticPanelDevice=11965523851/59098377099.htm
+dialog___SelectDevice=11965523851/59098377099.htm
+open___save___project=11965523851/58396743947.htm
+two___side___programming=11965523851/59439291787.htm
+config___pc=11965523851/57671545227.htm
+dialog___PCSetting=11965523851/57671545227.htm
+config___logo___offline=11965523851/57671547787.htm
+config___logo___online=11965523851/57671550347.htm
+DE___siemens___ad___logo___dialog___TDEOfflineSetting=11965523851/103935120267.htm
+DE___siemens___ad___logo___dialog___TDEOnlineSetting=11965523851/103935142539.htm
+config___other=11965523851/57802346891.htm
+detect___online___status=11965523851/57853310091.htm
+config___unknown___devices=11965523851/58004407691.htm
+dialog___UnknownDeviceSetting=11965523851/58004407691.htm
+dialog___connectionConfigure___logo2nonlogo=11965523851/87239358347.htm
+dialog___connectionConfigure___uneditable=11965523851/87239358347.htm
+dialog___connectionConfigure___logo2logo=11965523851/57853297291.htm
+Ethernet___logo___logo=11965523851/57853297291.htm
+Ethernet___logo___S7=11965523851/57853302411.htm
+Ethernet___logo___HMI=11965523851/57853304971.htm
+Ethernet___logo___remote=11965523851/58389907083.htm
+Ethernet___logo___logoslave=11965523851/57853299851.htm
+dialog___connectionConfigure___logo2nonlogo=11965523851/58391428235.htm
+Ethernet___logo___nonproject=11965523851/58391428235.htm
+example___introduction=11965523851/12126680331.htm
+example___task=11965523851/12126687755.htm
+example___oldfashioned_solution=11965523851/12126695179.htm
+example___new_with_logo=11965523851/12126702603.htm
+example___projektdata=11965523851/12126710027.htm
+place_blocks=11965523851/12126728459.htm
+Connecting_blocks=11965523851/12126746891.htm
+example___tidy_up=11965523851/12126765323.htm
+example___optimize_view=11965523851/12126783755.htm
+example___programmtest=11965523851/12126796683.htm
+example___documentation=11965523851/12126809611.htm
+example___download=11965523851/12126817035.htm
+Performing_an_online_test_of_the_circuit_progam=11965523851/12126829963.htm
+examples=11965523851/11952691467.htm
+example___aircondition=11965523851/11952711179.htm
+example___factorydoor=11965523851/11962367115.htm
+example___pt100=11965523851/11965495819.htm
+example___fillstation=11965523851/11962453003.htm
+block___Constant=11965523851/12019634699.htm
+tool___constant=11965523851/12019634699.htm
+block___Input=11965523851/12020344971.htm
+block___KeyInput=11965523851/12020357899.htm
+block___TDFunctionKeyInput=11965523851/12020564491.htm
+block___Output=11965523851/12020383755.htm
+block___Fixed=11965523851/12020402187.htm
+block___High=11965523851/12020402187.htm
+block___Low=11965523851/12020402187.htm
+block___ShiftRegisterInput=11965523851/12020415115.htm
+block___VirtualOutput=11965523851/12020428043.htm
+block___AnalogMarker=11965523851/12020446475.htm
+block___Marker=11965523851/12020446475.htm
+block___AnalogInput=11965523851/12020459403.htm
+block___Input___Analog=11965523851/12020459403.htm
+block___AnalogOutput=11965523851/12020472331.htm
+block___NetworkNode=11965523851/25633669259.htm
+block___AnalogNetworkNode=11965523851/25633670027.htm
+block___SOutput=11965523851/25633670795.htm
+block___SAnalogOutput=11965523851/25633671563.htm
+block___Contact=11965523851/12034645515.htm
+block___NegativContact=11965523851/12034632587.htm
+block___AnalogContact=11965523851/12034658443.htm
+block___Coil=11965523851/12034671371.htm
+block___NegativCoil=11965523851/12034684299.htm
+block___AnalogCoil=11965523851/12034697227.htm
+block___LADnetworknodes___0BA7=11965523851/25633703051.htm
+block___LADanalognetworknodes___0BA7=11965523851/25633711755.htm
+block___LADslaveoutputs=11965523851/25633712523.htm
+block___LADanalogslaveoutputs___0BA7=11965523851/25633713291.htm
+block___Base=11965523851/12018756107.htm
+block___And=11965523851/12019148555.htm
+block___PecAnd=11965523851/12019346955.htm
+block___Nand=11965523851/12019389707.htm
+block___PecNand=11965523851/12019402635.htm
+block___Or=11965523851/12019415563.htm
+block___Nor=11965523851/12019428491.htm
+block___Xor=11965523851/12019441419.htm
+block___Not=11965523851/12019454347.htm
+block___Special=11965523851/12228425739.htm
+block___OnDelay=11965523851/12228447243.htm
+block___OffDelay=11965523851/12228465675.htm
+block___OnOffDelay=11965523851/12228484107.htm
+block___RetentiveOnDelay=11965523851/12228502539.htm
+block___WipingRelay=11965523851/12228520971.htm
+block___WipingRelayPEC=11965523851/12228539403.htm
+block___SymPulseGenerator=11965523851/12228557835.htm
+block___AsymPulseGenerator=11965523851/12228576267.htm
+block___Random=11965523851/12228594699.htm
+block___StairsSwitch=11965523851/12228618635.htm
+block___ComfortSwitch=11965523851/12228642571.htm
+block___Clock=11965523851/12228666507.htm
+block___YearClock=11965523851/12228728971.htm
+block___AstronomicalClock=11965523851/25633774731.htm
+block___StopWatch=11965523851/25633787403.htm
+block___Counter=11965523851/12228750475.htm
+block___HoursCounter=11965523851/12228768907.htm
+block___Trigger=11965523851/12228787339.htm
+block___AnalogTrigger=11965523851/18405506059.htm
+block___AnalogDeltaTrigger=11965523851/12228838283.htm
+block___AnalogDifferenceTrigger=11965523851/12228838283.htm
+block___AnalogComparator=11965523851/12228856715.htm
+block___AnalogWatchdog=11965523851/12228875147.htm
+block___Amplifier=11965523851/12228893579.htm
+block___AnalogMux=11965523851/12228912011.htm
+block___PWM=11965523851/12228935947.htm
+block___AnalogMaths=11965523851/12228948875.htm
+block___AnalogFilter=11965523851/25633843595.htm
+block___MaxMin=11965523851/25633844363.htm
+block___AverageValue=11965523851/25633845131.htm
+working_with_Analogvalues=11965523851/12228970379.htm
+working_with_Analogvalues2=11965523851/12228988811.htm
+working_with_Analogvalues3=11965523851/12228996235.htm
+working_with_Analogvalues4=11965523851/12229003659.htm
+working_with_Analogvalues5=11965523851/12229011083.htm
+controller___basics=11965523851/12229038091.htm
+controller___basics___1=11965523851/12229067531.htm
+Description_of_the_individual_parameters=11965523851/12229074955.htm
+block___PID=11965523851/12229087883.htm
+block___RampControl=11965523851/12229106315.htm
+block___LatchingRelay=11965523851/12229127819.htm
+block___PulseRelay=11965523851/12229146251.htm
+block___Message=11965523851/58902160395.htm
+message___text___0BA6=11965523851/12229208715.htm
+message___text___0BA4=11965523851/12229221643.htm
+message___text___0BA2=11965523851/63666622603.htm
+block___Softkey=11965523851/12229240075.htm
+block___ShiftRegister___0BA7=11965523851/86070681867.htm
+block___ShiftRegister=11965523851/12229258507.htm
+block___MathDetection=11965523851/12229271435.htm
+block___Float2Integer=11965523851/86747363723.htm
+block___Integer2Float=11965523851/86747361163.htm
+Additional_functions_of_the_LAD_Editor=11965523851/12229278859.htm
+block___DataLogProfile=11965523851/25633924491.htm
+Data___Log_Profile=11965523851/25633924491.htm
+block___DataLog=11965523851/27496586379.htm
+block___DataLog___Configuring=11965523851/25633964683.htm
+block___DataLog___Transfering=11965523851/27507055371.htm
+block___DataLog___Opening=11965523851/27503812363.htm
+block___UDF=11965523851/27493783947.htm
+block___UDF___creating=11965523851/25634013323.htm
+dialog___editUDFParameter___Description=11965523851/25634014091.htm
+dialog___editUDFParameter___IO=11965523851/25634014091.htm
+dialog___editUDFParameter___Parameter=11965523851/25634014091.htm
+block___UDF___Saving=11965523851/25634014859.htm
+block___UDF___Using=11965523851/25634015627.htm
+block___UDF___Synchronizing=11965523851/25634016395.htm
+intro___programming=11965523851/12229289355.htm
+LOGO___Hardware=11965523851/12229296779.htm
+MemoryUsage=11965523851/12334731147.htm
+LOGO___Memory=11965523851/12229314699.htm
+Blocks=11965523851/12229325195.htm
+blocknumbers=11965523851/12229332619.htm
+help___tipps___tricks=11965523851/12019173643.htm
+How_to_maintain_an_overview_during_simulation=11965523851/12019181067.htm
+A_quick_and_easy_way_of_selecting_blocks_and_placing_these_into_your_circuit_program=11965523851/12019188491.htm
+A_quick_and_easy_way_of_connecting_blocks_in_large_circuit_programs=11965523851/12019195915.htm
+How_to_display_a_corresponding_tooltip_for_a_function_key=11965523851/12019218187.htm
+How_to_identify_your_circuit_program_version=11965523851/12019225611.htm
+How_to_access_functions_via_the_shortcut_menu=11965523851/12019233035.htm
+A_quick_and_easy_way_of_zooming_your_circuit_program_window=11965523851/12019240459.htm
+A_quick_way_of_changing_block_parameters=11965523851/12019247883.htm
+A_quick_way_of_closing_LOGOSoft_Comfort_without_saving_the_data=11965523851/12019255307.htm
+How_to_establish_the_cycle_time=11965523851/12019262731.htm
+
+[MAP]
+#define security___note 484
+#define Start_Screen 0
+#define CD_Content 1
+#define whats___new___v8 431
+#define whats___new___v7 337
+#define whats_new 2
+#define LAD_FBD 3
+#define internet 5
+#define compatibility 4
+#define convert_programs 172
+#define block___AsiInput 306
+#define block___Input___ASi 174
+#define block___AsiOutput 307
+#define block___Output___ASi 182
+#define Description_of_surface 241
+#define DrawingViewMenuInfo 242
+#define window___DrawingView 243
+#define info___copy 326
+#define info___delete 327
+#define Info_window 23
+#define window___Message 323
+#define statusline 164
+#define FunctionKeys 165
+#define diagram___overview 463
+#define diagram___mode___tree 422
+#define toolbar___catalogue 49
+#define editor___name___fupEditor 422
+#define project___overview 451
+#define network___project___tree 423
+#define editor___name___projectEditor 427
+#define toolbar___default___Fup 263
+#define toolbar___Fup 47
+#define toolbar___Kop 265
+#define dialog___DateInput 320
+#define dialog___DateInputPanel 240
+#define extra___simulation 64
+#define pdraw___app___createTools___simulation 315
+#define simulation___status 325
+#define simulationControl___setClock 322
+#define simulationControl___startSimulation 318
+#define simulationControl___stepSimulation 321
+#define simulationControl___stopSimulation 319
+#define simulationControl___suspendResumeSimulation 317
+#define toolbar___simulation 261
+#define toolbar___blocks 324
+#define toolbar___drawing 48
+#define pdraw___app___createTools___selection 311
+#define tool___selection 50
+#define pdraw___app___createTools___blockConnec 314
+#define tool___connector 53
+#define tool___scissors 52
+#define pdraw___app___createTools___connectTT 313
+#define tool___text 51
+#define action___drawingDimension 429
+#define dialog___PageFormat 269
+#define file___convertToKop 431
+#define pdraw___app___createTools___onlineTest 430
+#define parameterBox___hiddenParameterLine 418
+#define parameterBox___expandParameterBox 419
+#define parameterBox___collapseParameterBox 420
+#define toolbar___networkdrawing 433
+#define window___go___online 426
+#define window___go___offline 427
+#define window___go___hideConnection 495
+#define menue_bar___introduction 65
+#define file___base 66
+#define file___new 67
+#define file___open 68
+#define file___close 69
+#define file___CloseAll 70
+#define dialog___SelectDocumentsToSave 267
+#define file___save 71
+#define dialog___GetFileName 268
+#define file___SaveAs 72
+#define file___pageformat 73
+#define file___PrintPreview 74
+#define file___print 75
+#define dialog___MessageGlobalSetting 449
+#define file___messagetextsettings 85
+#define dialog___EditProjectProperties 514
+#define file___properties 76
+#define dialog___LogoOfflineGeneral 387
+#define dialog___PropertyGeneral 272
+#define file_properties_common 77
+#define dialog___HardwareSetting 388
+#define dialog___IOSettings 389
+#define dialog___Protection 391
+#define dialog___StartScreen 392
+#define dialog___AdditionalInfo 394
+#define dialog___PropertyStatistic 273
+#define dialog___Statistic 395
+#define file_properties_statistics 79
+#define dialog___LogoComments 450
+#define dialog___LogoModbusConfiguration 503
+#define dialog___ModbusConfiguration 493
+#define dialog___EmailEventSettingD 519
+#define file___exit 86
+#define edit___base 87
+#define edit___undo 88
+#define edit___redo 89
+#define edit___delete 90
+#define edit___cut 91
+#define edit___copy 92
+#define edit___paste 93
+#define format___align 104
+#define format___align___vertical 437
+#define format___align___horizontal 438
+#define format___align___horizontalspace 461
+#define format___align___spaceacross 412
+#define format___align___spacedown 413
+#define format___align___verticalspace 460
+#define format___align___automatically 436
+#define edit___MarkAll 94
+#define dialog___BlockSelection 275
+#define edit___GotoBlock 95
+#define edit___MarkedToForeground 96
+#define edit___marktofront 414
+#define edit___MarkedToBackground 97
+#define edit___marktoback 415
+#define dialog___InputNames 276
+#define edit___ConnectorNames 98
+#define edit___BlockProperties 99
+#define dialog___ParameteringAllBlocks 277
+#define edit___BlockPropertiesAll 100
+#define edit___EditUDFProperties 339
+#define format___base 428
+#define format___FormatMenu___overview 340
+#define dialog___FontAttributes 279
+#define format___font 103
+#define format___WrapText 341
+#define dialog___Grid 502
+#define format___grid 108
+#define format___AlignToGrid 109
+#define view___base 110
+#define view___diagram___mode 436
+#define view___network___project 462
+#define view___toolbar 463
+#define view___marker 114
+#define view___MessageWindow 116
+#define view___Statusbar 117
+#define view___tooltipps 118
+#define dialog___Zoom 281
+#define view___zoom 111
+#define view___blowup 112
+#define view___reduce 113
+#define extra___base 119
+#define dialog___ConnectionTransfer 397
+#define dialog___error___TransmissionError 282
+#define dialog___IndependentInterface 509
+#define dialog___LogoSettingInterface 504
+#define extras___transfer 120
+#define dialog___CommunicationSetting 381
+#define extra___transfer___toLogo 121
+#define extra___transfer___toPC 122
+#define extra___transfer___startDeviceState 410
+#define extra___transfer___stopDeviceState 411
+#define dialog___ClockSyncEM 409
+#define dialog___LogoOnlineGeneral 397
+#define tool___transfer___ShowFWversion 346
+#define dialog___ClearProgPwd 401
+#define extra___clearProg 127
+#define dialog___UploadDatalog 405
+#define dialog___UploadDatalog84 522
+#define dialog___IPConfigure 398
+#define dialog___SlaveModeConfigure 345
+#define dialog___SetClock 399
+#define extras___transfer___clock 124
+#define dialog___SummerWinter 406
+#define extras___transfer___SummerWintertime 125
+#define dialog___NtpTimeConfigure 489
+#define dialog___SetPowerOnScreen 402
+#define dialog___AccessControlSettings 525
+#define dialog___AccessControlSettings84 524
+#define dialog___CloudTransferSetting 511
+#define dialog___CloudTransferSetting84 516
+#define dialog___CloudConnectionSetting 512
+#define dialog___CloudConnectionSettingPa 517
+#define dialog___CertificateSetting84 523
+#define dialog___CertificateSettingD 513
+#define dialog___EmailSettingD 520
+#define dialog___HardwareHoursCounter 403
+#define extras___transfer___HoursClock 126
+#define dialog___IOStatus 347
+#define dialog___Diagnostic 405
+#define dialog___DynSrvIpFilterConfig 408
+#define dialog___BatchDownloadImport 515
+#define extra___transfer___networkBatchDownload 518
+#define extras___DetermineLOGO 128
+#define dialog___Hardware 286
+#define extras___Hardware 129
+#define file___compare 338
+#define Start_simulation 22
+#define dialog___AnalogInputSimulation 257
+#define dialog___InputSimulation 256
+#define dialog___SimulationParameter 296
+#define dialog___SwitchMode 288
+#define kind_of_input 28
+#define SimulationMenuInfo 255
+#define extras___modemInfo 131
+#define extras___selectConfigModem 132
+#define extras___selectRemoteConfiguration 133
+#define extras___setRemoteModemCommand 134
+#define extras___configRemoteModem 135
+#define extras___selectLocalConfiguration 136
+#define extras___setLocalModemCommand 137
+#define extras___configTelNumber 138
+#define extras___disconnectmodem 139
+#define dialog___connectionConfigure___ClientConnection 384
+#define dialog___connectionConfigure___ServerConnection 385
+#define dialog___EthernetConfigure 350
+#define dialog___modbusConnectionConfigure___ModbusClientConnection 494
+#define dialog___modbusConnectionConfigure___ModbusServerConnection 498
+#define dialog___VMConfigure 351
+#define dialog___GeneralOptions 289
+#define extras___options 140
+#define dialog___SelectDefaultEditor 334
+#define extras___options___editor 141
+#define extras___options___language 435
+#define dialog___DisplayOptions 291
+#define extras___options___screen 144
+#define dialog___PrintOptions 292
+#define extras___options___print 145
+#define dialog___AutoCutLines 434
+#define pdraw___app___createTools___cutConnect 312
+#define extras___options___simulation 148
+#define dialog___ColorOptions 298
+#define dialog___LogoColorChooser 297
+#define extras___options___colors 149
+#define dialog___UDFOption 352
+#define dialog___ListSeparatorOption 432
+#define extras___options___security 521
+#define window___base 151
+#define window___unsplit 157
+#define window___splitHorizontal 416
+#define window___SplitHorizontal 156
+#define window___splitVertical 417
+#define Fenster_Auswahlliste 158
+#define help___base 159
+#define help___content 160
+#define help___ContextSensitive 161
+#define help___tracking 299
+#define help___update 163
+#define help___abaout 162
+#define Prerequisites_for_working_with_the_tutorial 0
+#define Introducing_the_creation_of_circuit_programs 0
+#define Programming 9
+#define program___new 10
+#define block___select 11
+#define place_blocks 12
+#define BlockMenuInfo 244
+#define contextsensitive_menu 13
+#define connecting_blocks 15
+#define ConnectionMenuInfo 246
+#define InputIfcFigureMenuInfo 245
+#define OutputIfcFigureMenuInfo 247
+#define availability_of_blocks 14
+#define parameter___box___overview 465
+#define parameter___box___edit 466
+#define Edit_program 16
+#define mark_objects 17
+#define MultiSelectionMenuInfo 248
+#define edit_marked_objects 18
+#define replace_blocks 19
+#define cut_connections 20
+#define CutConnectFigureMenuInfo 250
+#define CuttedConnectionMenuInfo 249
+#define block___Comment 251
+#define CommentMenuInfo 252
+#define Program_documentation 21
+#define Save_Program 33
+#define example___start_simulation 43
+#define simulated_inputs 24
+#define toolbar___simulation___analogButton 254
+#define toolbar___simulation___inputButton 253
+#define simulation_of_outputs 30
+#define toolbar___simulation___output 259
+#define force___binaryOutput 31
+#define power_off 29
+#define toolbar___simulation___netButton 258
+#define simalation_and_messages 25
+#define param_during_simulation 32
+#define alternative_operation 26
+#define Controlling_the_simulation_time 27
+#define simulating_networkcommunication___0BA7 354
+#define data___table___0BA7 355
+#define introducing___creation___project 433
+#define create___new___project 434
+#define create___a___project 435
+#define add___a___device 456
+#define networkProject___tree___node___newDevice 501
+#define palette___project___root___add 425
+#define devices 457
+#define dialog___device___properties___Logo7SlaveDevice 447
+#define dialog___device___properties___Logo8SlaveDevice 446
+#define dialog___device___properties___Logo8Update1SlaveDevice 506
+#define dialog___device___properties___LogoTDEDevice 444
+#define dialog___device___properties___ModbusDevice 505
+#define dialog___device___properties___S7Device 445
+#define dialog___device___properties___SimaticPanelDevice 443
+#define dialog___SelectDevice 387
+#define open___save___project 438
+#define two___side___programming 446
+#define config___pc 450
+#define dialog___PCSetting 440
+#define config___logo___offline 451
+#define config___logo___online 452
+#define DE___siemens___ad___logo___dialog___TDEOfflineSetting 497
+#define DE___siemens___ad___logo___dialog___TDEOnlineSetting 496
+#define config___other 443
+#define detect___online___status 444
+#define config___unknown___devices 465
+#define dialog___UnknownDeviceSetting 507
+#define dialog___connectionConfigure___logo2nonlogo 442
+#define dialog___connectionConfigure___uneditable 448
+#define dialog___connectionConfigure___logo2logo 441
+#define Ethernet___logo___logo 465
+#define Ethernet___logo___S7 450
+#define Ethernet___logo___HMI 451
+#define Ethernet___logo___remote 448
+#define Ethernet___logo___logoslave 449
+#define dialog___connectionConfigure___logo2nonlogo 508
+#define Ethernet___logo___nonproject 472
+#define example___introduction 34
+#define example___task 35
+#define example___oldfashioned_solution 36
+#define example___new_with_logo 37
+#define example___projektdata 38
+#define place_blocks 12
+#define Connecting_blocks 0
+#define example___tidy_up 41
+#define example___optimize_view 42
+#define example___programmtest 44
+#define example___documentation 45
+#define example___download 46
+#define Performing_an_online_test_of_the_circuit_progam 0
+#define examples 234
+#define example___aircondition 236
+#define example___factorydoor 237
+#define example___pt100 238
+#define example___fillstation 337
+#define block___Constant 54
+#define tool___constant 260
+#define block___Input 173
+#define block___KeyInput 185
+#define block___TDFunctionKeyInput 186
+#define block___Output 181
+#define block___Fixed 184
+#define block___High 301
+#define block___Low 302
+#define block___ShiftRegisterInput 188
+#define block___VirtualOutput 187
+#define block___AnalogMarker 309
+#define block___Marker 183
+#define block___AnalogInput 305
+#define block___Input___Analog 175
+#define block___AnalogOutput 189
+#define block___NetworkNode 356
+#define block___AnalogNetworkNode 357
+#define block___SOutput 358
+#define block___SAnalogOutput 359
+#define block___Contact 55
+#define block___NegativContact 57
+#define block___AnalogContact 56
+#define block___Coil 58
+#define block___NegativCoil 60
+#define block___AnalogCoil 310
+#define block___LADnetworknodes___0BA7 360
+#define block___LADanalognetworknodes___0BA7 361
+#define block___LADslaveoutputs 362
+#define block___LADanalogslaveoutputs___0BA7 363
+#define block___Base 62
+#define block___And 190
+#define block___PecAnd 191
+#define block___Nand 192
+#define block___PecNand 193
+#define block___Or 194
+#define block___Nor 195
+#define block___Xor 196
+#define block___Not 197
+#define block___Special 63
+#define block___OnDelay 198
+#define block___OffDelay 199
+#define block___OnOffDelay 200
+#define block___RetentiveOnDelay 201
+#define block___WipingRelay 204
+#define block___WipingRelayPEC 205
+#define block___SymPulseGenerator 210
+#define block___AsymPulseGenerator 211
+#define block___Random 212
+#define block___StairsSwitch 218
+#define block___ComfortSwitch 219
+#define block___Clock 206
+#define block___YearClock 207
+#define block___AstronomicalClock 364
+#define block___StopWatch 365
+#define block___Counter 208
+#define block___HoursCounter 209
+#define block___Trigger 213
+#define block___AnalogTrigger 214
+#define block___AnalogDeltaTrigger 308
+#define block___AnalogDifferenceTrigger 215
+#define block___AnalogComparator 216
+#define block___AnalogWatchdog 217
+#define block___Amplifier 225
+#define block___AnalogMux 231
+#define block___PWM 232
+#define block___AnalogMaths 233
+#define block___AnalogFilter 366
+#define block___MaxMin 367
+#define block___AverageValue 368
+#define working_with_Analogvalues 176
+#define working_with_Analogvalues2 177
+#define working_with_Analogvalues3 178
+#define working_with_Analogvalues4 179
+#define working_with_Analogvalues5 180
+#define controller___basics 226
+#define controller___basics___1 227
+#define Description_of_the_individual_parameters 0
+#define block___PID 229
+#define block___RampControl 230
+#define block___LatchingRelay 202
+#define block___PulseRelay 203
+#define block___Message 220
+#define message___text___0BA6 474
+#define message___text___0BA4 473
+#define message___text___0BA2 472
+#define block___Softkey 222
+#define block___ShiftRegister___0BA7 386
+#define block___ShiftRegister 223
+#define block___MathDetection 224
+#define block___Float2Integer 491
+#define block___Integer2Float 492
+#define Additional_functions_of_the_LAD_Editor 0
+#define block___DataLogProfile 500
+#define Data___Log_Profile 499
+#define block___DataLog 369
+#define block___DataLog___Configuring 370
+#define block___DataLog___Transfering 371
+#define block___DataLog___Opening 372
+#define block___UDF 373
+#define block___UDF___creating 374
+#define dialog___editUDFParameter___Description 380
+#define dialog___editUDFParameter___IO 378
+#define dialog___editUDFParameter___Parameter 379
+#define block___UDF___Saving 375
+#define block___UDF___Using 376
+#define block___UDF___Synchronizing 377
+#define intro___programming 166
+#define LOGO___Hardware 167
+#define MemoryUsage 168
+#define LOGO___Memory 169
+#define Blocks 170
+#define blocknumbers 171
+#define help___tipps___tricks 239
+#define How_to_maintain_an_overview_during_simulation 0
+#define A_quick_and_easy_way_of_selecting_blocks_and_placing_these_into_your_circuit_program 0
+#define A_quick_and_easy_way_of_connecting_blocks_in_large_circuit_programs 0
+#define How_to_display_a_corresponding_tooltip_for_a_function_key 0
+#define How_to_identify_your_circuit_program_version 0
+#define How_to_access_functions_via_the_shortcut_menu 0
+#define A_quick_and_easy_way_of_zooming_your_circuit_program_window 0
+#define A_quick_way_of_changing_block_parameters 0
+#define A_quick_way_of_closing_LOGOSoft_Comfort_without_saving_the_data 0
+#define How_to_establish_the_cycle_time 0
+#include LOGO_map.h
+#include 8.4 update.h
+
+[MERGE FILES]

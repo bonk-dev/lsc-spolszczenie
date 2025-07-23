@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN" "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<body>
+<index version="1.0">
+<indexitem text="Kontrola dostępu" target="dialog.AccessControlSettings" />
+<indexitem text="Potwierdzenie tekstów wiadomości" target="message.text.0BA4" />
+<indexitem text="Dodatkowe funkcje edytora LAD" target="Additional_functions_of_the_LAD_Editor" />
+<indexitem text="System klimatyzacji" target="example.aircondition" />
+<indexitem text="Wyrównaj zaznaczone obiekty w poziomie" target="format.align.horizontal" />
+<indexitem text="Wyrównaj zaznaczone obiekty w pionie" target="format.align.vertical" />
+<indexitem text="Alternatywna operacja" target="alternative_operation" />
+<indexitem text="Wzmacniacz analogowy" target="block.Amplifier" />
+<indexitem text="Podstawy analogowe" target="working_with_Analogvalues" />
+<indexitem text="Komparator analogowy" target="block.AnalogComparator" />
+<indexitem text="Styk analogowy" target="block.AnalogContact" />
+<indexitem text="Wyzwalacz różnicowy analogowy" target="block.AnalogDeltaTrigger" />
+<indexitem text="Filtr analogowy" target="block.AnalogFilter" />
+<indexitem text="Timer filtra wejścia analogowego" target="dialog.MessageGlobalSetting" />
+<indexitem text="Wejścia analogowe" target="block.AnalogInput" />
+<indexitem text="Multiplekser analogowy" target="block.AnalogMux" />
+<indexitem text="Wyjścia analogowe" target="block.AnalogOutput" >
+<indexitem text="AQ w trybie STOP" target="dialog.IOSettings" />
+ </indexitem>
+<indexitem text="Rampa analogowa" target="block.RampControl" />
+<indexitem text="Analogowe SFB" target="block.Amplifier" />
+<indexitem text="Wyzwalacz progowy analogowy" target="block.AnalogTrigger" />
+<indexitem text="Wartość analogowa" target="working_with_Analogvalues" />
+<indexitem text="Watchdog analogowy" target="block.AnalogWatchdog" />
+<indexitem text="Aplikacje" target="examples" />
+<indexitem text="Archiwizacja" target="dialog.SelectDocumentsToSave" />
+<indexitem text="Plik -&gt; Zapisz jako" target="dialog.GetFileName" />
+<indexitem text="Rozmieszczenie" target="format.align.horizontal" >
+<indexitem text="poziome" target="format.align.horizontal" />
+<indexitem text="pionowe" target="format.align.vertical" />
+ </indexitem>
+<indexitem text="AS-Interface" target="convert_programs" />
+<indexitem text="Wejścia AS-Interface" target="block.AsiInput" />
+<indexitem text="Wyjścia AS-Interface" target="block.AsiOutput" />
+<indexitem text="Zegar astronomiczny" target="block.AstronomicalClock" />
+<indexitem text="Generator impulsów asynchronicznych" target="block.AsymPulseGenerator" />
+<indexitem text="Automatyczne wyrównanie" target="format.align.automatically" />
+<indexitem text="Dostępność bloków" target="availability_of_blocks" />
+<indexitem text="Wartość średnia" target="block.AverageValue" />
+<indexitem text="Kopia zapasowa zegara czasu rzeczywistego" target="block.YearClock" />
+<indexitem text="Funkcje podstawowe" target="block.Base" >
+<indexitem text="AND" target="block.And" />
+<indexitem text="AND z oceną zbocza" target="block.PecAnd" />
+<indexitem text="NAND" target="block.Nand" />
+<indexitem text="NAND z oceną zbocza" target="block.PecNand" />
+<indexitem text="NOR" target="block.Nor" />
+<indexitem text="NOT" target="block.Not" />
+<indexitem text="OR" target="block.Or" />
+<indexitem text="XOR" target="block.Xor" />
+ </indexitem>
+<indexitem text="Blok" target="block.select" />
+<indexitem text="Łączenie bloków" target="connecting_blocks" >
+<indexitem text="łączenie" target="connecting_blocks" />
+<indexitem text="wymagania pamięciowe" target="MemoryUsage" />
+<indexitem text="wybieranie" target="block.select" />
+ </indexitem>
+<indexitem text="Komentarz bloku" target="block.Comment" />
+<indexitem text="Schemat blokowy" target="example.new_with_logo" />
+<indexitem text="Numeracja bloków" target="place_blocks" />
+<indexitem text="Edytowanie bloków" target="BlockMenuInfo" />
+<indexitem text="Numery bloków" target="blocknumbers" />
+<indexitem text="Parametry bloku w tekstach wiadomości" target="message.text.0BA4" />
+<indexitem text="Właściwości bloku" target="edit.BlockProperties" />
+<indexitem text="Edycja -&gt; Właściwości bloku (wszystkie bloki)" target="dialog.ParameteringAllBlocks" />
+<indexitem text="Bloki" target="Blocks" />
+<indexitem text="Styk rozwierny" target="block.NegativContact" />
+<indexitem text="Na wierzch" target="edit.MarkedToForeground" />
+<indexitem text="Katalog" target="toolbar.catalogue" />
+<indexitem text="Zestawy znaków" target="dialog.MessageGlobalSetting" >
+<indexitem text="teksty wiadomości" target="dialog.MessageGlobalSetting" />
+ </indexitem>
+<indexitem text="Program obwodów" target="program.new" />
+<indexitem text="Otwieranie i zapisywanie programu obwodów" target="Save_Program" />
+<indexitem text="Dokumentacja programu obwodów" target="block.Comment" >
+<indexitem text="archiwizacja" target="Save_Program" />
+<indexitem text="tworzenie" target="program.new" />
+<indexitem text="Dokumentacja" target="block.Comment" />
+<indexitem text="ładowanie" target="Save_Program" />
+<indexitem text="nowy" target="program.new" />
+ </indexitem>
+<indexitem text="Projekt obwodów" target="create.new.project" >
+<indexitem text="tworzenie" target="create.new.project" />
+<indexitem text="nowy" target="create.new.project" />
+ </indexitem>
+<indexitem text="Porządkowanie interfejsu programowania" target="example.tidy_up" />
+<indexitem text="Schowek" target="edit.paste" />
+<indexitem text="Edycja -&gt; Kopiuj" target="edit.copy" />
+<indexitem text="Edycja -&gt; Wytnij" target="edit.cut" />
+<indexitem text="Plik -&gt; Otwórz" target="file.open" />
+<indexitem text="Zegar" target="dialog.SetClock" />
+<indexitem text="Kolor" target="dialog.ColorOptions" />
+<indexitem text="Komentarze" target="block.Comment" >
+<indexitem text="powiązane" target="block.Comment" />
+<indexitem text="niezależne od bloku" target="block.Comment" />
+ </indexitem>
+<indexitem text="Porównanie programów obwodów" target="file.compare" />
+<indexitem text="Kompatybilność" target="compatibility" />
+<indexitem text="Konfiguracja dziennika danych" target="block.DataLog.Configuring" />
+<indexitem text="Konfiguracja połączenia Ethernet" target="dialog.connectionConfigure.logo2nonlogo" >
+<indexitem text="połączenia klient/serwer" target="dialog.connectionConfigure.logo2nonlogo" />
+<indexitem text="LOGO! do urządzeń CIM" target="163746675467" />
+<indexitem text="LOGO! do urządzeń HMI" target="Ethernet.logo.HMI" />
+<indexitem text="LOGO! do lokalnego LOGO!" target="87239361163" />
+<indexitem text="LOGO! do slave LOGO!" target="Ethernet.logo.logoslave" />
+<indexitem text="LOGO! do urządzeń Modbus" target="86273689611" />
+<indexitem text="LOGO! do urządzeń zdalnych" target="Ethernet.logo.remote" />
+<indexitem text="LOGO! do urządzeń S7" target="Ethernet.logo.S7" />
+ </indexitem>
+<indexitem text="Łączenie bloków" target="connecting_blocks" />
+<indexitem text="Narzędzie łączenia" target="pdraw.app.createTools.blockConnec" />
+<indexitem text="Stałe i złącza" target="block.Constant" />
+<indexitem text="Pomoc kontekstowa" target="help.ContextSensitive" />
+<indexitem text="Podstawy sterowania i regulacji" target="controller.basics" />
+<indexitem text="Podstawy regulatora" target="controller.basics.1" />
+<indexitem text="Regulator" target="controller.basics.1" >
+<indexitem text="PI" target="controller.basics.1" />
+ </indexitem>
+<indexitem text="Regulator, PI" target="Description_of_the_individual_parameters" />
+<indexitem text="Konwersja" target="file.convertToKop" />
+<indexitem text="Kopiuj" target="edit.copy" />
+<indexitem text="Licznik" target="block.Counter" />
+<indexitem text="Tworzenie UDF" target="block.UDF.creating" />
+<indexitem text="Klawisze kursora" target="block.KeyInput" />
+<indexitem text="Przecinanie połączeń" target="cut_connections" />
+<indexitem text="Przytnij/Połącz" target="tool.scissors" />
+<indexitem text="Dziennik danych" target="block.DataLog" />
+<indexitem text="Data" target="dialog.SetClock" />
+<indexitem text="Definiowanie edytora" target="dialog.SelectDefaultEditor" />
+<indexitem text="Określanie LOGO!" target="extras.DetermineLOGO" />
+<indexitem text="Partia pobierania schematu" target="dialog.BatchDownloadImport" />
+<indexitem text="Tryb schematu" target="diagram.overview" />
+<indexitem text="Dokumentacja" target="example.documentation" />
+<indexitem text="Dokumentacja programu obwodów" target="block.Comment" />
+<indexitem text="Przekaźnik wyzwalany zboczem" target="block.WipingRelayPEC" />
+<indexitem text="Menu Edycja" target="edit.base" >
+<indexitem text="Właściwości bloku" target="edit.BlockProperties" />
+<indexitem text="Edycja -&gt; Właściwości bloku (wszystkie bloki)" target="dialog.ParameteringAllBlocks" />
+<indexitem text="Narzędzia -&gt; Opcje: Przecinanie połączeń" target="dialog.AutoCutLines" />
+<indexitem text="Okno dialogowe właściwości bloku" target="edit.BlockProperties" />
+<indexitem text="Na wierzch" target="edit.MarkedToForeground" />
+<indexitem text="Zawartość schowka" target="edit.paste" />
+<indexitem text="Schowek: w programie" target="edit.copy" />
+<indexitem text="Kopiuj" target="edit.copy" />
+<indexitem text="Kopiuj zaznaczony obiekt" target="edit.copy" />
+<indexitem text="Wytnij" target="edit.cut" />
+<indexitem text="Przecinanie połączeń" target="dialog.AutoCutLines" />
+<indexitem text="Wytnij zaznaczony obiekt" target="edit.cut" />
+<indexitem text="Usuń" target="edit.delete" />
+<indexitem text="Nazwy wejść/wyjść" target="dialog.InputNames" />
+<indexitem text="Wklej" target="edit.paste" />
+<indexitem text="Ponów" target="edit.redo" />
+<indexitem text="Zaznacz wszystko" target="edit.MarkAll" />
+<indexitem text="Na dół" target="edit.MarkedToBackground" />
+<indexitem text="Cofnij" target="edit.undo" />
+ </indexitem>
+<indexitem text="Edycja układu" target="Edit_program" >
+<indexitem text="Edycja zaznaczonych obiektów" target="edit_marked_objects" />
+<indexitem text="Zaznaczanie obiektów" target="mark_objects" />
+ </indexitem>
+<indexitem text="Edycja UDF" target="dialog.editUDFParameter.Description" >
+<indexitem text="dodawanie/usuwanie złączy" target="dialog.editUDFParameter.Description" />
+<indexitem text="komentarz" target="dialog.editUDFParameter.Description" />
+<indexitem text="konfiguracja właściwości UDF" target="dialog.editUDFParameter.Description" />
+<indexitem text="I/O" target="dialog.editUDFParameter.Description" />
+<indexitem text="parametry" target="dialog.editUDFParameter.Description" />
+<indexitem text="identyfikator UDF" target="dialog.editUDFParameter.Description" />
+<indexitem text="hasło UDF" target="dialog.editUDFParameter.Description" />
+ </indexitem>
+<indexitem text="Ustawienia zdarzeń e-mail" target="dialog.EmailEventSettingD" >
+<indexitem text="Flaga M" target="dialog.EmailEventSettingD" />
+<indexitem text="zdarzenia systemowe" target="dialog.EmailEventSettingD" />
+ </indexitem>
+<indexitem text="Ustawienia e-mail" target="dialog.EmailSettingD" >
+<indexitem text="SMTP" target="dialog.EmailSettingD" />
+ </indexitem>
+<indexitem text="Wprowadzanie nazw wejść/wyjść" target="dialog.InputNames" />
+<indexitem text="Przykład" target="working_with_Analogvalues4" />
+<indexitem text="Wyjdź" target="file.exit" />
+<indexitem text="Drzwi fabryczne" target="example.factorydoor" />
+<indexitem text="Przywracanie ustawień fabrycznych LOGO! BM" target="86268118411" />
+<indexitem text="FAQ" target="internet" />
+<indexitem text="FBD" target="LAD_FBD" />
+<indexitem text="Plik" target="dialog.GetFileName" >
+<indexitem text="Rozszerzenie pliku" target="dialog.GetFileName" />
+<indexitem text="Ścieżka i nazwa pliku" target="dialog.GetFileName" />
+ </indexitem>
+<indexitem text="Menu Plik" target="file.base" >
+<indexitem text="Archiwizacja" target="dialog.GetFileName" />
+<indexitem text="Zamknij" target="file.close" />
+<indexitem text="Zamknij wszystko" target="file.CloseAll" />
+<indexitem text="Wyjdź" target="file.exit" />
+<indexitem text="Nowy" target="file.new" />
+<indexitem text="Format strony" target="file.pageformat" />
+<indexitem text="Drukuj" target="file.print" />
+<indexitem text="Podgląd wydruku" target="file.PrintPreview" />
+<indexitem text="Właściwości: Ogólne" target="dialog.LogoOfflineGeneral" />
+<indexitem text="Plik -&gt; Właściwości - Informacje dodatkowe" target="dialog.AdditionalInfo" />
+<indexitem text="Właściwości: Format strony" target="action.drawingDimension" />
+<indexitem text="Właściwości: Statystyki" target="dialog.PropertyStatistic" />
+<indexitem text="Zapisz" target="dialog.SelectDocumentsToSave" />
+<indexitem text="Zapisz jako" target="dialog.GetFileName" />
+ </indexitem>
+<indexitem text="Stacja napełniania" target="example.fillstation" />
+<indexitem text="Precyzyjne pozycjonowanie" target="dialog.Grid" />
+<indexitem text="Flagi" target="block.AnalogMarker" />
+<indexitem text="Czcionka" target="dialog.FontAttributes" />
+<indexitem text="Menu Format" target="dialog.FontAttributes" >
+<indexitem text="Czcionka" target="dialog.FontAttributes" />
+<indexitem text="Format siatki" target="dialog.Grid" />
+<indexitem text="Przyciąganie do siatki" target="format.AlignToGrid" />
+ </indexitem>
+<indexitem text="Wejścia częstotliwości" target="dialog.AnalogInputSimulation" />
+<indexitem text="Schemat blokowy funkcji" target="LAD_FBD" />
+<indexitem text="Klawisze funkcyjne" target="FunctionKeys" />
+<indexitem text="Wzmocnienie" target="working_with_Analogvalues" />
+<indexitem text="Przejdź do połączenia" target="cut_connections" />
+<indexitem text="Siatka" target="dialog.Grid" />
+<indexitem text="Wydruk" target="file.print" />
+<indexitem text="Sprzęt" target="dialog.Hardware" />
+<indexitem text="Sterowanie ogrzewaniem" target="example.pt100" />
+<indexitem text="Menu Pomoc" target="help.base" >
+<indexitem text="O programie" target="help.abaout" />
+<indexitem text="Spis treści" target="help.content" />
+<indexitem text="Pomoc kontekstowa" target="help.ContextSensitive" />
+<indexitem text="Centrum aktualizacji" target="help.update" />
+<indexitem text="Aktualizacja chmury" target="163634972555" />
+ </indexitem>
+<indexitem text="Hi (wysoki)" target="block.Fixed" />
+<indexitem text="Hive MQTT" target="166199116939" />
+<indexitem text="Licznik godzin" target="block.HoursCounter" />
+<indexitem text="Okno informacyjne" target="Description_of_surface" />
+<indexitem text="Opis okna informacyjnego" target="info.copy" />
+<indexitem text="Informacje o przetwarzaniu wartości analogowych" target="working_with_Analogvalues" />
+<indexitem text="Funkcje wejść" target="dialog.AnalogInputSimulation" />
+<indexitem text="Wprowadzanie danych projektu" target="example.projektdata" />
+<indexitem text="Zaciski wejściowe" target="block.AsiInput" />
+<indexitem text="Nazwy wejść/wyjść" target="dialog.InputNames" />
+<indexitem text="Wejścia" target="block.Input" />
+<indexitem text="Internet" target="internet" />
+<indexitem text="Wprowadzenie" target="Introducing_the_creation_of_circuit_programs" />
+<indexitem text="Wprowadzenie do tworzenia programów obwodów" target="introducing.creation.project" />
+<indexitem text="Inwersja" target="block.Base" />
+<indexitem text="Wyjście zanegowane" target="block.NegativCoil" />
+<indexitem text="Przegląd" target="block.Special" />
+<indexitem text="Etykietowanie" target="block.Comment" />
+<indexitem text="LAD" target="LAD_FBD" />
+<indexitem text="Schemat drabinkowy" target="LAD_FBD" />
+<indexitem text="Przekaźnik zatrzaskowy" target="block.LatchingRelay" />
+<indexitem text="Układ wejść" target="simulated_inputs" />
+<indexitem text="Układ tekstów wiadomości" target="simalation_and_messages" />
+<indexitem text="Układ standardowego rozwiązania" target="example.oldfashioned_solution" />
+<indexitem text="Skrzyżowania linii" target="cut_connections" />
+<indexitem text="Lo (niski)" target="block.Fixed" />
+<indexitem text="LOGO!" target="compatibility" >
+<indexitem text="Kompatybilność" target="compatibility" />
+<indexitem text="seria sprzętowa" target="LOGO.Hardware" />
+<indexitem text="seria urządzeń" target="compatibility" />
+ </indexitem>
+<indexitem text="Aplikacje LOGO!" target="examples" />
+<indexitem text="LOGO! TD" target="whats_new" />
+<indexitem text="Klawisze funkcyjne LOGO! TD/TDE" target="block.TDFunctionKeyInput" />
+<indexitem text="Wersja LOGO!" target="LOGO.Hardware" />
+<indexitem text="Główne wejście" target="help.update" />
+<indexitem text="Styk zwierny" target="block.Contact" />
+<indexitem text="Instrukcja matematyczna" target="block.AnalogMaths" />
+<indexitem text="Wykrywanie błędów instrukcji matematycznej" target="block.MathDetection" />
+<indexitem text="Max/Min" target="block.MaxMin" />
+<indexitem text="Zakres pomiarowy" target="working_with_Analogvalues" />
+<indexitem text="Pamięć" target="LOGO.Memory" >
+<indexitem text="maksymalna" target="LOGO.Memory" />
+<indexitem text="wymagana" target="MemoryUsage" />
+ </indexitem>
+<indexitem text="Test online wiadomości" target="block.Message" />
+<indexitem text="Tekst wiadomości (LOGO! 0BA6 i LOGO! 0BA7)" target="message.text.0BA6" />
+<indexitem text="Ustawienia tekstu wiadomości" target="dialog.MessageGlobalSetting" />
+<indexitem text="Teksty wiadomości" target="simalation_and_messages" />
+<indexitem text="Tekst wiadomości (LOGO! 0BA4 i LOGO! 0BA5)" target="message.text.0BA4" />
+<indexitem text="Okno wiadomości" target="info.copy" />
+<indexitem text="Wybór trybu" target="toolbar.blocks" />
+<indexitem text="Konfiguracja modemu" target="extras.modemInfo" >
+<indexitem text="konfiguracja lokalnego polecenia modemu" target="extras.setLocalModemCommand" />
+<indexitem text="konfiguracja zdalnego polecenia modemu" target="extras.setRemoteModemCommand" />
+<indexitem text="konfiguracja numeru telefonu" target="extras.configTelNumber" />
+<indexitem text="rozłączanie" target="extras.disconnectmodem" />
+<indexitem text="wybór modemu do konfiguracji" target="extras.selectConfigModem" />
+<indexitem text="Narzędzia -&gt; Połącz Modem - Wybierz Konfigurację Zdalną" target="extras.selectRemoteConfiguration" />
+<indexitem text="Narzędzia -&gt; Połącz Modem - Wybierz Konfigurację Lokalną" target="extras.selectLocalConfiguration" />
+ </indexitem>
+<indexitem text="Timer miesięczny" target="block.YearClock" />
+<indexitem text="Mosquitto MQTT" target="166200007563" />
+<indexitem text="Przełącznik wielofunkcyjny" target="block.ComfortSwitch" />
+<indexitem text="Głębokość zagnieżdżenia" target="LOGO.Memory" />
+<indexitem text="Zbiorcze pobieranie sieciowe" target="extra.transfer.networkBatchDownload" />
+<indexitem text="Nowości" target="whats_new" />
+<indexitem text="Nowe SFB" target="whats_new" />
+<indexitem text="Opóźnienie wyłączenia" target="block.OffDelay" />
+<indexitem text="Przesunięcie" target="working_with_Analogvalues" />
+<indexitem text="Opóźnienie włączenia" target="block.OnDelay" />
+<indexitem text="Opóźnienie włączenia/wyłączenia" target="block.OnOffDelay" />
+<indexitem text="Test online" target="Performing_an_online_test_of_the_circuit_progam" />
+<indexitem text="Test online" target="pdraw.app.createTools.onlineTest" />
+<indexitem text="Otwórz" target="file.open" />
+<indexitem text="Otwarte złącza" target="block.VirtualOutput" />
+<indexitem text="Optymalizacja widoku" target="example.optimize_view" />
+<indexitem text="Numer zamówienia" target="LOGO.Hardware" />
+<indexitem text="Wartość graniczna OT" target="block.HoursCounter" />
+<indexitem text="Wyjście" target="block.Output" />
+<indexitem text="Układ wyjść" target="simulation_of_outputs" />
+<indexitem text="Podział strony" target="cut_connections" />
+<indexitem text="Format strony" target="action.drawingDimension" />
+<indexitem text="Parametr" target="block.Special" />
+<indexitem text="Przypisanie parametrów w trybie symulacji" target="param_during_simulation" />
+<indexitem text="Hasło" target="dialog.Protection" />
+<indexitem text="Wklej" target="edit.paste" />
+<indexitem text="Ścieżka i nazwa pliku" target="dialog.SelectDocumentsToSave" />
+<indexitem text="Plik -&gt; Zapisz jako" target="dialog.GetFileName" />
+<indexitem text="Ustawienia PC" target="config.pc" />
+<indexitem text="Stałe poziomy logiczne" target="block.Fixed" />
+<indexitem text="Regulator PI" target="block.PID" />
+<indexitem text="Widok trendu regulatora PI" target="dialog.DateInput" />
+<indexitem text="Umieszczanie bloków" target="place_blocks" />
+<indexitem text="Umieszczanie bloków" target="place_blocks" />
+<indexitem text="Edytowanie bloków" target="BlockMenuInfo" />
+<indexitem text="Pozycjonowanie" target="place_blocks" />
+<indexitem text="Edytowanie bloków" target="BlockMenuInfo" />
+<indexitem text="Awaria zasilania" target="power_off" />
+<indexitem text="Przykład praktyczny" target="example.introduction" />
+<indexitem text="Wymagania wstępne do pracy z tutorialem" target="Prerequisites_for_working_with_the_tutorial" />
+<indexitem text="Drukuj" target="dialog.PrintOptions" />
+<indexitem text="Priorytet tekstów wiadomości" target="message.text.0BA4" />
+<indexitem text="Tryb projektu" target="project.overview" />
+<indexitem text="Właściwości" target="dialog.LogoOfflineGeneral" />
+<indexitem text="Plik -&gt; Właściwości - Dodatkowe informacje" target="dialog.AdditionalInfo" >
+<indexitem text="Ustawienia zdarzeń e-mail" target="dialog.EmailEventSettingD" />
+<indexitem text="Ogólne" target="dialog.LogoOfflineGeneral" />
+<indexitem text="Plik -&gt; Właściwości - Dodatkowe informacje" target="dialog.AdditionalInfo" />
+<indexitem text="Typ sprzętu" target="dialog.HardwareSetting" />
+ </indexitem>
+<indexitem text="Ochrona" target="block.Special" />
+<indexitem text="Timer impulsowy wyjścia" target="block.YearClock" />
+<indexitem text="Przekaźnik impulsowy" target="block.PulseRelay" />
+<indexitem text="Modulator szerokości impulsu PWM" target="block.PWM" />
+<indexitem text="Generator losowy" target="block.Random" />
+<indexitem text="Ponów" target="edit.redo" />
+<indexitem text="Referencja" target="block.Special" />
+<indexitem text="Regulacja" target="controller.basics" />
+<indexitem text="Wyjście cewki przekaźnika" target="block.Coil" />
+<indexitem text="Zastępowanie bloków" target="replace_blocks" />
+<indexitem text="Opóźnienie włączenia z pamięcią" target="block.RetentiveOnDelay" />
+<indexitem text="Pamięć" target="block.Special" />
+<indexitem text="Przykładowa aplikacja" target="example.introduction" />
+<indexitem text="Przykładowe aplikacje" target="examples" />
+<indexitem text="Zapisz" target="dialog.SelectDocumentsToSave" />
+<indexitem text="Zapisz jako" target="dialog.GetFileName" />
+<indexitem text="Zapisz UDF" target="block.UDF.Saving" />
+<indexitem text="Typ skali czasu" target="message.text.0BA6" />
+<indexitem text="Ekran" target="dialog.DisplayOptions" />
+<indexitem text="Narzędzie wyboru" target="pdraw.app.createTools.selection" />
+<indexitem text="Pompa wody użytkowej" target="example.introduction" />
+<indexitem text="Ustaw zegar" target="dialog.SetClock" />
+<indexitem text="Ustaw wyjście" target="force.binaryOutput" />
+<indexitem text="Ustaw parametr" target="block.Special" />
+<indexitem text="Ustawienia" target="dialog.MessageGlobalSetting" >
+<indexitem text="LOGO!" target="working_with_Analogvalues3" />
+<indexitem text="LOGO!Soft Comfort" target="working_with_Analogvalues2" />
+<indexitem text="Teksty wiadomości" target="dialog.MessageGlobalSetting" />
+ </indexitem>
+<indexitem text="SFB" target="working_with_Analogvalues" >
+<indexitem text="analogowy" target="working_with_Analogvalues" />
+ </indexitem>
+<indexitem text="Bity rejestru przesuwnego" target="block.ShiftRegisterInput" />
+<indexitem text="funkcja rejestru przesuwnego" target="block.ShiftRegister.0BA7" />
+<indexitem text="Rejestr przesuwny (0BA7 do 0BA8)" target="26658869643" />
+<indexitem text="Skróty" target="FunctionKeys" />
+<indexitem text="Rekursja sygnału" target="LOGO.Memory" />
+<indexitem text="Symulacja" target="Start_simulation" >
+<indexitem text="uruchamianie" target="Start_simulation" />
+<indexitem text="Uruchamianie symulacji" target="example.start_simulation" />
+<indexitem text="wyświetlanie statusu" target="dialog.DateInput" />
+<indexitem text="czas" target="Controlling_the_simulation_time" />
+<indexitem text="narzędzia" target="dialog.DateInput" />
+ </indexitem>
+<indexitem text="Przyciąganie do siatki" target="format.AlignToGrid" />
+<indexitem text="Przycisk funkcyjny" target="block.Softkey" />
+<indexitem text="Rozwiązanie" target="example.new_with_logo" >
+<indexitem text="przykład praktyczny" target="example.new_with_logo" />
+ </indexitem>
+<indexitem text="Rozwiązanie, przykład praktyczny" target="example.oldfashioned_solution" />
+<indexitem text="Funkcje specjalne" target="block.Special" >
+<indexitem text="zależność od wersji" target="LOGO.Hardware" />
+<indexitem text="przegląd" target="block.Special" />
+ </indexitem>
+<indexitem text="Przełącznik oświetlenia schodów" target="block.StairsSwitch" />
+<indexitem text="Uruchom LOGO!" target="extra.transfer.startDeviceState" />
+<indexitem text="Zakładka statystyki" target="dialog.PropertyStatistic" />
+<indexitem text="Pasek stanu" target="Description_of_surface" />
+<indexitem text="Opis paska stanu" target="statusline" >
+<indexitem text="opis" target="Start_simulation" />
+<indexitem text="Opis paska stanu" target="statusline" />
+ </indexitem>
+<indexitem text="Okno stanu" target="Start_simulation" />
+<indexitem text="Zatrzymaj LOGO!" target="extra.transfer.stopDeviceState" />
+<indexitem text="stoper" target="block.StopWatch" />
+<indexitem text="Generator impulsów symetrycznych" target="block.SymPulseGenerator" />
+<indexitem text="Synchronizuj wersje UDF" target="block.UDF.Synchronizing" />
+<indexitem text="Zadanie" target="example.task" />
+<indexitem text="Ekran startowy TD" target="dialog.SetPowerOnScreen" />
+<indexitem text="Testowanie programu obwodu" target="example.programmtest" />
+<indexitem text="Narzędzie tekstowe" target="pdraw.app.createTools.connectTT" />
+<indexitem text="Wyzwalacz progowy" target="block.Trigger" />
+<indexitem text="Timer ticker" target="dialog.MessageGlobalSetting" />
+<indexitem text="Sterowanie czasem symulacji" target="Controlling_the_simulation_time" />
+<indexitem text="Wskazówki i triki" target="help.tipps.tricks" />
+<indexitem text="Pasek narzędzi" target="toolbar.default.Fup" />
+<indexitem text="Interfejs użytkownika - Przegląd" target="Description_of_surface" >
+<indexitem text="symulacja" target="Description_of_surface" />
+<indexitem text="standardowy" target="Description_of_surface" />
+<indexitem text="narzędzie" target="Description_of_surface" />
+ </indexitem>
+<indexitem text="Menu Narzędzia ? Opcje" target="dialog.ColorOptions" >
+<indexitem text="Kolor" target="dialog.ColorOptions" />
+<indexitem text="Edytor" target="dialog.SelectDefaultEditor" />
+<indexitem text="Drukuj" target="dialog.PrintOptions" />
+<indexitem text="Ekran" target="dialog.DisplayOptions" />
+ </indexitem>
+<indexitem text="Menu Narzędzia" target="toolbar.blocks" />
+<indexitem text="Przegląd" target="extra.base" >
+<indexitem text="Połącz Modem" target="extras.modemInfo" />
+<indexitem text="Określ LOGO!" target="extras.DetermineLOGO" />
+<indexitem text="Rozłącz Modem" target="extras.disconnectmodem" />
+<indexitem text="Test online" target="pdraw.app.createTools.onlineTest" />
+<indexitem text="Wybierz sprzęt" target="dialog.Hardware" />
+<indexitem text="Symulacja" target="Start_simulation" />
+<indexitem text="Parametry symulacji" target="dialog.AnalogInputSimulation" />
+ </indexitem>
+<indexitem text="Menu Transfer" target="dialog.SetClock" >
+<indexitem text="Ustaw zegar" target="dialog.SetClock" />
+<indexitem text="Uruchom LOGO!" target="extra.transfer.startDeviceState" />
+<indexitem text="Zatrzymaj LOGO!" target="extra.transfer.stopDeviceState" />
+ </indexitem>
+<indexitem text="Transfer dziennika danych" target="block.DataLog.Transfering" />
+<indexitem text="Transfer programu obwodu" target="example.download" />
+<indexitem text="Widok trendu" target="dialog.DateInput" />
+<indexitem text="Rozwiązywanie problemów" target="164360233995" />
+<indexitem text="Typ tekstów" target="dialog.DisplayOptions" />
+<indexitem text="Cofnij" target="edit.undo" />
+<indexitem text="Centrum aktualizacji" target="internet" />
+<indexitem text="Interfejs użytkownika" target="Description_of_surface" />
+<indexitem text="Menu Widok" target="view.base" >
+<indexitem text="Optymalizacja" target="example.tidy_up" />
+<indexitem text="Wybierz linie" target="view.marker" />
+<indexitem text="Pasek stanu" target="view.Statusbar" />
+<indexitem text="Podpowiedzi" target="view.tooltipps" />
+ </indexitem>
+<indexitem text="Timer tygodniowy" target="block.Clock" />
+<indexitem text="Menu Okno" target="window.base" >
+<indexitem text="Lista wyboru" target="Fenster_Auswahlliste" />
+<indexitem text="Cofnij podział" target="window.unsplit" />
+ </indexitem>
+<indexitem text="Przekaźnik ścierny" target="block.WipingRelay" />
+<indexitem text="Timer roczny" target="block.YearClock" />
+<indexitem text="Przesunięcie zerowe" target="working_with_Analogvalues" />
+<indexitem text="Powiększanie" target="dialog.Zoom" />
+</index>

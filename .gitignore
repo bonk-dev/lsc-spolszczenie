@@ -1,0 +1,4 @@
+src/help/*.log
+src/help/*.chm
+dist/
+build/

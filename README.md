@@ -15,7 +15,7 @@ LSC najprawdopodobniej jest zainstalowane w `C:\Program Files\Siemens\LOGOComfor
 
 W takim wypadku plik `Language_pl_PL.properties` powinien zostać umieszczony w `C:\Program Files\Siemens\LOGOComfort_V8.4\Language_pl_PL.properties`.
 
-Natomiast plik `Help_pl_PL.jar` w `C:\Program Files\Siemens\LOGOComfort_V8.4\Help_pl_PL.jar`.
+Natomiast plik `Help_pl_PL.jar` w `C:\Program Files\Siemens\LOGOComfort_V8.4\help\Help_pl_PL.jar`.
 
 ## Budowanie
 
